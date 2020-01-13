@@ -10,9 +10,6 @@
   <action id="EditorToggleActions">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="e" />
   </action>
-  <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="up" />
-  </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift meta f12" />
     <keyboard-shortcut first-keystroke="ctrl meta h" />
