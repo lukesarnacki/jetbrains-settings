@@ -1894,13 +1894,11 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
-        <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/ffi/1.11.1" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/samples" />
       </CLASSES>
       <SOURCES>
-        <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/ffi/1.11.1" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/samples" />
@@ -7816,17 +7814,11 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/webrick/httpauth" />
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/webrick/httpservlet" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/webrick-1.4.2/lib" />
       </CLASSES>
       <SOURCES>
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/webrick/httpauth" />
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/webrick/httpservlet" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/webrick-1.4.2/lib" />
       </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/webrick/httpauth" />
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/2.6.0/webrick/httpservlet" />
-      </excluded>
     </library>
     <library name="webrick (v1.5.0, asdf: 2.6.2) [gem]" type="rubylib">
       <properties>
