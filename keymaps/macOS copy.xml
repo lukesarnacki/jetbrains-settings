@@ -1,5 +1,11 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="meta semicolon" second-keystroke="d" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="meta semicolon" second-keystroke="r" />
+  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
@@ -10,6 +16,7 @@
     <keyboard-shortcut first-keystroke="shift meta f12" />
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
+  <action id="Images.Editor.ToggleGrid" />
   <action id="JumpToLastWindow">
     <keyboard-shortcut first-keystroke="f12" />
     <keyboard-shortcut first-keystroke="ctrl meta l" />
@@ -20,7 +27,7 @@
   </action>
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowPopupMenu">
-    <keyboard-shortcut first-keystroke="meta semicolon" />
+    <keyboard-shortcut first-keystroke="meta quote" />
   </action>
   <action id="TodoViewGroupByShowPackages" />
   <action id="TypeHierarchy" />
