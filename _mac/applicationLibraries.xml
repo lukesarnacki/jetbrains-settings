@@ -44,6 +44,28 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.0/_pipeline" />
       </excluded>
     </library>
+    <library name="ab_fab (v2.28.2, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/example" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/_pipeline" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/example" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/_pipeline" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/example" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/ab_fab-2.28.2/_pipeline" />
+      </excluded>
+    </library>
     <library name="actioncable (v5.1.7, asdf: 2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -195,6 +217,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/airbrake-9.5.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="airbrake (v9.5.5, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/airbrake-9.5.5/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/airbrake-9.5.5/lib" />
       </SOURCES>
     </library>
     <library name="airbrake-ruby (v4.13.0, asdf: 2.6.2) [gem]" type="rubylib">
@@ -349,6 +382,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/aws-partitions-1.270.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-partitions (v1.271.0, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/aws-partitions-1.271.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/aws-partitions-1.271.0/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-cloudsearch (v1.17.0, asdf: 2.6.2) [gem]" type="rubylib">
@@ -3707,6 +3751,25 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jaro_winkler-1.5.4/ext" />
+      </excluded>
+    </library>
+    <library name="jbuilder (v2.10.0, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jbuilder-2.10.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jbuilder-2.10.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jbuilder-2.10.0/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jbuilder-2.10.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jbuilder-2.10.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jbuilder-2.10.0/gemfiles" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jbuilder-2.10.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jbuilder-2.10.0/gemfiles" />
       </excluded>
     </library>
     <library name="jbuilder (v2.9.1, asdf: 2.6.2) [gem]" type="rubylib">
@@ -7490,6 +7553,22 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.57.0/schemas" />
+      </excluded>
+    </library>
+    <library name="schema_registry (v1.59.0, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.59.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.59.0/schemas" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.59.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.59.0/schemas" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.59.0/schemas" />
       </excluded>
     </library>
     <library name="selenium-webdriver (v3.142.3, asdf: 2.6.2) [gem]" type="rubylib">
