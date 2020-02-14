@@ -44,6 +44,22 @@
                 <option name="bounds">
                   <Rectangle />
                 </option>
+                <option name="id" value="TypeScript" />
+                <option name="type" value="DOCKED" />
+              </ToolWindowInfo>
+              <ToolWindowInfo>
+                <option name="anchor" value="bottom" />
+                <option name="bounds">
+                  <Rectangle />
+                </option>
+                <option name="id" value="Messages" />
+                <option name="type" value="DOCKED" />
+              </ToolWindowInfo>
+              <ToolWindowInfo>
+                <option name="anchor" value="bottom" />
+                <option name="bounds">
+                  <Rectangle />
+                </option>
                 <option name="id" value="Find" />
                 <option name="type" value="DOCKED" />
               </ToolWindowInfo>
