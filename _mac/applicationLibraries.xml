@@ -1573,6 +1573,39 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.15.2/_pipeline" />
       </excluded>
     </library>
+    <library name="business_rules (v1.16.0, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/config" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/examples" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/features" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/_pipeline" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/config" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/examples" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/features" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/_pipeline" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/config" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/examples" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/business_rules-1.16.0/_pipeline" />
+      </excluded>
+    </library>
     <library name="byebug (v11.0.1, asdf: 2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -10339,6 +10372,31 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.15.0/test" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.15.0/.github" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.15.0/.vscode" />
+      </excluded>
+    </library>
+    <library name="stripe (v5.17.0, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/.vscode" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/.vscode" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/.vscode" />
       </excluded>
     </library>
     <library name="stripe (v5.7.1, asdf: 2.6.2) [gem]" type="rubylib">
