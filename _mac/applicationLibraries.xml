@@ -2089,6 +2089,28 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.12/_pipeline" />
       </excluded>
     </library>
+    <library name="candy_bar (v0.4.14, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/_pipeline" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/_pipeline" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/candy_bar-0.4.14/_pipeline" />
+      </excluded>
+    </library>
     <library name="capybara (v3.29.0, asdf: 2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -2486,6 +2508,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/css_parser-1.7.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="css_parser (v1.7.1, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/css_parser-1.7.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/css_parser-1.7.1/lib" />
       </SOURCES>
     </library>
     <library name="csv (v3.0.4, asdf: 2.6.2) [gem]" type="rubylib">
@@ -6491,6 +6524,31 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3204c0b47331/tools" />
       </excluded>
     </library>
+    <library name="mail (v2.7.2.edge@3393a2, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/tasks" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/tools" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/tasks" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/tools" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/tasks" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/mail-3393a28d2637/tools" />
+      </excluded>
+    </library>
     <library name="marcel (v0.3.3, asdf: 2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -9329,6 +9387,31 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.8/test" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.8/contrib" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.8/example" />
+      </excluded>
+    </library>
+    <library name="rack (v2.0.9, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/contrib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/example" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/contrib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/example" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/contrib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/rack-2.0.9/example" />
       </excluded>
     </library>
     <library name="rack (v2.1.2, asdf: 2.6.2) [gem]" type="rubylib">
@@ -14541,6 +14624,46 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.2.0/scripts" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.2.0/_pipeline" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.2.0/resources" />
+      </excluded>
+    </library>
+    <library name="x_rated (v122.3.1, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/doc" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/log" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/config" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/_pipeline" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/resources" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/doc" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/log" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/config" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/_pipeline" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/resources" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/doc" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/log" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/config" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/_pipeline" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-122.3.1/resources" />
       </excluded>
     </library>
     <library name="x_rated (v90.6.0, asdf: 2.6.2) [gem]" type="rubylib">
