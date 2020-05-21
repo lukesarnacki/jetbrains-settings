@@ -4,6 +4,56 @@
       <key-repeat enabled="false" />
     </editor>
   </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>status</entry>
+        <entry>dispatch</entry>
+        <entry>@stage_results</entry>
+        <entry>active?</entry>
+        <entry>has_</entry>
+        <entry>authorised?</entry>
+        <entry>error_result</entry>
+        <entry>stage_results</entry>
+        <entry>results</entry>
+        <entry encoding="base64">XDxzdGFnZV9yZXN1bHRzXD4=</entry>
+        <entry encoding="base64">IA==</entry>
+        <entry>plan</entry>
+        <entry>custom</entry>
+        <entry encoding="base64">XDxzdWNjZXNzX3Jlc3VsdF9zdHJ1Y3RcPg==</entry>
+        <entry encoding="base64">PDw8</entry>
+        <entry>mongoid</entry>
+        <entry>update</entry>
+        <entry>owe_money?</entry>
+        <entry encoding="base64">XDwsXD4=</entry>
+        <entry encoding="base64">XDxwZXJmb3JtX2FkZGl0aW9uYWxfdHJhbnNhY3Rpb25fd29ya2Zsb3dcPg==</entry>
+      </history-search>
+      <history-cmd>
+        <entry>321</entry>
+        <entry>%s/mock_workflow_to_return_plan/mock_interface_adapter_to_return_plan</entry>
+        <entry>%s/mock_interface_adapter_to_return_plan/mock_interface_adapter_to_return_plans</entry>
+        <entry>w</entry>
+        <entry>q</entry>
+        <entry>action ToggleLineBreakpoint</entry>
+        <entry>.wa</entry>
+        <entry>action ReplaceInPath</entry>
+        <entry>action HighlightUsagesInFile</entry>
+        <entry encoding="base64">JzwsJz5zLyAvXy9n</entry>
+        <entry>action FindInPath</entry>
+        <entry>action Unsplit</entry>
+        <entry>action GotoClass</entry>
+        <entry>action GotoTest</entry>
+        <entry>action DebugClass</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action GotoFile</entry>
+        <entry>wa</entry>
+        <entry encoding="base64">JzwsJz53YQ==</entry>
+        <entry>action RecentFiles</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
   <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
@@ -79,6 +129,746 @@
         <text>ctrl pressed Y</text>
       </shortcut-conflict>
     </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590073331729">
+        <mark key="'" line="20" column="27" />
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="10" />
+        <mark key="." line="27" column="10" />
+        <mark key="^" line="28" column="9" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/app/services/event_publisher/payment_plan_payment_attempted_event.rb" timestamp="1589875529768">
+        <mark key="[" line="5" column="8" />
+        <mark key="]" line="5" column="39" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1589974593560">
+        <mark key="]" line="0" column="41" />
+        <mark key="." line="0" column="41" />
+      </file>
+      <file name="/fragment.rb" timestamp="1589896517394">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590064232759">
+        <mark key="'" line="28" column="23" />
+      </file>
+      <file name="/Ruby Console" timestamp="1589974474884">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" timestamp="1589974364835">
+        <mark key="'" line="11" column="17" />
+        <mark key="[" line="11" column="98" />
+        <mark key="]" line="26" column="35" />
+        <mark key="." line="26" column="35" />
+        <mark key="^" line="26" column="35" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/cancellation_transactions_builder.rb" timestamp="1589896278187">
+        <mark key="'" line="153" column="57" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" timestamp="1590064254785">
+        <mark key="'" line="26" column="45" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/perform_additional_transaction.rb" timestamp="1590070140230">
+        <mark key="'" line="28" column="38" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="7" />
+        <mark key="^" line="15" column="7" />
+        <mark key="." line="15" column="7" />
+      </file>
+      <file name="/" timestamp="1590073188837">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/test/factories/payment_attempt_test_factory.rb" timestamp="1586170063342">
+        <mark key="'" line="22" column="19" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" timestamp="1590069699850">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+        <mark key="^" line="22" column="10" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/workers/update_ledger_worker.rb" timestamp="1589974472536">
+        <mark key="'" line="25" column="13" />
+        <mark key="[" line="28" column="20" />
+        <mark key="]" line="28" column="23" />
+        <mark key="^" line="28" column="23" />
+        <mark key="." line="28" column="23" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/doc/testing/simply_event_consumer.rb" timestamp="1589884369878">
+        <mark key="[" line="0" column="24" />
+        <mark key="]" line="0" column="1" />
+        <mark key="^" line="0" column="1" />
+        <mark key="." line="0" column="1" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" timestamp="1586182892539">
+        <mark key="^" line="4" column="16" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/spec/workers/update_ledger_worker_spec.rb" timestamp="1589964565129">
+        <mark key="[" line="20" column="64" />
+        <mark key="]" line="20" column="71" />
+        <mark key="^" line="20" column="71" />
+        <mark key="." line="20" column="71" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/Gemfile" timestamp="1589974361025">
+        <mark key="'" line="143" column="5" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/consumers/domain_events_consumer.rb" timestamp="1589885795584">
+        <mark key="'" line="4" column="15" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="51" column="4" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="52" column="6" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="53" column="4" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="56" column="0" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="13" column="19" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="29" column="64" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="47" column="68" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="66" column="68" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="39" column="0" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="85" column="19" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="160" column="6" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="82" column="0" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="58" column="0" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="6" column="15" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="292" column="27" filename="$USER_HOME$/projects/payments/test/controllers/installment_plans_controller_test.rb" />
+      <jump line="27" column="53" filename="$USER_HOME$/projects/payments/test/controllers/installment_plans_controller_test.rb" />
+      <jump line="61" column="53" filename="$USER_HOME$/projects/payments/test/controllers/installment_plans_controller_test.rb" />
+      <jump line="71" column="53" filename="$USER_HOME$/projects/payments/test/controllers/installment_plans_controller_test.rb" />
+      <jump line="114" column="67" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="113" column="52" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/payments/app/views/installment_plans/create.json.jbuilder" />
+      <jump line="289" column="33" filename="$USER_HOME$/projects/payments/test/controllers/installment_plans_controller_test.rb" />
+      <jump line="29" column="43" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="23" column="15" filename="$USER_HOME$/projects/payments/app/services/workflow/capture_payment.rb" />
+      <jump line="29" column="19" filename="$USER_HOME$/projects/payments/app/services/workflow/capture_payment.rb" />
+      <jump line="28" column="23" filename="$USER_HOME$/projects/payments/app/services/workflow/capture_payment.rb" />
+      <jump line="21" column="40" filename="$USER_HOME$/projects/payments/app/services/workflow/capture_payment.rb" />
+      <jump line="43" column="16" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
+      <jump line="15" column="42" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
+      <jump line="57" column="14" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
+      <jump line="70" column="41" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
+      <jump line="69" column="11" filename="$USER_HOME$/projects/payments/app/models/payment_attempt_builder.rb" />
+      <jump line="15" column="11" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
+      <jump line="19" column="0" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
+      <jump line="20" column="4" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
+      <jump line="22" column="0" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
+      <jump line="23" column="4" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
+      <jump line="25" column="0" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
+      <jump line="26" column="4" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
+      <jump line="29" column="2" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
+      <jump line="26" column="0" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
+      <jump line="101" column="12" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/payment_test.rb" />
+      <jump line="12" column="9" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/authorisation_processor.rb" />
+      <jump line="20" column="15" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
+      <jump line="42" column="29" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
+      <jump line="5" column="10" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/lib/stripe/api_operations/create.rb" />
+      <jump line="30" column="19" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
+      <jump line="30" column="20" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
+      <jump line="20" column="14" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
+      <jump line="22" column="19" filename="$USER_HOME$/projects/payments/test/factories/payment_attempt_test_factory.rb" />
+      <jump line="32" column="7" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="74" column="0" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="79" column="0" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="86" column="0" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="94" column="24" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="41" column="9" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="107" column="40" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="315" column="0" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="7" column="4" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="9" column="49" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="10" column="10" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="11" column="55" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="18" column="4" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="20" column="49" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="21" column="10" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="22" column="55" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="30" column="4" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="231" column="6" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="223" column="6" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="239" column="85" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="199" column="23" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="87" column="6" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
+      <jump line="4" column="15" filename="$USER_HOME$/projects/chopin/app/consumers/domain_events_consumer.rb" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/chopin/app/views/journeys/usa/waiting_for_quotes.html.haml" />
+      <jump line="3" column="25" filename="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" />
+      <jump line="0" column="20" filename="$USER_HOME$/projects/chopin/app/workers/update_ledger_worker.rb" />
+      <jump line="25" column="13" filename="$USER_HOME$/projects/chopin/app/workers/update_ledger_worker.rb" />
+      <jump line="153" column="57" filename="$USER_HOME$/projects/chopin/app/services/transaction/manager/cancellation_transactions_builder.rb" />
+      <jump line="11" column="17" filename="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/Gemfile" />
+      <jump line="18" column="34" filename="$USER_HOME$/projects/chopin/Gemfile" />
+      <jump line="20" column="7" filename="$USER_HOME$/projects/chopin/Gemfile" />
+      <jump line="79" column="15" filename="$USER_HOME$/projects/chopin/Gemfile" />
+      <jump line="143" column="5" filename="$USER_HOME$/projects/chopin/Gemfile" />
+      <jump line="28" column="23" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="3" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="26" column="45" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="28" column="9" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
+      <jump line="37" column="6" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
+      <jump line="1" column="0" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
+      <jump line="9" column="0" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
+      <jump line="2" column="0" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
+      <jump line="14" column="21" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
+      <jump line="7" column="51" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
+      <jump line="18" column="6" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_payment_plan_amount.rb" />
+      <jump line="28" column="38" filename="$USER_HOME$/projects/payments/app/services/workflow/perform_additional_transaction.rb" />
+      <jump line="20" column="54" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
+      <jump line="17" column="27" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="a" type="4">
+        <keys>
+          <key char="48" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="120" code="0" mods="0" />
+          <key char="112" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="65535" code="91" mods="130" />
+          <key char="102" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="59" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="46" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="95" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="103" code="0" mods="0" />
+          <key char="121" code="0" mods="0" />
+          <key char="65535" code="8" mods="0" />
+          <key char="65535" code="8" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="121" code="0" mods="0" />
+          <key char="65535" code="8" mods="0" />
+          <key char="104" code="0" mods="0" />
+          <key char="121" code="0" mods="0" />
+          <key char="65535" code="91" mods="130" />
+        </keys>
+      </register>
+      <register name="&quot;" type="4">
+        <text encoding="base64">ICAgICAgICAgIGVuZAo=</text>
+      </register>
+      <register name="c" type="4">
+        <text>e</text>
+      </register>
+      <register name="e" type="4">
+        <keys>
+          <key char="48" code="0" mods="0" />
+          <key char="102" code="0" mods="0" />
+          <key char="46" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="65535" code="91" mods="130" />
+          <key char="102" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="65535" code="8" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="65535" code="91" mods="130" />
+          <key char="102" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="44" code="0" mods="0" />
+          <key char="65535" code="91" mods="130" />
+          <key char="104" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="65535" code="8" mods="0" />
+          <key char="65535" code="91" mods="130" />
+          <key char="108" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>installments_can_be_adjusted</text>
+      </register>
+      <register name="m" type="2">
+        <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxwZXJmb3JtX2FkZGl0aW9uYWxfdHJhbnNhY3Rpb25fd29ya2Zsb3dcPg==</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBwYXltZW50X2F0dGVtcHQuc3VjY2Vzcz8K</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="q" type="4">
+        <keys>
+          <key char="48" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="102" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="102" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="46" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="102" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="40" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgYWRqdXN0X2luc3RhbGxtZW50c19zY2hlZHVsZShuZXdfcGF5bWVudF9wbGFuKSAK</text>
+      </register>
+      <register name="r" type="4">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgZWxzZQogICAgICBlbmQK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgaWYgcGVuZGluZ19pbnN0YWxsbWVudHMocGF5bWVudF9wbGFuKS5lbXB0eT8gJiYgIWFtb3VudF9kaWZmZXJlbmNlLnplcm8/Cg==</text>
+      </register>
+      <register name="t" type="4">
+        <keys>
+          <key char="58" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="65" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="87" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="65" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="87" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="47" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="121" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="78" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="104" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="44" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="102" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="39" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="103" code="0" mods="0" />
+          <key char="67" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="115" code="0" mods="0" />
+          <key char="115" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="103" code="0" mods="0" />
+          <key char="67" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="115" code="0" mods="0" />
+          <key char="115" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="107" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="65" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="87" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="65" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="87" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="121" code="0" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="103" code="0" mods="0" />
+          <key char="67" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="115" code="0" mods="0" />
+          <key char="115" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="68" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="98" code="0" mods="0" />
+          <key char="117" code="0" mods="0" />
+          <key char="103" code="0" mods="0" />
+          <key char="67" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="115" code="0" mods="0" />
+          <key char="115" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="58" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="65" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="87" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="65" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="118" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="114" code="0" mods="0" />
+          <key char="109" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="84" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="87" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="100" code="0" mods="0" />
+          <key char="111" code="0" mods="0" />
+          <key char="119" code="0" mods="0" />
+          <key char="65535" code="10" mods="0" />
+          <key char="65535" code="27" mods="0" />
+          <key char="32" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="u" type="4">
+        <keys>
+          <key char="65535" code="27" mods="0" />
+          <key char="32" code="0" mods="0" />
+        </keys>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBhZGp1c3RfaW5zdGFsbG1lbnRzX3NjaGVkdWxlKG5ld19wYXltZW50X3BsYW4pCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="w" type="4">
+        <keys>
+          <key char="102" code="0" mods="0" />
+          <key char="91" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="46" code="0" mods="0" />
+          <key char="102" code="0" mods="0" />
+          <key char="101" code="0" mods="0" />
+          <key char="116" code="0" mods="0" />
+          <key char="99" code="0" mods="0" />
+          <key char="104" code="0" mods="0" />
+          <key char="65535" code="91" mods="130" />
+          <key char="102" code="0" mods="0" />
+          <key char="91" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="65535" code="8" mods="0" />
+          <key char="40" code="0" mods="0" />
+          <key char="65535" code="91" mods="130" />
+          <key char="102" code="0" mods="0" />
+          <key char="93" code="0" mods="0" />
+          <key char="97" code="0" mods="0" />
+          <key char="65535" code="8" mods="0" />
+          <key char="44" code="0" mods="0" />
+          <key char="32" code="0" mods="0" />
+          <key char="110" code="0" mods="0" />
+          <key char="105" code="0" mods="0" />
+          <key char="108" code="0" mods="0" />
+          <key char="41" code="0" mods="0" />
+          <key char="65535" code="91" mods="130" />
+        </keys>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGRlZiBub19wZW5kaW5nX2luc3RhbGxtZW50c19mYWlsdXJlCiAgICAgIHJlc3VsdGFudC5mYWlsdXJlKG1lc3NhZ2U6ICJ0aGVyZSBhcmUgbm8gcmVtYWluaW5nIGluc3RhbGxtZW50cyB0byBwdXQiIFwKICAgICAgICAiIHRoZSBhZGp1c3RtZW50IGFtb3VudCB0by4iKQogICAgZW5kCg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICBlbmQ=</text>
+      </register>
+      <register name="y" type="4">
+        <text />
+      </register>
+      <register name=":" type="4">
+        <text>action RecentFiles</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">XDxwZXJmb3JtX2FkZGl0aW9uYWxfdHJhbnNhY3Rpb25fd29ya2Zsb3dcPg==</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxwZXJmb3JtX2FkZGl0aW9uYWxfdHJhbnNhY3Rpb25fd29ya2Zsb3dcPg==</last-pattern>
+      <last-replace>_</last-replace>
+      <last-substitute encoding="base64">IA==</last-substitute>
+      <last-dir>-1</last-dir>
+      <show-last>false</show-last>
+    </search>
   </component>
   <component name="VimSettings">
     <state version="6" enabled="true" />
