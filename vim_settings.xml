@@ -43,12 +43,12 @@
         <entry>action GotoClass</entry>
         <entry>action GotoTest</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action GotoFile</entry>
         <entry>wa</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action RecentFiles</entry>
         <entry>action FindInPath</entry>
+        <entry>action GotoFile</entry>
         <entry>action DebugClass</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -153,7 +153,7 @@
       <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590064232759">
         <mark key="'" line="28" column="23" />
       </file>
-      <file name="/Ruby Console" timestamp="1590148068691">
+      <file name="/Ruby Console" timestamp="1590148258069">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" timestamp="1589974364835">
@@ -182,9 +182,9 @@
       <file name="$USER_HOME$/projects/payments/test/factories/payment_attempt_test_factory.rb" timestamp="1586170063342">
         <mark key="'" line="22" column="19" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" timestamp="1590146776283">
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" timestamp="1590149377187">
         <mark key="'" line="18" column="15" />
-        <mark key="[" line="2" column="0" />
+        <mark key="[" line="23" column="0" />
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
         <mark key="^" line="22" column="10" />
@@ -855,7 +855,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action DebugClass</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
