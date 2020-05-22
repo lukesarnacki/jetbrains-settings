@@ -41,14 +41,14 @@
         <entry>action GotoClass</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>wa</entry>
-        <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action FindInPath</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
         <entry>action Unsplit</entry>
-        <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
+        <entry encoding="base64">JzwsJz53YQ==</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,7 +133,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590153624346">
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590155083343">
         <mark key="'" line="17" column="37" />
         <mark key="[" line="33" column="32" />
         <mark key="]" line="16" column="46" />
@@ -857,7 +857,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
