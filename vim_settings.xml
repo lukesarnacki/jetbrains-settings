@@ -133,11 +133,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590146184752">
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590152744586">
         <mark key="'" line="20" column="6" />
-        <mark key="[" line="28" column="6" />
-        <mark key="]" line="28" column="7" />
-        <mark key="." line="28" column="7" />
+        <mark key="[" line="21" column="46" />
+        <mark key="]" line="21" column="60" />
+        <mark key="." line="21" column="59" />
+        <mark key="^" line="21" column="60" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/services/event_publisher/payment_plan_payment_attempted_event.rb" timestamp="1589875529768">
         <mark key="[" line="5" column="8" />
@@ -402,11 +403,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgUGF5bWVudEF0dGVtcHRMaXN0LmFkZChwYXltZW50X2F0dGVtcHQsIHBheW1lbnRfcGxhbikK</text>
+      <register name="*" type="4">
+        <text encoding="base64">LCA=</text>
       </register>
       <register name="-" type="4">
-        <text>success</text>
+        <text encoding="base64">LCA=</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
