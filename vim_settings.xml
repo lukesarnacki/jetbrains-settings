@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>active?</entry>
         <entry>has_</entry>
         <entry>authorised?</entry>
         <entry>error_result</entry>
@@ -27,6 +26,7 @@
         <entry>add</entry>
         <entry>paymentplanlist</entry>
         <entry>paymentattemptlist</entry>
+        <entry>new_paym</entry>
       </history-search>
       <history-cmd>
         <entry>%s/mock_workflow_to_return_plan/mock_interface_adapter_to_return_plan</entry>
@@ -38,17 +38,17 @@
         <entry>action ReplaceInPath</entry>
         <entry>action HighlightUsagesInFile</entry>
         <entry encoding="base64">JzwsJz5zLyAvXy9n</entry>
-        <entry>action Unsplit</entry>
         <entry>action GotoClass</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>wa</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action FindInPath</entry>
-        <entry>action RecentFiles</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindUsages</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
+        <entry>action Unsplit</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,8 +133,8 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590153551255">
-        <mark key="'" line="5" column="27" />
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590153624346">
+        <mark key="'" line="17" column="37" />
         <mark key="[" line="33" column="32" />
         <mark key="]" line="16" column="46" />
         <mark key="." line="16" column="45" />
@@ -221,7 +221,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="39" column="0" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
       <jump line="85" column="19" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
       <jump line="160" column="6" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
       <jump line="82" column="0" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
@@ -311,7 +310,6 @@
       <jump line="7" column="51" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="18" column="6" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_payment_plan_amount.rb" />
       <jump line="28" column="38" filename="$USER_HOME$/projects/payments/app/services/workflow/perform_additional_transaction.rb" />
-      <jump line="17" column="27" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="20" column="6" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="18" column="15" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
       <jump line="8" column="8" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_payment_plan_amount.rb" />
@@ -321,6 +319,8 @@
       <jump line="9" column="10" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/refund_processor.rb" />
       <jump line="13" column="36" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
       <jump line="5" column="27" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
+      <jump line="8" column="46" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
+      <jump line="17" column="37" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -413,7 +413,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>paymentattemptlist</text>
+        <text>new_paym</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgUGF5bWVudEF0dGVtcHRMaXN0LmFkZChwYXltZW50X2F0dGVtcHQsIHBheW1lbnRfcGxhbikK</text>
@@ -857,15 +857,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action DebugClass</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>paymentattemptlist</last-search>
+      <last-search>new_paym</last-search>
       <last-offset />
-      <last-pattern>paymentattemptlist</last-pattern>
+      <last-pattern>new_paym</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
