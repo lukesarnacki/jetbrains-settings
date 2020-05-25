@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>has_</entry>
-        <entry>authorised?</entry>
         <entry>error_result</entry>
         <entry>stage_results</entry>
         <entry>results</entry>
@@ -27,11 +25,10 @@
         <entry>paymentplanlist</entry>
         <entry>paymentattemptlist</entry>
         <entry>new_paym</entry>
+        <entry>customer</entry>
+        <entry>adjust_amount</entry>
       </history-search>
       <history-cmd>
-        <entry>%s/mock_interface_adapter_to_return_plan/mock_interface_adapter_to_return_plans</entry>
-        <entry>w</entry>
-        <entry>q</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>.wa</entry>
         <entry>action ReplaceInPath</entry>
@@ -41,14 +38,17 @@
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action FindInPath</entry>
         <entry>action FindUsages</entry>
-        <entry>action GotoTest</entry>
-        <entry>action Unsplit</entry>
         <entry>action GotoFile</entry>
-        <entry>action DebugClass</entry>
-        <entry>action RecentFiles</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>actionlist</entry>
         <entry>wa</entry>
+        <entry>actionlist refactor*</entry>
+        <entry>source ~/.ideavimrc</entry>
+        <entry>action Refactorings.QuickListPopupAction</entry>
+        <entry>action GotoTest</entry>
+        <entry>action DebugClass</entry>
+        <entry>action Unsplit</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,12 +133,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590393240140">
-        <mark key="'" line="17" column="37" />
-        <mark key="[" line="7" column="27" />
-        <mark key="]" line="7" column="31" />
-        <mark key="." line="7" column="30" />
-        <mark key="^" line="7" column="31" />
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590395038954">
+        <mark key="'" line="24" column="0" />
+        <mark key="[" line="16" column="48" />
+        <mark key="]" line="16" column="65" />
+        <mark key="^" line="16" column="65" />
+        <mark key="." line="16" column="64" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/services/event_publisher/payment_plan_payment_attempted_event.rb" timestamp="1589875529768">
         <mark key="[" line="5" column="8" />
@@ -152,10 +152,17 @@
       <file name="/fragment.rb" timestamp="1589896517394">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590392733949">
-        <mark key="'" line="34" column="19" />
+      <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590396180079">
+        <mark key="'" line="67" column="6" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
+        <mark key="^" line="16" column="43" />
       </file>
-      <file name="/Ruby Console" timestamp="1590392673875">
+      <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590395513922">
+        <mark key="'" line="33" column="0" />
+      </file>
+      <file name="/Ruby Console" timestamp="1590396133920">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" timestamp="1589974364835">
@@ -165,11 +172,14 @@
         <mark key="." line="26" column="35" />
         <mark key="^" line="26" column="35" />
       </file>
+      <file name="$USER_HOME$/projects/payments/test/controllers/installment_plans_controller_test.rb" timestamp="1590395509465">
+        <mark key="'" line="47" column="30" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/cancellation_transactions_builder.rb" timestamp="1589896278187">
         <mark key="'" line="153" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" timestamp="1590393149544">
-        <mark key="'" line="27" column="6" />
+      <file name="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" timestamp="1590393872857">
+        <mark key="'" line="38" column="28" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/services/workflow/perform_additional_transaction.rb" timestamp="1590150642135">
         <mark key="'" line="33" column="31" />
@@ -180,9 +190,6 @@
       </file>
       <file name="/" timestamp="1590393106847">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/payments/test/factories/payment_attempt_test_factory.rb" timestamp="1586170063342">
-        <mark key="'" line="22" column="19" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" timestamp="1590150639682">
         <mark key="'" line="13" column="36" />
@@ -221,21 +228,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="14" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
-      <jump line="70" column="41" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
-      <jump line="69" column="11" filename="$USER_HOME$/projects/payments/app/models/payment_attempt_builder.rb" />
-      <jump line="15" column="11" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
-      <jump line="19" column="0" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
-      <jump line="20" column="4" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
-      <jump line="22" column="0" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
-      <jump line="23" column="4" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
-      <jump line="25" column="0" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
-      <jump line="26" column="4" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
-      <jump line="29" column="2" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/authorisation_processor_test.rb" />
-      <jump line="26" column="0" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
-      <jump line="101" column="12" filename="$USER_HOME$/projects/payments/test/services/gateways/stripe_gateway/payment_test.rb" />
-      <jump line="12" column="9" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/authorisation_processor.rb" />
-      <jump line="20" column="15" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
       <jump line="42" column="29" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
       <jump line="5" column="10" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/lib/stripe/api_operations/create.rb" />
       <jump line="30" column="19" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
@@ -278,7 +270,6 @@
       <jump line="20" column="7" filename="$USER_HOME$/projects/chopin/Gemfile" />
       <jump line="79" column="15" filename="$USER_HOME$/projects/chopin/Gemfile" />
       <jump line="143" column="5" filename="$USER_HOME$/projects/chopin/Gemfile" />
-      <jump line="28" column="23" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
       <jump line="28" column="9" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
       <jump line="37" column="6" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
       <jump line="1" column="0" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" />
@@ -298,7 +289,6 @@
       <jump line="5" column="27" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="8" column="46" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="17" column="37" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
-      <jump line="34" column="19" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
       <jump line="4" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
       <jump line="5" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
       <jump line="6" column="2" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
@@ -310,17 +300,34 @@
       <jump line="18" column="4" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
       <jump line="21" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
       <jump line="22" column="2" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
-      <jump line="25" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
-      <jump line="26" column="4" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
-      <jump line="29" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
-      <jump line="30" column="4" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
-      <jump line="31" column="6" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
-      <jump line="33" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
-      <jump line="34" column="4" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
       <jump line="36" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
       <jump line="7" column="27" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="27" column="6" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
       <jump line="3" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="36" column="0" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="34" column="4" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="32" column="4" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="31" column="0" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="28" column="4" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="27" column="0" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="34" column="2" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="33" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="30" column="4" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="29" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="26" column="4" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="25" column="0" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="31" column="24" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="38" column="28" filename="$USER_HOME$/projects/payments/app/controllers/full_pay_plans_controller.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/payments/app/views/full_pay_plans/update.json.jbuilder" />
+      <jump line="25" column="8" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
+      <jump line="24" column="0" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
+      <jump line="47" column="30" filename="$USER_HOME$/projects/payments/test/controllers/installment_plans_controller_test.rb" />
+      <jump line="33" column="0" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="16" column="15" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
+      <jump line="32" column="4" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
+      <jump line="42" column="4" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
+      <jump line="57" column="6" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
+      <jump line="67" column="6" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -404,22 +411,22 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgQGFkanVzdF9wYXltZW50X3BsYW5fd29ya2Zsb3cucHJvY2VzcyhwYXltZW50X3BsYW46IHBheW1lbnRfcGxhbiwgYW1vdW50X2RpZmZlcmVuY2U6IGFtb3VudF9kaWZmZXJlbmNlKQo=</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6bWVzc2FnZV0pLnRvIGVxICJUaGVyZSBhcmUgbm8gcmVtYWluaW5nIGluc3RhbGxtZW50cyB0byBwdXQiIFwKICAgICAgICAiIHRoZSBhZGp1c3RtZW50IGFtb3VudCB0by4iCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">bmV3X3BheW1lbnRfcGxhbiA9IA==</text>
+        <text>additional_transaction_workflow</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>new_paym</text>
+        <text>adjust_amount</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgUGF5bWVudEF0dGVtcHRMaXN0LmFkZChwYXltZW50X2F0dGVtcHQsIHBheW1lbnRfcGxhbikK</text>
+        <text encoding="base64">ICAgIGFsbG93KFdvcmtmbG93OjpQZXJmb3JtQWRkaXRpb25hbFRyYW5zYWN0aW9uKQogICAgICAudG8gcmVjZWl2ZSg6bmV3KS5hbmRfcmV0dXJuKHdvcmtmbG93KQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgQGFkanVzdF9wYXltZW50X3BsYW5fd29ya2Zsb3cucHJvY2VzcyhwYXltZW50X3BsYW46IHBheW1lbnRfcGxhbiwgYW1vdW50X2RpZmZlcmVuY2U6IGFtb3VudF9kaWZmZXJlbmNlKQo=</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6bWVzc2FnZV0pLnRvIGVxICJUaGVyZSBhcmUgbm8gcmVtYWluaW5nIGluc3RhbGxtZW50cyB0byBwdXQiIFwKICAgICAgICAiIHRoZSBhZGp1c3RtZW50IGFtb3VudCB0by4iCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -442,16 +449,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGFsbG93KFdvcmtmbG93OjpQZXJmb3JtQWRkaXRpb25hbFRyYW5zYWN0aW9uKQogICAgICAudG8gcmVjZWl2ZSg6bmV3KS5hbmRfcmV0dXJuKHdvcmtmbG93KQo=</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgbmV3X3BheW1lbnRfcGxhbiA9IEBhZGp1c3RfcGF5bWVudF9wbGFuX3dvcmtmbG93LnByb2Nlc3MoCiAgICAgICAgcGF5bWVudF9wbGFuOiBwYXltZW50X3BsYW4sIGFtb3VudF9kaWZmZXJlbmNlOiBhbW91bnRfZGlmZmVyZW5jZSkKCg==</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHdvcmtmbG93KS50byByZWNlaXZlKDpwcm9jZXNzKS53aXRoKHBheW1lbnRfcGxhbjogaW5zdGFsbG1lbnRfcGxhbiwgYW1vdW50X2RpZmZlcmVuY2U6IGFtb3VudCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -802,7 +809,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICAgIFJlc3VsdGFudC5zdWNjZXNzKGluc3RhbGxtZW50X3BsYW46IG5ld19wYXltZW50X3BsYW4pCg==</text>
+        <text encoding="base64">ICAgIGV4cGVjdCh3b3JrZmxvdykudG8gcmVjZWl2ZSg6cHJvY2Vzcykud2l0aChwYXltZW50X3BsYW46IGluc3RhbGxtZW50X3BsYW4sIGFtb3VudF9kaWZmZXJlbmNlOiBhbW91bnQpCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -814,7 +821,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CiAgICAgICAgcmV0dXJuIFJlc3VsdGFudC5mYWlsdXJlIGlmIHBheW1lbnRfYXR0ZW1wdC5mYWlsdXJlPwo=</text>
+        <text encoding="base64">ICAgIAoK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -848,24 +855,24 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwYXltZW50X2F0dGVtcHQgPSBAcGVyZm9ybV9hZGRpdGlvbmFsX3RyYW5zYWN0aW9uX3dvcmtmbG93CiAgICAgICAgICAucHJvY2VzcyhwYXltZW50X3BsYW46IHBheW1lbnRfcGxhbiwgYW1vdW50X2RpZmZlcmVuY2U6IGFtb3VudF9kaWZmZXJlbmNlKQo=</text>
+        <text encoding="base64">ICB0ZXN0ICIgUGVyZm9ybUFkZGl0aW9uYWxUcmFuc2FjdGlvbiBpZiB0aGVyZSBpcyBhbW91bnQgZGlmZmVyZW5jZSBidXQgbm8iIFwKICAgICAgICJpbnN0YWxsbWVudHMgdG8gYWRqdXN0IiBkbwo=</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>wa</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>new_paym</last-search>
+      <last-search>adjust_amount</last-search>
       <last-offset />
-      <last-pattern>new_paym</last-pattern>
+      <last-pattern>adjust_amount</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
