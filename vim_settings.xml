@@ -46,9 +46,9 @@
         <entry>source ~/.ideavimrc</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>action Unsplit</entry>
-        <entry>action DebugClass</entry>
         <entry>action RecentFiles</entry>
         <entry>action GotoTest</entry>
+        <entry>action DebugClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -162,7 +162,7 @@
       <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590395513922">
         <mark key="'" line="33" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1590408908065">
+      <file name="/Ruby Console" timestamp="1590410421089">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" timestamp="1589974364835">
@@ -864,7 +864,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoTest</text>
+        <text>action DebugClass</text>
       </register>
     </registers>
   </component>
