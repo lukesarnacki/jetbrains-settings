@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>error_result</entry>
         <entry>stage_results</entry>
         <entry>results</entry>
         <entry encoding="base64">XDxzdGFnZV9yZXN1bHRzXD4=</entry>
@@ -27,6 +26,7 @@
         <entry>new_paym</entry>
         <entry>customer</entry>
         <entry>adjust_amount</entry>
+        <entry>result</entry>
       </history-search>
       <history-cmd>
         <entry>action ToggleLineBreakpoint</entry>
@@ -133,12 +133,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590395038954">
-        <mark key="'" line="24" column="0" />
-        <mark key="[" line="16" column="48" />
-        <mark key="]" line="16" column="65" />
-        <mark key="^" line="16" column="65" />
-        <mark key="." line="16" column="64" />
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590402015651">
+        <mark key="'" line="35" column="16" />
+        <mark key="[" line="38" column="14" />
+        <mark key="]" line="38" column="17" />
+        <mark key="^" line="38" column="17" />
+        <mark key="." line="38" column="16" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/services/event_publisher/payment_plan_payment_attempted_event.rb" timestamp="1589875529768">
         <mark key="[" line="5" column="8" />
@@ -162,7 +162,7 @@
       <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590395513922">
         <mark key="'" line="33" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1590396133920">
+      <file name="/Ruby Console" timestamp="1590401974145">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" timestamp="1589974364835">
@@ -228,8 +228,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="42" column="29" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
-      <jump line="5" column="10" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.17.0/lib/stripe/api_operations/create.rb" />
       <jump line="30" column="19" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/payment.rb" />
       <jump line="30" column="20" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
       <jump line="20" column="14" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/initial_payment_processor.rb" />
@@ -328,6 +326,8 @@
       <jump line="42" column="4" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
       <jump line="57" column="6" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
       <jump line="67" column="6" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
+      <jump line="26" column="47" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
+      <jump line="35" column="16" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -410,20 +410,20 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6bWVzc2FnZV0pLnRvIGVxICJUaGVyZSBhcmUgbm8gcmVtYWluaW5nIGluc3RhbGxtZW50cyB0byBwdXQiIFwKICAgICAgICAiIHRoZSBhZGp1c3RtZW50IGFtb3VudCB0by4iCg==</text>
+      <register name="*" type="4">
+        <text>empty</text>
       </register>
       <register name="-" type="4">
-        <text>additional_transaction_workflow</text>
+        <text>empty</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>adjust_amount</text>
+        <text>result</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGFsbG93KFdvcmtmbG93OjpQZXJmb3JtQWRkaXRpb25hbFRyYW5zYWN0aW9uKQogICAgICAudG8gcmVjZWl2ZSg6bmV3KS5hbmRfcmV0dXJuKHdvcmtmbG93KQo=</text>
+      <register name="0" type="4">
+        <text>pending_installments(payment_plan)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6bWVzc2FnZV0pLnRvIGVxICJUaGVyZSBhcmUgbm8gcmVtYWluaW5nIGluc3RhbGxtZW50cyB0byBwdXQiIFwKICAgICAgICAiIHRoZSBhZGp1c3RtZW50IGFtb3VudCB0by4iCg==</text>
@@ -870,9 +870,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>adjust_amount</last-search>
+      <last-search>result</last-search>
       <last-offset />
-      <last-pattern>adjust_amount</last-pattern>
+      <last-pattern>result</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
