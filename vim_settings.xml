@@ -152,18 +152,18 @@
       <file name="/fragment.rb" timestamp="1589896517394">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590414412700">
+      <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590415883271">
         <mark key="'" line="21" column="58" />
         <mark key="j" line="20" column="6" />
-        <mark key="[" line="25" column="0" />
-        <mark key="]" line="25" column="0" />
-        <mark key="." line="25" column="0" />
-        <mark key="^" line="58" column="9" />
+        <mark key="[" line="21" column="42" />
+        <mark key="]" line="21" column="43" />
+        <mark key="." line="21" column="42" />
+        <mark key="^" line="21" column="43" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590395513922">
         <mark key="'" line="33" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1590414333325">
+      <file name="/Ruby Console" timestamp="1590415776781">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" timestamp="1589974364835">
