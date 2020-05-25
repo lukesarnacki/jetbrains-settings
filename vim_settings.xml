@@ -45,10 +45,10 @@
         <entry>actionlist refactor*</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
-        <entry>action GotoTest</entry>
         <entry>action Unsplit</entry>
         <entry>action DebugClass</entry>
         <entry>action RecentFiles</entry>
+        <entry>action GotoTest</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,7 +133,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590403686386">
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590408872260">
         <mark key="'" line="66" column="8" />
         <mark key="[" line="38" column="14" />
         <mark key="]" line="38" column="17" />
@@ -152,17 +152,17 @@
       <file name="/fragment.rb" timestamp="1589896517394">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590403615519">
+      <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590408905575">
         <mark key="'" line="67" column="6" />
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
-        <mark key="^" line="33" column="0" />
+        <mark key="[" line="29" column="4" />
+        <mark key="]" line="29" column="64" />
+        <mark key="." line="29" column="63" />
+        <mark key="^" line="29" column="64" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590395513922">
         <mark key="'" line="33" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1590403708339">
+      <file name="/Ruby Console" timestamp="1590408868349">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" timestamp="1589974364835">
@@ -410,11 +410,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIGluc3RhbGxtZW50X3BsYW4uc2F2ZQo=</text>
+      <register name="*" type="4">
+        <text>expect</text>
       </register>
       <register name="-" type="4">
-        <text>d</text>
+        <text>expect</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -422,8 +422,8 @@
       <register name="/" type="4">
         <text>new_</text>
       </register>
-      <register name="0" type="4">
-        <text>pending_installments(payment_plan)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGV4cGVjdChJbnN0YWxsbWVudExpc3QpLnRvIHJlY2VpdmUoOmZpbmRfYWxsX2J5KQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGluc3RhbGxtZW50X3BsYW4uc2F2ZQo=</text>
@@ -864,7 +864,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action GotoTest</text>
       </register>
     </registers>
   </component>
