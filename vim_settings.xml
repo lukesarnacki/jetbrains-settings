@@ -152,18 +152,18 @@
       <file name="/fragment.rb" timestamp="1589896517394">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590411792036">
-        <mark key="'" line="22" column="0" />
+      <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590414412700">
+        <mark key="'" line="21" column="58" />
         <mark key="j" line="20" column="6" />
-        <mark key="[" line="39" column="0" />
-        <mark key="]" line="39" column="2" />
-        <mark key="." line="39" column="2" />
-        <mark key="^" line="39" column="8" />
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="." line="25" column="0" />
+        <mark key="^" line="58" column="9" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590395513922">
         <mark key="'" line="33" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1590410421089">
+      <file name="/Ruby Console" timestamp="1590414333325">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" timestamp="1589974364835">
@@ -229,7 +229,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="49" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
       <jump line="10" column="10" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
       <jump line="11" column="55" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
       <jump line="18" column="4" filename="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" />
@@ -329,6 +328,7 @@
       <jump line="17" column="0" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
       <jump line="18" column="6" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
       <jump line="22" column="0" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
+      <jump line="21" column="58" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -412,10 +412,10 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICB0ZXN0ICJkZWxlZ2F0ZSBzdWNjZXNzZnVsIHJlZnVuZCBvciBjaGFyZ2UgdG8gUGVyZm9ybUFkZGl0aW9uYWxUcmFuc2FjdGlvbiB3b3JrZmxvdyIgZG8KICAgIGluc3RhbGxtZW50X3BsYW4gPSBJbnN0YWxsbWVudFBsYW5UZXN0RmFjdG9yeS5kZWZhdWx0LmJ1aWxkCiAgICB3b3JrZmxvdyA9IGluc3RhbmNlX2RvdWJsZShXb3JrZmxvdzo6UGVyZm9ybUFkZGl0aW9uYWxUcmFuc2FjdGlvbikKCiAgICBhbGxvdyhJbnN0YWxsbWVudExpc3QpLnRvIHJlY2VpdmUoOmZpbmRfYWxsX3BlbmRpbmdfYnkpLmFuZF9yZXR1cm4oW10pCgogICAgWy1Nb25leS5uZXcoMTAwKSwgTW9uZXkubmV3KDEwMCldLmVhY2ggZG8gfGFtb3VudHwKICAgICAgYWxsb3coV29ya2Zsb3c6OlBlcmZvcm1BZGRpdGlvbmFsVHJhbnNhY3Rpb24pLnRvIHJlY2VpdmUoOm5ldykuYW5kX3JldHVybih3b3JrZmxvdykKICAgICAgZXhwZWN0KHdvcmtmbG93KQogICAgICAgIC50byByZWNlaXZlKDpwcm9jZXNzKQogICAgICAgICAgICAgIC53aXRoKHBheW1lbnRfcGxhbjogaW5zdGFsbG1lbnRfcGxhbiwgYW1vdW50X2RpZmZlcmVuY2U6IGFtb3VudCkKICAgICAgICAgICAgICAuYW5kX3JldHVybihSZXN1bHRhbnQuc3VjY2VzcykKCiAgICAgIHJlc3VsdCA9IGFkanVzdF9hbW91bnQocGxhbjogaW5zdGFsbG1lbnRfcGxhbiwgYW1vdW50OiBhbW91bnQpCiAgICAgIGV4cGVjdChyZXN1bHQpLnRvIGJlX3N1Y2Nlc3MKICAgIGVuZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>successful</text>
+        <text>uuid</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -424,7 +424,7 @@
         <text>new_</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICB0ZXN0ICJkZWxlZ2F0ZSBzdWNjZXNzZnVsIHJlZnVuZCBvciBjaGFyZ2UgdG8gUGVyZm9ybUFkZGl0aW9uYWxUcmFuc2FjdGlvbiB3b3JrZmxvdyIgZG8KICAgIGluc3RhbGxtZW50X3BsYW4gPSBJbnN0YWxsbWVudFBsYW5UZXN0RmFjdG9yeS5kZWZhdWx0LmJ1aWxkCiAgICB3b3JrZmxvdyA9IGluc3RhbmNlX2RvdWJsZShXb3JrZmxvdzo6UGVyZm9ybUFkZGl0aW9uYWxUcmFuc2FjdGlvbikKCiAgICBhbGxvdyhJbnN0YWxsbWVudExpc3QpLnRvIHJlY2VpdmUoOmZpbmRfYWxsX3BlbmRpbmdfYnkpLmFuZF9yZXR1cm4oW10pCgogICAgWy1Nb25leS5uZXcoMTAwKSwgTW9uZXkubmV3KDEwMCldLmVhY2ggZG8gfGFtb3VudHwKICAgICAgYWxsb3coV29ya2Zsb3c6OlBlcmZvcm1BZGRpdGlvbmFsVHJhbnNhY3Rpb24pLnRvIHJlY2VpdmUoOm5ldykuYW5kX3JldHVybih3b3JrZmxvdykKICAgICAgZXhwZWN0KHdvcmtmbG93KQogICAgICAgIC50byByZWNlaXZlKDpwcm9jZXNzKQogICAgICAgICAgICAgIC53aXRoKHBheW1lbnRfcGxhbjogaW5zdGFsbG1lbnRfcGxhbiwgYW1vdW50X2RpZmZlcmVuY2U6IGFtb3VudCkKICAgICAgICAgICAgICAuYW5kX3JldHVybihSZXN1bHRhbnQuc3VjY2VzcykKCiAgICAgIHJlc3VsdCA9IGFkanVzdF9hbW91bnQocGxhbjogaW5zdGFsbG1lbnRfcGxhbiwgYW1vdW50OiBhbW91bnQpCiAgICAgIGV4cGVjdChyZXN1bHQpLnRvIGJlX3N1Y2Nlc3MKICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5pbnN0YWxsbWVudF9wbGFuLnV1aWQpLnRvIGVxKGluc3RhbGxtZW50X3BsYW4udXVpZCkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -450,16 +450,31 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGluc3RhbGxtZW50X3BsYW4uc2F2ZQo=</text>
+        <text encoding="base64">IGQK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6bWVzc2FnZV0pLnRvIGVxICJUaGVyZSBhcmUgbm8gcmVtYWluaW5nIGluc3RhbGxtZW50cyB0byBwdXQiIFwKICAgICAgICAiIHRoZSBhZGp1c3RtZW50IGFtb3VudCB0by4iCg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">ICMgdGVzdCAiZGVsZWdhdGUgc3VjY2Vzc2Z1bCByZWZ1bmQgb3IgY2hhcmdlIHRvIFBlcmZvcm1BZGRpdGlvbmFsVHJhbnNhY3Rpb24gd29ya2Zsb3ciIGRvCiAgIyAgIGluc3RhbGxtZW50X3BsYW4gPSBJbnN0YWxsbWVudFBsYW5UZXN0RmFjdG9yeS5kZWZhdWx0LmJ1aWxkCiAgIyAgIHdvcmtmbG93ID0gaW5zdGFuY2VfZG91YmxlKFdvcmtmbG93OjpQZXJmb3JtQWRkaXRpb25hbFRyYW5zYWN0aW9uKQogICMKICAjICAgYWxsb3coSW5zdGFsbG1lbnRMaXN0KS50byByZWNlaXZlKDpmaW5kX2FsbF9wZW5kaW5nX2J5KS5hbmRfcmV0dXJuKFtdKQogICMKICAjICAgWy1Nb25leS5uZXcoMTAwKSwgTW9uZXkubmV3KDEwMCldLmVhY2ggZG8gfGFtb3VudHwKICAjICAgICBhbGxvdyhXb3JrZmxvdzo6UGVyZm9ybUFkZGl0aW9uYWxUcmFuc2FjdGlvbikudG8gcmVjZWl2ZSg6bmV3KS5hbmRfcmV0dXJuKHdvcmtmbG93KQogICMgICAgIGV4cGVjdCh3b3JrZmxvdykKICAjICAgICAgIC50byByZWNlaXZlKDpwcm9jZXNzKQogICMgICAgICAgICAgICAgLndpdGgocGF5bWVudF9wbGFuOiBpbnN0YWxsbWVudF9wbGFuLCBhbW91bnRfZGlmZmVyZW5jZTogYW1vdW50KQogICMgICAgICAgICAgICAgLmFuZF9yZXR1cm4oUmVzdWx0YW50LnN1Y2Nlc3MpCiAgIwogICMgICAgIHJlc3VsdCA9IGFkanVzdF9hbW91bnQocGxhbjogaW5zdGFsbG1lbnRfcGxhbiwgYW1vdW50OiBhbW91bnQpCiAgIyAgICAgZXhwZWN0KHJlc3VsdCkudG8gYmVfc3VjY2VzcwogICMgICBlbmQKICAjIGVu</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIGFsbG93KFdvcmtmbG93OjpQZXJmb3JtQWRkaXRpb25hbFRyYW5zYWN0aW9uKQogICAgICAudG8gcmVjZWl2ZSg6bmV3KS5hbmRfcmV0dXJuKHdvcmtmbG93KQo=</text>
+      <register name="4" type="4">
+        <text>test &quot;delegate failed refund or charge to PerformAdditionalTransaction workflow&quot; do
+    installment_plan = InstallmentPlanTestFactory.default.build
+    workflow = instance_double(Workflow::PerformAdditionalTransaction)
+
+    allow(InstallmentList).to receive(:find_all_pending_by).and_return([])
+
+    [-Money.new(100), Money.new(100)].each do |amount|
+      allow(Workflow::PerformAdditionalTransaction).to receive(:new).and_return(workflow)
+      expect(workflow)
+        .to receive(:process)
+              .with(payment_plan: installment_plan, amount_difference: amount)
+              .and_return(Resultant.success)
+
+      result = adjust_amount(plan: installment_plan, amount: amount)
+      expect(result).to be_success
+  end</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -810,7 +825,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICB0ZXN0ICJkZWxlZ2F0ZSBzdWNjZXNzZnVsIHJlZnVuZCBvciBjaGFyZ2UgdG8gUGVyZm9ybUFkZGl0aW9uYWxUcmFuc2FjdGlvbiB3b3JrZmxvdyIgZG8KICAgIGluc3RhbGxtZW50X3BsYW4gPSBJbnN0YWxsbWVudFBsYW5UZXN0RmFjdG9yeS5kZWZhdWx0LmJ1aWxkCiAgICB3b3JrZmxvdyA9IGluc3RhbmNlX2RvdWJsZShXb3JrZmxvdzo6UGVyZm9ybUFkZGl0aW9uYWxUcmFuc2FjdGlvbikKCiAgICBhbGxvdyhJbnN0YWxsbWVudExpc3QpLnRvIHJlY2VpdmUoOmZpbmRfYWxsX3BlbmRpbmdfYnkpLmFuZF9yZXR1cm4oW10pCgogICAgWy1Nb25leS5uZXcoMTAwKSwgTW9uZXkubmV3KDEwMCldLmVhY2ggZG8gfGFtb3VudHwKICAgICAgYWxsb3coV29ya2Zsb3c6OlBlcmZvcm1BZGRpdGlvbmFsVHJhbnNhY3Rpb24pLnRvIHJlY2VpdmUoOm5ldykuYW5kX3JldHVybih3b3JrZmxvdykKICAgICAgZXhwZWN0KHdvcmtmbG93KQogICAgICAgIC50byByZWNlaXZlKDpwcm9jZXNzKQogICAgICAgICAgICAgIC53aXRoKHBheW1lbnRfcGxhbjogaW5zdGFsbG1lbnRfcGxhbiwgYW1vdW50X2RpZmZlcmVuY2U6IGFtb3VudCkKICAgICAgICAgICAgICAuYW5kX3JldHVybihSZXN1bHRhbnQuc3VjY2VzcykKCiAgICAgIHJlc3VsdCA9IGFkanVzdF9hbW91bnQocGxhbjogaW5zdGFsbG1lbnRfcGxhbiwgYW1vdW50OiBhbW91bnQpCiAgICAgIGV4cGVjdChyZXN1bHQpLnRvIGJlX3N1Y2Nlc3MKICAgICAgZXhwZWN0KHJlc3VsdC5pbnN0YWxsbWVudF9wbGFuLnV1aWQpLnRvIGVxKGluc3RhbGxtZW50X3BsYW4udXVpZCkKICAgICAgZXhwZWN0KHJlc3VsdC5wYXltZW50X2F0dGVtcHQpLnRvIGJlX2EoUGF5bWVudEF0dGVtcHQpCiAgICBlbmQKICBlbmQ=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -819,10 +834,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHdvcmtmbG93KS50byByZWNlaXZlKDpwcm9jZXNzKS53aXRoKHBheW1lbnRfcGxhbjogaW5zdGFsbG1lbnRfcGxhbiwgYW1vdW50X2RpZmZlcmVuY2U6IGFtb3VudCkK</text>
+        <text encoding="base64">ZW5kCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGV4cGVjdCh3b3JrZmxvdykudG8gcmVjZWl2ZSg6cHJvY2Vzcykud2l0aChwYXltZW50X3BsYW46IGluc3RhbGxtZW50X3BsYW4sIGFtb3VudF9kaWZmZXJlbmNlOiBhbW91bnQpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -856,10 +871,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGluc3RhbGxtZW50X3BsYW4uc2F2ZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAoK</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6bWVzc2FnZV0pLnRvIGVxICJUaGVyZSBhcmUgbm8gcmVtYWluaW5nIGluc3RhbGxtZW50cyB0byBwdXQiIFwKICAgICAgICAiIHRoZSBhZGp1c3RtZW50IGFtb3VudCB0by4iCg==</text>
       </register>
       <register name="y" type="4">
         <text />
