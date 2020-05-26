@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>adjust_amount</entry>
         <entry>result</entry>
         <entry>new</entry>
         <entry>new_</entry>
@@ -27,6 +26,7 @@
         <entry>paid</entry>
         <entry>payment</entry>
         <entry>uuid</entry>
+        <entry>fetch_payment</entry>
       </history-search>
       <history-cmd>
         <entry>.wa</entry>
@@ -45,10 +45,10 @@
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>wa</entry>
         <entry>action Unsplit</entry>
-        <entry>action RecentFiles</entry>
-        <entry>action DebugClass</entry>
         <entry>action GotoTest</entry>
         <entry>action GotoFile</entry>
+        <entry>action DebugClass</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,7 +140,7 @@
         <mark key="." line="24" column="5" />
         <mark key="^" line="24" column="6" />
       </file>
-      <file name="/Ruby Console" timestamp="1590505583974">
+      <file name="/Ruby Console" timestamp="1590506199320">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="43" />
         <mark key="^" line="0" column="43" />
@@ -162,6 +162,12 @@
       <file name="$USER_HOME$/projects/payments/app/repositories/payment_plan_list.rb" timestamp="1590492139025">
         <mark key="'" line="6" column="7" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/spec/journey/additional_transaction/integrated_payment_plan_payment_page_service_spec.rb" timestamp="1590506259434">
+        <mark key="[" line="89" column="46" />
+        <mark key="]" line="89" column="46" />
+        <mark key="^" line="89" column="47" />
+        <mark key="." line="89" column="46" />
+      </file>
       <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590498210967">
         <mark key="'" line="30" column="7" />
         <mark key="[" line="62" column="8" />
@@ -179,9 +185,6 @@
         <mark key="." line="34" column="8" />
         <mark key="^" line="34" column="9" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/views/full_pay_plans/show.json.jbuilder" timestamp="1590479480243">
-        <mark key="'" line="13" column="14" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/installment_plan.rb" timestamp="1590503775210">
         <mark key="'" line="91" column="6" />
         <mark key="[" line="92" column="4" />
@@ -195,12 +198,12 @@
         <mark key="." line="17" column="36" />
         <mark key="^" line="17" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" timestamp="1590503563077">
-        <mark key="'" line="68" column="0" />
-        <mark key="[" line="54" column="19" />
-        <mark key="]" line="54" column="42" />
-        <mark key="^" line="54" column="42" />
-        <mark key="." line="54" column="41" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" timestamp="1590506235912">
+        <mark key="'" line="57" column="36" />
+        <mark key="[" line="74" column="7" />
+        <mark key="]" line="74" column="7" />
+        <mark key="^" line="74" column="7" />
+        <mark key="." line="74" column="6" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/services/workflow/perform_additional_transaction.rb" timestamp="1590498277173">
         <mark key="'" line="34" column="31" />
@@ -231,8 +234,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="57" column="6" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
-      <jump line="67" column="6" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" />
       <jump line="38" column="16" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="7" column="69" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="34" column="8" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
@@ -292,7 +293,6 @@
       <jump line="91" column="6" filename="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/installment_plan.rb" />
       <jump line="92" column="24" filename="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/installment_plan.rb" />
       <jump line="69" column="33" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" />
-      <jump line="57" column="49" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" />
       <jump line="64" column="0" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" />
       <jump line="70" column="17" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" />
       <jump line="81" column="19" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" />
@@ -331,6 +331,9 @@
       <jump line="154" column="0" filename="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api.rb" />
       <jump line="150" column="0" filename="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api.rb" />
       <jump line="68" column="0" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" />
+      <jump line="5" column="0" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" />
+      <jump line="57" column="36" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" />
+      <jump line="91" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/additional_transaction/integrated_payment_plan_payment_page_service_spec.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -414,16 +417,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>installment</text>
+        <text>i_pay_</text>
       </register>
       <register name="-" type="4">
-        <text>installment</text>
+        <text>i_pay_</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>uuid</text>
+        <text>fetch_payment</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHBsYW4gPSBGdWxsUGF5UGxhblRlc3RGYWN0b3J5Lm5ldyhwbGFuX3ZhbHVlOiBNb25leS5mcm9tX2Ftb3VudCgxMDApKS5idWlsZAogICAgcmVmdW5kX2Ftb3VudCA9IE1vbmV5LmZyb21fYW1vdW50KC0xMCkK</text>
@@ -867,15 +870,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>uuid</last-search>
+      <last-search>fetch_payment</last-search>
       <last-offset />
-      <last-pattern>uuid</last-pattern>
+      <last-pattern>fetch_payment</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
