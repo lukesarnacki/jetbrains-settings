@@ -39,7 +39,6 @@
         <entry>actionlist refactor*</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
-        <entry>action Unsplit</entry>
         <entry>action GotoTest</entry>
         <entry>action FindInPath</entry>
         <entry>action GotoClass</entry>
@@ -49,6 +48,7 @@
         <entry>action RecentFiles</entry>
         <entry>action DebugClass</entry>
         <entry>wa</entry>
+        <entry>action Unsplit</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -136,9 +136,9 @@
       <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_full_pay_plan_amount_test.rb" timestamp="1590499886132">
         <mark key="'" line="15" column="0" />
         <mark key="[" line="24" column="78" />
-        <mark key="]" line="25" column="6" />
-        <mark key="." line="25" column="5" />
-        <mark key="^" line="25" column="6" />
+        <mark key="]" line="24" column="6" />
+        <mark key="." line="24" column="5" />
+        <mark key="^" line="24" column="6" />
       </file>
       <file name="/Ruby Console" timestamp="1590499393097">
         <mark key="[" line="0" column="0" />
@@ -867,7 +867,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>wa</text>
+        <text>action Unsplit</text>
       </register>
     </registers>
   </component>
