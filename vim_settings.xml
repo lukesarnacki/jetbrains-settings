@@ -33,7 +33,6 @@
         <entry>action ReplaceInPath</entry>
         <entry>action HighlightUsagesInFile</entry>
         <entry encoding="base64">JzwsJz5zLyAvXy9n</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action FindUsages</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>actionlist</entry>
@@ -49,6 +48,7 @@
         <entry>w</entry>
         <entry>action GotoFile</entry>
         <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -136,20 +136,14 @@
       <file name="$USER_HOME$/projects/payments/app/controllers/view_models/show_installment_plan_view_model.rb" timestamp="1590479010199">
         <mark key="'" line="5" column="15" />
       </file>
-      <file name="/Ruby Console" timestamp="1590492350795">
-        <mark key="[" line="0" column="42" />
+      <file name="/Ruby Console" timestamp="1590495031765">
+        <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="43" />
         <mark key="^" line="0" column="43" />
         <mark key="." line="0" column="42" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/repositories/installment_plan_list.rb" timestamp="1590492136041">
         <mark key="'" line="6" column="22" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/config/payments_api.yml" timestamp="1590419692350">
-        <mark key="'" line="4" column="2" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="28" />
-        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/full_pay_plan.rb" timestamp="1590479567657">
         <mark key="[" line="27" column="0" />
@@ -160,9 +154,6 @@
       </file>
       <file name="$USER_HOME$/projects/payments/app/repositories/installment_list.rb" timestamp="1590421072201">
         <mark key="'" line="8" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/show_installment_plan.rb" timestamp="1590478982151">
-        <mark key="'" line="14" column="25" />
       </file>
       <file name="/fragment.rb" timestamp="1590492582642">
         <mark key="[" line="0" column="0" />
@@ -220,15 +211,8 @@
         <mark key="^" line="30" column="4" />
         <mark key="." line="30" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/models/installment_plan.rb" timestamp="1590493340184">
-        <mark key="'" line="73" column="23" />
-        <mark key="[" line="53" column="0" />
-        <mark key="]" line="53" column="0" />
-        <mark key="." line="53" column="0" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/projects/payments/app/views/full_pay_plans/update.json.jbuilder" />
       <jump line="24" column="0" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="47" column="30" filename="$USER_HOME$/projects/payments/test/controllers/installment_plans_controller_test.rb" />
       <jump line="33" column="0" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
@@ -325,9 +309,10 @@
       <jump line="572" column="8" filename="$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/big_decimal.rb" />
       <jump line="387" column="8" filename="$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/integer.rb" />
       <jump line="315" column="8" filename="$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/numeric.rb" />
-      <jump line="74" column="32" filename="$USER_HOME$/projects/payments/app/models/installment_plan.rb" />
       <jump line="270" column="8" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/money-6.13.7/lib/money/money/arithmetic.rb" />
       <jump line="73" column="23" filename="$USER_HOME$/projects/payments/app/models/installment_plan.rb" />
+      <jump line="74" column="25" filename="$USER_HOME$/projects/payments/app/models/installment_plan.rb" />
+      <jump line="47" column="6" filename="$USER_HOME$/projects/payments/app/models/payment_plan.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -864,7 +849,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
