@@ -39,16 +39,16 @@
         <entry>actionlist refactor*</entry>
         <entry>source ~/.ideavimrc</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
-        <entry>action GotoTest</entry>
         <entry>action FindInPath</entry>
         <entry>action GotoClass</entry>
         <entry>w</entry>
-        <entry>action GotoFile</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action DebugClass</entry>
         <entry>wa</entry>
         <entry>action Unsplit</entry>
         <entry>action RecentFiles</entry>
+        <entry>action DebugClass</entry>
+        <entry>action GotoTest</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,7 +140,7 @@
         <mark key="." line="24" column="5" />
         <mark key="^" line="24" column="6" />
       </file>
-      <file name="/Ruby Console" timestamp="1590499393097">
+      <file name="/Ruby Console" timestamp="1590505583974">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="43" />
         <mark key="^" line="0" column="43" />
@@ -867,7 +867,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
