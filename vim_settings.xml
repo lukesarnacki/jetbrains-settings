@@ -192,11 +192,11 @@
         <mark key="^" line="92" column="5" />
         <mark key="." line="92" column="4" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/integrated_payment_plan_payment.html.haml" timestamp="1590592794866">
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/integrated_payment_plan_payment.html.haml" timestamp="1590592814704">
         <mark key="[" line="18" column="16" />
-        <mark key="]" line="18" column="23" />
-        <mark key="." line="18" column="22" />
-        <mark key="^" line="18" column="23" />
+        <mark key="]" line="17" column="25" />
+        <mark key="." line="17" column="24" />
+        <mark key="^" line="17" column="25" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" timestamp="1590592234932">
         <mark key="'" line="66" column="31" />
