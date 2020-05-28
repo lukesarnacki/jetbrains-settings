@@ -37,18 +37,18 @@
         <entry>actionlist</entry>
         <entry>actionlist refactor*</entry>
         <entry>source ~/.ideavimrc</entry>
-        <entry>action FindInPath</entry>
         <entry>action GotoClass</entry>
         <entry>w</entry>
         <entry>action Unsplit</entry>
         <entry>action GotoTest</entry>
-        <entry>action GotoFile</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>wa</entry>
+        <entry>action DebugClass</entry>
+        <entry>action FindInPath</entry>
+        <entry>action GotoFile</entry>
+        <entry>action RecentFiles</entry>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
-        <entry>action RecentFiles</entry>
-        <entry>action DebugClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -157,12 +157,12 @@
         <mark key="." line="4" column="46" />
         <mark key="^" line="4" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/additional_transaction/integrated_payment_plan_payment_page_service_spec.rb" timestamp="1590654157702">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/additional_transaction/integrated_payment_plan_payment_page_service_spec.rb" timestamp="1590659440651">
         <mark key="'" line="78" column="6" />
-        <mark key="[" line="78" column="10" />
-        <mark key="]" line="78" column="26" />
-        <mark key="^" line="78" column="26" />
-        <mark key="." line="78" column="25" />
+        <mark key="[" line="78" column="26" />
+        <mark key="]" line="78" column="27" />
+        <mark key="^" line="78" column="27" />
+        <mark key="." line="78" column="26" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590498210967">
         <mark key="'" line="30" column="7" />
@@ -205,19 +205,15 @@
         <mark key="^" line="57" column="75" />
         <mark key="." line="57" column="74" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/perform_additional_transaction.rb" timestamp="1590498277173">
-        <mark key="'" line="34" column="31" />
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/perform_additional_transaction.rb" timestamp="1590659881172">
+        <mark key="'" line="19" column="23" />
         <mark key="[" line="3" column="3" />
         <mark key="]" line="3" column="89" />
         <mark key="^" line="3" column="89" />
         <mark key="." line="3" column="88" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/models/payment_plan.rb" timestamp="1590492603930">
-        <mark key="'" line="74" column="14" />
-        <mark key="[" line="43" column="15" />
-        <mark key="]" line="43" column="15" />
-        <mark key="^" line="43" column="15" />
-        <mark key="." line="43" column="14" />
+      <file name="/" timestamp="1590659552382">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_payment_plan_amount.rb" timestamp="1590656839362">
         <mark key="'" line="7" column="38" />
@@ -234,8 +230,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="208" column="24" filename="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api.rb" />
-      <jump line="148" column="53" filename="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api.rb" />
       <jump line="2" column="0" filename="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/installment_plan.rb" />
       <jump line="91" column="6" filename="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/installment_plan.rb" />
       <jump line="92" column="24" filename="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/installment_plan.rb" />
@@ -334,6 +328,8 @@
       <jump line="14" column="41" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_payment_plan_amount.rb" />
       <jump line="7" column="38" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_payment_plan_amount.rb" />
       <jump line="27" column="22" filename="$USER_HOME$/projects/payments/test/services/workflow/adjust_full_pay_plan_amount_test.rb" />
+      <jump line="19" column="23" filename="$USER_HOME$/projects/payments/app/services/workflow/perform_additional_transaction.rb" />
+      <jump line="17" column="0" filename="$USER_HOME$/projects/payments/test/services/workflow/perform_additional_transaction_test.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -416,11 +412,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIGV4cGVjdChQYXltZW50QXR0ZW1wdExpc3QpLm5vdF90byByZWNlaXZlKDphZGQpLndpdGgoYW55dGhpbmcsIHBsYW4pCg==</text>
+      <register name="*" type="4">
+        <text>tranasction</text>
       </register>
       <register name="-" type="4">
-        <text>_perform</text>
+        <text>tranasction</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -870,7 +866,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action DebugClass</text>
+        <text>action Refactorings.QuickListPopupAction</text>
       </register>
     </registers>
   </component>
