@@ -47,8 +47,8 @@
         <entry>wa</entry>
         <entry>action Unsplit</entry>
         <entry>action DebugClass</entry>
-        <entry>action RecentFiles</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -142,7 +142,7 @@
         <mark key="^" line="12" column="50" />
         <mark key="." line="12" column="49" />
       </file>
-      <file name="/Ruby Console" timestamp="1590668756876">
+      <file name="/Ruby Console" timestamp="1590669846213">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="44" />
         <mark key="^" line="0" column="44" />
@@ -225,12 +225,12 @@
         <mark key="." line="193" column="5" />
         <mark key="^" line="193" column="6" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/additional_transaction/integrated_card_payment_view_model_spec.rb" timestamp="1590668904025">
+      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/additional_transaction/integrated_card_payment_view_model_spec.rb" timestamp="1590669831632">
         <mark key="'" line="19" column="90" />
         <mark key="[" line="30" column="55" />
-        <mark key="]" line="30" column="55" />
-        <mark key="^" line="18" column="74" />
-        <mark key="." line="30" column="55" />
+        <mark key="]" line="40" column="3" />
+        <mark key="^" line="40" column="3" />
+        <mark key="." line="40" column="2" />
       </file>
       <file name="$USER_HOME$/projects/chopin/Gemfile" timestamp="1590570223108">
         <mark key="'" line="160" column="19" />
@@ -873,7 +873,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
