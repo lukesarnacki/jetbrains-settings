@@ -142,16 +142,7 @@
         <mark key="^" line="12" column="50" />
         <mark key="." line="12" column="49" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590679697069">
-        <mark key="'" line="51" column="57" />
-        <mark key="[" line="33" column="0" />
-        <mark key="]" line="33" column="4" />
-        <mark key="." line="33" column="4" />
-        <mark key="^" line="33" column="9" />
-      </file>
-      <file name="$USER_HOME$/projects/payments/test/controllers/installment_plans_controller_test.rb" timestamp="1590679901758">
-        <mark key="'" line="131" column="17" />
-      </file>
+      <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590732302363" />
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/integrated_card_payment_view_model.rb" timestamp="1590668135146">
         <mark key="[" line="14" column="56" />
         <mark key="]" line="15" column="12" />
@@ -203,7 +194,7 @@
         <mark key="^" line="26" column="5" />
         <mark key="." line="26" column="4" />
       </file>
-      <file name="/Ruby Console" timestamp="1590682303432">
+      <file name="/Ruby Console" timestamp="1590732278931">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="24" />
         <mark key="^" line="0" column="24" />
