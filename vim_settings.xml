@@ -46,9 +46,9 @@
         <entry>action FindInPath</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoFile</entry>
-        <entry>action RecentFiles</entry>
         <entry>action DebugClass</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -210,11 +210,11 @@
         <mark key="^" line="85" column="53" />
         <mark key="." line="85" column="52" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/services/pause_payment_plan_service.rb" timestamp="1590738863400">
-        <mark key="[" line="24" column="24" />
-        <mark key="]" line="24" column="37" />
-        <mark key="." line="24" column="36" />
-        <mark key="^" line="24" column="37" />
+      <file name="$USER_HOME$/projects/payments/app/services/pause_payment_plan_service.rb" timestamp="1590738969080">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="29" column="2" />
+        <mark key="." line="25" column="0" />
+        <mark key="^" line="27" column="10" />
       </file>
       <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590679870164">
         <mark key="j" line="19" column="6" />
@@ -418,10 +418,21 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">bW9kdWxlIERvbWFpbgogIGNsYXNzIExlZGdlcgogICAgZGVmIGluaXRpYWxpemUKICAgICAgQHRyYW5zYWN0aW9ucyA9IFtdCiAgICBlbmQKCiAgICBkZWYgcmVnaXN0ZXIocGF5bWVudF9yZXN1bHQpCiAgICAgIEB0cmFuc2FjdGlvbnMgPDwgUGF5bWVudEF0dGVtcHQubmV3KHBheW1lbnRfcmVzdWx0KQogICAgZW5kCiAgZW5kCmVuZA==</text>
+        <text>class SetupInstallmentPlan
+  def initialize(repo: PaymentPlanInMemoryRepo.new)
+    @repo = repo
+  end
+
+  def call(deserialized_params, customer_info:)
+    plan = InstallmentPlan.new(deserialized_params)
+    result = plan.request_downpayment(customer_info: customer_info)
+    @repo.save(plan)
+    result
+  end
+end</text>
       </register>
       <register name="-" type="4">
-        <text>Transaction</text>
+        <text>installment</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -430,10 +441,21 @@
         <text>last_payment</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">bW9kdWxlIERvbWFpbgogIGNsYXNzIExlZGdlcgogICAgZGVmIGluaXRpYWxpemUKICAgICAgQHRyYW5zYWN0aW9ucyA9IFtdCiAgICBlbmQKCiAgICBkZWYgcmVnaXN0ZXIocGF5bWVudF9yZXN1bHQpCiAgICAgIEB0cmFuc2FjdGlvbnMgPDwgUGF5bWVudEF0dGVtcHQubmV3KHBheW1lbnRfcmVzdWx0KQogICAgZW5kCiAgZW5kCmVuZA==</text>
+        <text>class SetupInstallmentPlan
+  def initialize(repo: PaymentPlanInMemoryRepo.new)
+    @repo = repo
+  end
+
+  def call(deserialized_params, customer_info:)
+    plan = InstallmentPlan.new(deserialized_params)
+    result = plan.request_downpayment(customer_info: customer_info)
+    @repo.save(plan)
+    result
+  end
+end</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgIyBpcyBpdCBuZWVkZWQ/IElzIHRoZXJlIGFueSB3YXkgdGhhdCB0aGUgYWdncmVnYXRlIGlzIGluIGFuIGluYWN0aXZlIHN0YXRlIGFuZAogICAgICAjIGFuZCBkb3ducGF5bWVudCBpcyBhbHJlYWR5IHRha2VuPwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -456,16 +478,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICB1cmw6IGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6cGF5bWVudF9hdHRlbXB0XSkudG8gZXEocGF5bWVudF9hdHRlbXB0KQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC52YWx1ZVs6cGF5bWVudF9hdHRlbWRka3B0XSkudG8gZXEocGF5bWVudF9hdHRlbXB0KQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -816,7 +838,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text>Cleaning after code review</text>
+        <text encoding="base64">ICAgICAgIyBpcyBpdCBuZWVkZWQ/IElzIHRoZXJlIGFueSB3YXkgdGhhdCB0aGUgYWdncmVnYXRlIGlzIGluIGFuIGluYWN0aXZlIHN0YXRlIGFuZAogICAgICAjIGFuZCBkb3ducGF5bWVudCBpcyBhbHJlYWR5IHRha2VuPwo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -825,10 +847,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGlmIHJlc3VsdC5mYWlsdXJlPwo=</text>
+        <text encoding="base64">ICB1cmw6IGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6cGF5bWVudF9hdHRlbXB0XSkudG8gZXEocGF5bWVudF9hdHRlbXB0KQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -862,16 +884,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGJlZm9yZSBkbwogICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC52YWx1ZVs6cGF5bWVudF9hdHRlbWRka3B0XSkudG8gZXEocGF5bWVudF9hdHRlbXB0KQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgYWxsb3coUGF5bWVudFNlcnZpY2U6OlBheW1lbnRzQVBJOjpJbnN0YWxsbWVudFBsYW4pLnRvIHJlY2VpdmUoOmJ1aWxkKS5hbmRfcmV0dXJuKGRvdWJsZSkK</text>
+        <text>Cleaning after code review</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
