@@ -133,9 +133,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/payments/Gemfile" timestamp="1590666675716">
-        <mark key="'" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_full_pay_plan_amount_test.rb" timestamp="1590668727550">
         <mark key="[" line="11" column="70" />
         <mark key="]" line="12" column="50" />
@@ -155,6 +152,12 @@
         <mark key="]" line="38" column="33" />
         <mark key="^" line="38" column="33" />
         <mark key="." line="38" column="32" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/app/installments/domain/installment_plan.rb" timestamp="1590737609903">
+        <mark key="'" line="5" column="59" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="28" column="7" />
+        <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/installment_plan.rb" timestamp="1590681498867">
         <mark key="'" line="24" column="0" />
@@ -232,8 +235,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="781" column="0" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
-      <jump line="802" column="20" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
       <jump line="499" column="13" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
       <jump line="333" column="30" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
       <jump line="577" column="37" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
@@ -332,6 +333,8 @@
       <jump line="85" column="55" filename="$USER_HOME$/projects/chopin/spec/journey/additional_transaction/integrated_payment_plan_payment_page_service_spec.rb" />
       <jump line="34" column="8" filename="$USER_HOME$/projects/chopin/spec/journey/additional_transaction/integrated_payment_plan_payment_page_service_spec.rb" />
       <jump line="78" column="6" filename="$USER_HOME$/projects/chopin/spec/journey/additional_transaction/integrated_payment_plan_payment_page_service_spec.rb" />
+      <jump line="5" column="59" filename="$USER_HOME$/projects/payments/app/installments/domain/installment_plan.rb" />
+      <jump line="2" column="10" filename="$USER_HOME$/projects/payments/app/installments/infra/dispatchers/installment_plan_dispatcher.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -415,7 +418,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICB1cmw6IGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMQo=</text>
+        <text encoding="base64">ICAgIGRlZiByZXF1ZXN0X2Rvd25wYXltZW50KGN1c3RvbWVyX2luZm86KQogICAgICB1bmxlc3MgaW5hY3RpdmU/CiAgICAgICAgcmV0dXJuIFJlc3VsdGFudC5mYWlsdXJlKCdQbGFuIGhhcyB0byBiZSBpbmFjdGl2ZSBmb3IgcmVxdWVzdGluZyBkb3ducGF5bWVudCcpCiAgICAgIGVuZAoKICAgICAgaWYgZG93bnBheW1lbnRfdGFrZW4/CiAgICAgICAgcmV0dXJuIFJlc3VsdGFudC5mYWlsdXJlKCdEb3ducGF5bWVudCBhbHJlYWR5IHRha2VuJykKICAgICAgZW5kCgogICAgICBAZGlzcGF0Y2hlci5kaXNwYXRjaF9kb3ducGF5bWVudF9yZXF1ZXN0ZWQoc2VsZi50b19zbmFwc2hvdCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1c3RvbWVyX2luZm86IGN1c3RvbWVyX2luZm8pCiAgICAgIEBzdGF0ZSA9IDp3YWl0aW5nX2Zvcl9kb3ducGF5bWVudAogICAgICBSZXN1bHRhbnQuc3VjY2VzcwogICAgZW5kCg==</text>
       </register>
       <register name="-" type="4">
         <text>current_card_details</text>
@@ -427,10 +430,10 @@
         <text>last_payment</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICA8PDogKmRlZmF1bHRzCgptaWdyYXRpb246CiAgPDw6ICpkZWZhdWx0cwoKc3RhZ2luZzoK</text>
+        <text encoding="base64">ICAgIGRlZiByZXF1ZXN0X2Rvd25wYXltZW50KGN1c3RvbWVyX2luZm86KQogICAgICB1bmxlc3MgaW5hY3RpdmU/CiAgICAgICAgcmV0dXJuIFJlc3VsdGFudC5mYWlsdXJlKCdQbGFuIGhhcyB0byBiZSBpbmFjdGl2ZSBmb3IgcmVxdWVzdGluZyBkb3ducGF5bWVudCcpCiAgICAgIGVuZAoKICAgICAgaWYgZG93bnBheW1lbnRfdGFrZW4/CiAgICAgICAgcmV0dXJuIFJlc3VsdGFudC5mYWlsdXJlKCdEb3ducGF5bWVudCBhbHJlYWR5IHRha2VuJykKICAgICAgZW5kCgogICAgICBAZGlzcGF0Y2hlci5kaXNwYXRjaF9kb3ducGF5bWVudF9yZXF1ZXN0ZWQoc2VsZi50b19zbmFwc2hvdCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1c3RvbWVyX2luZm86IGN1c3RvbWVyX2luZm8pCiAgICAgIEBzdGF0ZSA9IDp3YWl0aW5nX2Zvcl9kb3ducGF5bWVudAogICAgICBSZXN1bHRhbnQuc3VjY2VzcwogICAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICB1cmw6IGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMQo=</text>
+        <text encoding="base64">ICAgICAgIyBpcyBpdCBuZWVkZWQ/IElzIHRoZXJlIGFueSB3YXkgdGhhdCB0aGUgYWdncmVnYXRlIGlzIGluIGFuIGluYWN0aXZlIHN0YXRlIGFuZAogICAgICAjIGFuZCBkb3ducGF5bWVudCBpcyBhbHJlYWR5IHRha2VuPwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -453,16 +456,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6cGF5bWVudF9hdHRlbXB0XSkudG8gZXEocGF5bWVudF9hdHRlbXB0KQo=</text>
+        <text encoding="base64">ICB1cmw6IGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMQo=</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC52YWx1ZVs6cGF5bWVudF9hdHRlbWRka3B0XSkudG8gZXEocGF5bWVudF9hdHRlbXB0KQo=</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC5lcnJvcls6cGF5bWVudF9hdHRlbXB0XSkudG8gZXEocGF5bWVudF9hdHRlbXB0KQo=</text>
       </register>
       <register name="4" type="2">
-        <text>Cleaning after code review</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdC52YWx1ZVs6cGF5bWVudF9hdHRlbWRka3B0XSkudG8gZXEocGF5bWVudF9hdHRlbXB0KQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -813,7 +816,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGlmIHJlc3VsdC5mYWlsdXJlPwo=</text>
+        <text>Cleaning after code review</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -822,10 +825,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlmIHJlc3VsdC5mYWlsdXJlPwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGJlZm9yZSBkbwogICAgZW5kCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -859,10 +862,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgYWxsb3coUGF5bWVudFNlcnZpY2U6OlBheW1lbnRzQVBJOjpJbnN0YWxsbWVudFBsYW4pLnRvIHJlY2VpdmUoOmJ1aWxkKS5hbmRfcmV0dXJuKGRvdWJsZSkK</text>
+        <text encoding="base64">ICAgIGJlZm9yZSBkbwogICAgZW5kCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICNsZXQoOnBheW1lbnRzX2FwaSkgeyBkZXNjcmliZWRfY2xhc3MubmV3KGFwaV9jbGllbnQ6IGZha2VfcGF5bWVudHNfYXBpX2NsaWVudCkgfQo=</text>
+        <text encoding="base64">ICAgICAgYWxsb3coUGF5bWVudFNlcnZpY2U6OlBheW1lbnRzQVBJOjpJbnN0YWxsbWVudFBsYW4pLnRvIHJlY2VpdmUoOmJ1aWxkKS5hbmRfcmV0dXJuKGRvdWJsZSkK</text>
       </register>
       <register name="y" type="4">
         <text />
