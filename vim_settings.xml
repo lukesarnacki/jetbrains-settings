@@ -147,10 +147,10 @@
         <mark key="^" line="7" column="23" />
         <mark key="." line="7" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/installments/domain/installment_plan.rb" timestamp="1590748293061">
+      <file name="$USER_HOME$/projects/payments/app/installments/domain/installment_plan.rb" timestamp="1590749660317">
         <mark key="'" line="31" column="8" />
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="42" column="0" />
+        <mark key="[" line="90" column="1" />
+        <mark key="]" line="103" column="6" />
         <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/installment_plan.rb" timestamp="1590681498867">
@@ -417,19 +417,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text>class SetupInstallmentPlan
-  def initialize(repo: PaymentPlanInMemoryRepo.new)
-    @repo = repo
-  end
-
-  def call(deserialized_params, customer_info:)
-    plan = InstallmentPlan.new(deserialized_params)
-    result = plan.request_downpayment(customer_info: customer_info)
-    @repo.save(plan)
-    result
-  end
-end</text>
+      <register name="*" type="4">
+        <text encoding="base64">ICAgZGVmIGxhc3RfM19hdHRlbXB0c19mYWlsZWQ/CiAgICAgIGF0dGVtcHRzID0gcGF5bWVudF9hdHRlbXB0cy5sYXN0KDMpCiAgICAgIGF0dGVtcHRzLmxlbmd0aCA9PSAzICYmIGF0dGVtcHRzLmFsbD8oJjpmYWlsZWQpCiAgICBlbmQKCiAgICBkZWYgcGF5bWVudHNfdXBfdG9fZGF0ZT8KICAgICAgIyBUaGlzIGlzIG9ubHkgYSBzaW1wbGlmaWVkIGV4YW1wbGUuIFBheW1lbnRBdHRlbXB0cyBjb3VsZCBwcm9iYWJseSBiZSBhbgogICAgICAjIGVudGl0eSByZXByZXNlbnRpbmcgY29sbGVjdGlvbiBhbmQgaW1wbGVtZW50aW5nIEVudW1lcmFibGUgZXRjLgogICAgICBhbW91bnRfcGFpZCA9PSBhbW91bnRfZHVlX3VudGlsbChEYXRlLnRvZGF5KQogICAgZW5kCgogICAgZGVmIGFtb3VudF9wYWlkCiAgICAgIHBheW1lbnRfYXR0ZW1wdHMuZGV0ZWN0KCY6c3VjY2Vzc2Z1bD8pLnN1bSgmOmFtb3VudCkKICAgIGVuZA==</text>
       </register>
       <register name="-" type="4">
         <text>installment</text>
@@ -440,19 +429,8 @@ end</text>
       <register name="/" type="4">
         <text>last_payment</text>
       </register>
-      <register name="0" type="2">
-        <text>class SetupInstallmentPlan
-  def initialize(repo: PaymentPlanInMemoryRepo.new)
-    @repo = repo
-  end
-
-  def call(deserialized_params, customer_info:)
-    plan = InstallmentPlan.new(deserialized_params)
-    result = plan.request_downpayment(customer_info: customer_info)
-    @repo.save(plan)
-    result
-  end
-end</text>
+      <register name="0" type="4">
+        <text encoding="base64">ICAgZGVmIGxhc3RfM19hdHRlbXB0c19mYWlsZWQ/CiAgICAgIGF0dGVtcHRzID0gcGF5bWVudF9hdHRlbXB0cy5sYXN0KDMpCiAgICAgIGF0dGVtcHRzLmxlbmd0aCA9PSAzICYmIGF0dGVtcHRzLmFsbD8oJjpmYWlsZWQpCiAgICBlbmQKCiAgICBkZWYgcGF5bWVudHNfdXBfdG9fZGF0ZT8KICAgICAgIyBUaGlzIGlzIG9ubHkgYSBzaW1wbGlmaWVkIGV4YW1wbGUuIFBheW1lbnRBdHRlbXB0cyBjb3VsZCBwcm9iYWJseSBiZSBhbgogICAgICAjIGVudGl0eSByZXByZXNlbnRpbmcgY29sbGVjdGlvbiBhbmQgaW1wbGVtZW50aW5nIEVudW1lcmFibGUgZXRjLgogICAgICBhbW91bnRfcGFpZCA9PSBhbW91bnRfZHVlX3VudGlsbChEYXRlLnRvZGF5KQogICAgZW5kCgogICAgZGVmIGFtb3VudF9wYWlkCiAgICAgIHBheW1lbnRfYXR0ZW1wdHMuZGV0ZWN0KCY6c3VjY2Vzc2Z1bD8pLnN1bSgmOmFtb3VudCkKICAgIGVuZA==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
