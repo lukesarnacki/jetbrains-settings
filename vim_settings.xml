@@ -44,11 +44,11 @@
         <entry>wa</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action DebugClass</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action Unsplit</entry>
         <entry>action GotoFile</entry>
         <entry>action FindInPath</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action RecentFiles</entry>
-        <entry>action Unsplit</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -172,9 +172,6 @@
         <mark key="." line="17" column="38" />
         <mark key="^" line="17" column="39" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/charge_installment.rb" timestamp="1590673577440">
-        <mark key="'" line="7" column="19" />
-      </file>
       <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_full_pay_plan_amount.rb" timestamp="1590677487376" />
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api.rb" timestamp="1590677295933">
         <mark key="'" line="41" column="8" />
@@ -189,7 +186,7 @@
         <mark key="^" line="26" column="5" />
         <mark key="." line="26" column="4" />
       </file>
-      <file name="/Ruby Console" timestamp="1590752076619">
+      <file name="/Ruby Console" timestamp="1590753883095">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="24" />
         <mark key="^" line="0" column="24" />
@@ -228,12 +225,14 @@
         <mark key="^" line="75" column="33" />
         <mark key="." line="75" column="32" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/frontoffice_conversion/quote_details.html.haml" timestamp="1590754018989">
+        <mark key="'" line="1" column="33" />
+      </file>
       <file name="$USER_HOME$/projects/payments/app/services/workflow/process_scheduled_installment.rb" timestamp="1590673715216">
         <mark key="'" line="11" column="6" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="577" column="37" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
       <jump line="803" column="74" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
       <jump line="804" column="10" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
       <jump line="809" column="13" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
@@ -333,6 +332,7 @@
       <jump line="2" column="10" filename="$USER_HOME$/projects/payments/app/installments/infra/dispatchers/installment_plan_dispatcher.rb" />
       <jump line="1" column="8" filename="$USER_HOME$/projects/payments/app/installments/domain/ledger.rb" />
       <jump line="31" column="8" filename="$USER_HOME$/projects/payments/app/installments/domain/installment_plan.rb" />
+      <jump line="1" column="33" filename="$USER_HOME$/projects/chopin/app/views/journeys/frontoffice_conversion/quote_details.html.haml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -869,7 +869,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action Unsplit</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
