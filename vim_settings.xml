@@ -133,15 +133,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590759528717">
-        <mark key="'" line="72" column="32" />
-      </file>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590761007148">
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1590994820769">
         <mark key="'" line="32" column="47" />
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="27" column="7" />
-        <mark key="^" line="16" column="87" />
-        <mark key="." line="17" column="0" />
+        <mark key="[" line="23" column="8" />
+        <mark key="]" line="23" column="8" />
+        <mark key="^" line="23" column="8" />
+        <mark key="." line="23" column="7" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/installments/domain/ledger.rb" timestamp="1590737757392">
         <mark key="[" line="0" column="0" />
@@ -149,11 +146,30 @@
         <mark key="^" line="7" column="23" />
         <mark key="." line="7" column="22" />
       </file>
+      <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590679870164">
+        <mark key="j" line="19" column="6" />
+        <mark key="[" line="35" column="44" />
+        <mark key="]" line="35" column="44" />
+        <mark key="." line="35" column="44" />
+        <mark key="^" line="25" column="69" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1590759528717">
+        <mark key="'" line="72" column="32" />
+      </file>
       <file name="$USER_HOME$/projects/payments/app/installments/domain/installment_plan.rb" timestamp="1590749660317">
         <mark key="'" line="31" column="8" />
         <mark key="[" line="90" column="1" />
         <mark key="]" line="103" column="6" />
         <mark key="." line="20" column="0" />
+      </file>
+      <file name="/Ruby Console" timestamp="1590753883095">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="24" />
+        <mark key="^" line="0" column="24" />
+        <mark key="." line="0" column="23" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/resume_installment_plan.rb" timestamp="1590759900669">
+        <mark key="'" line="21" column="21" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/payments_api/installment_plan.rb" timestamp="1590681498867">
         <mark key="'" line="24" column="0" />
@@ -168,53 +184,11 @@
         <mark key="^" line="19" column="8" />
         <mark key="." line="19" column="7" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/models/payment_plan.rb" timestamp="1590759514317">
-        <mark key="'" line="20" column="0" />
-        <mark key="[" line="43" column="15" />
-        <mark key="]" line="43" column="15" />
-        <mark key="^" line="43" column="15" />
-        <mark key="." line="43" column="14" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_card_payment_page_service.rb" timestamp="1590681011770">
-        <mark key="[" line="31" column="52" />
-        <mark key="]" line="26" column="5" />
-        <mark key="^" line="26" column="5" />
-        <mark key="." line="26" column="4" />
-      </file>
-      <file name="/Ruby Console" timestamp="1590753883095">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="24" />
-        <mark key="^" line="0" column="24" />
-        <mark key="." line="0" column="23" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/config/payments_api.yml" timestamp="1590752068068">
         <mark key="'" line="4" column="0" />
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/additional_transaction/integrated_payment_plan_payment_page_service_spec.rb" timestamp="1590682300751">
-        <mark key="'" line="78" column="6" />
-        <mark key="[" line="85" column="61" />
-        <mark key="]" line="85" column="53" />
-        <mark key="^" line="85" column="53" />
-        <mark key="." line="85" column="52" />
-      </file>
-      <file name="$USER_HOME$/projects/payments/app/services/pause_payment_plan_service.rb" timestamp="1590747110939">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="29" column="2" />
-        <mark key="." line="25" column="0" />
-        <mark key="^" line="27" column="10" />
-      </file>
-      <file name="$USER_HOME$/projects/payments/test/services/workflow/adjust_installment_plan_amount_test.rb" timestamp="1590679870164">
-        <mark key="j" line="19" column="6" />
-        <mark key="[" line="35" column="44" />
-        <mark key="]" line="35" column="44" />
-        <mark key="." line="35" column="44" />
-        <mark key="^" line="25" column="69" />
-      </file>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/resume_installment_plan.rb" timestamp="1590759900669">
-        <mark key="'" line="21" column="21" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" timestamp="1590682282264">
         <mark key="'" line="75" column="21" />
@@ -223,8 +197,22 @@
         <mark key="^" line="75" column="33" />
         <mark key="." line="75" column="32" />
       </file>
+      <file name="$USER_HOME$/projects/payments/app/models/payment_plan.rb" timestamp="1590759514317">
+        <mark key="'" line="20" column="0" />
+        <mark key="[" line="43" column="15" />
+        <mark key="]" line="43" column="15" />
+        <mark key="^" line="43" column="15" />
+        <mark key="." line="43" column="14" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/frontoffice_conversion/quote_details.html.haml" timestamp="1590754018989">
         <mark key="'" line="1" column="33" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/spec/journey/additional_transaction/integrated_payment_plan_payment_page_service_spec.rb" timestamp="1590682300751">
+        <mark key="'" line="78" column="6" />
+        <mark key="[" line="85" column="61" />
+        <mark key="]" line="85" column="53" />
+        <mark key="^" line="85" column="53" />
+        <mark key="." line="85" column="52" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/models/installment_plan.rb" timestamp="1590759455073">
         <mark key="'" line="4" column="30" />
@@ -234,6 +222,18 @@
         <mark key="]" line="6" column="3" />
         <mark key="^" line="6" column="3" />
         <mark key="." line="6" column="2" />
+      </file>
+      <file name="$USER_HOME$/projects/payments/app/services/pause_payment_plan_service.rb" timestamp="1590747110939">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="29" column="2" />
+        <mark key="." line="25" column="0" />
+        <mark key="^" line="27" column="10" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_card_payment_page_service.rb" timestamp="1590681011770">
+        <mark key="[" line="31" column="52" />
+        <mark key="]" line="26" column="5" />
+        <mark key="^" line="26" column="5" />
+        <mark key="." line="26" column="4" />
       </file>
     </filemarks>
     <jumps>
