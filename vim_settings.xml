@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>header</entry>
         <entry>addi</entry>
         <entry encoding="base64">XDxhZGRpdGlvbmFsX3BheW1lbnRcPg==</entry>
         <entry>charge_in</entry>
@@ -27,13 +26,13 @@
         <entry>current</entry>
         <entry>last_payment</entry>
         <entry>body</entry>
+        <entry>gatew</entry>
       </history-search>
       <history-cmd>
         <entry>action FindUsages</entry>
         <entry>actionlist</entry>
         <entry>actionlist refactor*</entry>
         <entry>source ~/.ideavimrc</entry>
-        <entry>action GotoClass</entry>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>w</entry>
@@ -41,14 +40,15 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action DebugClass</entry>
         <entry>action Unsplit</entry>
-        <entry>action FindInPath</entry>
-        <entry>action GotoFile</entry>
         <entry>action DebugClassaction DebugClass</entry>
         <entry>wawa</entry>
         <entry>action ActivateTerminalToolWindowaction ActivateTerminalToolWindow</entry>
         <entry>wa</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
+        <entry>action FindInPath</entry>
+        <entry>action GotoFile</entry>
+        <entry>action GotoClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -428,7 +428,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>body</text>
+        <text>gatew</text>
       </register>
       <register name="0" type="4">
         <text>linked_rfqs_and_policies.grep(Rfq)</text>
@@ -872,15 +872,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action GotoClass</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>body</last-search>
+      <last-search>gatew</last-search>
       <last-offset />
-      <last-pattern>body</last-pattern>
+      <last-pattern>gatew</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
