@@ -156,7 +156,8 @@
       <file name="$USER_HOME$/projects/payments/app/services/perform_additional_transaction.rb" timestamp="1590995764808">
         <mark key="'" line="32" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/helpers/backoffice_helper.rb" timestamp="1591095798020">
+      <file name="$USER_HOME$/projects/chopin/app/helpers/backoffice_helper.rb" timestamp="1591103375679">
+        <mark key="'" line="45" column="87" />
         <mark key="[" line="45" column="34" />
         <mark key="]" line="45" column="140" />
         <mark key="^" line="44" column="14" />
@@ -174,12 +175,6 @@
         <mark key="]" line="29" column="5" />
         <mark key="^" line="14" column="23" />
         <mark key="." line="14" column="22" />
-      </file>
-      <file name="$USER_HOME$/projects/payments/app/installments/domain/ledger.rb" timestamp="1590737757392">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="10" column="2" />
-        <mark key="^" line="7" column="23" />
-        <mark key="." line="7" column="22" />
       </file>
       <file name="/fragment.rb" timestamp="1591095915428">
         <mark key="[" line="0" column="0" />
@@ -206,6 +201,11 @@
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" timestamp="1591103573251">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/models/payment_plan.rb" timestamp="1590759514317">
         <mark key="'" line="20" column="0" />
@@ -234,10 +234,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="570" column="28" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
-      <jump line="595" column="28" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
-      <jump line="863" column="11" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
-      <jump line="19" column="13" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
       <jump line="27" column="11" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
       <jump line="811" column="13" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
       <jump line="189" column="8" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/payments_api_spec.rb" />
@@ -334,6 +330,10 @@
       <jump line="45" column="4" filename="$USER_HOME$/projects/chopin/app/models/view/backoffice/view_data_builder.rb" />
       <jump line="47" column="6" filename="$USER_HOME$/projects/chopin/app/models/view/backoffice/view_data_builder.rb" />
       <jump line="20" column="28" filename="$USER_HOME$/projects/chopin/app/views/layouts/backoffice/_navigation.html.haml" />
+      <jump line="45" column="87" filename="$USER_HOME$/projects/chopin/app/helpers/backoffice_helper.rb" />
+      <jump line="6" column="23" filename="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" />
+      <jump line="373" column="8" filename="$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/enumerable.rb" />
+      <jump line="16" column="14" filename="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -417,10 +417,10 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAtIEB2ZXJ0aWNhbHMuZWFjaCBkbyB8dmVydGljYWx8CiAgICAgICAgICA9IHJlbmRlciB2ZXJ0aWNhbF9tZW51KHZlcnRpY2FsKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>(payment_plan, amount_difference)</text>
+        <text encoding="base64">cmZxcy5mbGF0X21hcCgmOm5vdGVzKQ==</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -428,11 +428,11 @@
       <register name="/" type="4">
         <text>body</text>
       </register>
-      <register name="0" type="4">
-        <text>View::Backoffice::NotesSectionViewModel.build(NotesQuery.new(resource).notes, resource, current_admin_user)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIEJlbmNobWFyay5tZWFzdXJlIHsgcmZxcy5mbGF0X21hcCgmOm5vdGVzKSB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAtIEB2ZXJ0aWNhbHMuZWFjaCBkbyB8dmVydGljYWx8CiAgICAgICAgICA9IHJlbmRlciB2ZXJ0aWNhbF9tZW51KHZlcnRpY2FsKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -455,16 +455,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAtIGlmIGRpc3BsYXlfbm90ZXM/CiAgICA9IHJlbmRlciBub3Rlc19zZWN0aW9uX3ZpZXdfbW9kZWwK</text>
+        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5pbmZvIEJlbmNobWFyay5tZWFzdXJlIHsgcmZxcy5mbGF0X21hcCgmOm5vdGVzKSB9CiAgICBSYWlscy5sb2dnZXIuaW5mbyBCZW5jaG1hcmsubWVhc3VyZSB7IGN1c3RvbWVyX2FjY291bnRzLmZsYXRfbWFwKCY6bm90ZXMpIH0K</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgID0gcmVuZGVyIG5vdGVzX3NlY3Rpb25fdmlld19tb2RlbAo=</text>
+        <text encoding="base64">ICAgIG5vdGVzLnVuaXEK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAtIGlmIGRpc3BsYXlfbm90ZXM/CiAgICA9IHJlbmRlciBub3Rlc19zZWN0aW9uX3ZpZXdfbW9kZWwK</text>
+        <text encoding="base64">CiAgICBub3RlcyA9ICArIAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -824,10 +824,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHU6Y3Rpb24gRGVidWdDbGFzc2FjdGlvbiBEZWJ1Z3VDbGFzcwogICAgOmFjdGlvbiBBY3RpdmF0ZVRlcm1pbmFsVG9vbFdpbmRvd2FjdGlvbiBBY3RpdmF0ZVRlcm5hbSByZW5kZXIgbm90ZXNfc2VjdGlvbl92aWV3X21vZGUsIGZvbzogJ2JhcmwK</text>
+        <text encoding="base64">ICAtIGlmIGRpc3BsYXlfbm90ZXM/CiAgICA9IHJlbmRlciBub3Rlc19zZWN0aW9uX3ZpZXdfbW9kZWwK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHU6Y3Rpb24gRGVidWdDbGFzc2FjdGlvbiBEZWJ1Z3VDbGFzcwogICAgOmFjdGlvbiBBY3RpdmF0ZVRlcm1pbmFsVG9vbFdpbmRvd2FjdGlvbiBBY3RpdmF0ZVRlcm5hbFRvdW0gcmVuZGVyIG5vdGVzX3NlY3Rpb25fdmlld19tb2RlLCBmb286ICdiYXJsCg==</text>
+        <text encoding="base64">ICAgID0gcmVuZGVyIG5vdGVzX3NlY3Rpb25fdmlld19tb2RlbAo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -861,10 +861,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAtIGlmIGRpc3BsYXlfbm90ZXM/Cg==</text>
+        <text encoding="base64">ICAtIGlmIGRpc3BsYXlfbm90ZXM/CiAgICA9IHJlbmRlciBub3Rlc19zZWN0aW9uX3ZpZXdfbW9kZWwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiMgQGFkanVzdF9wYXltZW50X3BsYW5fYW1vdW50X3dvcmtmbG93ID0gQWRqdXN0UGF5bWVudFBsYW5BbW91bnQubmV3KAojICAgcGF5bWVudF9wbGFuX2xpc3Q6IEluc3RhbGxtZW50UGxhbkxpc3QsCiMgICBldmVudF9wdWJsaXNoZXI6IEV2ZW50UHVibGlzaGVyOjpJbnN0YWxsbWVudFBsYW5FdmVudAojICkKIwojIEBwZXJmb3JtX2FkZGl0aW9uYWxfdHJhbnNhY3Rpb25fd29ya2Zsb3cgPSBQZXJmb3JtQWRkaXRpb25hbFRyYW5zYWN0aW9uLm5ldwo=</text>
+        <text encoding="base64">ICAgICAgICAtIEB2ZXJ0aWNhbHMuZWFjaCBkbyB8dmVydGljYWx8CiAgICAgICAgICA9IHJlbmRlciB2ZXJ0aWNhbF9tZW51KHZlcnRpY2FsKQo=</text>
       </register>
       <register name="y" type="4">
         <text />
