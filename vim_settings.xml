@@ -42,13 +42,13 @@
         <entry>wawa</entry>
         <entry>action ActivateTerminalToolWindowaction ActivateTerminalToolWindow</entry>
         <entry>wa</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoTest</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoClass</entry>
         <entry>action RecentFiles</entry>
         <entry>action FindInPath</entry>
         <entry>action DebugClass</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -170,6 +170,11 @@
         <mark key="^" line="44" column="14" />
         <mark key="." line="44" column="13" />
       </file>
+      <file name="/Dummy.txt" timestamp="1591175605269">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/segment_manager.rb" timestamp="1591109842293">
         <mark key="'" line="47" column="80" />
       </file>
@@ -182,11 +187,6 @@
       </file>
       <file name="$USER_HOME$/projects/chopin/app/models/native_policy.rb" timestamp="1591109701581">
         <mark key="'" line="38" column="71" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/layouts/backoffice/_navigation.html.haml" timestamp="1591095996232">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" timestamp="1591104877172">
         <mark key="'" line="29" column="43" />
@@ -208,13 +208,13 @@
         <mark key="." line="50" column="6" />
         <mark key="^" line="50" column="7" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1591168353966">
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1591168502519">
         <mark key="b" line="98" column="3" />
         <mark key="'" line="102" column="10" />
-        <mark key="[" line="108" column="36" />
-        <mark key="]" line="108" column="43" />
-        <mark key="." line="108" column="42" />
-        <mark key="^" line="108" column="43" />
+        <mark key="[" line="108" column="46" />
+        <mark key="]" line="109" column="13" />
+        <mark key="." line="109" column="12" />
+        <mark key="^" line="109" column="13" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/clawback_cancellation_transactions_decorator.rb" timestamp="1591158976341">
         <mark key="'" line="22" column="19" />
@@ -406,8 +406,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>payment_ref</text>
+      <register name="*" type="2">
+        <text>Adjust additional transaction header</text>
       </register>
       <register name="-" type="4">
         <text>payment_ref</text>
@@ -422,7 +422,7 @@
         <text encoding="base64">ICBkZXNjcmliZSAnI3BheW1lbnQnIGRvCiAgICBpdCAncmV0dXJucyBwYXltZW50IGluZm9ybWF0aW9uJyBkbwogICAgICB0cmFuc2FjdGlvbiA9IDo6VHJhbnNhY3Rpb246OlBheW1lbnRUcmFuc2FjdGlvbi53aGVyZShyZWZlcmVuY2U6IHNlZ21lbnQucGF5bWVudF9yZWYpLmxhc3QKICAgICAgZXhwZWN0ZWQgPSBPcGVuU3RydWN0Lm5ldygKICAgICAgICB0b3RhbF9ncm9zc19wcmVtaXVtOiBzZWdtZW50LnRvdGFsX2dyb3NzX3ByZW1pdW0sCiAgICAgICAgcGF5bWVudF90eXBlOiBzZWdtZW50LnBheW1lbnRfdHlwZSwKICAgICAgICBwYXltZW50X3JlZmVyZW5jZTogc2VnbWVudC5wYXltZW50X3JlZiwKICAgICAgICBwdXJjaGFzZV90eXBlOiBwb2xpY3kuY29udmVydGVkX2J5X21ldGhvZCwKICAgICAgICBnYXRld2F5X25hbWU6IHRyYW5zYWN0aW9uLnBheW1lbnRfZ2F0ZXdheQogICAgICApCiAgICAgIGV4cGVjdCh2aWV3X21vZGVsLnBheW1lbnQpLnRvIGVxKGV4cGVjdGVkKQogICAgZW5kCiAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgdG90YWxfZ3Jvc3NfcHJlbWl1bSAgPSBAcG9saWN5X3NlZ21lbnQudG90YWxfZ3Jvc3NfcHJlbWl1bQoK</text>
+        <text>Adjust additional transaction header</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -445,16 +445,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBnYXRld2F5X25hbWU6IAo=</text>
+        <text encoding="base64">ICAgICAgdG90YWxfZ3Jvc3NfcHJlbWl1bSAgPSBAcG9saWN5X3NlZ21lbnQudG90YWxfZ3Jvc3NfcHJlbWl1bQoK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlZiBwYXltZW50X3RyYW5zYWN0aW9uCiAgICAgIEBwYXltZW50X3RyYW5zYWN0aW9uIHx8PSA6OlRyYW5zYWN0aW9uOjpQYXltZW50VHJhbnNhY3Rpb24ud2hlcmUocmVmZXJlbmNlOiBAcG9saWN5X3NlZ21lbnQucGF5bWVudF9yZWYpLmZpcnN0CiAgICBlbmQKCiAgICBkZWYgZ2F0ZXdheV9uYW1lCiAgICAgIHBheW1lbnRfdHJhbnNhY3Rpb24ucHJlc2VudD8gPyBwYXltZW50X3RyYW5zYWN0aW9uLnBheW1lbnRfZ2F0ZXdheSA6ICIiCiAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICBnYXRld2F5X25hbWU6IAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuICIiIHVubGVzcyBwYXltZW50X3RyYW5zYWN0aW9uCiAgICAgIHBheW1lbnRfdHJhbnNhY3Rpb24K</text>
+        <text encoding="base64">ICAgIGRlZiBwYXltZW50X3RyYW5zYWN0aW9uCiAgICAgIEBwYXltZW50X3RyYW5zYWN0aW9uIHx8PSA6OlRyYW5zYWN0aW9uOjpQYXltZW50VHJhbnNhY3Rpb24ud2hlcmUocmVmZXJlbmNlOiBAcG9saWN5X3NlZ21lbnQucGF5bWVudF9yZWYpLmZpcnN0CiAgICBlbmQKCiAgICBkZWYgZ2F0ZXdheV9uYW1lCiAgICAgIHBheW1lbnRfdHJhbnNhY3Rpb24ucHJlc2VudD8gPyBwYXltZW50X3RyYW5zYWN0aW9uLnBheW1lbnRfZ2F0ZXdheSA6ICIiCiAgICBlbmQK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -805,7 +805,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuICIiIHVubGVzcyBwYXltZW50X3RyYW5zYWN0aW9uCiAgICAgIHBheW1lbnRfdHJhbnNhY3Rpb24K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -814,10 +814,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5pbmZvIEJlbmNobWFyay5tZWFzdXJlIHsgcmZxcy5mbGF0X21hcCgmOm5vdGVzKSB9CiAgICBSYWlscy5sb2dnZXIuaW5mbyBCZW5jaG1hcmsubWVhc3VyZSB7IGN1c3RvbWVyX2FjY291bnRzLmZsYXRfbWFwKCY6bm90ZXMpIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIG5vdGVzLnVuaXEK</text>
+        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5pbmZvIEJlbmNobWFyay5tZWFzdXJlIHsgcmZxcy5mbGF0X21hcCgmOm5vdGVzKSB9CiAgICBSYWlscy5sb2dnZXIuaW5mbyBCZW5jaG1hcmsubWVhc3VyZSB7IGN1c3RvbWVyX2FjY291bnRzLmZsYXRfbWFwKCY6bm90ZXMpIH0K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -851,16 +851,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICBub3RlcyA9ICArIAo=</text>
+        <text encoding="base64">ICAgIG5vdGVzLnVuaXEK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAtIEB2ZXJ0aWNhbHMuZWFjaCBkbyB8dmVydGljYWx8CiAgICAgICAgICA9IHJlbmRlciB2ZXJ0aWNhbF9tZW51KHZlcnRpY2FsKQo=</text>
+        <text encoding="base64">CiAgICBub3RlcyA9ICArIAo=</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action DebugClass</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
