@@ -136,7 +136,7 @@
       <file name="$USER_HOME$/projects/chopin/app/journey/cancellation/create_cancellation_transition_service.rb" timestamp="1591160653452">
         <mark key="'" line="14" column="22" />
       </file>
-      <file name="/Ruby Console" timestamp="1591167142606">
+      <file name="/Ruby Console" timestamp="1591167550121">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
@@ -201,20 +201,20 @@
       <file name="$USER_HOME$/projects/chopin/app/views/backoffice/policy_segments/show.html.haml" timestamp="1591161493123">
         <mark key="'" line="7" column="55" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" timestamp="1591167535649">
+      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" timestamp="1591167686501">
         <mark key="'" line="44" column="39" />
-        <mark key="[" line="49" column="34" />
-        <mark key="]" line="49" column="34" />
-        <mark key="." line="49" column="34" />
-        <mark key="^" line="43" column="96" />
+        <mark key="[" line="41" column="0" />
+        <mark key="]" line="53" column="5" />
+        <mark key="." line="50" column="6" />
+        <mark key="^" line="50" column="7" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1591166161165">
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1591168353966">
         <mark key="b" line="98" column="3" />
         <mark key="'" line="102" column="10" />
-        <mark key="[" line="86" column="0" />
-        <mark key="]" line="86" column="0" />
-        <mark key="." line="86" column="0" />
-        <mark key="^" line="89" column="45" />
+        <mark key="[" line="108" column="36" />
+        <mark key="]" line="108" column="43" />
+        <mark key="." line="108" column="42" />
+        <mark key="^" line="108" column="43" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/clawback_cancellation_transactions_decorator.rb" timestamp="1591158976341">
         <mark key="'" line="22" column="19" />
@@ -407,10 +407,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>gateway</text>
+        <text>payment_ref</text>
       </register>
       <register name="-" type="4">
-        <text>gateway</text>
+        <text>payment_ref</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -418,8 +418,8 @@
       <register name="/" type="4">
         <text>total_gross</text>
       </register>
-      <register name="0" type="4">
-        <text>::Transaction::PaymentTransaction.where(reference: @policy_segment.payment_ref).last</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICBkZXNjcmliZSAnI3BheW1lbnQnIGRvCiAgICBpdCAncmV0dXJucyBwYXltZW50IGluZm9ybWF0aW9uJyBkbwogICAgICB0cmFuc2FjdGlvbiA9IDo6VHJhbnNhY3Rpb246OlBheW1lbnRUcmFuc2FjdGlvbi53aGVyZShyZWZlcmVuY2U6IHNlZ21lbnQucGF5bWVudF9yZWYpLmxhc3QKICAgICAgZXhwZWN0ZWQgPSBPcGVuU3RydWN0Lm5ldygKICAgICAgICB0b3RhbF9ncm9zc19wcmVtaXVtOiBzZWdtZW50LnRvdGFsX2dyb3NzX3ByZW1pdW0sCiAgICAgICAgcGF5bWVudF90eXBlOiBzZWdtZW50LnBheW1lbnRfdHlwZSwKICAgICAgICBwYXltZW50X3JlZmVyZW5jZTogc2VnbWVudC5wYXltZW50X3JlZiwKICAgICAgICBwdXJjaGFzZV90eXBlOiBwb2xpY3kuY29udmVydGVkX2J5X21ldGhvZCwKICAgICAgICBnYXRld2F5X25hbWU6IHRyYW5zYWN0aW9uLnBheW1lbnRfZ2F0ZXdheQogICAgICApCiAgICAgIGV4cGVjdCh2aWV3X21vZGVsLnBheW1lbnQpLnRvIGVxKGV4cGVjdGVkKQogICAgZW5kCiAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgdG90YWxfZ3Jvc3NfcHJlbWl1bSAgPSBAcG9saWN5X3NlZ21lbnQudG90YWxfZ3Jvc3NfcHJlbWl1bQoK</text>
