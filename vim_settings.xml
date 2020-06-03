@@ -46,9 +46,9 @@
         <entry>action GotoTest</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoClass</entry>
-        <entry>action DebugClass</entry>
         <entry>action RecentFiles</entry>
         <entry>action FindInPath</entry>
+        <entry>action DebugClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -136,7 +136,7 @@
       <file name="$USER_HOME$/projects/chopin/app/journey/cancellation/create_cancellation_transition_service.rb" timestamp="1591160653452">
         <mark key="'" line="14" column="22" />
       </file>
-      <file name="/Ruby Console" timestamp="1591165307842">
+      <file name="/Ruby Console" timestamp="1591167142606">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
@@ -201,12 +201,12 @@
       <file name="$USER_HOME$/projects/chopin/app/views/backoffice/policy_segments/show.html.haml" timestamp="1591161493123">
         <mark key="'" line="7" column="55" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" timestamp="1591166183091">
+      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" timestamp="1591167535649">
         <mark key="'" line="44" column="39" />
-        <mark key="[" line="51" column="39" />
-        <mark key="]" line="51" column="47" />
-        <mark key="." line="51" column="46" />
-        <mark key="^" line="51" column="47" />
+        <mark key="[" line="49" column="34" />
+        <mark key="]" line="49" column="34" />
+        <mark key="." line="49" column="34" />
+        <mark key="^" line="43" column="96" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1591166161165">
         <mark key="b" line="98" column="3" />
@@ -407,10 +407,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>nil</text>
+        <text>gateway</text>
       </register>
       <register name="-" type="4">
-        <text>nil</text>
+        <text>gateway</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -860,7 +860,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action FindInPath</text>
+        <text>action DebugClass</text>
       </register>
     </registers>
   </component>
