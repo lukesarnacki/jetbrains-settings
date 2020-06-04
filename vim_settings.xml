@@ -41,14 +41,14 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>w</entry>
         <entry>109</entry>
-        <entry>action FindInPath</entry>
         <entry>wa</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoClass</entry>
-        <entry>action RecentFiles</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action FindInPath</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -885,7 +885,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
