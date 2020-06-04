@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>amount</entry>
         <entry>update</entry>
         <entry>adjust</entry>
         <entry>failure</entry>
@@ -27,6 +26,7 @@
         <entry>payment_transa</entry>
         <entry>payment</entry>
         <entry>trans</entry>
+        <entry>null</entry>
       </history-search>
       <history-cmd>
         <entry>action FindUsages</entry>
@@ -45,10 +45,10 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoTest</entry>
-        <entry>action RecentFiles</entry>
         <entry>w</entry>
         <entry>action DebugClass</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -155,8 +155,9 @@
         <mark key="." line="3" column="27" />
         <mark key="^" line="3" column="28" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/models/imported_policy.rb" timestamp="1591267326582">
-        <mark key="[" line="107" column="38" />
+      <file name="$USER_HOME$/projects/chopin/app/models/imported_policy.rb" timestamp="1591279280076">
+        <mark key="'" line="4" column="0" />
+        <mark key="[" line="107" column="4" />
         <mark key="]" line="107" column="36" />
         <mark key="^" line="107" column="36" />
         <mark key="." line="107" column="35" />
@@ -218,9 +219,11 @@
         <mark key="^" line="271" column="4" />
         <mark key="." line="271" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/models/transaction/policy_transaction_account_spec.rb" timestamp="1591268856712">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="21" />
+      <file name="$USER_HOME$/projects/chopin/spec/models/transaction/policy_transaction_account_spec.rb" timestamp="1591279267354">
+        <mark key="[" line="29" column="41" />
+        <mark key="]" line="29" column="42" />
+        <mark key="^" line="29" column="42" />
+        <mark key="." line="29" column="41" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1591267204750">
         <mark key="b" line="98" column="3" />
@@ -238,7 +241,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="23" column="7" filename="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" />
       <jump line="32" column="25" filename="$USER_HOME$/projects/payments/app/services/perform_additional_transaction.rb" />
       <jump line="6" column="10" filename="$USER_HOME$/projects/payments/app/services/gateways/stripe_gateway/charge_processor.rb" />
       <jump line="17" column="22" filename="$USER_HOME$/projects/payments/app/services/adjust_installment_plan_with_transaction.rb" />
@@ -338,6 +340,7 @@
       <jump line="268" column="39" filename="$USER_HOME$/projects/chopin/spec/models/imported_policy_spec.rb" />
       <jump line="2" column="47" filename="$USER_HOME$/projects/chopin/spec/models/transaction/null_policy_transaction_account_spec.rb" />
       <jump line="3" column="0" filename="$USER_HOME$/projects/chopin/spec/models/transaction/null_policy_transaction_account_spec.rb" />
+      <jump line="4" column="0" filename="$USER_HOME$/projects/chopin/app/models/imported_policy.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -430,7 +433,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>trans</text>
+        <text>null</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">cmVxdWlyZSAnc3BlY19oZWxwZXInCg==</text>
@@ -874,15 +877,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>trans</last-search>
+      <last-search>null</last-search>
       <last-offset />
-      <last-pattern>trans</last-pattern>
+      <last-pattern>null</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
