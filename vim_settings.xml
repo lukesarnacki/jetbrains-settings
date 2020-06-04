@@ -44,11 +44,11 @@
         <entry>wa</entry>
         <entry>action FindInPath</entry>
         <entry>action GotoFile</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoClass</entry>
         <entry>action RecentFiles</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -136,7 +136,7 @@
       <file name="$USER_HOME$/projects/chopin/app/journey/cancellation/create_cancellation_transition_service.rb" timestamp="1591160653452">
         <mark key="'" line="14" column="22" />
       </file>
-      <file name="/Ruby Console" timestamp="1591250524568">
+      <file name="/Ruby Console" timestamp="1591250576329">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
@@ -201,12 +201,12 @@
       <file name="$USER_HOME$/projects/chopin/app/views/backoffice/policy_segments/show.html.haml" timestamp="1591161493123">
         <mark key="'" line="7" column="55" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" timestamp="1591250549797">
+      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" timestamp="1591250575103">
         <mark key="'" line="43" column="20" />
         <mark key="[" line="43" column="20" />
-        <mark key="]" line="43" column="20" />
-        <mark key="." line="43" column="20" />
-        <mark key="^" line="50" column="7" />
+        <mark key="]" line="43" column="88" />
+        <mark key="." line="43" column="87" />
+        <mark key="^" line="43" column="88" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1591250486635">
         <mark key="b" line="98" column="3" />
@@ -862,7 +862,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action DebugClass</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
