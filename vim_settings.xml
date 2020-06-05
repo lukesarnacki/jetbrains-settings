@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>failure</entry>
-        <entry>negative</entry>
         <entry>fetch_ins</entry>
         <entry>fetch_full</entry>
         <entry encoding="base64">XDxwYXltZW50XD4=</entry>
@@ -27,6 +25,8 @@
         <entry>null</entry>
         <entry>policy-ledger</entry>
         <entry encoding="base64">XDxoYXNfdHJhbnNhY3Rpb25zX2xlZGdlclw+</entry>
+        <entry>busin</entry>
+        <entry>for</entry>
       </history-search>
       <history-cmd>
         <entry>actionlist</entry>
@@ -34,21 +34,21 @@
         <entry>source ~/.ideavimrc</entry>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
-        <entry>action Unsplit</entry>
         <entry>action DebugClassaction DebugClass</entry>
         <entry>wawa</entry>
         <entry>action ActivateTerminalToolWindowaction ActivateTerminalToolWindow</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>w</entry>
         <entry>109</entry>
-        <entry>wa</entry>
-        <entry>action GotoFile</entry>
-        <entry>action GotoClass</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action RecentFiles</entry>
         <entry>action FindInPath</entry>
+        <entry>action Unsplit</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action GotoClass</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action GotoFile</entry>
+        <entry>wa</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,16 +133,17 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Ruby Console" timestamp="1591283949445">
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment.rb" timestamp="1591367442255">
+        <mark key="'" line="1" column="13" />
+      </file>
+      <file name="/Ruby Console" timestamp="1591368240825">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/models/transaction/policy_transaction_account.rb" timestamp="1591268254176">
-        <mark key="'" line="52" column="6" />
-        <mark key="[" line="55" column="0" />
-        <mark key="]" line="57" column="7" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1591367675511">
+        <mark key="'" line="28" column="16" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/models/imported_policy_spec.rb" timestamp="1591283896999">
         <mark key="'" line="260" column="5" />
@@ -180,13 +181,6 @@
         <mark key="^" line="782" column="26" />
         <mark key="." line="782" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/adjust_installment_plan_amount.rb" timestamp="1591249868265">
-        <mark key="'" line="26" column="32" />
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="29" column="5" />
-        <mark key="^" line="14" column="23" />
-        <mark key="." line="14" column="22" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/spec/models/transaction/null_policy_transaction_account_spec.rb" timestamp="1591281239674">
         <mark key="'" line="3" column="0" />
         <mark key="[" line="7" column="0" />
@@ -216,22 +210,22 @@
       <file name="$USER_HOME$/projects/chopin/gems/pimms-capabilities/lib/pimms/capabilities/conditions/can_record_transactions.rb" timestamp="1591281456398">
         <mark key="'" line="7" column="26" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1591368198097">
+        <mark key="'" line="0" column="16" />
+        <mark key="[" line="40" column="5" />
+        <mark key="]" line="34" column="74" />
+        <mark key="^" line="34" column="74" />
+        <mark key="." line="34" column="73" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/models/native_policy.rb" timestamp="1591283737727">
         <mark key="'" line="119" column="19" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/models/transaction/null_policy_transaction_account.rb" timestamp="1591268585692">
-        <mark key="'" line="3" column="7" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="6" column="7" />
-        <mark key="." line="6" column="6" />
-        <mark key="^" line="6" column="7" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" timestamp="1591250575103">
-        <mark key="'" line="43" column="20" />
-        <mark key="[" line="43" column="20" />
-        <mark key="]" line="43" column="88" />
-        <mark key="." line="43" column="87" />
-        <mark key="^" line="43" column="88" />
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591368152367">
+        <mark key="'" line="0" column="22" />
+        <mark key="[" line="7" column="113" />
+        <mark key="]" line="7" column="113" />
+        <mark key="." line="7" column="112" />
+        <mark key="^" line="7" column="113" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/helpers/backoffice/policies_helper.rb" timestamp="1591281433235">
         <mark key="'" line="34" column="83" />
@@ -249,22 +243,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="16" column="44" filename="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" />
-      <jump line="32" column="12" filename="$USER_HOME$/projects/chopin/app/queries/linked_rfqs_and_policies_query.rb" />
-      <jump line="24" column="13" filename="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" />
-      <jump line="33" column="45" filename="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" />
-      <jump line="9" column="6" filename="$USER_HOME$/projects/chopin/app/queries/linked_rfqs_and_policies_query.rb" />
-      <jump line="19" column="42" filename="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" />
-      <jump line="28" column="29" filename="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" />
-      <jump line="25" column="31" filename="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" />
-      <jump line="29" column="43" filename="$USER_HOME$/projects/chopin/app/queries/notes_query.rb" />
-      <jump line="167" column="8" filename="$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/enumerable.rb" />
-      <jump line="66" column="8" filename="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/models/quote.rb" />
-      <jump line="19" column="73" filename="$USER_HOME$/projects/chopin/app/models/quote.rb" />
-      <jump line="102" column="21" filename="$USER_HOME$/projects/chopin/app/models/quote.rb" />
-      <jump line="77" column="43" filename="$USER_HOME$/projects/chopin/app/services/transaction/manager/segment_manager.rb" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
       <jump line="120" column="24" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
       <jump line="122" column="44" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
       <jump line="6" column="30" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
@@ -349,6 +327,22 @@
       <jump line="26" column="2" filename="$USER_HOME$/projects/chopin/gems/pimms-capabilities/spec/pimms/capabilities/conditions/has_transactions_ledger_spec.rb" />
       <jump line="119" column="19" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
       <jump line="260" column="5" filename="$USER_HOME$/projects/chopin/spec/models/imported_policy_spec.rb" />
+      <jump line="1" column="13" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment.rb" />
+      <jump line="28" column="16" filename="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" />
+      <jump line="11" column="32" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
+      <jump line="10" column="10" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
+      <jump line="30" column="20" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
+      <jump line="31" column="32" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="49" column="35" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="7" column="112" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="14" column="17" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="15" column="21" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="16" column="24" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="21" column="27" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="22" column="8" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="0" column="22" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="30" column="20" filename="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" />
+      <jump line="0" column="16" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -432,19 +426,19 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Policy</text>
+        <text>_gateways[payment_method] or raise_invalid_payment_method</text>
       </register>
       <register name="-" type="4">
-        <text>Policy</text>
+        <text>_gateways[payment_method] or raise_invalid_payment_method</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxoYXNfdHJhbnNhY3Rpb25zX2xlZGdlclw+</text>
+        <text>for</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICBpdCAnaGFzIHRyYW5zYWN0aW9ucyBsZWRnZXInIGRvCiAgICBleHBlY3QoUG9saWN5Lm5ldy5oYXNfdHJhbnNhY3Rpb25zX2xlZGdlcj8pLnRvIGJlX3RydXRoeQogIGVuZAo=</text>
+      <register name="0" type="4">
+        <text>journey_state: @journey_state, context: @context</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -885,18 +879,18 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action FindInPath</text>
+        <text>wa</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxoYXNfdHJhbnNhY3Rpb25zX2xlZGdlclw+</last-search>
+      <last-search>for</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxoYXNfdHJhbnNhY3Rpb25zX2xlZGdlclw+</last-pattern>
+      <last-pattern>for</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
   </component>
