@@ -45,10 +45,10 @@
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoClass</entry>
         <entry>w</entry>
-        <entry>action RecentFiles</entry>
-        <entry>action FindInPath</entry>
-        <entry>action GotoFile</entry>
         <entry>wa</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action GotoFile</entry>
+        <entry>action FindInPath</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -196,12 +196,12 @@
       <file name="$USER_HOME$/projects/chopin/config/initializers/feature.rb" timestamp="1591609190781">
         <mark key="'" line="3" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591614540319">
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591616263867">
         <mark key="'" line="38" column="28" />
-        <mark key="[" line="21" column="118" />
-        <mark key="]" line="21" column="124" />
+        <mark key="[" line="21" column="121" />
+        <mark key="]" line="21" column="121" />
         <mark key="^" line="21" column="124" />
-        <mark key="." line="21" column="123" />
+        <mark key="." line="21" column="121" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1591608250600">
         <mark key="'" line="10" column="15" />
@@ -419,11 +419,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAK</text>
+      <register name="*" type="4">
+        <text>foo</text>
       </register>
       <register name="-" type="4">
-        <text>, 'moneysupermarket'</text>
+        <text>foo</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -873,7 +873,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>wa</text>
+        <text>action FindInPath</text>
       </register>
     </registers>
   </component>
