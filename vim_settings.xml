@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>segment</entry>
-        <entry>transaction</entry>
         <entry>payment_ga</entry>
         <entry>total_gross</entry>
         <entry>payment_transa</entry>
@@ -27,6 +25,8 @@
         <entry>payment_stra</entry>
         <entry>paymentstr</entry>
         <entry>provide</entry>
+        <entry>filtered</entry>
+        <entry>param</entry>
       </history-search>
       <history-cmd>
         <entry>actionlist</entry>
@@ -46,9 +46,9 @@
         <entry>action GotoClass</entry>
         <entry>w</entry>
         <entry>action RecentFiles</entry>
-        <entry>wa</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindInPath</entry>
+        <entry>action GotoFile</entry>
+        <entry>wa</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -193,15 +193,15 @@
       <file name="/fragment.rb" timestamp="1591609158407">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/gems/pimms-capabilities/lib/pimms/capabilities/conditions/has_transactions_ledger.rb" timestamp="1591282010914">
-        <mark key="'" line="5" column="39" />
-        <mark key="[" line="5" column="17" />
-        <mark key="]" line="5" column="40" />
-        <mark key="." line="5" column="39" />
-        <mark key="^" line="5" column="40" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/config/initializers/feature.rb" timestamp="1591609190781">
         <mark key="'" line="3" column="13" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591614540319">
+        <mark key="'" line="38" column="28" />
+        <mark key="[" line="21" column="118" />
+        <mark key="]" line="21" column="124" />
+        <mark key="^" line="21" column="124" />
+        <mark key="." line="21" column="123" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1591608250600">
         <mark key="'" line="10" column="15" />
@@ -237,8 +237,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="50" column="0" filename="$USER_HOME$/projects/chopin/spec/queries/previous_payment_transaction_query_spec.rb" />
-      <jump line="2" column="42" filename="$USER_HOME$/projects/chopin/spec/queries/previous_payment_transaction_query_spec.rb" />
       <jump line="6" column="6" filename="$USER_HOME$/projects/chopin/app/queries/previous_payment_transaction_query.rb" />
       <jump line="85" column="8" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="7" column="55" filename="$USER_HOME$/projects/chopin/app/views/backoffice/policy_segments/show.html.haml" />
@@ -337,6 +335,8 @@
       <jump line="3" column="13" filename="$USER_HOME$/projects/chopin/config/initializers/feature.rb" />
       <jump line="0" column="12" filename="$USER_HOME$/projects/chopin/app/helpers/beta_access_helper.rb" />
       <jump line="7" column="12" filename="$USER_HOME$/projects/chopin/app/journey/journey_helpers/backoffice/shared_helper.rb" />
+      <jump line="20" column="21" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="38" column="28" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -429,7 +429,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>provide</text>
+        <text>param</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgY29udGV4dC5mZWF0dXJlc1tmZWF0dXJlX25hbWVdJi5lbmFibGVkPwo=</text>
@@ -873,15 +873,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action FindInPath</text>
+        <text>wa</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>provide</last-search>
+      <last-search>param</last-search>
       <last-offset />
-      <last-pattern>provide</last-pattern>
+      <last-pattern>param</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
