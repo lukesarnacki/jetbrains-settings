@@ -158,13 +158,6 @@
         <mark key="^" line="275" column="26" />
         <mark key="." line="275" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/models/policy.rb" timestamp="1591282633003">
-        <mark key="'" line="260" column="6" />
-        <mark key="[" line="260" column="0" />
-        <mark key="]" line="262" column="5" />
-        <mark key="^" line="261" column="8" />
-        <mark key="." line="261" column="7" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/models/transaction/base.rb" timestamp="1591594552219">
         <mark key="[" line="72" column="27" />
         <mark key="]" line="72" column="28" />
@@ -177,6 +170,9 @@
         <mark key="]" line="20" column="75" />
         <mark key="." line="20" column="74" />
         <mark key="^" line="20" column="75" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/concerns/journey_controller_concern.rb" timestamp="1591616460970">
+        <mark key="'" line="6" column="32" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/models/native_policy_spec.rb" timestamp="1591283886088">
         <mark key="[" line="782" column="11" />
@@ -196,12 +192,12 @@
       <file name="$USER_HOME$/projects/chopin/config/initializers/feature.rb" timestamp="1591609190781">
         <mark key="'" line="3" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591616263867">
-        <mark key="'" line="38" column="28" />
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591616409792">
+        <mark key="'" line="15" column="21" />
         <mark key="[" line="21" column="121" />
-        <mark key="]" line="21" column="121" />
-        <mark key="^" line="21" column="124" />
-        <mark key="." line="21" column="121" />
+        <mark key="]" line="37" column="0" />
+        <mark key="^" line="37" column="0" />
+        <mark key="." line="37" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1591608250600">
         <mark key="'" line="10" column="15" />
@@ -237,9 +233,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="6" filename="$USER_HOME$/projects/chopin/app/queries/previous_payment_transaction_query.rb" />
-      <jump line="85" column="8" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="7" column="55" filename="$USER_HOME$/projects/chopin/app/views/backoffice/policy_segments/show.html.haml" />
       <jump line="158" column="34" filename="$USER_HOME$/projects/chopin/app/models/policy/segment.rb" />
       <jump line="259" column="0" filename="$USER_HOME$/projects/chopin/app/models/policy/segment.rb" />
       <jump line="373" column="15" filename="$USER_HOME$/projects/chopin/app/models/policy/segment.rb" />
@@ -335,8 +328,11 @@
       <jump line="3" column="13" filename="$USER_HOME$/projects/chopin/config/initializers/feature.rb" />
       <jump line="0" column="12" filename="$USER_HOME$/projects/chopin/app/helpers/beta_access_helper.rb" />
       <jump line="7" column="12" filename="$USER_HOME$/projects/chopin/app/journey/journey_helpers/backoffice/shared_helper.rb" />
-      <jump line="20" column="21" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="38" column="28" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="20" column="16" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="16" column="24" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="15" column="21" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="6" column="32" filename="$USER_HOME$/projects/chopin/app/concerns/journey_controller_concern.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
