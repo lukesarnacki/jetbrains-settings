@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>last_pay</entry>
         <entry>current</entry>
         <entry>last_payment</entry>
         <entry>body</entry>
@@ -27,6 +26,7 @@
         <entry>UK_PAYMENT</entry>
         <entry>provider</entry>
         <entry>team</entry>
+        <entry>enabled</entry>
       </history-search>
       <history-cmd>
         <entry>actionlist</entry>
@@ -44,11 +44,11 @@
         <entry>action Unsplit</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>wa</entry>
-        <entry>action RecentFiles</entry>
-        <entry>action FindInPath</entry>
         <entry>action GotoClass</entry>
         <entry>action GotoFile</entry>
         <entry>w</entry>
+        <entry>action FindInPath</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -142,8 +142,8 @@
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="38" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/models/admin_user.rb" timestamp="1591599460601">
-        <mark key="'" line="29" column="30" />
+      <file name="$USER_HOME$/projects/chopin/app/models/admin_user.rb" timestamp="1591603844568">
+        <mark key="'" line="100" column="12" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1591367675511">
         <mark key="'" line="28" column="16" />
@@ -217,15 +217,16 @@
       <file name="$USER_HOME$/projects/chopin/app/models/native_policy.rb" timestamp="1591283737727">
         <mark key="'" line="119" column="19" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591599086651">
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591603940136">
         <mark key="'" line="4" column="99" />
-        <mark key="[" line="67" column="6" />
-        <mark key="]" line="67" column="7" />
-        <mark key="^" line="67" column="7" />
-        <mark key="." line="67" column="6" />
+        <mark key="[" line="67" column="60" />
+        <mark key="]" line="67" column="60" />
+        <mark key="." line="67" column="59" />
+        <mark key="^" line="67" column="60" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/helpers/backoffice/policies_helper.rb" timestamp="1591281433235">
-        <mark key="'" line="34" column="83" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/journey_helpers/enabled_features.rb" timestamp="1591603920511">
+        <mark key="[" line="35" column="0" />
+        <mark key="]" line="35" column="92" />
       </file>
       <file name="$USER_HOME$/projects/chopin/config/features/stripe_uk_enabled_allowed_users.yml" timestamp="1591603257605">
         <mark key="[" line="10" column="6" />
@@ -233,16 +234,14 @@
         <mark key="^" line="11" column="1" />
         <mark key="." line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/config/feature.yml" timestamp="1591603687141">
+      <file name="$USER_HOME$/projects/chopin/config/feature.yml" timestamp="1591603689295">
         <mark key="[" line="56" column="15" />
-        <mark key="]" line="56" column="15" />
-        <mark key="^" line="23" column="19" />
-        <mark key="." line="56" column="15" />
+        <mark key="]" line="56" column="20" />
+        <mark key="^" line="56" column="20" />
+        <mark key="." line="56" column="19" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="19" filename="$USER_HOME$/projects/chopin/app/services/transaction/manager/clawback_cancellation_transactions_decorator.rb" />
-      <jump line="337" column="18" filename="$USER_HOME$/projects/chopin/app/models/policy/segment.rb" />
       <jump line="302" column="4" filename="$USER_HOME$/projects/chopin/app/models/policy/segment.rb" />
       <jump line="0" column="1" filename="$USER_HOME$/projects/chopin/app/models/policy/segment.rb" />
       <jump line="82" column="21" filename="$USER_HOME$/projects/chopin/lib/transaction/manual_transaction_factory.rb" />
@@ -341,6 +340,8 @@
       <jump line="12" column="15" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
       <jump line="28" column="27" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
       <jump line="29" column="30" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
+      <jump line="65" column="16" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
+      <jump line="100" column="12" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -424,19 +425,19 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>true</text>
+        <text>, 'moneysupermarket'</text>
       </register>
       <register name="-" type="4">
-        <text>true</text>
+        <text>, 'moneysupermarket'</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>team</text>
+        <text>enabled</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHN0cmlwZV91azogdHJ1ZQo=</text>
+        <text encoding="base64">ICAgICAgZmVhdHVyZV9lbmFibGVkPyg6bXNtX3VuaWZpZWRfcWNwX2IpICYmIHNpdGVzPyhbJ3NpbXBseWJ1c2luZXNzJywgJ21vbmV5c3VwZXJtYXJrZXQnXSkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -462,16 +463,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">SW1wb3J0ZWRQb2xpY3kgZG9lc24ndCBoYXZlIHJlbGF0aW9uIHdpdGggVHJhbnNhY3Rpb246OlBvbGljeVRyYW5zYWN0aW9uQWNjb3VudC4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGV4cGVjdAo=</text>
+        <text encoding="base64">SW1wb3J0ZWRQb2xpY3kgZG9lc24ndCBoYXZlIHJlbGF0aW9uIHdpdGggVHJhbnNhY3Rpb246OlBvbGljeVRyYW5zYWN0aW9uQWNjb3VudC4K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHBlbmRpbmcgJ05vdCBpbXBsZW1lbnRlZCcK</text>
+        <text encoding="base64">ICAgIGV4cGVjdAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -822,7 +823,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBlbmQK</text>
+        <text encoding="base64">ICAgIHBlbmRpbmcgJ05vdCBpbXBsZW1lbnRlZCcK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -831,10 +832,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBjb250ZXh0ICd3aGVuIGNvbmRpdGlvbicgZG8K</text>
+        <text encoding="base64">ICBlbmQK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBjb250ZXh0ICd3aGVuIGNvbmRpdGlvbicgZG8K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -868,24 +869,24 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBiZWZvcmUgZG8KICAgICMgRG8gbm90aGluZwogIGVuZAoKICBhZnRlciBkbwogICAgIyBEbyBub3RoaW5nCiAgZW5kCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="4">
-        <text>''</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICBiZWZvcmUgZG8KICAgICMgRG8gbm90aGluZwogIGVuZAoKICBhZnRlciBkbwogICAgIyBEbyBub3RoaW5nCiAgZW5kCg==</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>team</last-search>
+      <last-search>enabled</last-search>
       <last-offset />
-      <last-pattern>team</last-pattern>
+      <last-pattern>enabled</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
