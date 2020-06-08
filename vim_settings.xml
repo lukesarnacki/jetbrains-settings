@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>payment_transa</entry>
         <entry>payment</entry>
         <entry>trans</entry>
         <entry>null</entry>
@@ -27,6 +26,7 @@
         <entry>param</entry>
         <entry>data</entry>
         <entry>journey</entry>
+        <entry>request</entry>
       </history-search>
       <history-cmd>
         <entry>actionlist</entry>
@@ -47,8 +47,8 @@
         <entry>w</entry>
         <entry>action GotoFile</entry>
         <entry>wa</entry>
-        <entry>action FindInPath</entry>
         <entry>action RecentFiles</entry>
+        <entry>action FindInPath</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -151,12 +151,11 @@
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1591367675511">
         <mark key="'" line="28" column="16" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" timestamp="1591620041133">
-        <mark key="'" line="32" column="50" />
-        <mark key="[" line="67" column="32" />
-        <mark key="]" line="67" column="31" />
-        <mark key="^" line="67" column="31" />
-        <mark key="." line="67" column="30" />
+      <file name="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" timestamp="1591621823057">
+        <mark key="'" line="11" column="30" />
+        <mark key="[" line="47" column="29" />
+        <mark key="]" line="52" column="0" />
+        <mark key="." line="52" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/models/imported_policy_spec.rb" timestamp="1591283896999">
         <mark key="'" line="260" column="5" />
@@ -182,10 +181,14 @@
         <mark key="^" line="782" column="26" />
         <mark key="." line="782" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/journey_service/path_helper.rb" timestamp="1591619973157">
+      <file name="$USER_HOME$/projects/chopin/app/services/journey_service/path_helper.rb" timestamp="1591621756404">
         <mark key="'" line="13" column="6" />
+        <mark key="[" line="14" column="5" />
+        <mark key="]" line="14" column="2" />
+        <mark key="^" line="14" column="2" />
+        <mark key="." line="14" column="1" />
       </file>
-      <file name="/fragment.rb" timestamp="1591609158407">
+      <file name="/fragment.rb" timestamp="1591620096672">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/config/initializers/feature.rb" timestamp="1591609190781">
@@ -232,12 +235,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="7" column="23" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" />
-      <jump line="15" column="6" filename="$USER_HOME$/projects/chopin/app/controllers/ci5/your_documents_controller.rb" />
-      <jump line="102" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="4" column="6" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="61" column="0" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" />
-      <jump line="41" column="13" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" />
       <jump line="43" column="20" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/policy_segment_view_model_factory_spec.rb" />
       <jump line="45" column="6" filename="$USER_HOME$/projects/chopin/app/models/transaction/policy_transaction_account.rb" />
       <jump line="19" column="41" filename="$USER_HOME$/projects/chopin/app/models/transaction/policy_transaction_account.rb" />
@@ -329,9 +326,15 @@
       <jump line="13" column="6" filename="$USER_HOME$/projects/chopin/app/services/journey_service/path_helper.rb" />
       <jump line="49" column="33" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
       <jump line="33" column="6" filename="$USER_HOME$/projects/chopin/app/services/journey_service/path_helper.rb" />
-      <jump line="13" column="28" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
       <jump line="14" column="14" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
       <jump line="32" column="50" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
+      <jump line="17" column="19" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
+      <jump line="18" column="6" filename="$USER_HOME$/projects/chopin/app/services/journey_service/path_helper.rb" />
+      <jump line="56" column="23" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
+      <jump line="13" column="103" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
+      <jump line="20" column="164" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
+      <jump line="11" column="30" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
+      <jump line="14" column="4" filename="$USER_HOME$/projects/chopin/app/services/journey_service/path_helper.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -415,7 +418,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBiYXI6ICdiYXonCg==</text>
+        <text encoding="base64">ICAgIGFsbG93ZWRfcGFyYW1zCg==</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -424,13 +427,13 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>journey</text>
+        <text>request</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgY29udGV4dC5mZWF0dXJlc1tmZWF0dXJlX25hbWVdJi5lbmFibGVkPwo=</text>
+        <text encoding="base64">ICAgIGF0dHJpYnV0ZXMubWVyZ2UhKGF0dHJpYnV0ZXNfZnJvbV9zZXNzaW9uKHNlc3Npb25fZGF0YSkpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBiYXI6ICdiYXonCg==</text>
+        <text encoding="base64">ICAgIGFsbG93ZWRfcGFyYW1zCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -453,16 +456,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">bW9kdWxlIEpvdXJuZXlDb250cm9sbGVyQ29uY2VybgogIGluY2x1ZGUgQW5zd2VyU2V0SGVscGVycwoKICBkZWYgbmV3CiAgICByZXR1cm4gcmVuZGVyXzQwNCB1bmxlc3Mgam91cm5leV9zZXJ2aWNlCgogICAgcmVkaXJlY3RfdG8gam91cm5leV9yb3V0ZV9tZXRob2QoewogICAgICB2ZXJ0aWNhbDogam91cm5leV9zZXJ2aWNlLnZlcnRpY2FsX25hbWUsCiAgICAgIG5hbWU6IGpvdXJuZXlfc2VydmljZS5qb3VybmV5X25hbWUsCiAgICAgIHN0ZXA6IGpvdXJuZXkuY3VycmVudF9zdGVwLm5hbWUsCiAgICAgIGpvdXJuZXlfaWQ6IGpvdXJuZXkuaWQKICAgIH0pCiAgcmVzY3VlIEpvdXJuZXlEZWZpbml0aW9uTm90Rm91bmRFcnJvcgogICAgcmVuZGVyXzQwNAogIGVuZAoKICBkZWYgcm91dGVfdHJhZGUKICAgIGpvdXJuZXkgPSBKb3VybmV5OjpKb3VybmV5UmVwb3NpdG9yeS5maW5kKHBhcmFtc1s6am91cm5leV9pZF0sIHdlYl9zZXNzaW9uOiBzZXNzaW9uLmlkKQogICAgYW5zd2VyX3NldCA9IG5ld19hbnN3ZXJfc2V0X2Zyb21fcGFyYW1zKHBhcmFtcywgdmVydGljYWwpCgogICAgcmVkaXJlY3RfdG8gbmV3X2JhY2tvZmZpY2Vfam91cm5leV9wYXRoKGpvdXJuZXlfbmFtZTogJ2JhY2tvZmZpY2VfbmV3X2J1c2luZXNzJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2ZXJ0aWNhbF9uYW1lOiBwYXJhbXNbJ3ZlcnRpY2FsJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VzdG9tZXJfaWQ6IGpvdXJuZXkuam91cm5leV9kYXRhWydjdXN0b21lcl9pZCddLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1c3RvbWVyX2FjY291bnRfaWQ6IGpvdXJuZXkuam91cm5leV9kYXRhWydjdXN0b21lcl9hY2NvdW50X2lkJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5zd2VyX3NldF9pZDogYW5zd2VyX3NldCA/IGFuc3dlcl9zZXQudXVpZCA6IG5pbCkKICBlbmQKCiAgcHJpdmF0ZQoKICBkZWYgam91cm5leV9yb3V0ZV9tZXRob2QocGFyYW1zKQo=</text>
+        <text encoding="base64">ICAgICAgICBiYXI6ICdiYXonCg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">bW9kdWxlIEpvdXJuZXlDb250cm9sbGVyQ29uY2VybgogIGluY2x1ZGUgQW5zd2VyU2V0SGVscGVycwoKICBkZWYgbmV3CiAgICByZXR1cm4gcmVuZGVyXzQwNCB1bmxlc3Mgam91cm5leV9zZXJ2aWNlCgogICAgcmVkaXJlY3RfdG8gam91cm5leV9yb3V0ZV9tZXRob2QoewogICAgICB2ZXJ0aWNhbDogam91cm5leV9zZXJ2aWNlLnZlcnRpY2FsX25hbWUsCiAgICAgIG5hbWU6IGpvdXJuZXlfc2VydmljZS5qb3VybmV5X25hbWUsCiAgICAgIHN0ZXA6IGpvdXJuZXkuY3VycmVudF9zdGVwLm5hbWUsCiAgICAgIGpvdXJuZXlfaWQ6IGpvdXJuZXkuaWQKICAgIH0pCiAgcmVzY3VlIEpvdXJuZXlEZWZpbml0aW9uTm90Rm91bmRFcnJvcgogICAgcmVuZGVyXzQwNAogIGVuZAoKICBkZWYgcm91dGVfdHJhZGUKICAgIGpvdXJuZXkgPSBKb3VybmV5OjpKb3VybmV5UmVwb3NpdG9yeS5maW5kKHBhcmFtc1s6am91cm5leV9pZF0sIHdlYl9zZXNzaW9uOiBzZXNzaW9uLmlkKQogICAgYW5zd2VyX3NldCA9IG5ld19hbnN3ZXJfc2V0X2Zyb21fcGFyYW1zKHBhcmFtcywgdmVydGljYWwpCgogICAgcmVkaXJlY3RfdG8gbmV3X2JhY2tvZmZpY2Vfam91cm5leV9wYXRoKGpvdXJuZXlfbmFtZTogJ2JhY2tvZmZpY2VfbmV3X2J1c2luZXNzJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2ZXJ0aWNhbF9uYW1lOiBwYXJhbXNbJ3ZlcnRpY2FsJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VzdG9tZXJfaWQ6IGpvdXJuZXkuam91cm5leV9kYXRhWydjdXN0b21lcl9pZCddLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1c3RvbWVyX2FjY291bnRfaWQ6IGpvdXJuZXkuam91cm5leV9kYXRhWydjdXN0b21lcl9hY2NvdW50X2lkJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5zd2VyX3NldF9pZDogYW5zd2VyX3NldCA/IGFuc3dlcl9zZXQudXVpZCA6IG5pbCkKICBlbmQKCiAgcHJpdmF0ZQoKICBkZWYgam91cm5leV9yb3V0ZV9tZXRob2QocGFyYW1zKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBkZQo=</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -813,7 +816,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBkZQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -825,7 +828,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">SW1wb3J0ZWRQb2xpY3kgZG9lc24ndCBoYXZlIHJlbGF0aW9uIHdpdGggVHJhbnNhY3Rpb246OlBvbGljeVRyYW5zYWN0aW9uQWNjb3VudC4K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -859,24 +862,24 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGV4cGVjdAo=</text>
+        <text encoding="base64">SW1wb3J0ZWRQb2xpY3kgZG9lc24ndCBoYXZlIHJlbGF0aW9uIHdpdGggVHJhbnNhY3Rpb246OlBvbGljeVRyYW5zYWN0aW9uQWNjb3VudC4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHBlbmRpbmcgJ05vdCBpbXBsZW1lbnRlZCcK</text>
+        <text encoding="base64">ICAgIGV4cGVjdAo=</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action FindInPath</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>journey</last-search>
+      <last-search>request</last-search>
       <last-offset />
-      <last-pattern>journey</last-pattern>
+      <last-pattern>request</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
