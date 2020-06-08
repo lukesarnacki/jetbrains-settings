@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>fetch_ins</entry>
         <entry>fetch_full</entry>
         <entry encoding="base64">XDxwYXltZW50XD4=</entry>
         <entry>last_pay</entry>
@@ -27,6 +26,7 @@
         <entry encoding="base64">XDxoYXNfdHJhbnNhY3Rpb25zX2xlZGdlclw+</entry>
         <entry>busin</entry>
         <entry>for</entry>
+        <entry>UK_PAYMENT</entry>
       </history-search>
       <history-cmd>
         <entry>actionlist</entry>
@@ -220,11 +220,8 @@
       <file name="$USER_HOME$/projects/chopin/app/models/native_policy.rb" timestamp="1591283737727">
         <mark key="'" line="119" column="19" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591368152367">
-        <mark key="'" line="0" column="22" />
-        <mark key="[" line="7" column="113" />
-        <mark key="]" line="7" column="113" />
-        <mark key="." line="7" column="112" />
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591592865612">
+        <mark key="'" line="1" column="31" />
         <mark key="^" line="7" column="113" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/helpers/backoffice/policies_helper.rb" timestamp="1591281433235">
@@ -243,10 +240,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="120" column="24" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
-      <jump line="122" column="44" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
-      <jump line="6" column="30" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
-      <jump line="7" column="30" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
       <jump line="8" column="30" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
       <jump line="38" column="71" filename="$USER_HOME$/projects/chopin/app/models/native_policy.rb" />
       <jump line="53" column="42" filename="$USER_HOME$/projects/chopin/app/controllers/backoffice/policy_segments_controller.rb" />
@@ -333,16 +326,20 @@
       <jump line="10" column="10" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="30" column="20" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="31" column="32" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
-      <jump line="49" column="35" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="7" column="112" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="14" column="17" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="15" column="21" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
-      <jump line="16" column="24" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="21" column="27" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="22" column="8" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="0" column="22" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="30" column="20" filename="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" />
       <jump line="0" column="16" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
+      <jump line="4" column="29" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="49" column="25" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="3" column="15" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="47" column="19" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="16" column="19" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
+      <jump line="1" column="31" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -425,8 +422,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>_gateways[payment_method] or raise_invalid_payment_method</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIFRyYW5zYWN0aW9uOjpQYXltZW50VHJhbnNhY3Rpb246OlBBWU1FTlRfTUVUSE9EU1s6Y3JlZGl0X2NhcmRdICA9PiBUcmFuc2FjdGlvbjo6QmFzZTo6UEFZTUVOVF9HQVRFV0FZU1s6c2FnZXBheV0sCg==</text>
       </register>
       <register name="-" type="4">
         <text>_gateways[payment_method] or raise_invalid_payment_method</text>
@@ -435,10 +432,10 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>for</text>
+        <text>UK_PAYMENT</text>
       </register>
-      <register name="0" type="4">
-        <text>journey_state: @journey_state, context: @context</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIFRyYW5zYWN0aW9uOjpQYXltZW50VHJhbnNhY3Rpb246OlBBWU1FTlRfTUVUSE9EU1s6Y3JlZGl0X2NhcmRdICA9PiBUcmFuc2FjdGlvbjo6QmFzZTo6UEFZTUVOVF9HQVRFV0FZU1s6c2FnZXBheV0sCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -885,9 +882,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>for</last-search>
+      <last-search>UK_PAYMENT</last-search>
       <last-offset />
-      <last-pattern>for</last-pattern>
+      <last-pattern>UK_PAYMENT</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
