@@ -41,7 +41,6 @@
         <entry>109</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
-        <entry>action Unsplit</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoClass</entry>
         <entry>w</entry>
@@ -49,6 +48,7 @@
         <entry>action FindInPath</entry>
         <entry>wa</entry>
         <entry>action RecentFiles</entry>
+        <entry>action Unsplit</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -185,19 +185,13 @@
         <mark key="[" line="44" column="0" />
         <mark key="]" line="44" column="46" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/config/features/stripe_uk_enabled_allowed_users.yml" timestamp="1591603257605">
-        <mark key="[" line="10" column="6" />
-        <mark key="]" line="11" column="1" />
-        <mark key="^" line="11" column="1" />
-        <mark key="." line="11" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/config/feature.yml" timestamp="1591603689295">
         <mark key="[" line="56" column="15" />
         <mark key="]" line="56" column="20" />
         <mark key="^" line="56" column="20" />
         <mark key="." line="56" column="19" />
       </file>
-      <file name="/Ruby Console" timestamp="1591635840699">
+      <file name="/Ruby Console" timestamp="1591638974104">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
@@ -221,15 +215,21 @@
         <mark key="^" line="14" column="2" />
         <mark key="." line="14" column="1" />
       </file>
+      <file name="/Dummy.txt" timestamp="1591639493299">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="2" column="73" />
+        <mark key="^" line="0" column="124" />
+        <mark key="." line="2" column="73" />
+      </file>
       <file name="/fragment.rb" timestamp="1591620096672">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591638503779">
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591639455395">
         <mark key="'" line="125" column="18" />
-        <mark key="[" line="131" column="0" />
-        <mark key="]" line="131" column="0" />
-        <mark key="." line="131" column="0" />
-        <mark key="^" line="131" column="0" />
+        <mark key="[" line="129" column="8" />
+        <mark key="]" line="129" column="8" />
+        <mark key="." line="129" column="7" />
+        <mark key="^" line="129" column="8" />
       </file>
       <file name="$USER_HOME$/projects/chopin/Gemfile" timestamp="1591635515051">
         <mark key="'" line="345" column="15" />
@@ -418,11 +418,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">CiAgICAgIEZsaXBGYWIuZmVhdHVyZXMuZWFjaCBkbyB8bmFtZXwKICAgICAgICByZXF1ZXN0LnBhcmFtcy5rZXlzLmluY2x1ZGU/KG5hbWUudG9fcykKICAgICAgZW5kCg==</text>
+      <register name="*" type="4">
+        <text>FlipFab.</text>
       </register>
       <register name="-" type="4">
-        <text>%w(enabled disabled)</text>
+        <text>FlipFab.</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -434,7 +434,7 @@
         <text>stripe_payment_intent</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICAgIEZsaXBGYWIuZmVhdHVyZXMuZWFjaCBkbyB8bmFtZXwKICAgICAgICByZXF1ZXN0LnBhcmFtcy5rZXlzLmluY2x1ZGU/KG5hbWUudG9fcykKICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgdHJ1ZQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -457,16 +457,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBuYW1lCg==</text>
+        <text encoding="base64">CiAgICAgIEZsaXBGYWIuZmVhdHVyZXMuZWFjaCBkbyB8bmFtZXwKICAgICAgICByZXF1ZXN0LnBhcmFtcy5rZXlzLmluY2x1ZGU/KG5hbWUudG9fcykKICAgICAgZW5kCg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
+        <text encoding="base64">ICAgICAgICBuYW1lCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGF0dHJpYnV0ZXMubWVyZ2UodXJsX3BhcmFtX2ZsYWdzKQo=</text>
+        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -817,7 +817,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
+        <text encoding="base64">ICAgIGF0dHJpYnV0ZXMubWVyZ2UodXJsX3BhcmFtX2ZsYWdzKQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -826,10 +826,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGRlZiBpbml0aWFsaXplKCkK</text>
+        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGRlZiBpbml0aWFsaXplKCkK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -863,16 +863,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGFsbG93ZWRfcGFyYW1zCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBiYXI6ICdiYXonCg==</text>
+        <text encoding="base64">ICAgIGFsbG93ZWRfcGFyYW1zCg==</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action Unsplit</text>
       </register>
     </registers>
   </component>
