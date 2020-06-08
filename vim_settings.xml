@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxwYXltZW50XD4=</entry>
         <entry>last_pay</entry>
         <entry>current</entry>
         <entry>last_payment</entry>
@@ -27,6 +26,7 @@
         <entry>for</entry>
         <entry>UK_PAYMENT</entry>
         <entry>provider</entry>
+        <entry>team</entry>
       </history-search>
       <history-cmd>
         <entry>actionlist</entry>
@@ -44,11 +44,11 @@
         <entry>action DebugClass</entry>
         <entry>action Unsplit</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>wa</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action FindInPath</entry>
         <entry>action GotoClass</entry>
         <entry>action GotoFile</entry>
-        <entry>wa</entry>
-        <entry>action FindInPath</entry>
-        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -142,6 +142,9 @@
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="38" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/models/admin_user.rb" timestamp="1591599460601">
+        <mark key="'" line="29" column="30" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1591367675511">
         <mark key="'" line="28" column="16" />
       </file>
@@ -181,12 +184,6 @@
         <mark key="^" line="782" column="26" />
         <mark key="." line="782" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/models/transaction/null_policy_transaction_account_spec.rb" timestamp="1591281239674">
-        <mark key="'" line="3" column="0" />
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
-      </file>
       <file name="/Dummy.txt" timestamp="1591283498772">
         <mark key="[" line="2" column="73" />
         <mark key="]" line="2" column="73" />
@@ -220,33 +217,27 @@
       <file name="$USER_HOME$/projects/chopin/app/models/native_policy.rb" timestamp="1591283737727">
         <mark key="'" line="119" column="19" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591596020641">
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591599086651">
         <mark key="'" line="4" column="99" />
         <mark key="[" line="67" column="6" />
-        <mark key="]" line="4" column="101" />
-        <mark key="^" line="4" column="101" />
-        <mark key="." line="4" column="100" />
+        <mark key="]" line="67" column="7" />
+        <mark key="^" line="67" column="7" />
+        <mark key="." line="67" column="6" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/helpers/backoffice/policies_helper.rb" timestamp="1591281433235">
         <mark key="'" line="34" column="83" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1591280130217">
-        <mark key="b" line="98" column="3" />
-        <mark key="'" line="4" column="6" />
-        <mark key="[" line="108" column="0" />
-        <mark key="]" line="108" column="0" />
-        <mark key="." line="108" column="0" />
-        <mark key="^" line="106" column="8" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/views/backoffice/policies/_policy_tabs.haml" timestamp="1591281420652">
         <mark key="'" line="17" column="151" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/config/feature.yml" timestamp="1591599845743">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="28" />
+        <mark key="^" line="23" column="28" />
+        <mark key="." line="23" column="27" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="28" column="51" filename="$USER_HOME$/projects/chopin/app/models/policy/segment.rb" />
-      <jump line="27" column="32" filename="$USER_HOME$/projects/chopin/app/services/direct_debit_payment_service.rb" />
-      <jump line="47" column="80" filename="$USER_HOME$/projects/chopin/app/services/transaction/manager/segment_manager.rb" />
-      <jump line="12" column="20" filename="$USER_HOME$/projects/chopin/app/services/transaction/manager/payment_transactions_builder.rb" />
       <jump line="22" column="19" filename="$USER_HOME$/projects/chopin/app/services/transaction/manager/clawback_cancellation_transactions_decorator.rb" />
       <jump line="337" column="18" filename="$USER_HOME$/projects/chopin/app/models/policy/segment.rb" />
       <jump line="302" column="4" filename="$USER_HOME$/projects/chopin/app/models/policy/segment.rb" />
@@ -302,7 +293,6 @@
       <jump line="2" column="47" filename="$USER_HOME$/projects/chopin/spec/models/transaction/null_policy_transaction_account_spec.rb" />
       <jump line="3" column="0" filename="$USER_HOME$/projects/chopin/spec/models/transaction/null_policy_transaction_account_spec.rb" />
       <jump line="4" column="0" filename="$USER_HOME$/projects/chopin/app/models/imported_policy.rb" />
-      <jump line="24" column="6" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
       <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/gems/pimms-capabilities/lib/pimms/capabilities/registry.rb" />
       <jump line="17" column="151" filename="$USER_HOME$/projects/chopin/app/views/backoffice/policies/_policy_tabs.haml" />
       <jump line="34" column="83" filename="$USER_HOME$/projects/chopin/app/helpers/backoffice/policies_helper.rb" />
@@ -343,6 +333,11 @@
       <jump line="3" column="16" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="4" column="99" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="72" column="27" filename="$USER_HOME$/projects/chopin/app/models/transaction/base.rb" />
+      <jump line="24" column="6" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
+      <jump line="36" column="65" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
+      <jump line="12" column="15" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
+      <jump line="28" column="27" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
+      <jump line="29" column="30" filename="$USER_HOME$/projects/chopin/app/models/admin_user.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -425,8 +420,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>sagepay</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIHN0cmlwZV91a19lbmFibGVkOiBmYWxzZQo=</text>
       </register>
       <register name="-" type="4">
         <text>sagepay</text>
@@ -435,10 +430,10 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>provider</text>
+        <text>team</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIFRyYW5zYWN0aW9uOjpQYXltZW50VHJhbnNhY3Rpb246OlBBWU1FTlRfTUVUSE9EU1s6Y3JlZGl0X2NhcmRdICA9PiBUcmFuc2FjdGlvbjo6QmFzZTo6UEFZTUVOVF9HQVRFV0FZU1s6c2FnZXBheV0sCg==</text>
+        <text encoding="base64">ICAgIHN0cmlwZV91a19lbmFibGVkOiBmYWxzZQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -879,15 +874,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>provider</last-search>
+      <last-search>team</last-search>
       <last-offset />
-      <last-pattern>provider</last-pattern>
+      <last-pattern>team</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
