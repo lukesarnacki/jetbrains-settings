@@ -38,7 +38,6 @@
         <entry>wawa</entry>
         <entry>action ActivateTerminalToolWindowaction ActivateTerminalToolWindow</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>w</entry>
         <entry>109</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
@@ -49,6 +48,7 @@
         <entry>action FindInPath</entry>
         <entry>action GotoClass</entry>
         <entry>action GotoFile</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -227,14 +227,17 @@
       <file name="$USER_HOME$/projects/chopin/app/helpers/backoffice/policies_helper.rb" timestamp="1591281433235">
         <mark key="'" line="34" column="83" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/policies/_policy_tabs.haml" timestamp="1591281420652">
-        <mark key="'" line="17" column="151" />
+      <file name="$USER_HOME$/projects/chopin/config/features/stripe_uk_enabled_allowed_users.yml" timestamp="1591603257605">
+        <mark key="[" line="10" column="6" />
+        <mark key="]" line="11" column="1" />
+        <mark key="^" line="11" column="1" />
+        <mark key="." line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/config/feature.yml" timestamp="1591599845743">
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="28" />
-        <mark key="^" line="23" column="28" />
-        <mark key="." line="23" column="27" />
+      <file name="$USER_HOME$/projects/chopin/config/feature.yml" timestamp="1591603687141">
+        <mark key="[" line="56" column="15" />
+        <mark key="]" line="56" column="15" />
+        <mark key="^" line="23" column="19" />
+        <mark key="." line="56" column="15" />
       </file>
     </filemarks>
     <jumps>
@@ -420,11 +423,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIHN0cmlwZV91a19lbmFibGVkOiBmYWxzZQo=</text>
+      <register name="*" type="4">
+        <text>true</text>
       </register>
       <register name="-" type="4">
-        <text>sagepay</text>
+        <text>true</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -433,7 +436,7 @@
         <text>team</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHN0cmlwZV91a19lbmFibGVkOiBmYWxzZQo=</text>
+        <text encoding="base64">ICAgIHN0cmlwZV91azogdHJ1ZQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -874,7 +877,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>w</text>
       </register>
     </registers>
   </component>
