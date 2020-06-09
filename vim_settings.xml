@@ -185,23 +185,20 @@
         <mark key="[" line="44" column="0" />
         <mark key="]" line="44" column="46" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/config/feature.yml" timestamp="1591603689295">
-        <mark key="[" line="56" column="15" />
-        <mark key="]" line="56" column="20" />
-        <mark key="^" line="56" column="20" />
-        <mark key="." line="56" column="19" />
-      </file>
       <file name="/Ruby Console" timestamp="1591638974104">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
         <mark key="." line="0" column="38" />
       </file>
-      <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab.rb" timestamp="1591637514181">
-        <mark key="'" line="15" column="23" />
+      <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab.rb" timestamp="1591676042076">
+        <mark key="'" line="12" column="23" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/models/admin_user.rb" timestamp="1591603844568">
         <mark key="'" line="100" column="12" />
+      </file>
+      <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/feature.rb" timestamp="1591676053557">
+        <mark key="'" line="11" column="11" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/concerns/journey_controller_concern.rb" timestamp="1591619233577">
         <mark key="[" line="0" column="0" />
@@ -224,23 +221,18 @@
       <file name="/fragment.rb" timestamp="1591620096672">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591639455395">
-        <mark key="'" line="125" column="18" />
-        <mark key="[" line="129" column="8" />
-        <mark key="]" line="129" column="8" />
-        <mark key="." line="129" column="7" />
-        <mark key="^" line="129" column="8" />
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591676010997">
+        <mark key="'" line="131" column="15" />
+        <mark key="[" line="130" column="9" />
+        <mark key="]" line="131" column="46" />
+        <mark key="." line="131" column="45" />
+        <mark key="^" line="131" column="46" />
       </file>
       <file name="$USER_HOME$/projects/chopin/Gemfile" timestamp="1591635515051">
         <mark key="'" line="345" column="15" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="3" column="0" filename="$USER_HOME$/projects/chopin/spec/models/transaction/null_policy_transaction_account_spec.rb" />
-      <jump line="4" column="0" filename="$USER_HOME$/projects/chopin/app/models/imported_policy.rb" />
-      <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/gems/pimms-capabilities/lib/pimms/capabilities/registry.rb" />
-      <jump line="17" column="151" filename="$USER_HOME$/projects/chopin/app/views/backoffice/policies/_policy_tabs.haml" />
-      <jump line="34" column="83" filename="$USER_HOME$/projects/chopin/app/helpers/backoffice/policies_helper.rb" />
       <jump line="6" column="89" filename="$USER_HOME$/projects/chopin/gems/pimms-capabilities/lib/pimms/capabilities/registry.rb" />
       <jump line="231" column="8" filename="$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/basic_object.rb" />
       <jump line="7" column="26" filename="$USER_HOME$/projects/chopin/gems/pimms-capabilities/lib/pimms/capabilities/conditions/can_record_transactions.rb" />
@@ -334,8 +326,13 @@
       <jump line="124" column="20" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="22" column="0" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/features_by_name.rb" />
       <jump line="125" column="18" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
-      <jump line="15" column="23" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab.rb" />
+      <jump line="131" column="15" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="3" column="8" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/features_by_name.rb" />
+      <jump line="15" column="23" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab.rb" />
+      <jump line="8" column="6" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/features_by_name.rb" />
+      <jump line="12" column="23" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab.rb" />
+      <jump line="11" column="11" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/feature.rb" />
+      <jump line="2" column="24" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/feature.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
