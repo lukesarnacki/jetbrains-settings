@@ -188,11 +188,11 @@
       <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab.rb" timestamp="1591676085508">
         <mark key="'" line="7" column="12" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/journey_url_param_feature_persistance.rb" timestamp="1591683635988">
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="19" column="0" />
-        <mark key="." line="19" column="0" />
-        <mark key="^" line="17" column="46" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/journey_url_param_feature_persistance.rb" timestamp="1591683648046">
+        <mark key="[" line="11" column="73" />
+        <mark key="]" line="11" column="73" />
+        <mark key="." line="11" column="73" />
+        <mark key="^" line="11" column="83" />
       </file>
       <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/feature.rb" timestamp="1591676177741">
         <mark key="'" line="19" column="18" />
@@ -224,8 +224,8 @@
       <file name="/fragment.rb" timestamp="1591681120401">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591682854181">
-        <mark key="'" line="56" column="32" />
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591683678039">
+        <mark key="'" line="38" column="29" />
         <mark key="[" line="127" column="0" />
         <mark key="]" line="128" column="10" />
         <mark key="." line="128" column="9" />
@@ -236,7 +236,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="27" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="22" column="8" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="30" column="20" filename="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" />
       <jump line="0" column="16" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
@@ -277,7 +276,6 @@
       <jump line="31" column="0" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="40" column="30" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="98" column="16" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
-      <jump line="38" column="28" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="3" column="7" filename="$USER_HOME$/projects/chopin/app/services/journey_service.rb" />
       <jump line="10" column="22" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
       <jump line="35" column="12" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
@@ -336,6 +334,8 @@
       <jump line="5" column="65" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="56" column="32" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="44" column="0" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
+      <jump line="38" column="29" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="18" column="22" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -418,11 +418,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="*" type="4">
+        <text>feature_name</text>
       </register>
       <register name="-" type="4">
-        <text>unique_feature_name</text>
+        <text>feature_name</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
