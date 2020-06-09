@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxoYXNfdHJhbnNhY3Rpb25zX2xlZGdlclw+</entry>
         <entry>busin</entry>
         <entry>for</entry>
         <entry>UK_PAYMENT</entry>
@@ -27,6 +26,7 @@
         <entry>merge</entry>
         <entry>context</entry>
         <entry encoding="base64">XDxzdHJpcGVfcGF5bWVudF9pbnRlbnRcPg==</entry>
+        <entry>persist</entry>
       </history-search>
       <history-cmd>
         <entry>actionlist refactor*</entry>
@@ -42,13 +42,13 @@
         <entry>action DebugClass</entry>
         <entry>action GotoClass</entry>
         <entry>w</entry>
-        <entry>wa</entry>
         <entry>action GotoFile</entry>
         <entry>action FindInPath</entry>
         <entry>action Unsplit</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action RecentFiles</entry>
+        <entry>wa</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -153,11 +153,11 @@
         <mark key="." line="64" column="0" />
         <mark key="^" line="19" column="5" />
       </file>
-      <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" timestamp="1591676229070">
-        <mark key="'" line="41" column="8" />
-        <mark key="[" line="42" column="44" />
-        <mark key="]" line="42" column="44" />
-        <mark key="." line="42" column="44" />
+      <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" timestamp="1591681152811">
+        <mark key="'" line="73" column="10" />
+        <mark key="[" line="73" column="10" />
+        <mark key="]" line="73" column="10" />
+        <mark key="." line="73" column="10" />
       </file>
       <file name="$USER_HOME$/projects/chopin/config/initializers/flip_fab.rb" timestamp="1591677546917">
         <mark key="'" line="2" column="24" />
@@ -181,7 +181,7 @@
         <mark key="^" line="17" column="6" />
         <mark key="." line="17" column="5" />
       </file>
-      <file name="/Ruby Console" timestamp="1591677533340">
+      <file name="/Ruby Console" timestamp="1591681302313">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="39" />
         <mark key="^" line="0" column="39" />
@@ -223,25 +223,21 @@
         <mark key="^" line="0" column="124" />
         <mark key="." line="2" column="73" />
       </file>
-      <file name="/fragment.rb" timestamp="1591620096672">
+      <file name="/fragment.rb" timestamp="1591681120401">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591677597893">
-        <mark key="'" line="131" column="15" />
-        <mark key="[" line="129" column="37" />
-        <mark key="]" line="129" column="55" />
-        <mark key="." line="129" column="54" />
-        <mark key="^" line="129" column="55" />
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591681267186">
+        <mark key="'" line="133" column="15" />
+        <mark key="[" line="126" column="74" />
+        <mark key="]" line="128" column="6" />
+        <mark key="." line="128" column="5" />
+        <mark key="^" line="128" column="6" />
       </file>
       <file name="$USER_HOME$/projects/chopin/Gemfile" timestamp="1591635515051">
         <mark key="'" line="345" column="15" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="1" column="13" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment.rb" />
-      <jump line="28" column="16" filename="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" />
-      <jump line="11" column="32" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
-      <jump line="30" column="20" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="31" column="32" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="7" column="112" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="14" column="17" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
@@ -338,6 +334,10 @@
       <jump line="41" column="8" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
       <jump line="7" column="39" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/feature.rb" />
       <jump line="2" column="24" filename="$USER_HOME$/projects/chopin/config/initializers/flip_fab.rb" />
+      <jump line="21" column="0" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
+      <jump line="30" column="20" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
+      <jump line="73" column="10" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
+      <jump line="56" column="0" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -420,23 +420,23 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>stripe_payment_intent</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBmZWF0dXJlc1tmbGFnLnRvX3N5bV0uZW5hYmxlCg==</text>
       </register>
       <register name="-" type="4">
-        <text>stripe_payment_intent</text>
+        <text>rride.nil?</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxzdHJpcGVfcGF5bWVudF9pbnRlbnRcPg==</text>
+        <text>persist</text>
       </register>
-      <register name="0" type="4">
-        <text>stripe_payment_intent</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBmZWF0dXJlc1tmbGFnLnRvX3N5bV0ucHVibGljX3NlbmQobWV0aG9kc19tYXBwaW5nW2VuYWJsZWRdKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHRydWUK</text>
+        <text encoding="base64">ICAgICAgICBmZWF0dXJlc1tmbGFnLnRvX3N5bV0uZW5hYmxlCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -459,16 +459,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIFJlZAo=</text>
+        <text encoding="base64">ICAgIHRydWUK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgdHJ1ZQo=</text>
+        <text encoding="base64">ICAgIFJlZAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICAgIEZsaXBGYWIuZmVhdHVyZXMuZWFjaCBkbyB8bmFtZXwKICAgICAgICByZXF1ZXN0LnBhcmFtcy5rZXlzLmluY2x1ZGU/KG5hbWUudG9fcykKICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgdHJ1ZQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -819,7 +819,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBuYW1lCg==</text>
+        <text encoding="base64">CiAgICAgIEZsaXBGYWIuZmVhdHVyZXMuZWFjaCBkbyB8bmFtZXwKICAgICAgICByZXF1ZXN0LnBhcmFtcy5rZXlzLmluY2x1ZGU/KG5hbWUudG9fcykKICAgICAgZW5kCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -828,10 +828,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
+        <text encoding="base64">ICAgICAgICBuYW1lCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGF0dHJpYnV0ZXMubWVyZ2UodXJsX3BhcmFtX2ZsYWdzKQo=</text>
+        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -865,27 +865,27 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
+        <text encoding="base64">ICAgIGF0dHJpYnV0ZXMubWVyZ2UodXJsX3BhcmFtX2ZsYWdzKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiBpbml0aWFsaXplKCkK</text>
+        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxzdHJpcGVfcGF5bWVudF9pbnRlbnRcPg==</last-search>
+      <last-search>persist</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxzdHJpcGVfcGF5bWVudF9pbnRlbnRcPg==</last-pattern>
+      <last-pattern>persist</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
   </component>
