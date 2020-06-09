@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>busin</entry>
         <entry>for</entry>
         <entry>UK_PAYMENT</entry>
         <entry>provider</entry>
@@ -27,6 +26,7 @@
         <entry>context</entry>
         <entry encoding="base64">XDxzdHJpcGVfcGF5bWVudF9pbnRlbnRcPg==</entry>
         <entry>persist</entry>
+        <entry>journey_name</entry>
       </history-search>
       <history-cmd>
         <entry>actionlist refactor*</entry>
@@ -43,12 +43,12 @@
         <entry>action GotoClass</entry>
         <entry>w</entry>
         <entry>action GotoFile</entry>
-        <entry>action FindInPath</entry>
         <entry>action Unsplit</entry>
         <entry>action ToggleLineBreakpoint</entry>
-        <entry>action RecentFiles</entry>
         <entry>wa</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action FindInPath</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -159,21 +159,19 @@
         <mark key="]" line="73" column="10" />
         <mark key="." line="73" column="10" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/config/initializers/flip_fab.rb" timestamp="1591677546917">
+      <file name="$USER_HOME$/projects/chopin/config/initializers/flip_fab.rb" timestamp="1591683071446">
         <mark key="'" line="2" column="24" />
-        <mark key="[" line="2" column="24" />
-        <mark key="]" line="2" column="44" />
-        <mark key="." line="2" column="125" />
-        <mark key="^" line="2" column="126" />
+        <mark key="[" line="2" column="77" />
+        <mark key="]" line="2" column="77" />
+        <mark key="." line="2" column="76" />
+        <mark key="^" line="2" column="77" />
       </file>
       <file name="$USER_HOME$/projects/chopin/config/initializers/feature.rb" timestamp="1591609190781">
         <mark key="'" line="3" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1591608250600">
-        <mark key="'" line="10" column="15" />
-        <mark key="[" line="71" column="0" />
-        <mark key="]" line="71" column="0" />
-        <mark key="." line="71" column="0" />
+      <file name="$USER_HOME$/projects/chopin/app/controllers/ping_controller.rb" timestamp="1591683361851">
+        <mark key="[" line="256" column="0" />
+        <mark key="]" line="256" column="80" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/frontoffice_conversion/quote_comparison_page_service.rb" timestamp="1591636967795">
         <mark key="[" line="17" column="43" />
@@ -181,20 +179,20 @@
         <mark key="^" line="17" column="6" />
         <mark key="." line="17" column="5" />
       </file>
-      <file name="/Ruby Console" timestamp="1591681302313">
+      <file name="/Ruby Console" timestamp="1591683105547">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="39" />
-        <mark key="^" line="0" column="39" />
-        <mark key="." line="0" column="38" />
+        <mark key="]" line="0" column="20" />
+        <mark key="^" line="0" column="20" />
+        <mark key="." line="0" column="19" />
       </file>
       <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab.rb" timestamp="1591676085508">
         <mark key="'" line="7" column="12" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/journey_url_param_feature_persistance.rb" timestamp="1591677327309">
-        <mark key="[" line="11" column="4" />
-        <mark key="]" line="11" column="4" />
-        <mark key="." line="11" column="3" />
-        <mark key="^" line="11" column="4" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/journey_url_param_feature_persistance.rb" timestamp="1591683635988">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
+        <mark key="^" line="17" column="46" />
       </file>
       <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/feature.rb" timestamp="1591676177741">
         <mark key="'" line="19" column="18" />
@@ -226,22 +224,18 @@
       <file name="/fragment.rb" timestamp="1591681120401">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591681267186">
-        <mark key="'" line="133" column="15" />
-        <mark key="[" line="126" column="74" />
-        <mark key="]" line="128" column="6" />
-        <mark key="." line="128" column="5" />
-        <mark key="^" line="128" column="6" />
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591682854181">
+        <mark key="'" line="56" column="32" />
+        <mark key="[" line="127" column="0" />
+        <mark key="]" line="128" column="10" />
+        <mark key="." line="128" column="9" />
+        <mark key="^" line="128" column="10" />
       </file>
       <file name="$USER_HOME$/projects/chopin/Gemfile" timestamp="1591635515051">
         <mark key="'" line="345" column="15" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="31" column="32" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
-      <jump line="7" column="112" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
-      <jump line="14" column="17" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
-      <jump line="15" column="21" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="21" column="27" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="22" column="8" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="30" column="20" filename="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" />
@@ -338,6 +332,10 @@
       <jump line="30" column="20" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
       <jump line="73" column="10" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
       <jump line="56" column="0" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
+      <jump line="117" column="6" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="5" column="65" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="56" column="32" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="44" column="0" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -421,22 +419,22 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0dXJlc1tmbGFnLnRvX3N5bV0uZW5hYmxlCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>rride.nil?</text>
+        <text>unique_feature_name</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>persist</text>
+        <text>journey_name</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0dXJlc1tmbGFnLnRvX3N5bV0ucHVibGljX3NlbmQobWV0aG9kc19tYXBwaW5nW2VuYWJsZWRdKQo=</text>
+        <text encoding="base64">ICAgIFJlZGlzLm5ldyhob3N0OiBFTlZJUk9OWydDSE9QSU5fUkVESVNfSE9TVCddLCBwb3J0OiA2Mzc5LCBkYjogMSkuc2V0KGZlYXR1cmVfbmFtZSwgc3RhdGUpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBmZWF0dXJlc1tmbGFnLnRvX3N5bV0uZW5hYmxlCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -459,16 +457,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHRydWUK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIFJlZAo=</text>
+        <text encoding="base64">CiAgICAjIHdyaXRlIHRoZSBzdGF0ZSBvZiB0aGUgZmVhdHVyZQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgdHJ1ZQo=</text>
+        <text encoding="base64">ICAgICMgd3JpdGUgdGhlIHN0YXRlIG9mIHRoZSBmZWF0dXJlCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -819,7 +817,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICAgIEZsaXBGYWIuZmVhdHVyZXMuZWFjaCBkbyB8bmFtZXwKICAgICAgICByZXF1ZXN0LnBhcmFtcy5rZXlzLmluY2x1ZGU/KG5hbWUudG9fcykKICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICMgbG9va3VwIHRoZSBzdGF0ZSBvZiB0aGUgZmVhdHVyZQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -828,10 +826,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBuYW1lCg==</text>
+        <text encoding="base64">ICAgIHRydWUK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -865,24 +863,24 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGF0dHJpYnV0ZXMubWVyZ2UodXJsX3BhcmFtX2ZsYWdzKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgRmxpcEZhYi5kZWZpbmVfZmVhdHVyZSg6bmFtZV9vZl9mZWF0dXJlKQo=</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>persist</last-search>
+      <last-search>journey_name</last-search>
       <last-offset />
-      <last-pattern>persist</last-pattern>
+      <last-pattern>journey_name</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
