@@ -167,12 +167,11 @@
         <mark key="[" line="256" column="0" />
         <mark key="]" line="256" column="80" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1591708835304">
-        <mark key="'" line="38" column="0" />
-        <mark key="[" line="14" column="18" />
-        <mark key="]" line="14" column="16" />
-        <mark key="." line="14" column="15" />
-        <mark key="^" line="14" column="16" />
+      <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1591708932526">
+        <mark key="'" line="11" column="32" />
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="0" />
+        <mark key="." line="14" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/frontoffice_conversion/quote_comparison_page_service.rb" timestamp="1591705555349">
         <mark key="[" line="18" column="0" />
@@ -225,19 +224,18 @@
       <file name="/fragment.rb" timestamp="1591701083520">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591708472696">
-        <mark key="'" line="35" column="0" />
-        <mark key="[" line="125" column="0" />
-        <mark key="]" line="125" column="0" />
-        <mark key="." line="125" column="0" />
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591711832642">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="125" column="49" />
+        <mark key="]" line="125" column="70" />
+        <mark key="." line="125" column="69" />
+        <mark key="^" line="125" column="70" />
       </file>
       <file name="$USER_HOME$/projects/chopin/Gemfile" timestamp="1591635515051">
         <mark key="'" line="345" column="15" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="17" column="6" filename="$USER_HOME$/projects/chopin/app/journey/journey_helpers/enabled_features.rb" />
-      <jump line="10" column="15" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="12" column="13" filename="$USER_HOME$/projects/chopin/config/initializers/feature.rb" />
       <jump line="8" column="13" filename="$USER_HOME$/projects/chopin/config/initializers/feature.rb" />
       <jump line="9" column="30" filename="$USER_HOME$/projects/chopin/app/journey/quote_comparison_page_service.rb" />
@@ -284,7 +282,6 @@
       <jump line="20" column="46" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
       <jump line="124" column="20" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="22" column="0" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/features_by_name.rb" />
-      <jump line="125" column="18" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="131" column="15" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="3" column="8" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/features_by_name.rb" />
       <jump line="15" column="23" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab.rb" />
@@ -336,6 +333,9 @@
       <jump line="67" column="15" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="7" column="9" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab.rb" />
       <jump line="36" column="54" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
+      <jump line="11" column="32" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
+      <jump line="125" column="70" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -419,10 +419,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>K</text>
+        <text>flag</text>
       </register>
       <register name="-" type="4">
-        <text>K</text>
+        <text>flag</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -434,7 +434,7 @@
         <text encoding="base64">ICAgICAgRmxpcEZhYi5mZWF0dXJlc1s6c3RyaXBlX3BheW1lbnRfaW50ZW50XS53aXRoX2NvbnRleHQoY29udGV4dCkuZW5hYmxlZD8K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgRmxpcEZhYi5wZXJzaXN0X2Zyb21fcGFyYW1zIQo=</text>
+        <text encoding="base64">ICAgICAgZmVhdHVyZXNbOnN0cmlwZV9wYXltZW50X2ludGVudF0uZGlzYWJsZSBpZiBmbGFnID09ICJkaXNhYmxlZCIK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -457,16 +457,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAKICBkZWYgCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgIyBJZGVhbGx5IHRoaXMgbG9naWMgc2hvdWxkIGJlIGF1dG9tYXRpYwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHdoZW4gJ1N0cmlwZScgdGhlbiBzdHJpcGVfdWtfc3RyYXRlZ3kubmV3KGpvdXJuZXlfc3RhdGU6IEBqb3VybmV5X3N0YXRlLCBjb250ZXh0OiBAY29udGV4dCkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -817,7 +817,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgRmxpcEZhYi5mZWF0dXJlc1s6c3RyaXBlX3BheW1lbnRfaW50ZW50XS53aXRoX2NvbnRleHQoY29udGV4dCkuZW5hYmxlZD8K</text>
+        <text encoding="base64">ICAgICAgRmxpcEZhYi5wZXJzaXN0X2Zyb21fcGFyYW1zIQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -826,10 +826,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text>&quot;ca2530c492edfc34ede18d9ca8329ab9_stripe_payment_intent&quot;</text>
+        <text encoding="base64">ICAKICBkZWYgCg==</text>
       </register>
       <register name="7" type="2">
-        <text>&quot;ca2530c492edfc34ede18d9ca8329ab9_stripe_payment_intent&quot;</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -863,10 +863,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBGbGlwRmFiOjpGZWF0dXJlCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHJlZGlzID0gUmVkaXMubmV3KGhvc3Q6IEVOVklST05bJ0NIT1BJTl9SRURJU19IT1NUJ10sIHBvcnQ6IDYzNzksIGRiOiAxKQo=</text>
+        <text encoding="base64">ICAgICAgRmxpcEZhYi5mZWF0dXJlc1s6c3RyaXBlX3BheW1lbnRfaW50ZW50XS53aXRoX2NvbnRleHQoY29udGV4dCkuZW5hYmxlZD8K</text>
       </register>
       <register name="y" type="4">
         <text />
