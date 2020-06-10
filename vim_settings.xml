@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>paymentstr</entry>
         <entry>provide</entry>
         <entry>filtered</entry>
         <entry>param</entry>
@@ -27,6 +26,7 @@
         <entry>stripeuk</entry>
         <entry>stripe_uk</entry>
         <entry>payment_gate</entry>
+        <entry>flip</entry>
       </history-search>
       <history-cmd>
         <entry>source ~/.ideavimrc</entry>
@@ -38,7 +38,6 @@
         <entry>action GotoClass</entry>
         <entry>w</entry>
         <entry>action ToggleLineBreakpoint</entry>
-        <entry>action FindInPath</entry>
         <entry>action Unsplit</entry>
         <entry>wa</entry>
         <entry>action DebugClass</entry>
@@ -49,6 +48,7 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoFile</entry>
         <entry>action RecentFiles</entry>
+        <entry>action FindInPath</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -192,17 +192,14 @@
       <file name="/Dummy.txt" timestamp="1591785012749">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/lib/flip_fab/persist_features_from_params.rb" timestamp="1591785750126">
+      <file name="$USER_HOME$/projects/chopin/lib/flip_fab/persist_features_from_params.rb" timestamp="1591785774903">
         <mark key="'" line="9" column="4" />
         <mark key="[" line="17" column="37" />
-        <mark key="]" line="17" column="16" />
-        <mark key="." line="17" column="15" />
-        <mark key="^" line="17" column="16" />
+        <mark key="]" line="17" column="54" />
+        <mark key="." line="17" column="53" />
+        <mark key="^" line="17" column="54" />
       </file>
-      <file name="/fragment.rb" timestamp="1591701083520">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591785459047">
+      <file name="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" timestamp="1591785853053">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="124" column="75" />
         <mark key="]" line="124" column="80" />
@@ -233,6 +230,9 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/journey_helpers/enabled_features.rb" timestamp="1591786072645">
+        <mark key="'" line="44" column="18" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/null_journey_context.rb" timestamp="1591723038693">
         <mark key="[" line="0" column="24" />
         <mark key="]" line="8" column="3" />
@@ -252,7 +252,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="49" column="33" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
       <jump line="33" column="6" filename="$USER_HOME$/projects/chopin/app/services/journey_service/path_helper.rb" />
       <jump line="14" column="14" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
       <jump line="32" column="50" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
@@ -352,6 +351,7 @@
       <jump line="0" column="0" filename="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.rb" />
       <jump line="9" column="33" filename="$USER_HOME$/projects/chopin/lib/flip_fab/persist_features_from_params.rb" />
       <jump line="7" column="4" filename="$USER_HOME$/projects/chopin/lib/flip_fab/persist_features_from_params.rb" />
+      <jump line="44" column="18" filename="$USER_HOME$/projects/chopin/app/journey/journey_helpers/enabled_features.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -444,7 +444,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>payment_gate</text>
+        <text>flip</text>
       </register>
       <register name="0" type="4">
         <text>JourneySessionPersistance</text>
@@ -888,15 +888,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action FindInPath</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>payment_gate</last-search>
+      <last-search>flip</last-search>
       <last-offset />
-      <last-pattern>payment_gate</last-pattern>
+      <last-pattern>flip</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
