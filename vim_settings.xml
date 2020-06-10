@@ -45,10 +45,10 @@
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action FindInPath</entry>
         <entry>action Unsplit</entry>
-        <entry>action RecentFiles</entry>
         <entry>wa</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action DebugClass</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,12 +133,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/chopin/app/journey/journey_helpers/url_param_features.rb" timestamp="1591635363094">
-        <mark key="[" line="6" column="8" />
-        <mark key="]" line="6" column="9" />
-        <mark key="." line="6" column="8" />
-        <mark key="^" line="6" column="9" />
-      </file>
       <file name="/fragment.rb" timestamp="1591701083520">
         <mark key="[" line="0" column="0" />
       </file>
@@ -163,12 +157,12 @@
         <mark key="." line="125" column="69" />
         <mark key="^" line="125" column="70" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1591723252400">
-        <mark key="'" line="0" column="15" />
-        <mark key="[" line="43" column="69" />
-        <mark key="]" line="43" column="73" />
-        <mark key="." line="43" column="72" />
-        <mark key="^" line="43" column="73" />
+      <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1591769044465">
+        <mark key="'" line="37" column="35" />
+        <mark key="[" line="43" column="46" />
+        <mark key="]" line="43" column="50" />
+        <mark key="." line="43" column="49" />
+        <mark key="^" line="43" column="50" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/journey_url_param_feature_persistance.rb" timestamp="1591708034897">
         <mark key="[" line="17" column="39" />
@@ -207,6 +201,11 @@
       <file name="$USER_HOME$/projects/chopin/Gemfile" timestamp="1591635515051">
         <mark key="'" line="345" column="15" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1591769217690">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+      </file>
       <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" timestamp="1591708347673">
         <mark key="'" line="73" column="10" />
         <mark key="[" line="73" column="10" />
@@ -218,6 +217,11 @@
         <mark key="]" line="12" column="5" />
         <mark key="^" line="12" column="5" />
         <mark key="." line="12" column="4" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/full_pay.rb" timestamp="1591769220769">
+        <mark key="'" line="3" column="52" />
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="61" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/concerns/journey_controller_concern.rb" timestamp="1591700620915">
         <mark key="'" line="9" column="0" />
@@ -234,10 +238,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="30" filename="$USER_HOME$/projects/chopin/app/journey/quote_comparison_page_service.rb" />
-      <jump line="3" column="13" filename="$USER_HOME$/projects/chopin/config/initializers/feature.rb" />
-      <jump line="0" column="12" filename="$USER_HOME$/projects/chopin/app/helpers/beta_access_helper.rb" />
-      <jump line="7" column="12" filename="$USER_HOME$/projects/chopin/app/journey/journey_helpers/backoffice/shared_helper.rb" />
       <jump line="16" column="24" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="29" column="6" filename="$USER_HOME$/projects/chopin/app/concerns/journey_controller_concern.rb" />
       <jump line="6" column="16" filename="$USER_HOME$/projects/chopin/app/concerns/journey_controller_concern.rb" />
@@ -334,6 +334,10 @@
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="8" column="2" filename="$USER_HOME$/projects/chopin/app/journey/null_journey_context.rb" />
       <jump line="0" column="15" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
+      <jump line="43" column="22" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
+      <jump line="0" column="25" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
+      <jump line="37" column="35" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
+      <jump line="3" column="52" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/full_pay.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -416,11 +420,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>stripe_</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgIyBkZWYgaW5pdGlhbGl6ZShjb250ZXh0Oiwgam91cm5leV9zdGF0ZTopCiAgICAgICMgICBzdXBlcihjb250ZXh0OiBjb250ZXh0LCBqb3VybmV5X3N0YXRlOiBqb3VybmV5X3N0YXRlKQogICAgICAjIGVuZAo=</text>
       </register>
       <register name="-" type="4">
-        <text>stripe_</text>
+        <text>, payments_api: PaymentService::PaymentsAPI.new</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -429,10 +433,10 @@
         <text>name</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHJhaXNlICdQYXltZW50IHN0cmF0ZWd5IG5vdCBmb3VuZCcK</text>
+        <text encoding="base64">ICAgICAgICBzdXBlcihjb250ZXh0OiBjb250ZXh0LCBqb3VybmV5X3N0YXRlOiBqb3VybmV5X3N0YXRlKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgIyBkZWYgaW5pdGlhbGl6ZShjb250ZXh0Oiwgam91cm5leV9zdGF0ZTopCiAgICAgICMgICBzdXBlcihjb250ZXh0OiBjb250ZXh0LCBqb3VybmV5X3N0YXRlOiBqb3VybmV5X3N0YXRlKQogICAgICAjIGVuZAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -455,16 +459,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBkZWYgam91cm5leV9uYW1lCiAgICBAY29udGV4dC5qb3VybmV5X25hbWUKICBlbmQK</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgZmVhdHVyZXNbOnN0cmlwZV9wYXltZW50X2ludGVudF0uZGlzYWJsZSBpZiBmbGFnID09ICJkaXNhYmxlZCIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -815,7 +819,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyBJZGVhbGx5IHRoaXMgbG9naWMgc2hvdWxkIGJlIGF1dG9tYXRpYwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -824,10 +828,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHdoZW4gJ1N0cmlwZScgdGhlbiBzdHJpcGVfdWtfc3RyYXRlZ3kubmV3KGpvdXJuZXlfc3RhdGU6IEBqb3VybmV5X3N0YXRlLCBjb250ZXh0OiBAY29udGV4dCkK</text>
+        <text encoding="base64">ICAgIGNsYXNzIEZ1bGxQYXkKICAgICAgaW5jbHVkZSBKb3VybmV5SGVscGVyczo6QmFja29mZmljZTo6U2hhcmVkSGVscGVyCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgRmxpcEZhYi5wZXJzaXN0X2Zyb21fcGFyYW1zIQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -861,16 +865,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAKICBkZWYgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">bW9kdWxlIFB1cmNoYXNlCiAgbW9kdWxlIFN0cmF0ZWd5Cg==</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action DebugClass</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
