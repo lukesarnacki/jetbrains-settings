@@ -46,9 +46,9 @@
         <entry>action FindInPath</entry>
         <entry>action Unsplit</entry>
         <entry>wa</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action DebugClass</entry>
         <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,10 +133,13 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment.rb" timestamp="1591781685264">
+        <mark key="'" line="6" column="61" />
+      </file>
       <file name="/fragment.rb" timestamp="1591701083520">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1591765122003">
+      <file name="/Ruby Console" timestamp="1591782170067">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -201,10 +204,11 @@
       <file name="$USER_HOME$/projects/chopin/Gemfile" timestamp="1591635515051">
         <mark key="'" line="345" column="15" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1591769217690">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1591781681215">
+        <mark key="[" line="3" column="43" />
+        <mark key="]" line="4" column="8" />
+        <mark key="." line="4" column="7" />
+        <mark key="^" line="4" column="8" />
       </file>
       <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" timestamp="1591708347673">
         <mark key="'" line="73" column="10" />
@@ -238,8 +242,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="16" column="24" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
-      <jump line="29" column="6" filename="$USER_HOME$/projects/chopin/app/concerns/journey_controller_concern.rb" />
       <jump line="6" column="16" filename="$USER_HOME$/projects/chopin/app/concerns/journey_controller_concern.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/concerns/journey_controller_concern.rb" />
       <jump line="17" column="16" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
@@ -338,6 +340,8 @@
       <jump line="0" column="25" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
       <jump line="37" column="35" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="3" column="52" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/full_pay.rb" />
+      <jump line="6" column="61" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment.rb" />
+      <jump line="0" column="22" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -874,7 +878,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
