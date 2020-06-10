@@ -47,8 +47,8 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoFile</entry>
         <entry>action FindInPath</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -182,15 +182,17 @@
         <mark key="^" line="25" column="5" />
         <mark key="." line="25" column="4" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/config/initializers/flip_fab.rb" timestamp="1591789222181">
+      <file name="$USER_HOME$/projects/chopin/config/initializers/flip_fab.rb" timestamp="1591795759534">
         <mark key="'" line="2" column="129" />
-        <mark key="[" line="2" column="24" />
-        <mark key="]" line="2" column="33" />
-        <mark key="." line="2" column="32" />
+        <mark key="[" line="2" column="47" />
+        <mark key="]" line="2" column="47" />
+        <mark key="." line="2" column="47" />
         <mark key="^" line="2" column="33" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591785012749">
-        <mark key="[" line="0" column="0" />
+      <file name="/Dummy.txt" timestamp="1591795713782">
+        <mark key="[" line="2" column="12" />
+        <mark key="]" line="2" column="12" />
+        <mark key="." line="2" column="12" />
       </file>
       <file name="$USER_HOME$/projects/chopin/lib/flip_fab/persist_features_from_params.rb" timestamp="1591785774903">
         <mark key="'" line="9" column="4" />
@@ -433,11 +435,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIEZsaXBGYWIuZmVhdHVyZXNbXS5lbmFibGUK</text>
+      <register name="*" type="4">
+        <text>enabled</text>
       </register>
       <register name="-" type="4">
-        <text>nil</text>
+        <text>enabled</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -887,7 +889,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
