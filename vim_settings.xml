@@ -47,8 +47,8 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoFile</entry>
         <entry>action FindInPath</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,7 +140,7 @@
         <mark key="^" line="48" column="19" />
         <mark key="." line="48" column="18" />
       </file>
-      <file name="/Ruby Console" timestamp="1591783846154">
+      <file name="/Ruby Console" timestamp="1591790217486">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -218,11 +218,11 @@
         <mark key="]" line="18" column="0" />
         <mark key="." line="18" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591789390056">
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591789399318">
         <mark key="[" line="42" column="45" />
-        <mark key="]" line="42" column="44" />
-        <mark key="." line="42" column="43" />
-        <mark key="^" line="42" column="44" />
+        <mark key="]" line="42" column="54" />
+        <mark key="." line="42" column="53" />
+        <mark key="^" line="42" column="54" />
       </file>
       <file name="$USER_HOME$/projects/chopin/lib/flip_fab/journey_session_persistence.rb" timestamp="1591783809656">
         <mark key="'" line="1" column="41" />
@@ -888,7 +888,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
