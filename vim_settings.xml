@@ -156,6 +156,7 @@
         <mark key="." line="0" column="19" />
         <mark key="^" line="0" column="20" />
       </file>
+      <file name="$USER_HOME$/projects/flip_fab/spec/lib/flip_fab/cookie_persistence_spec.rb" timestamp="1592226728980" />
       <file name="$USER_HOME$/projects/chopin/app/models/transaction/base.rb" timestamp="1591784869791">
         <mark key="[" line="70" column="14" />
         <mark key="]" line="70" column="14" />
@@ -214,11 +215,6 @@
         <mark key="]" line="29" column="110" />
         <mark key="." line="29" column="109" />
         <mark key="^" line="29" column="110" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/frontoffice_conversion/quote_comparison_page_service.rb" timestamp="1591705555349">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
-        <mark key="." line="18" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" timestamp="1591795606003">
         <mark key="[" line="45" column="0" />
