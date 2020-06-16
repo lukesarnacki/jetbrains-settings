@@ -147,12 +147,12 @@
         <mark key="^" line="0" column="20" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/README.md" timestamp="1592288537097">
+      <file name="$USER_HOME$/projects/chopin/README.md" timestamp="1592302262135">
         <mark key="'" line="26" column="23" />
-        <mark key="[" line="95" column="211" />
-        <mark key="]" line="96" column="284" />
-        <mark key="." line="96" column="283" />
-        <mark key="^" line="96" column="284" />
+        <mark key="[" line="95" column="69" />
+        <mark key="]" line="95" column="70" />
+        <mark key="." line="95" column="69" />
+        <mark key="^" line="95" column="70" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/journey_url_param_feature_persistance.rb" timestamp="1591783631297">
         <mark key="[" line="0" column="6" />
@@ -429,11 +429,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">LSBbRmVhdHVyZSBGbGFnc10oLi9kb2MvRkVBVFVSRV9GTEFHUy5tZCkK</text>
+      <register name="*" type="4">
+        <text>`FlipFab` gem</text>
       </register>
       <register name="-" type="4">
-        <text>enabled</text>
+        <text>`FlipFab` gem</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
