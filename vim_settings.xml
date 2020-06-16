@@ -38,17 +38,17 @@
         <entry>w</entry>
         <entry>action ToggleLineBreakpoint</entry>
         <entry>action Unsplit</entry>
-        <entry>wa</entry>
         <entry>action DebugClass</entry>
         <entry>action GotoTest</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>31</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action FindInPath</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoClass</entry>
         <entry>action GotoFile</entry>
+        <entry>action FindInPath</entry>
         <entry>action RecentFiles</entry>
+        <entry>wa</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,7 +140,7 @@
         <mark key="^" line="49" column="19" />
         <mark key="." line="49" column="18" />
       </file>
-      <file name="/Ruby Console" timestamp="1592306744133">
+      <file name="/Ruby Console" timestamp="1592308057816">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -876,7 +876,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>wa</text>
       </register>
     </registers>
   </component>
