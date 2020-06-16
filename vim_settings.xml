@@ -45,9 +45,9 @@
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>31</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindInPath</entry>
         <entry>action RecentFiles</entry>
+        <entry>action GotoFile</entry>
         <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
@@ -140,7 +140,7 @@
         <mark key="^" line="48" column="19" />
         <mark key="." line="48" column="18" />
       </file>
-      <file name="/Ruby Console" timestamp="1591794478560">
+      <file name="/Ruby Console" timestamp="1592281665622">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
