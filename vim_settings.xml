@@ -36,7 +36,6 @@
         <entry>109</entry>
         <entry>w</entry>
         <entry>action ToggleLineBreakpoint</entry>
-        <entry>action Unsplit</entry>
         <entry>action DebugClass</entry>
         <entry>action GotoTest</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
@@ -45,10 +44,11 @@
         <entry>action GotoClass</entry>
         <entry>action FindInPath</entry>
         <entry>42</entry>
-        <entry>action GotoFile</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>wa</entry>
         <entry>action RecentFiles</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Unsplit</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,14 +133,14 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" timestamp="1592315567018">
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" timestamp="1592317187462">
         <mark key="'" line="11" column="28" />
         <mark key="[" line="10" column="6" />
         <mark key="]" line="10" column="6" />
         <mark key="^" line="10" column="6" />
         <mark key="." line="10" column="5" />
       </file>
-      <file name="/Ruby Console" timestamp="1592311690681">
+      <file name="/Ruby Console" timestamp="1592317273387">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -202,7 +202,7 @@
         <mark key="^" line="4" column="40" />
         <mark key="." line="41" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" timestamp="1592315592712">
+      <file name="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" timestamp="1592317171132">
         <mark key="'" line="45" column="55" />
         <mark key="[" line="177" column="37" />
         <mark key="]" line="45" column="56" />
@@ -231,16 +231,15 @@
         <mark key="." line="27" column="12" />
         <mark key="^" line="27" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592315360840">
-        <mark key="'" line="10" column="54" />
-        <mark key="[" line="10" column="67" />
-        <mark key="]" line="10" column="66" />
-        <mark key="." line="10" column="65" />
-        <mark key="^" line="10" column="66" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592317566586">
+        <mark key="'" line="10" column="62" />
+        <mark key="[" line="28" column="54" />
+        <mark key="]" line="28" column="61" />
+        <mark key="." line="28" column="60" />
+        <mark key="^" line="28" column="61" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="56" column="32" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="44" column="0" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/flip_fab-1.0.7/lib/flip_fab/contextual_feature.rb" />
       <jump line="38" column="29" filename="$USER_HOME$/projects/chopin/app/controllers/frontoffice/journey_controller.rb" />
       <jump line="18" column="22" filename="$USER_HOME$/projects/chopin/app/services/journey_service/new_business.rb" />
@@ -337,9 +336,10 @@
       <jump line="16" column="51" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
       <jump line="169" column="8" filename="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" />
-      <jump line="10" column="54" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
-      <jump line="11" column="28" filename="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" />
       <jump line="45" column="55" filename="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" />
+      <jump line="11" column="36" filename="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" />
+      <jump line="22" column="0" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
+      <jump line="10" column="62" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -422,11 +422,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICVidXR0b24uYnRuLXByaW1hcnkuYXJyb3cuanMtbWFrZS1wYXltZW50eyJkYXRhLXNlY3JldCIgPT4gY2xpZW50X3NlY3JldH0gI3tpbmNsdWRlX2F1dG9fcmVuZXdhbF9jb25zZW50X21lc3NhZ2UgPyAnKk1ha2UgcGF5bWVudCcgOiAnTWFrZSBwYXltZW50J30K</text>
+      <register name="*" type="4">
+        <text>'usd'</text>
       </register>
       <register name="-" type="4">
-        <text>1099</text>
+        <text>'usd'</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -876,7 +876,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action Unsplit</text>
       </register>
     </registers>
   </component>
