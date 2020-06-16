@@ -44,11 +44,11 @@
         <entry>action GotoClass</entry>
         <entry>action FindInPath</entry>
         <entry>42</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>wa</entry>
         <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
         <entry>action Unsplit</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -231,12 +231,12 @@
         <mark key="." line="27" column="12" />
         <mark key="^" line="27" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592317566586">
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592317605281">
         <mark key="'" line="10" column="62" />
-        <mark key="[" line="28" column="54" />
-        <mark key="]" line="28" column="61" />
-        <mark key="." line="28" column="60" />
-        <mark key="^" line="28" column="61" />
+        <mark key="[" line="28" column="89" />
+        <mark key="]" line="28" column="98" />
+        <mark key="." line="28" column="97" />
+        <mark key="^" line="28" column="98" />
       </file>
     </filemarks>
     <jumps>
@@ -876,7 +876,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action Unsplit</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
