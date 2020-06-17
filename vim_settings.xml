@@ -45,10 +45,10 @@
         <entry>action FindInPath</entry>
         <entry>42</entry>
         <entry>wa</entry>
-        <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
         <entry>action Unsplit</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,7 +140,7 @@
         <mark key="^" line="10" column="6" />
         <mark key="." line="10" column="5" />
       </file>
-      <file name="/Ruby Console" timestamp="1592317273387">
+      <file name="/Ruby Console" timestamp="1592371327476">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -224,11 +224,11 @@
         <mark key="^" line="2" column="20" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592312126106">
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592371939469">
         <mark key="'" line="45" column="20" />
-        <mark key="[" line="27" column="8" />
-        <mark key="]" line="27" column="13" />
-        <mark key="." line="27" column="12" />
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="25" />
+        <mark key="." line="52" column="0" />
         <mark key="^" line="27" column="13" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592317605281">
@@ -422,8 +422,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>'usd'</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRlYnVnZ2VyOwo=</text>
       </register>
       <register name="-" type="4">
         <text>'usd'</text>
@@ -435,7 +435,7 @@
         <text>payment_part</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICVidXR0b24uYnRuLXByaW1hcnkuYXJyb3cuanMtbWFrZS1wYXltZW50eyJkYXRhLXNlY3JldCIgPT4gY2xpZW50X3NlY3JldH0gI3tpbmNsdWRlX2F1dG9fcmVuZXdhbF9jb25zZW50X21lc3NhZ2UgPyAnKk1ha2UgcGF5bWVudCcgOiAnTWFrZSBwYXltZW50J30K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGRlYnVnZ2VyOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgIGNsaWVudF9zZWNyZXQ6IHBheW1lbnRfaW50ZW50LmNsaWVudF9zZWNyZXQK</text>
@@ -876,7 +876,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
