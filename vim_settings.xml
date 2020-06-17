@@ -43,12 +43,12 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>42</entry>
         <entry>wa</entry>
-        <entry>action Unsplit</entry>
         <entry>action GotoFile</entry>
+        <entry>action GotoClass</entry>
+        <entry>action Unsplit</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action FindInPath</entry>
         <entry>action RecentFiles</entry>
-        <entry>action GotoClass</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,7 +140,7 @@
         <mark key="^" line="10" column="6" />
         <mark key="." line="10" column="5" />
       </file>
-      <file name="/Ruby Console" timestamp="1592378254974">
+      <file name="/Ruby Console" timestamp="1592395169913">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -150,7 +150,12 @@
       <file name="$USER_HOME$/projects/chopin/README.md" timestamp="1592306735196">
         <mark key="'" line="26" column="23" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/backoffice/stripe_payment_form.js" timestamp="1592310334704" />
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/backoffice/stripe_payment_form.js" timestamp="1592395052631">
+        <mark key="[" line="4" column="28" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="5" column="3" />
+        <mark key="^" line="6" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/flip_fab/spec/lib/flip_fab/cookie_persistence_spec.rb" timestamp="1592226728980" />
       <file name="$USER_HOME$/projects/chopin/app/controllers/application_controller.rb" timestamp="1592282098693">
         <mark key="[" line="49" column="20" />
@@ -164,10 +169,14 @@
         <mark key="^" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591795713782">
-        <mark key="[" line="2" column="12" />
-        <mark key="]" line="2" column="12" />
-        <mark key="." line="2" column="12" />
+      <file name="/fragment.rb" timestamp="1592395499425">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" timestamp="1592395090469">
+        <mark key="[" line="53" column="30" />
+        <mark key="]" line="54" column="33" />
+        <mark key="^" line="54" column="33" />
+        <mark key="." line="54" column="32" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment_intent.js" timestamp="1592309768765">
         <mark key="[" line="1" column="25" />
@@ -189,12 +198,12 @@
         <mark key="." line="29" column="13" />
         <mark key="^" line="29" column="14" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1592377326123">
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1592395158210">
         <mark key="'" line="45" column="19" />
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="0" />
-        <mark key="^" line="10" column="62" />
-        <mark key="." line="11" column="0" />
+        <mark key="[" line="7" column="67" />
+        <mark key="]" line="14" column="21" />
+        <mark key="^" line="14" column="21" />
+        <mark key="." line="14" column="20" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1592378102710">
         <mark key="'" line="0" column="25" />
@@ -216,26 +225,20 @@
         <mark key="]" line="45" column="0" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/null_journey_context.rb" timestamp="1591795282686">
-        <mark key="[" line="1" column="0" />
-        <mark key="]" line="1" column="0" />
-        <mark key="^" line="2" column="20" />
-        <mark key="." line="1" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe.rb" timestamp="1592377027824">
         <mark key="[" line="8" column="0" />
         <mark key="]" line="14" column="5" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592378457726">
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592395924337">
         <mark key="'" line="13" column="6" />
-        <mark key="[" line="43" column="34" />
-        <mark key="]" line="43" column="49" />
-        <mark key="." line="43" column="48" />
-        <mark key="^" line="43" column="49" />
+        <mark key="[" line="119" column="6" />
+        <mark key="]" line="121" column="0" />
+        <mark key="." line="121" column="0" />
+        <mark key="^" line="98" column="29" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592378404146">
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592395104237">
         <mark key="'" line="2" column="20" />
-        <mark key="[" line="4" column="59" />
+        <mark key="[" line="18" column="38" />
         <mark key="]" line="4" column="58" />
         <mark key="." line="4" column="57" />
         <mark key="^" line="4" column="58" />
@@ -424,11 +427,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>stiipe</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>stiipe</text>
+        <text>'stripe'</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -437,10 +440,10 @@
         <text>val</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgPSBoaWRkZW5fZmllbGRfdGFnICdzdHJpcGUtcGF5bWVudC1pbnRlbnQtaWQnCg==</text>
+        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZV0iKS5zdHJpcGUoKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwYXltZW50X3NlcnZpY2UuY3JlYXRlX3BheW1lbnQocGF5bWVudF9pbnRlbnRfaWQ6IEBjb250ZXh0LnBhcmFtcy5yZXF1aXJlKCJzdHJpcGUtcGF5bWVudC1pbnRlbnQtaWQiKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -463,16 +466,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBkZWJ1Z2dlcjsK</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgeyJkYXRhLXNlY3JldCIgPT4gY2xpZW50X3NlY3JldCB8fCBuaWx9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAvLyBTaG93IGVycm9yIHRvIHlvdXIgY3VzdG9tZXIgKGUuZy4sIGluc3VmZmljaWVudCBmdW5kcykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBTdHJpcGUuYXBpX2tleSA9ICdza190ZXN0XzRlQzM5SHFMeWpXRGFyanRUMXpkcDdkYycKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAvLyBUaGUgcGF5bWVudCBoYXMgYmVlbiBwcm9jZXNzZWQhCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -823,7 +826,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGF1dGhvcmlzYXRpb24gPSBhdXRob3Jpc2VfcGF5bWVudChuYW1lOiBuYW1lLCB0b2tlbjogdG9rZW4sIHJmcV9yZWZlcmVuY2U6IHJmcV9yZWZlcmVuY2UsIGFtb3VudDogYW1vdW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluc3VyZXJfbmFtZTogaW5zdXJlcl9uYW1lLCBjdXN0b21lcjogY3VzdG9tZXIsIHByb2R1Y3Q6IHByb2R1Y3QpCiAgICByZXR1cm4gYXV0aG9yaXNhdGlvbiBpZiBhdXRob3Jpc2F0aW9uLmZhaWx1cmU/CgogICAgY2FwdHVyZV9wYXltZW50KHBheW1lbnRfcmVmOmF1dGhvcmlzYXRpb24udmFsdWVbOnBheW1lbnRfcmVmXSwgcmZxX3JlZmVyZW5jZTogcmZxX3JlZmVyZW5jZSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -832,10 +835,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAogICAgfSwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIF9zdWJtaXRQYXltZW50SW50ZW50KGlkKSB7CiAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIFNob3VsZCB3ZSBzZW5kIGFpcmJyYWtlIG5vdGljZSBoZXJlPwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -869,16 +872,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGVuYWJsZSBidXR0b24gbWF5YmUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB9IGVsc2Ugewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIGNoZWNrIHN0cmlwZSBzdGF0dXNlcyBsYXRlcgogICAgICAgICAgICAgICAgX3RoaXMuX2Rpc2FibGVCdXR0b24oKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBpZiAocmVzdWx0LnBheW1lbnRJbnRlbnQuc3RhdHVzID09PSAic3VjY2VlZGVkIikgewo=</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
