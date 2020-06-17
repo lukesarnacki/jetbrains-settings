@@ -40,15 +40,15 @@
         <entry>action GotoTest</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>31</entry>
-        <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>42</entry>
-        <entry>wa</entry>
         <entry>action GotoFile</entry>
         <entry>action GotoClass</entry>
         <entry>action Unsplit</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action FindInPath</entry>
+        <entry>wa</entry>
         <entry>action RecentFiles</entry>
+        <entry encoding="base64">JzwsJz53YQ==</entry>
+        <entry>action FindInPath</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -149,7 +149,7 @@
         <mark key="^" line="54" column="33" />
         <mark key="." line="54" column="32" />
       </file>
-      <file name="/Ruby Console" timestamp="1592395169913">
+      <file name="/Ruby Console" timestamp="1592401411113">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -173,10 +173,9 @@
         <mark key="^" line="11" column="80" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/backoffice/stripe_payment_form.js" timestamp="1592395052631">
-        <mark key="[" line="4" column="28" />
-        <mark key="]" line="6" column="0" />
-        <mark key="." line="5" column="3" />
-        <mark key="^" line="6" column="0" />
+        <mark key="]" line="5" column="0" />
+        <mark key="." line="4" column="3" />
+        <mark key="^" line="5" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1592374461840">
         <mark key="'" line="43" column="35" />
@@ -192,12 +191,12 @@
         <mark key="^" line="14" column="21" />
         <mark key="." line="14" column="20" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1592378102710">
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1592401892408">
         <mark key="'" line="0" column="25" />
-        <mark key="[" line="9" column="2" />
-        <mark key="]" line="10" column="4" />
-        <mark key="^" line="10" column="4" />
-        <mark key="." line="10" column="3" />
+        <mark key="[" line="18" column="43" />
+        <mark key="]" line="23" column="0" />
+        <mark key="^" line="23" column="0" />
+        <mark key="." line="23" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" timestamp="1592317171132">
         <mark key="'" line="45" column="55" />
@@ -216,12 +215,12 @@
         <mark key="[" line="8" column="0" />
         <mark key="]" line="14" column="5" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592400195535">
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592401463293">
         <mark key="'" line="13" column="6" />
-        <mark key="[" line="92" column="0" />
-        <mark key="]" line="92" column="0" />
-        <mark key="." line="92" column="0" />
-        <mark key="^" line="17" column="3" />
+        <mark key="[" line="19" column="31" />
+        <mark key="]" line="19" column="25" />
+        <mark key="." line="19" column="24" />
+        <mark key="^" line="19" column="25" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/controllers/application_controller.rb" timestamp="1592282098693">
         <mark key="[" line="49" column="20" />
@@ -427,10 +426,10 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIF9zdWJtaXRQYXltZW50KHRva2VuKSB7CiAgICAgIHRoaXMuZWxlbWVudC5maW5kKCIjc3RyaXBlLXRva2VuIikudmFsKHRva2VuLmlkKTsKICAgICAgdGhpcy5lbGVtZW50Lm9mZigic3VibWl0Iik7CiAgICAgIHRoaXMuZWxlbWVudC5zdWJtaXQoKTsKICAgIH0sCgogICAgX2Rpc3BsYXlFcnJvcihtZXNzYWdlKSB7CiAgICAgIHRoaXMuZWxlbWVudC5maW5kKCIuanMtY2FyZC1lcnJvcnMiKS50ZXh0KG1lc3NhZ2UpOwogICAgfSwKCiAgICBfZGlzYWJsZUJ1dHRvbigpIHsKICAgICAgdGhpcy5lbGVtZW50CiAgICAgICAgLmZpbmQoIi5qcy1tYWtlLXBheW1lbnQiKQogICAgICAgIC5wcm9wKCJkaXNhYmxlZCIsIHRydWUpCiAgICAgICAgLnRleHQoIlBsZWFzZSB3YWl0Li4uIik7CiAgICB9LAoKICAgIF9zZXR1cFN0cmlwZSgpIHsKICAgICAgdGhpcy5zdHJpcGUgPSBTdHJpcGUodGhpcy5vcHRpb25zLnN0cmlwZVRva2VuKTsKCiAgICAgIGNvbnN0IHN0cmlwZUVsZW1lbnRzID0gdGhpcy5zdHJpcGUuZWxlbWVudHMoewogICAgICAgIGZvbnRzOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgIGNzc1NyYzogImh0dHBzOi8vdXNlLnR5cGVraXQubmV0L3NjZThscnkuY3NzIiwKICAgICAgICAgIH0sCiAgICAgICAgXSwKICAgICAgfSk7CgogICAgICBjb25zdCBmaWVsZHMgPSB7CiAgICAgICAgY2FyZE51bWJlcjogIi5qcy1jYXJkLW51bWJlciIsCiAgICAgICAgY2FyZEV4cGlyeTogIi5qcy1jYXJkLWV4cGlyeSIsCiAgICAgICAgY2FyZEN2YzogIi5qcy1jYXJkLWN2YyIsCiAgICAgIH07CgogICAgICB0aGlzLmNhcmRFbGVtZW50cyA9IE9iamVjdC5rZXlzKGZpZWxkcykubWFwKCh0eXBlKSA9PiB7CiAgICAgICAgY29uc3Qgc3RyaXBlRWxlbWVudCA9IHN0cmlwZUVsZW1lbnRzLmNyZWF0ZSh0eXBlLCB7CiAgICAgICAgICBzdHlsZTogY2FyZFN0eWxlcywKICAgICAgICB9KTsKICAgICAgICBzdHJpcGVFbGVtZW50Lm1vdW50KGZpZWxkc1t0eXBlXSk7CgogICAgICAgIHN0cmlwZUVsZW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigiY2hhbmdlIiwgKGV2ZW50KSA9PiB7CiAgICAgICAgICBpZiAoZXZlbnQuZXJyb3IpIHsKICAgICAgICAgICAgJChmaWVsZHNbdHlwZV0pLm5leHQoIi5lcnJvciIpLnRleHQoZXZlbnQuZXJyb3IubWVzc2FnZSk7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAkKGZpZWxkc1t0eXBlXSkubmV4dCgiLmVycm9yIikudGV4dCgiIik7CiAgICAgICAgICB9CiAgICAgICAgfSk7CgogICAgICAgIHJldHVybiBzdHJpcGVFbGVtZW50OwogICAgICB9KTsKICAgIH0s</text>
+        <text encoding="base64">ICAgICAgICBjb25maXJtOiB0cnVlLAo=</text>
       </register>
       <register name="-" type="4">
-        <text>'stripe'</text>
+        <text>.bijou.base</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -442,7 +441,7 @@
         <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZV0iKS5zdHJpcGUoKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIF9zdWJtaXRQYXltZW50KHRva2VuKSB7CiAgICAgIHRoaXMuZWxlbWVudC5maW5kKCIjc3RyaXBlLXRva2VuIikudmFsKHRva2VuLmlkKTsKICAgICAgdGhpcy5lbGVtZW50Lm9mZigic3VibWl0Iik7CiAgICAgIHRoaXMuZWxlbWVudC5zdWJtaXQoKTsKICAgIH0sCgogICAgX2Rpc3BsYXlFcnJvcihtZXNzYWdlKSB7CiAgICAgIHRoaXMuZWxlbWVudC5maW5kKCIuanMtY2FyZC1lcnJvcnMiKS50ZXh0KG1lc3NhZ2UpOwogICAgfSwKCiAgICBfZGlzYWJsZUJ1dHRvbigpIHsKICAgICAgdGhpcy5lbGVtZW50CiAgICAgICAgLmZpbmQoIi5qcy1tYWtlLXBheW1lbnQiKQogICAgICAgIC5wcm9wKCJkaXNhYmxlZCIsIHRydWUpCiAgICAgICAgLnRleHQoIlBsZWFzZSB3YWl0Li4uIik7CiAgICB9LAoKICAgIF9zZXR1cFN0cmlwZSgpIHsKICAgICAgdGhpcy5zdHJpcGUgPSBTdHJpcGUodGhpcy5vcHRpb25zLnN0cmlwZVRva2VuKTsKCiAgICAgIGNvbnN0IHN0cmlwZUVsZW1lbnRzID0gdGhpcy5zdHJpcGUuZWxlbWVudHMoewogICAgICAgIGZvbnRzOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgIGNzc1NyYzogImh0dHBzOi8vdXNlLnR5cGVraXQubmV0L3NjZThscnkuY3NzIiwKICAgICAgICAgIH0sCiAgICAgICAgXSwKICAgICAgfSk7CgogICAgICBjb25zdCBmaWVsZHMgPSB7CiAgICAgICAgY2FyZE51bWJlcjogIi5qcy1jYXJkLW51bWJlciIsCiAgICAgICAgY2FyZEV4cGlyeTogIi5qcy1jYXJkLWV4cGlyeSIsCiAgICAgICAgY2FyZEN2YzogIi5qcy1jYXJkLWN2YyIsCiAgICAgIH07CgogICAgICB0aGlzLmNhcmRFbGVtZW50cyA9IE9iamVjdC5rZXlzKGZpZWxkcykubWFwKCh0eXBlKSA9PiB7CiAgICAgICAgY29uc3Qgc3RyaXBlRWxlbWVudCA9IHN0cmlwZUVsZW1lbnRzLmNyZWF0ZSh0eXBlLCB7CiAgICAgICAgICBzdHlsZTogY2FyZFN0eWxlcywKICAgICAgICB9KTsKICAgICAgICBzdHJpcGVFbGVtZW50Lm1vdW50KGZpZWxkc1t0eXBlXSk7CgogICAgICAgIHN0cmlwZUVsZW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigiY2hhbmdlIiwgKGV2ZW50KSA9PiB7CiAgICAgICAgICBpZiAoZXZlbnQuZXJyb3IpIHsKICAgICAgICAgICAgJChmaWVsZHNbdHlwZV0pLm5leHQoIi5lcnJvciIpLnRleHQoZXZlbnQuZXJyb3IubWVzc2FnZSk7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAkKGZpZWxkc1t0eXBlXSkubmV4dCgiLmVycm9yIikudGV4dCgiIik7CiAgICAgICAgICB9CiAgICAgICAgfSk7CgogICAgICAgIHJldHVybiBzdHJpcGVFbGVtZW50OwogICAgICB9KTsKICAgIH0s</text>
+        <text encoding="base64">ICAgICAgICBjb25maXJtOiB0cnVlLAo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -465,16 +464,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIF9zdWJtaXRQYXltZW50KHRva2VuKSB7CiAgICAgIHRoaXMuZWxlbWVudC5maW5kKCIjc3RyaXBlLXRva2VuIikudmFsKHRva2VuLmlkKTsKICAgICAgdGhpcy5lbGVtZW50Lm9mZigic3VibWl0Iik7CiAgICAgIHRoaXMuZWxlbWVudC5zdWJtaXQoKTsKICAgIH0sCgogICAgX2Rpc3BsYXlFcnJvcihtZXNzYWdlKSB7CiAgICAgIHRoaXMuZWxlbWVudC5maW5kKCIuanMtY2FyZC1lcnJvcnMiKS50ZXh0KG1lc3NhZ2UpOwogICAgfSwKCiAgICBfZGlzYWJsZUJ1dHRvbigpIHsKICAgICAgdGhpcy5lbGVtZW50CiAgICAgICAgLmZpbmQoIi5qcy1tYWtlLXBheW1lbnQiKQogICAgICAgIC5wcm9wKCJkaXNhYmxlZCIsIHRydWUpCiAgICAgICAgLnRleHQoIlBsZWFzZSB3YWl0Li4uIik7CiAgICB9LAoKICAgIF9zZXR1cFN0cmlwZSgpIHsKICAgICAgdGhpcy5zdHJpcGUgPSBTdHJpcGUodGhpcy5vcHRpb25zLnN0cmlwZVRva2VuKTsKCiAgICAgIGNvbnN0IHN0cmlwZUVsZW1lbnRzID0gdGhpcy5zdHJpcGUuZWxlbWVudHMoewogICAgICAgIGZvbnRzOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgIGNzc1NyYzogImh0dHBzOi8vdXNlLnR5cGVraXQubmV0L3NjZThscnkuY3NzIiwKICAgICAgICAgIH0sCiAgICAgICAgXSwKICAgICAgfSk7CgogICAgICBjb25zdCBmaWVsZHMgPSB7CiAgICAgICAgY2FyZE51bWJlcjogIi5qcy1jYXJkLW51bWJlciIsCiAgICAgICAgY2FyZEV4cGlyeTogIi5qcy1jYXJkLWV4cGlyeSIsCiAgICAgICAgY2FyZEN2YzogIi5qcy1jYXJkLWN2YyIsCiAgICAgIH07CgogICAgICB0aGlzLmNhcmRFbGVtZW50cyA9IE9iamVjdC5rZXlzKGZpZWxkcykubWFwKCh0eXBlKSA9PiB7CiAgICAgICAgY29uc3Qgc3RyaXBlRWxlbWVudCA9IHN0cmlwZUVsZW1lbnRzLmNyZWF0ZSh0eXBlLCB7CiAgICAgICAgICBzdHlsZTogY2FyZFN0eWxlcywKICAgICAgICB9KTsKICAgICAgICBzdHJpcGVFbGVtZW50Lm1vdW50KGZpZWxkc1t0eXBlXSk7CgogICAgICAgIHN0cmlwZUVsZW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigiY2hhbmdlIiwgKGV2ZW50KSA9PiB7CiAgICAgICAgICBpZiAoZXZlbnQuZXJyb3IpIHsKICAgICAgICAgICAgJChmaWVsZHNbdHlwZV0pLm5leHQoIi5lcnJvciIpLnRleHQoZXZlbnQuZXJyb3IubWVzc2FnZSk7CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAkKGZpZWxkc1t0eXBlXSkubmV4dCgiLmVycm9yIikudGV4dCgiIik7CiAgICAgICAgICB9CiAgICAgICAgfSk7CgogICAgICAgIHJldHVybiBzdHJpcGVFbGVtZW50OwogICAgICB9KTsKICAgIH0s</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAvLyBTaG93IGVycm9yIHRvIHlvdXIgY3VzdG9tZXIgKGUuZy4sIGluc3VmZmljaWVudCBmdW5kcykK</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -825,7 +824,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAvLyBUaGUgcGF5bWVudCBoYXMgYmVlbiBwcm9jZXNzZWQhCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAvLyBTaG93IGVycm9yIHRvIHlvdXIgY3VzdG9tZXIgKGUuZy4sIGluc3VmZmljaWVudCBmdW5kcykK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -834,10 +833,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAvLyBUaGUgcGF5bWVudCBoYXMgYmVlbiBwcm9jZXNzZWQhCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -871,16 +870,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIFNob3VsZCB3ZSBzZW5kIGFpcmJyYWtlIG5vdGljZSBoZXJlPwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB9IGVsc2Ugewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIC8vIFNob3VsZCB3ZSBzZW5kIGFpcmJyYWtlIG5vdGljZSBoZXJlPwo=</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action FindInPath</text>
       </register>
     </registers>
   </component>
