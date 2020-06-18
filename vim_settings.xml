@@ -47,8 +47,8 @@
         <entry>wa</entry>
         <entry>action FindInPath</entry>
         <entry>action Unsplit</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -214,11 +214,11 @@
         <mark key="[" line="8" column="0" />
         <mark key="]" line="14" column="5" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592460326362">
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592461410176">
         <mark key="[" line="123" column="24" />
-        <mark key="]" line="97" column="38" />
-        <mark key="." line="97" column="19" />
-        <mark key="^" line="96" column="0" />
+        <mark key="]" line="105" column="25" />
+        <mark key="." line="105" column="24" />
+        <mark key="^" line="105" column="25" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/backoffice_purchase/_installment_renewal.html.haml" timestamp="1592403482090">
         <mark key="'" line="2" column="47" />
@@ -871,7 +871,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
