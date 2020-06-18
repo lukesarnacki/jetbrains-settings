@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>val</entry>
         <entry>view</entry>
         <entry encoding="base64">XDx0aGlzXD4=</entry>
         <entry encoding="base64">XDx3aWdkZXRcPg==</entry>
@@ -27,6 +26,7 @@
         <entry>amount</entry>
         <entry>premium</entry>
         <entry>quote</entry>
+        <entry>client_secret</entry>
       </history-search>
       <history-cmd>
         <entry>action GotoRelated</entry>
@@ -143,7 +143,7 @@
         <mark key="^" line="16" column="3" />
         <mark key="." line="16" column="2" />
       </file>
-      <file name="/Ruby Console" timestamp="1592489270500">
+      <file name="/Ruby Console" timestamp="1592491061447">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="14" column="0" />
@@ -201,12 +201,12 @@
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/backoffice_purchase/_installment_renewal.html.haml" timestamp="1592403482090">
         <mark key="'" line="2" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592490366747">
-        <mark key="'" line="54" column="19" />
-        <mark key="[" line="44" column="117" />
-        <mark key="]" line="44" column="129" />
-        <mark key="^" line="44" column="129" />
-        <mark key="." line="44" column="128" />
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592491225826">
+        <mark key="'" line="63" column="70" />
+        <mark key="[" line="45" column="100" />
+        <mark key="]" line="46" column="31" />
+        <mark key="^" line="46" column="31" />
+        <mark key="." line="46" column="30" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592488211948">
         <mark key="'" line="2" column="38" />
@@ -220,8 +220,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="45" column="55" filename="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" />
-      <jump line="11" column="36" filename="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" />
       <jump line="22" column="0" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
       <jump line="10" column="62" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
       <jump line="13" column="0" filename="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" />
@@ -320,6 +318,8 @@
       <jump line="1486" column="4" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
       <jump line="1489" column="6" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
       <jump line="1492" column="4" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="44" column="164" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
+      <jump line="61" column="70" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -412,7 +412,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>quote</text>
+        <text>client_secret</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgZGVmIGZyb250b2ZmaWNlX2NvbnRleHQocGFyYW1zOiB7ICJzdHJpcGUtdG9rZW4iID0+ICJ0b2tfdmlzYSIsICJpZGVtcG90ZW50X2tleSIgPT4gImdvb2xvb29vbzEyMyIgfSkKICAgICAgICBAZnJvbnRvZmZpY2VfY29udGV4dCB8fD0gVGVzdDo6RmFjdG9yaWVzOjpKb3VybmV5OjpDb250ZXh0LmZyb250b2ZmaWNlX2NvbnRleHQoY29udGV4dF9hcmdzKHBhcmFtcykpCiAgICAgIGVuZAoKICAgICAgZGVmIGNvbnRleHRfYXJncyhwYXJhbXMpCiAgICAgICAgeyBzaXRlOiAnc2ltcGx5YnVzaW5lc3NfdXMnLCB2ZXJ0aWNhbF9uYW1lOiAndXNhJywgYnVzaW5lc3NfdW5pdDogOnNpbXBseWJ1c2luZXNzX3VzLCBwYXJhbXM6IHBhcmFtcyB9CiAgICAgIGVuZAo=</text>
@@ -862,9 +862,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>quote</last-search>
+      <last-search>client_secret</last-search>
       <last-offset />
-      <last-pattern>quote</last-pattern>
+      <last-pattern>client_secret</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
