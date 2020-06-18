@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>context</entry>
         <entry>PaymentGatewayProvider</entry>
         <entry>create_session</entry>
         <entry>feature</entry>
@@ -27,6 +26,7 @@
         <entry>},</entry>
         <entry>_create</entry>
         <entry>stripe_form</entry>
+        <entry>debugger</entry>
       </history-search>
       <history-cmd>
         <entry>action GotoRelated</entry>
@@ -45,10 +45,10 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoFile</entry>
         <entry>wa</entry>
-        <entry>action FindInPath</entry>
         <entry>action Unsplit</entry>
-        <entry>action RecentFiles</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action FindInPath</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -161,20 +161,14 @@
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment_intent.js" timestamp="1592309768765">
-        <mark key="[" line="1" column="25" />
-        <mark key="]" line="1" column="40" />
-        <mark key="." line="1" column="39" />
-        <mark key="^" line="1" column="40" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" timestamp="1592454425474">
         <mark key="'" line="83" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/backoffice/stripe_payment_form.js" timestamp="1592461373805">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="0" />
-        <mark key="." line="5" column="0" />
-        <mark key="^" line="4" column="51" />
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/backoffice/stripe_payment_form.js" timestamp="1592467094373">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="^" line="3" column="1" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1592403093433">
         <mark key="'" line="43" column="26" />
@@ -214,21 +208,21 @@
         <mark key="[" line="8" column="0" />
         <mark key="]" line="14" column="5" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592461410176">
-        <mark key="[" line="123" column="24" />
-        <mark key="]" line="105" column="25" />
-        <mark key="." line="105" column="24" />
-        <mark key="^" line="105" column="25" />
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592467095198">
+        <mark key="[" line="124" column="0" />
+        <mark key="]" line="124" column="0" />
+        <mark key="^" line="101" column="0" />
+        <mark key="." line="124" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/backoffice_purchase/_installment_renewal.html.haml" timestamp="1592403482090">
         <mark key="'" line="2" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592458404382">
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592466611979">
         <mark key="'" line="2" column="20" />
-        <mark key="[" line="20" column="38" />
-        <mark key="]" line="21" column="46" />
-        <mark key="." line="21" column="45" />
-        <mark key="^" line="21" column="46" />
+        <mark key="[" line="21" column="29" />
+        <mark key="]" line="21" column="29" />
+        <mark key="." line="21" column="29" />
+        <mark key="^" line="21" column="36" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/full_pay.rb" timestamp="1592403140463">
         <mark key="'" line="18" column="45" />
@@ -418,22 +412,22 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZS1wYXltZW50LWludGVudF0iKS5zdHJpcGVQYXltZW50SW50ZW50KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgZGVidWdnZXI7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>stripepi</text>
+        <text>-payment-intent</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>stripe_form</text>
+        <text>debugger</text>
       </register>
-      <register name="0" type="4">
-        <text>stripePaymentIntent</text>
+      <register name="0" type="2">
+        <text encoding="base64">aW1wb3J0ICJjaTUvbW9kdWxlcy9zdHJpcGVfcGF5bWVudCI7CgokKCgpID0+IHsKICBkZWJ1Z2dlcjsKICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZV0iKS5zdHJpcGUoKTsKICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZS1wYXltZW50LWludGVudF0iKS5zdHJpcGVQYXltZW50SW50ZW50KCk7Cn0pOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZS1wYXltZW50LWludGVudF0iKS5zdHJpcGVQYXltZW50SW50ZW50KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgZGVidWdnZXI7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -456,16 +450,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBkZWJ1Z2dlcjsK</text>
+        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZS1wYXltZW50LWludGVudF0iKS5zdHJpcGVQYXltZW50SW50ZW50KCk7Cg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZS1wYXltZW50LWludGVudF0iKS5zdHJpcGVQYXltZW50SW50ZW50KCk7Cg==</text>
+        <text encoding="base64">ICAgICAgZGVidWdnZXI7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text>11232</text>
+        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZS1wYXltZW50LWludGVudF0iKS5zdHJpcGVQYXltZW50SW50ZW50KCk7Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -816,7 +810,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBmdW5jdGlvbiBNeURhdGEoZm9vLCBiYXIpIHsKICAgIHRoaXMuZm9vID0gZm9vOwogICAgdGhpcy5iYXIgPSBiYXI7CgogICAgdGhpcy52ZXJpZnkgPSBmdW5jdGlvbiAoKSB7CiAgICAgIHJldHVybiB0aGlzLmZvbyA9PT0gdGhpcy5iYXI7CiAgICB9OwogIH0KCgo=</text>
+        <text encoding="base64">ICBkZWJ1Z2dlcjsK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -825,10 +819,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZS1wYXltZW50LWludGVudF0iKS5zdHJpcGVQYXltZW50SW50ZW50KCk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIF9zdWJtaXRQYXltZW50KHRva2VuKSB7CiAgICAgIHRoaXMud2lkZ2V0LmVsZW1lbnQuZmluZCgiI3N0cmlwZS10b2tlbiIpLnZhbCh0b2tlbi5pZCk7CiAgICAgIHRoaXMud2lkZ2V0LmVsZW1lbnQub2ZmKCJzdWJtaXQiKTsKICAgICAgdGhpcy53aWRnZXQuZWxlbWVudC5zdWJtaXQoKTsKICAgIH0s</text>
+        <text encoding="base64">ICBkZWJ1Z2dlcjsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -861,25 +855,25 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgIF9jcmVhdGUoKSB7CiAgICAgIGNvbnN0IF90aGlzID0gdGhpczsKICAgICAgY29uc3QgaGVscGVyID0gbmV3IFN0cmlwZUhlbHBlcih0aGlzKTsKCiAgICAgIGhlbHBlci5zZXR1cFN0cmlwZSgpOwoKICAgICAgdGhpcy5lbGVtZW50Lm9uKCJzdWJtaXQiLCAoZSkgPT4gewogICAgICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgICAgICBjb25zdCBjbGllbnRTZWNyZXQgPSBfdGhpcy5lbGVtZW50LmZpbmQoIiNzdHJpcGUtY2xpZW50LXNlY3JldCIpLnZhbCgpOwoKICAgICAgICB0aGlzLnN0cmlwZQogICAgICAgICAgLmNvbmZpcm1DYXJkUGF5bWVudChjbGllbnRTZWNyZXQsIHsKICAgICAgICAgICAgcGF5bWVudF9tZXRob2Q6IHsgY2FyZDogX3RoaXMuY2FyZEVsZW1lbnRzWzBdIH0sCiAgICAgICAgICB9KQogICAgICAgICAgLnRoZW4oZnVuY3Rpb24gKHJlc3VsdCkgewogICAgICAgICAgICBpZiAocmVzdWx0LmVycm9yKSB7CiAgICAgICAgICAgICAgaGVscGVyLmRpc3BsYXlFcnJvcihyZXN1bHQuZXJyb3IubWVzc2FnZSk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgaGVscGVyLmRpc2FibGVCdXR0b24oKTsKICAgICAgICAgICAgICBoZWxwZXIuc3VibWl0UGF5bWVudEludGVudChyZXN1bHQucGF5bWVudEludGVudC5pZCk7CiAgICAgICAgICAgIH0KICAgICAgICAgIH0pOwogICAgICB9KTsKICAgIH0sCgogICAgX3N1Ym1pdFBheW1lbnRJbnRlbnQoaWQpIHsKICAgICAgdGhpcy53aWRnZXQuZWxlbWVudC5maW5kKCIjc3RyaXBlLXBheW1lbnQtaW50ZW50LWlkIikudmFsKGlkKTsKICAgICAgdGhpcy53aWRnZXQuZWxlbWVudC5vZmYoInN1Ym1pdCIpOwogICAgICB0aGlzLndpZGdldC5lbGVtZW50LnN1Ym1pdCgpOwogICAgfQ==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZS1wYXltZW50LWludGVudF0iKS5zdHJpcGVQYXltZW50SW50ZW50KCk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text>11232</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action FindInPath</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>stripe_form</last-search>
+      <last-search>debugger</last-search>
       <last-offset />
-      <last-pattern>stripe_form</last-pattern>
+      <last-pattern>debugger</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
