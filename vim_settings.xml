@@ -44,11 +44,11 @@
         <entry>action GotoClass</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoFile</entry>
-        <entry>wa</entry>
         <entry>action Unsplit</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action FindInPath</entry>
         <entry>action RecentFiles</entry>
+        <entry>wa</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -167,12 +167,7 @@
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" timestamp="1592454425474">
         <mark key="'" line="83" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/backoffice/stripe_payment_form.js" timestamp="1592467094373">
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="^" line="3" column="1" />
-        <mark key="." line="4" column="0" />
-      </file>
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/backoffice/stripe_payment_form.js" timestamp="1592470563779" />
       <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1592403093433">
         <mark key="'" line="43" column="26" />
         <mark key="[" line="29" column="14" />
@@ -408,7 +403,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBKb3VybmV5OjpTdWNjZXNzUmVzdWx0Lm5ldwo=</text>
+        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZV0iKS5zdHJpcGUoKTsK</text>
       </register>
       <register name="-" type="4">
         <text>-payment-intent</text>
@@ -420,7 +415,7 @@
         <text>debugger</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBKb3VybmV5OjpTdWNjZXNzUmVzdWx0Lm5ldwo=</text>
+        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZV0iKS5zdHJpcGUoKTsK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgZGVidWdnZXI7Cg==</text>
@@ -861,7 +856,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>wa</text>
       </register>
     </registers>
   </component>
