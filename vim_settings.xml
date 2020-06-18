@@ -46,9 +46,9 @@
         <entry>action GotoFile</entry>
         <entry>action Unsplit</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action FindInPath</entry>
-        <entry>action RecentFiles</entry>
         <entry>wa</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action FindInPath</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -175,12 +175,12 @@
         <mark key="." line="29" column="13" />
         <mark key="^" line="29" column="14" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1592459005480">
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1592470591463">
         <mark key="'" line="7" column="0" />
         <mark key="[" line="7" column="67" />
-        <mark key="]" line="7" column="77" />
-        <mark key="^" line="7" column="77" />
-        <mark key="." line="7" column="76" />
+        <mark key="]" line="7" column="74" />
+        <mark key="^" line="7" column="74" />
+        <mark key="." line="7" column="73" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1592401892408">
         <mark key="'" line="0" column="25" />
@@ -402,11 +402,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAkKCJbZGF0YS1zbWFydC1mb3JtPXN0cmlwZV0iKS5zdHJpcGUoKTsK</text>
+      <register name="*" type="4">
+        <text>smart_form</text>
       </register>
       <register name="-" type="4">
-        <text>-payment-intent</text>
+        <text>smart_form</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -856,7 +856,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>wa</text>
+        <text>action FindInPath</text>
       </register>
     </registers>
   </component>
