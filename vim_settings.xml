@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>payment_part</entry>
-        <entry>stripe-token</entry>
         <entry>val</entry>
         <entry>view</entry>
         <entry encoding="base64">XDx0aGlzXD4=</entry>
@@ -25,8 +23,10 @@
         <entry>frontoffice_conte</entry>
         <entry>config</entry>
         <entry>build_view_data</entry>
-        <entry>amount</entry>
         <entry>money</entry>
+        <entry>amount</entry>
+        <entry>premium</entry>
+        <entry>quote</entry>
       </history-search>
       <history-cmd>
         <entry>action GotoRelated</entry>
@@ -46,8 +46,8 @@
         <entry>action GotoTest</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action DebugClass</entry>
-        <entry>action RecentFiles</entry>
         <entry>action GotoClass</entry>
+        <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
@@ -150,6 +150,9 @@
         <mark key="^" line="14" column="0" />
         <mark key="." line="8" column="2" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/models/rfq.rb" timestamp="1592490310715">
+        <mark key="'" line="1492" column="4" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/backoffice/stripe_payment_form.js" timestamp="1592470563779" />
       <file name="$USER_HOME$/projects/chopin/app/factories/stripe_config_factory.rb" timestamp="1592488164265" />
       <file name="$USER_HOME$/projects/chopin/tmp/pids/server.pid" timestamp="1592459447540">
@@ -171,13 +174,6 @@
         <mark key="'" line="25" column="0" />
         <mark key="[" line="36" column="0" />
         <mark key="]" line="42" column="9" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1592403093433">
-        <mark key="'" line="43" column="26" />
-        <mark key="[" line="29" column="14" />
-        <mark key="]" line="29" column="14" />
-        <mark key="." line="29" column="13" />
-        <mark key="^" line="29" column="14" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1592470591463">
         <mark key="'" line="7" column="0" />
@@ -205,12 +201,12 @@
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/backoffice_purchase/_installment_renewal.html.haml" timestamp="1592403482090">
         <mark key="'" line="2" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592489334819">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592490366747">
         <mark key="'" line="54" column="19" />
-        <mark key="[" line="54" column="74" />
-        <mark key="]" line="44" column="0" />
-        <mark key="^" line="44" column="0" />
-        <mark key="." line="44" column="0" />
+        <mark key="[" line="44" column="117" />
+        <mark key="]" line="44" column="129" />
+        <mark key="^" line="44" column="129" />
+        <mark key="." line="44" column="128" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592488211948">
         <mark key="'" line="2" column="38" />
@@ -224,17 +220,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="12" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
-      <jump line="65" column="0" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
-      <jump line="45" column="20" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
-      <jump line="0" column="8" filename="$USER_HOME$/projects/chopin/app/factories/stripe_config_factory.rb" />
-      <jump line="7" column="36" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
-      <jump line="9" column="49" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
-      <jump line="15" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" />
-      <jump line="88" column="37" filename="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" />
-      <jump line="16" column="51" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
-      <jump line="169" column="8" filename="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" />
       <jump line="45" column="55" filename="$USER_HOME$/projects/chopin/app/view_models/frontoffice/shared/payment_options_view_model_builder.rb" />
       <jump line="11" column="36" filename="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" />
       <jump line="22" column="0" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
@@ -324,6 +309,17 @@
       <jump line="53" column="19" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="54" column="19" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="25" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="332" column="25" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="283" column="27" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="285" column="42" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="288" column="45" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="1481" column="20" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="1482" column="20" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="1485" column="15" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="1486" column="4" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="1489" column="6" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
+      <jump line="1492" column="4" filename="$USER_HOME$/projects/chopin/app/models/rfq.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -407,16 +403,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>cccccccccccccccccccw</text>
+        <text>foo</text>
       </register>
       <register name="-" type="4">
-        <text>cccccccccccccccccccw</text>
+        <text>foo</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>money</text>
+        <text>quote</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgZGVmIGZyb250b2ZmaWNlX2NvbnRleHQocGFyYW1zOiB7ICJzdHJpcGUtdG9rZW4iID0+ICJ0b2tfdmlzYSIsICJpZGVtcG90ZW50X2tleSIgPT4gImdvb2xvb29vbzEyMyIgfSkKICAgICAgICBAZnJvbnRvZmZpY2VfY29udGV4dCB8fD0gVGVzdDo6RmFjdG9yaWVzOjpKb3VybmV5OjpDb250ZXh0LmZyb250b2ZmaWNlX2NvbnRleHQoY29udGV4dF9hcmdzKHBhcmFtcykpCiAgICAgIGVuZAoKICAgICAgZGVmIGNvbnRleHRfYXJncyhwYXJhbXMpCiAgICAgICAgeyBzaXRlOiAnc2ltcGx5YnVzaW5lc3NfdXMnLCB2ZXJ0aWNhbF9uYW1lOiAndXNhJywgYnVzaW5lc3NfdW5pdDogOnNpbXBseWJ1c2luZXNzX3VzLCBwYXJhbXM6IHBhcmFtcyB9CiAgICAgIGVuZAo=</text>
@@ -866,9 +862,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>money</last-search>
+      <last-search>quote</last-search>
       <last-offset />
-      <last-pattern>money</last-pattern>
+      <last-pattern>quote</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
