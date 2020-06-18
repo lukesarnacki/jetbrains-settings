@@ -158,7 +158,7 @@
         <mark key="^" line="54" column="33" />
         <mark key="." line="54" column="32" />
       </file>
-      <file name="/Ruby Console" timestamp="1592481261281">
+      <file name="/Ruby Console" timestamp="1592486776631">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -207,14 +207,14 @@
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/backoffice_purchase/_installment_renewal.html.haml" timestamp="1592403482090">
         <mark key="'" line="2" column="47" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592481599852">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592486386073">
         <mark key="[" line="14" column="9" />
-        <mark key="]" line="6" column="0" />
-        <mark key="^" line="23" column="6" />
-        <mark key="." line="6" column="0" />
+        <mark key="]" line="37" column="17" />
+        <mark key="^" line="37" column="17" />
+        <mark key="." line="37" column="16" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592480903156">
-        <mark key="'" line="18" column="10" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592486872730">
+        <mark key="'" line="8" column="91" />
         <mark key="[" line="18" column="0" />
         <mark key="]" line="18" column="34" />
         <mark key="." line="18" column="0" />
@@ -225,8 +225,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="29" column="17" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
-      <jump line="0" column="6" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="4" column="107" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="54" column="18" filename="$USER_HOME$/projects/chopin/app/services/payment_gateway_provider.rb" />
       <jump line="57" column="0" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
@@ -325,6 +323,8 @@
       <jump line="87" column="55" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="72" column="8" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
+      <jump line="9" column="18" filename="$USER_HOME$/projects/chopin/spec/app/factories/stripe_config_factory_spec.rb" />
+      <jump line="8" column="91" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
