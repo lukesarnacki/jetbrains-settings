@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>frontoffice_conte</entry>
         <entry>config</entry>
         <entry>build_view_data</entry>
         <entry>money</entry>
@@ -27,6 +26,7 @@
         <entry>product</entry>
         <entry>fill</entry>
         <entry>_setup</entry>
+        <entry>this._set</entry>
       </history-search>
       <history-cmd>
         <entry>action GotoRelated</entry>
@@ -208,9 +208,9 @@
         <mark key="]" line="10" column="31" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592833032468">
-        <mark key="'" line="74" column="11" />
-        <mark key="[" line="124" column="0" />
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592835114312">
+        <mark key="'" line="80" column="28" />
+        <mark key="[" line="74" column="12" />
         <mark key="]" line="124" column="0" />
         <mark key="^" line="101" column="0" />
         <mark key="." line="124" column="0" />
@@ -237,7 +237,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="72" column="8" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="9" column="18" filename="$USER_HOME$/projects/chopin/spec/app/factories/stripe_config_factory_spec.rb" />
       <jump line="7" column="10" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
@@ -337,6 +336,7 @@
       <jump line="9" column="2" filename="$USER_HOME$/projects/chopin/spec/journey/usa/usa.feature" />
       <jump line="28" column="11" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="74" column="11" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="80" column="28" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -429,7 +429,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>_setup</text>
+        <text>this._set</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICBTY2VuYXJpbzogQXMgYSBjdXN0b21lciwgSSBjYW4gZmlsbCB0aGUgcXVlc3Rpb25uYWlyZSwgZ2V0IHF1b3RlcyBhbmQgZ28gdG8gdGhlIGNhcmQgZGV0YWlscyBwYWdlCiAgICBHaXZlbiBJIGJlZ2luIGEgdXNhIGpvdXJuZXkK</text>
@@ -879,9 +879,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>_setup</last-search>
+      <last-search>this._set</last-search>
       <last-offset />
-      <last-pattern>_setup</last-pattern>
+      <last-pattern>this._set</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
