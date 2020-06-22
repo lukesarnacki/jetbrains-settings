@@ -46,9 +46,9 @@
         <entry>action FindInPath</entry>
         <entry>wa</entry>
         <entry>action DebugClass</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoFile</entry>
         <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -143,7 +143,7 @@
         <mark key="^" line="54" column="33" />
         <mark key="." line="54" column="32" />
       </file>
-      <file name="/Ruby Console" timestamp="1592828603513">
+      <file name="/Ruby Console" timestamp="1592834280324">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="14" column="0" />
@@ -873,7 +873,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
