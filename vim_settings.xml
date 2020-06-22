@@ -45,10 +45,10 @@
         <entry>action FindInPath</entry>
         <entry>action DebugClass</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action RecentFiles</entry>
-        <entry>action GotoFile</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>wa</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -205,8 +205,8 @@
         <mark key="^" line="84" column="26" />
         <mark key="." line="84" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592494180583">
-        <mark key="'" line="31" column="51" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592819458398">
+        <mark key="'" line="25" column="8" />
         <mark key="^" line="36" column="68" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/models/view/view_data_builder.rb" timestamp="1592492258383">
@@ -217,7 +217,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="82" column="53" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="99" column="16" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="111" column="21" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="52" column="8" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
@@ -317,6 +316,7 @@
       <jump line="80" column="10" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="24" column="4" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_base.rb" />
       <jump line="8" column="1" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_base.rb" />
+      <jump line="25" column="8" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -853,7 +853,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>wa</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
