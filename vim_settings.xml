@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>journey_state</entry>
         <entry>frontoffice_conte</entry>
         <entry>config</entry>
         <entry>build_view_data</entry>
@@ -27,6 +26,7 @@
         <entry>card_details</entry>
         <entry>product</entry>
         <entry>fill</entry>
+        <entry>_setup</entry>
       </history-search>
       <history-cmd>
         <entry>action GotoRelated</entry>
@@ -47,8 +47,8 @@
         <entry>wa</entry>
         <entry>action DebugClass</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -208,6 +208,13 @@
         <mark key="]" line="10" column="31" />
         <mark key="." line="9" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592833032468">
+        <mark key="'" line="74" column="11" />
+        <mark key="[" line="124" column="0" />
+        <mark key="]" line="124" column="0" />
+        <mark key="^" line="101" column="0" />
+        <mark key="." line="124" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592803313735">
         <mark key="'" line="87" column="10" />
         <mark key="[" line="84" column="0" />
@@ -230,8 +237,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="8" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
-      <jump line="87" column="55" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="72" column="8" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
       <jump line="9" column="18" filename="$USER_HOME$/projects/chopin/spec/app/factories/stripe_config_factory_spec.rb" />
@@ -330,6 +335,8 @@
       <jump line="36" column="43" filename="$USER_HOME$/projects/chopin/spec/journey/usa/usa_spec.rb" />
       <jump line="3" column="32" filename="$USER_HOME$/projects/chopin/spec/journey/usa/usa_spec.rb" />
       <jump line="9" column="2" filename="$USER_HOME$/projects/chopin/spec/journey/usa/usa.feature" />
+      <jump line="28" column="11" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="74" column="11" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -422,7 +429,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>fill</text>
+        <text>_setup</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICBTY2VuYXJpbzogQXMgYSBjdXN0b21lciwgSSBjYW4gZmlsbCB0aGUgcXVlc3Rpb25uYWlyZSwgZ2V0IHF1b3RlcyBhbmQgZ28gdG8gdGhlIGNhcmQgZGV0YWlscyBwYWdlCiAgICBHaXZlbiBJIGJlZ2luIGEgdXNhIGpvdXJuZXkK</text>
@@ -866,15 +873,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>fill</last-search>
+      <last-search>_setup</last-search>
       <last-offset />
-      <last-pattern>fill</last-pattern>
+      <last-pattern>_setup</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
