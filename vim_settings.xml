@@ -43,12 +43,12 @@
         <entry>action GotoClass</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action Unsplit</entry>
-        <entry>action GotoFile</entry>
         <entry>action FindInPath</entry>
         <entry>wa</entry>
-        <entry>action RecentFiles</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action DebugClass</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,7 +133,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/fragment.rb" timestamp="1592488328034">
+      <file name="/fragment.rb" timestamp="1592832021860">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" timestamp="1592488040400">
@@ -203,9 +203,9 @@
         <mark key="^" line="30" column="23" />
         <mark key="." line="30" column="22" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/usa/usa.feature" timestamp="1592828939007">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/usa/usa.feature" timestamp="1592830785531">
         <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="0" />
+        <mark key="]" line="10" column="31" />
         <mark key="." line="9" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592803313735">
@@ -215,9 +215,12 @@
         <mark key="^" line="84" column="26" />
         <mark key="." line="84" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592828367164">
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592832252828">
         <mark key="'" line="12" column="14" />
-        <mark key="^" line="36" column="68" />
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="25" column="0" />
+        <mark key="^" line="25" column="14" />
+        <mark key="." line="25" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/models/view/view_data_builder.rb" timestamp="1592492258383">
         <mark key="'" line="177" column="8" />
@@ -409,8 +412,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>t</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgICBieWVidWRnCg==</text>
       </register>
       <register name="-" type="4">
         <text>t</text>
@@ -422,10 +425,10 @@
         <text>fill</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBmYWlsdXJlKCd1bmtub3duX2Vycm9yJywgVU5LTk9XTl9FUlJPUl9NRVNTQUdFKSB1bmxlc3MgZXJyb3IuY29kZQo=</text>
+        <text encoding="base64">ICBTY2VuYXJpbzogQXMgYSBjdXN0b21lciwgSSBjYW4gZmlsbCB0aGUgcXVlc3Rpb25uYWlyZSwgZ2V0IHF1b3RlcyBhbmQgZ28gdG8gdGhlIGNhcmQgZGV0YWlscyBwYWdlCiAgICBHaXZlbiBJIGJlZ2luIGEgdXNhIGpvdXJuZXkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBTY2VuYXJpbzogQXMgYSBjdXN0b21lciwgSSBjYW4gZmlsbCB0aGUgcXVlc3Rpb25uYWlyZSwgZ2V0IHF1b3RlcyBhbmQgZ28gdG8gdGhlIGNhcmQgZGV0YWlscyBwYWdlCg==</text>
+        <text encoding="base64">ICAgICAgICBieWVidWRnCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -448,16 +451,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIFJlc3VsdGFudC5mYWlsdXJlKGNvZGU6IGUuY29kZSwgbWVzc2FnZTogZSkK</text>
+        <text encoding="base64">ICBTY2VuYXJpbzogQXMgYSBjdXN0b21lciwgSSBjYW4gZmlsbCB0aGUgcXVlc3Rpb25uYWlyZSwgZ2V0IHF1b3RlcyBhbmQgZ28gdG8gdGhlIGNhcmQgZGV0YWlscyBwYWdlCg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgZGVmIGZhaWx1cmUoY29kZSwgbWVzc2FnZSkKICAgIFJlc3VsdGFudC5mYWlsdXJlKGNvZGU6IGNvZGUsIG1lc3NhZ2U6IG1lc3NhZ2UpCiAgZW5kCg==</text>
+        <text encoding="base64">ICAgIFJlc3VsdGFudC5mYWlsdXJlKGNvZGU6IGUuY29kZSwgbWVzc2FnZTogZSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGhhbmRsZV9mYWlsdXJlKGVycm9yOiBlLCBub3RpZnk6IHRydWUpCg==</text>
+        <text encoding="base64">CiAgZGVmIGZhaWx1cmUoY29kZSwgbWVzc2FnZSkKICAgIFJlc3VsdGFudC5mYWlsdXJlKGNvZGU6IGNvZGUsIG1lc3NhZ2U6IG1lc3NhZ2UpCiAgZW5kCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -817,10 +820,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGhhbmRsZV9mYWlsdXJlKGVycm9yOiBlLCBub3RpZnk6IHRydWUpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBkZWYgaGFuZGxlX2ZhaWx1cmUoZXJyb3I6KQogICAgcmV0dXJuIGZhaWx1cmUoJ3Vua25vd25fZXJyb3InLCBVTktOT1dOX0VSUk9SX01FU1NBR0UpIHVubGVzcyBlcnJvci5jb2RlCiAgICBmYWlsdXJlKGVycm9yLmNvZGUsIGVycm9yLm1lc3NhZ2UpCiAgZW5kCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -854,16 +857,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGhhbmRsZV9mYWlsdXJlKGVycm9yOiBlKQo=</text>
+        <text encoding="base64">ICBkZWYgaGFuZGxlX2ZhaWx1cmUoZXJyb3I6KQogICAgcmV0dXJuIGZhaWx1cmUoJ3Vua25vd25fZXJyb3InLCBVTktOT1dOX0VSUk9SX01FU1NBR0UpIHVubGVzcyBlcnJvci5jb2RlCiAgICBmYWlsdXJlKGVycm9yLmNvZGUsIGVycm9yLm1lc3NhZ2UpCiAgZW5kCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGhhbmRsZV9mYWlsdXJlKGVycm9yOiBlLCBub3RpZnk6IHRydWUpCg==</text>
+        <text encoding="base64">ICAgIGhhbmRsZV9mYWlsdXJlKGVycm9yOiBlKQo=</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action DebugClass</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
