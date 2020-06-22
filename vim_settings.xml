@@ -162,7 +162,7 @@
         <mark key="'" line="6" column="65" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/models/rfq.rb" timestamp="1592491764447">
-        <mark key="'" line="1490" column="36" />
+        <mark key="'" line="1499" column="36" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" timestamp="1592492987744">
         <mark key="'" line="217" column="0" />
@@ -199,18 +199,15 @@
         <mark key="'" line="2" column="47" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592803313735">
-        <mark key="'" line="80" column="10" />
-        <mark key="[" line="77" column="0" />
-        <mark key="]" line="77" column="0" />
-        <mark key="^" line="77" column="26" />
-        <mark key="." line="77" column="0" />
+        <mark key="'" line="87" column="10" />
+        <mark key="[" line="84" column="0" />
+        <mark key="]" line="84" column="0" />
+        <mark key="^" line="84" column="26" />
+        <mark key="." line="84" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592494180583">
-        <mark key="'" line="28" column="51" />
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="34" />
-        <mark key="." line="18" column="0" />
-        <mark key="^" line="33" column="68" />
+        <mark key="'" line="31" column="51" />
+        <mark key="^" line="36" column="68" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/models/view/view_data_builder.rb" timestamp="1592492258383">
         <mark key="'" line="177" column="8" />
