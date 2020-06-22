@@ -43,12 +43,12 @@
         <entry>action GotoClass</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action Unsplit</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoFile</entry>
         <entry>action FindInPath</entry>
-        <entry>action DebugClass</entry>
-        <entry>action RecentFiles</entry>
         <entry>wa</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action DebugClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -863,7 +863,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>wa</text>
+        <text>action DebugClass</text>
       </register>
     </registers>
   </component>
