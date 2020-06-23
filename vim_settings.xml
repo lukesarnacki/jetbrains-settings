@@ -43,11 +43,11 @@
         <entry>action GotoClass</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action Unsplit</entry>
-        <entry>action FindInPath</entry>
-        <entry>wa</entry>
-        <entry>action DebugClass</entry>
         <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
+        <entry>action DebugClass</entry>
+        <entry>wa</entry>
+        <entry>action FindInPath</entry>
         <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
@@ -133,17 +133,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/fragment.rb" timestamp="1592832021860">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" timestamp="1592488040400">
-        <mark key="'" line="10" column="72" />
-        <mark key="[" line="44" column="0" />
-        <mark key="]" line="44" column="34" />
-        <mark key="^" line="54" column="33" />
-        <mark key="." line="54" column="32" />
-      </file>
-      <file name="/Ruby Console" timestamp="1592899920973">
+      <file name="/Ruby Console" timestamp="1592926048022">
         <mark key="'" line="0" column="55" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="14" column="0" />
@@ -153,19 +143,45 @@
       <file name="$USER_HOME$/projects/chopin/app/services/sites_config.rb" timestamp="1592492281640">
         <mark key="'" line="6" column="65" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/models/rfq.rb" timestamp="1592491764447">
-        <mark key="'" line="1499" column="36" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" timestamp="1592492987744">
-        <mark key="'" line="217" column="0" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="42" column="9" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/usa/usa_common_steps.rb" timestamp="1592828970543">
         <mark key="[" line="0" column="1" />
         <mark key="]" line="0" column="3" />
         <mark key="." line="0" column="2" />
         <mark key="^" line="0" column="3" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_base.rb" timestamp="1592822177429">
+        <mark key="'" line="13" column="1" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="3" />
+        <mark key="." line="2" column="2" />
+        <mark key="^" line="2" column="3" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" timestamp="1592924445578">
+        <mark key="'" line="70" column="74" />
+      </file>
+      <file name="/JavaScript Console" timestamp="1592924473534">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/config/journeys/sub_journeys/purchase.rb" timestamp="1592821953534">
+        <mark key="'" line="20" column="21" />
+        <mark key="[" line="29" column="34" />
+        <mark key="]" line="30" column="23" />
+        <mark key="^" line="30" column="23" />
+        <mark key="." line="30" column="22" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/models/view/backoffice/mtas/view_model_factory.rb" timestamp="1592924417350">
+        <mark key="'" line="16" column="50" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/config/sites_config.yml" timestamp="1592492309336">
+        <mark key="'" line="161" column="27" />
+      </file>
+      <file name="/fragment.rb" timestamp="1592832021860">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" timestamp="1592492987744">
+        <mark key="'" line="217" column="0" />
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="42" column="9" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1592899627773">
         <mark key="'" line="7" column="0" />
@@ -189,30 +205,10 @@
       <file name="$USER_HOME$/projects/chopin/spec/journey/usa/usa_spec.rb" timestamp="1592828669708">
         <mark key="'" line="3" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_base.rb" timestamp="1592822177429">
-        <mark key="'" line="13" column="1" />
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="3" />
-        <mark key="." line="2" column="2" />
-        <mark key="^" line="2" column="3" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/config/journeys/sub_journeys/purchase.rb" timestamp="1592821953534">
-        <mark key="'" line="20" column="21" />
-        <mark key="[" line="29" column="34" />
-        <mark key="]" line="30" column="23" />
-        <mark key="^" line="30" column="23" />
-        <mark key="." line="30" column="22" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/usa/usa.feature" timestamp="1592830785531">
         <mark key="[" line="9" column="0" />
         <mark key="]" line="10" column="31" />
         <mark key="." line="9" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1592899552735">
-        <mark key="'" line="80" column="28" />
-        <mark key="[" line="98" column="15" />
-        <mark key="]" line="73" column="0" />
-        <mark key="." line="73" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592803313735">
         <mark key="'" line="87" column="10" />
@@ -231,14 +227,8 @@
       <file name="$USER_HOME$/projects/chopin/app/models/view/view_data_builder.rb" timestamp="1592492258383">
         <mark key="'" line="177" column="8" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/config/sites_config.yml" timestamp="1592492309336">
-        <mark key="'" line="161" column="27" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="72" column="8" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
-      <jump line="9" column="18" filename="$USER_HOME$/projects/chopin/spec/app/factories/stripe_config_factory_spec.rb" />
-      <jump line="7" column="10" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
       <jump line="8" column="76" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
       <jump line="6" column="37" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
       <jump line="5" column="17" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
@@ -336,6 +326,9 @@
       <jump line="28" column="11" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="74" column="11" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="80" column="28" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="16" column="50" filename="$USER_HOME$/projects/chopin/app/models/view/backoffice/mtas/view_model_factory.rb" />
+      <jump line="70" column="74" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" />
+      <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
