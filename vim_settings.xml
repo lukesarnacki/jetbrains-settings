@@ -44,11 +44,11 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action Unsplit</entry>
         <entry>action RecentFiles</entry>
-        <entry>action GotoFile</entry>
         <entry>action DebugClass</entry>
         <entry>wa</entry>
-        <entry>action FindInPath</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action FindInPath</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,21 +133,19 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Ruby Console" timestamp="1592926048022">
-        <mark key="'" line="0" column="55" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="14" column="0" />
-        <mark key="^" line="14" column="0" />
-        <mark key="." line="8" column="2" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/sites_config.rb" timestamp="1592492281640">
-        <mark key="'" line="6" column="65" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/usa/usa_common_steps.rb" timestamp="1592828970543">
         <mark key="[" line="0" column="1" />
         <mark key="]" line="0" column="3" />
         <mark key="." line="0" column="2" />
         <mark key="^" line="0" column="3" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/mtas/_policy_information.html.haml" timestamp="1592928985429">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/integrated_card_payment.html.haml" timestamp="1592929080656">
+        <mark key="'" line="4" column="37" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_base.rb" timestamp="1592822177429">
         <mark key="'" line="13" column="1" />
@@ -172,8 +170,10 @@
       <file name="$USER_HOME$/projects/chopin/app/models/view/backoffice/mtas/view_model_factory.rb" timestamp="1592924417350">
         <mark key="'" line="16" column="50" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/config/sites_config.yml" timestamp="1592492309336">
-        <mark key="'" line="161" column="27" />
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/_policy_information.html.haml" timestamp="1592928955369">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="/fragment.rb" timestamp="1592832021860">
         <mark key="[" line="0" column="0" />
@@ -190,12 +190,6 @@
         <mark key="^" line="7" column="69" />
         <mark key="." line="7" column="68" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1592492348318">
-        <mark key="'" line="26" column="12" />
-        <mark key="]" line="28" column="0" />
-        <mark key="^" line="28" column="0" />
-        <mark key="." line="28" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/log_failure_action.rb" timestamp="1592822227402">
         <mark key="[" line="3" column="0" />
         <mark key="]" line="3" column="0" />
@@ -204,6 +198,11 @@
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/usa/usa_spec.rb" timestamp="1592828669708">
         <mark key="'" line="3" column="32" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/shared/_mta_policy_header.html.haml" timestamp="1592929006519">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/usa/usa.feature" timestamp="1592830785531">
         <mark key="[" line="9" column="0" />
@@ -224,12 +223,8 @@
         <mark key="^" line="25" column="14" />
         <mark key="." line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/models/view/view_data_builder.rb" timestamp="1592492258383">
-        <mark key="'" line="177" column="8" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="76" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
       <jump line="6" column="37" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
       <jump line="5" column="17" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
       <jump line="10" column="72" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
@@ -329,6 +324,7 @@
       <jump line="16" column="50" filename="$USER_HOME$/projects/chopin/app/models/view/backoffice/mtas/view_model_factory.rb" />
       <jump line="70" column="74" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" />
       <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
+      <jump line="4" column="37" filename="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/integrated_card_payment.html.haml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -412,7 +408,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ZGVidWdnZXIK</text>
+        <text>mta_policy_header</text>
       </register>
       <register name="-" type="4">
         <text>stripe</text>
@@ -427,7 +423,7 @@
         <text encoding="base64">ICAgID0gam91cm5leV9mb3JtX3RhZyhAam91cm5leSwgcmVxdWVzdC5wYXRoLCBkYXRhOiB7IHNtYXJ0X2Zvcm06ICdmb28nLCBzdHJpcGVfdG9rZW46IHB1Ymxpc2hhYmxlX2tleSB9KSBkbwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZGVidWdnZXIK</text>
+        <text>mta_policy_header</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -450,16 +446,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBieWVidWRnCg==</text>
+        <text>mta_policy_header</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBTY2VuYXJpbzogQXMgYSBjdXN0b21lciwgSSBjYW4gZmlsbCB0aGUgcXVlc3Rpb25uYWlyZSwgZ2V0IHF1b3RlcyBhbmQgZ28gdG8gdGhlIGNhcmQgZGV0YWlscyBwYWdlCg==</text>
+        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIFJlc3VsdGFudC5mYWlsdXJlKGNvZGU6IGUuY29kZSwgbWVzc2FnZTogZSkK</text>
+        <text encoding="base64">ICAlaDMgUG9saWN5IGluZm9ybWF0aW9uOgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -810,7 +806,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgZGVmIGZhaWx1cmUoY29kZSwgbWVzc2FnZSkKICAgIFJlc3VsdGFudC5mYWlsdXJlKGNvZGU6IGNvZGUsIG1lc3NhZ2U6IG1lc3NhZ2UpCiAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -819,10 +815,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGhhbmRsZV9mYWlsdXJlKGVycm9yOiBlLCBub3RpZnk6IHRydWUpCg==</text>
+        <text encoding="base64">ZGVidWdnZXIK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGhhbmRsZV9mYWlsdXJlKGVycm9yOiBlLCBub3RpZnk6IHRydWUpCg==</text>
+        <text encoding="base64">ICAgICAgICBieWVidWRnCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -856,16 +852,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBTY2VuYXJpbzogQXMgYSBjdXN0b21lciwgSSBjYW4gZmlsbCB0aGUgcXVlc3Rpb25uYWlyZSwgZ2V0IHF1b3RlcyBhbmQgZ28gdG8gdGhlIGNhcmQgZGV0YWlscyBwYWdlCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBkZWYgaGFuZGxlX2ZhaWx1cmUoZXJyb3I6KQogICAgcmV0dXJuIGZhaWx1cmUoJ3Vua25vd25fZXJyb3InLCBVTktOT1dOX0VSUk9SX01FU1NBR0UpIHVubGVzcyBlcnJvci5jb2RlCiAgICBmYWlsdXJlKGVycm9yLmNvZGUsIGVycm9yLm1lc3NhZ2UpCiAgZW5kCg==</text>
+        <text encoding="base64">ICAgIFJlc3VsdGFudC5mYWlsdXJlKGNvZGU6IGUuY29kZSwgbWVzc2FnZTogZSkK</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
