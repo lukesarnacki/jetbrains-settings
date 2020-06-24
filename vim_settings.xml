@@ -45,10 +45,10 @@
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action GotoFile</entry>
         <entry>action Unsplit</entry>
-        <entry>action RecentFiles</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action GotoFile</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -145,6 +145,11 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model_factory.rb" timestamp="1593005971694">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/integrated_card_payment.html.haml" timestamp="1592929080656">
         <mark key="'" line="4" column="37" />
       </file>
@@ -153,10 +158,11 @@
         <mark key="[" line="70" column="41" />
         <mark key="]" line="70" column="108" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1593002569746">
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1593005961806">
         <mark key="'" line="2" column="32" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="15" column="9" />
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="/JavaScript Console" timestamp="1592924473534">
         <mark key="[" line="0" column="0" />
@@ -398,8 +404,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>policy_details</text>
+      <register name="*" type="2">
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="-" type="4">
         <text>policy_details</text>
@@ -411,10 +417,10 @@
         <text>payment</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBjbGFzcyBQb2xpY3lTZWdtZW50Vmlld01vZGVsRmFjdG9yeQo=</text>
+        <text encoding="base64">ICAgIGNsYXNzIFBvbGljeUluZm9ybWF0aW9uVmlld01vZGVsCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgQHBheW1lbnQgPSBwYXltZW50Cg==</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -437,16 +443,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIHBheW1lbnQ6LAo=</text>
+        <text encoding="base64">CiAgICAgIGRlZiBzZWxmLmJ1aWxkKHBvbGljeTopCiAgICAgICAgbmV3KHBvbGljeV9udW1iZXI6IHBvbGljeS5udW1iZXIsCiAgICAgICAgICAgIHBvbGljeV9pZDogcG9saWN5LmlkLAogICAgICAgICAgICBwb2xpY3lfc3RhcnRfZGF0ZTogcG9saWN5LnN0YXJ0X2RhdGUsCiAgICAgICAgICAgIHBheW1lbnRfdHJhbnNhY3Rpb25fZGF0ZTogcG9saWN5LmNyZWF0ZWRfYXQsCiAgICAgICAgICAgIHRvdGFsX2dyb3NzX3ByZW1pdW06IHBvbGljeS5zZWdtZW50X2F0X2V4cGlyeS50b3RhbF9ncm9zc19wcmVtaXVtLAogICAgICAgICAgICB0b3RhbF9pbnN1cmVyX3ByZW1pdW06IHBvbGljeS5zZWdtZW50X2F0X2V4cGlyeS50b3RhbF9pbnN1cmVyX3ByZW1pdW0sCiAgICAgICAgICAgIHByZXZpb3VzX3BheW1lbnRfdHlwZTogcG9saWN5Lmxhc3Rfc2VnbWVudC5wYXltZW50X3R5cGUsCiAgICAgICAgICAgIHByZXZpb3VzX3BheW1lbnRfcmVmZXJlbmNlOiBwb2xpY3kubGFzdF9zZWdtZW50LnBheW1lbnRfcmVmLAogICAgICAgICAgICBwcmV2aW91c19wdXJjaGFzZV90eXBlOiBwb2xpY3kuY29udmVydGVkX2J5X21ldGhvZCkKICAgICAgZW5kCg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwYXltZW50OiBwYXltZW50LAo=</text>
+        <text encoding="base64">ICAgICAgQHBheW1lbnQgPSBwYXltZW50Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIHBheW1lbnQ6LAo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -797,7 +803,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGRlZiBwYXltZW50CiAgICAgIE9wZW5TdHJ1Y3QubmV3KAogICAgICAgIHRvdGFsX2dyb3NzX3ByZW1pdW06IEBwb2xpY3lfc2VnbWVudC50b3RhbF9ncm9zc19wcmVtaXVtLAogICAgICAgIHBheW1lbnRfdHlwZTogQHBvbGljeV9zZWdtZW50LnBheW1lbnRfdHlwZSwKICAgICAgICBwYXltZW50X3JlZmVyZW5jZTogQHBvbGljeV9zZWdtZW50LnBheW1lbnRfcmVmLAogICAgICAgIHB1cmNoYXNlX3R5cGU6IEBwb2xpY3kuY29udmVydGVkX2J5X21ldGhvZCwKICAgICAgICBnYXRld2F5X25hbWU6IGdhdGV3YXlfbmFtZQogICAgICApCiAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICBwYXltZW50OiBwYXltZW50LAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -809,7 +815,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwb2xpY3lfZGV0YWlsczogQmFja29mZmljZTo6UG9saWN5RGV0YWlsc1ByZXNlbnRlci5uZXcocG9saWN5OiBwb2xpY3kpCg==</text>
+        <text encoding="base64">ICAgIGRlZiBwYXltZW50CiAgICAgIE9wZW5TdHJ1Y3QubmV3KAogICAgICAgIHRvdGFsX2dyb3NzX3ByZW1pdW06IEBwb2xpY3lfc2VnbWVudC50b3RhbF9ncm9zc19wcmVtaXVtLAogICAgICAgIHBheW1lbnRfdHlwZTogQHBvbGljeV9zZWdtZW50LnBheW1lbnRfdHlwZSwKICAgICAgICBwYXltZW50X3JlZmVyZW5jZTogQHBvbGljeV9zZWdtZW50LnBheW1lbnRfcmVmLAogICAgICAgIHB1cmNoYXNlX3R5cGU6IEBwb2xpY3kuY29udmVydGVkX2J5X21ldGhvZCwKICAgICAgICBnYXRld2F5X25hbWU6IGdhdGV3YXlfbmFtZQogICAgICApCiAgICBlbmQK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -843,16 +849,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text>Clean stripe-payment.js</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgYXR0cl9yZWFkZXIgOnBvbGljeSwgOnNlZ21lbnQK</text>
+        <text encoding="base64">ICAgICAgICBwb2xpY3lfZGV0YWlsczogQmFja29mZmljZTo6UG9saWN5RGV0YWlsc1ByZXNlbnRlci5uZXcocG9saWN5OiBwb2xpY3kpCg==</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
