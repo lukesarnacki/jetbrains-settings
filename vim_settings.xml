@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>config</entry>
-        <entry>build_view_data</entry>
         <entry>money</entry>
         <entry>amount</entry>
         <entry>premium</entry>
@@ -27,6 +25,8 @@
         <entry>fill</entry>
         <entry>_setup</entry>
         <entry>this._set</entry>
+        <entry>payment_gate</entry>
+        <entry>@policy_segment</entry>
       </history-search>
       <history-cmd>
         <entry>action GotoRelated</entry>
@@ -43,12 +43,12 @@
         <entry>action GotoClass</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action Unsplit</entry>
-        <entry>action RecentFiles</entry>
         <entry>action DebugClass</entry>
         <entry>wa</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action FindInPath</entry>
         <entry>action GotoFile</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -139,7 +139,7 @@
         <mark key="." line="0" column="2" />
         <mark key="^" line="0" column="3" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/mtas/_policy_information.html.haml" timestamp="1592928985429">
+      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/mtas/_policy_information.html.haml" timestamp="1592971177735">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
@@ -167,6 +167,9 @@
         <mark key="^" line="30" column="23" />
         <mark key="." line="30" column="22" />
       </file>
+      <file name="$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/basic_object.rb" timestamp="1592971130309">
+        <mark key="'" line="231" column="8" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/models/view/backoffice/mtas/view_model_factory.rb" timestamp="1592924417350">
         <mark key="'" line="16" column="50" />
       </file>
@@ -177,11 +180,6 @@
       </file>
       <file name="/fragment.rb" timestamp="1592832021860">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" timestamp="1592492987744">
-        <mark key="'" line="217" column="0" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="42" column="9" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1592899627773">
         <mark key="'" line="7" column="0" />
@@ -209,13 +207,6 @@
         <mark key="]" line="10" column="31" />
         <mark key="." line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1592803313735">
-        <mark key="'" line="87" column="10" />
-        <mark key="[" line="84" column="0" />
-        <mark key="]" line="84" column="0" />
-        <mark key="^" line="84" column="26" />
-        <mark key="." line="84" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" timestamp="1592832252828">
         <mark key="'" line="12" column="14" />
         <mark key="[" line="25" column="0" />
@@ -223,13 +214,11 @@
         <mark key="^" line="25" column="14" />
         <mark key="." line="25" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1592971117766">
+        <mark key="'" line="110" column="56" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="6" column="37" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
-      <jump line="5" column="17" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
-      <jump line="10" column="72" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
-      <jump line="2" column="38" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
-      <jump line="22" column="8" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="53" column="19" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="54" column="19" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="25" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_spec.rb" />
@@ -325,6 +314,11 @@
       <jump line="70" column="74" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" />
       <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
       <jump line="4" column="37" filename="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/integrated_card_payment.html.haml" />
+      <jump line="3" column="0" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
+      <jump line="106" column="34" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
+      <jump line="110" column="56" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
+      <jump line="231" column="8" filename="$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26/basic_object.rb" />
+      <jump line="7" column="6" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -408,7 +402,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text>mta_policy_header</text>
+        <text encoding="base64">ICAlaDMgUG9saWN5IGluZm9ybWF0aW9uOgo=</text>
       </register>
       <register name="-" type="4">
         <text>stripe</text>
@@ -417,13 +411,13 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>this._set</text>
+        <text>@policy_segment</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgID0gam91cm5leV9mb3JtX3RhZyhAam91cm5leSwgcmVxdWVzdC5wYXRoLCBkYXRhOiB7IHNtYXJ0X2Zvcm06ICdmb28nLCBzdHJpcGVfdG9rZW46IHB1Ymxpc2hhYmxlX2tleSB9KSBkbwo=</text>
       </register>
       <register name="1" type="2">
-        <text>mta_policy_header</text>
+        <text encoding="base64">ICAlaDMgUG9saWN5IGluZm9ybWF0aW9uOgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -452,10 +446,10 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
+        <text>mta_policy_header</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAlaDMgUG9saWN5IGluZm9ybWF0aW9uOgo=</text>
+        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -806,7 +800,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
+        <text encoding="base64">ICAlaDMgUG9saWN5IGluZm9ybWF0aW9uOgo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -815,10 +809,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZGVidWdnZXIK</text>
+        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBieWVidWRnCg==</text>
+        <text encoding="base64">ZGVidWdnZXIK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -852,24 +846,24 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBTY2VuYXJpbzogQXMgYSBjdXN0b21lciwgSSBjYW4gZmlsbCB0aGUgcXVlc3Rpb25uYWlyZSwgZ2V0IHF1b3RlcyBhbmQgZ28gdG8gdGhlIGNhcmQgZGV0YWlscyBwYWdlCg==</text>
+        <text encoding="base64">ICAgICAgICBieWVidWRnCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIFJlc3VsdGFudC5mYWlsdXJlKGNvZGU6IGUuY29kZSwgbWVzc2FnZTogZSkK</text>
+        <text encoding="base64">ICBTY2VuYXJpbzogQXMgYSBjdXN0b21lciwgSSBjYW4gZmlsbCB0aGUgcXVlc3Rpb25uYWlyZSwgZ2V0IHF1b3RlcyBhbmQgZ28gdG8gdGhlIGNhcmQgZGV0YWlscyBwYWdlCg==</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>this._set</last-search>
+      <last-search>@policy_segment</last-search>
       <last-offset />
-      <last-pattern>this._set</last-pattern>
+      <last-pattern>@policy_segment</last-pattern>
       <last-replace>_</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
