@@ -46,9 +46,9 @@
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action RecentFiles</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoFile</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -159,6 +159,11 @@
         <mark key="[" line="70" column="41" />
         <mark key="]" line="70" column="108" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1592997706085">
+        <mark key="'" line="2" column="12" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="15" column="9" />
+      </file>
       <file name="/JavaScript Console" timestamp="1592924473534">
         <mark key="[" line="0" column="0" />
       </file>
@@ -183,13 +188,6 @@
         <mark key="]" line="36" column="79" />
         <mark key="^" line="36" column="79" />
         <mark key="." line="36" column="78" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1592899627773">
-        <mark key="'" line="7" column="0" />
-        <mark key="[" line="7" column="68" />
-        <mark key="]" line="7" column="68" />
-        <mark key="^" line="7" column="69" />
-        <mark key="." line="7" column="68" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" timestamp="1592980208664">
         <mark key="'" line="31" column="8" />
@@ -226,9 +224,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="12" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
-      <jump line="88" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
-      <jump line="89" column="14" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="86" column="15" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="90" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="91" column="10" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
@@ -324,8 +319,11 @@
       <jump line="85" column="0" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="12" column="32" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="14" column="31" filename="$USER_HOME$/projects/chopin/app/views/backoffice/policy_segments/show.html.haml" />
-      <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
       <jump line="70" column="82" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" />
+      <jump line="47" column="28" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
+      <jump line="55" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
+      <jump line="2" column="12" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
+      <jump line="29" column="59" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -408,8 +406,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>Backoffice::Shared::PolicyInformationViewModel.build(policy: policy)</text>
+      <register name="*" type="2">
+        <text encoding="base64">bW9kdWxlIEJhY2tvZmZpY2UKICBtb2R1bGUgU2hhcmVkCiAgICBjbGFzcyBQb2xpY3lJbmZvcm1hdGlvblZpZXdNb2RlbAogICAgICBpbmNsdWRlIFZpZXc6OkhlbHBlcnM6OlBhcnRpYWxPdmVycmlkZQoKICAgICAgZGVmIHNlbGYuYnVpbGQocG9saWN5OikKICAgICAgICBuZXcocG9saWN5X251bWJlcjogcG9saWN5Lm51bWJlciwKICAgICAgICAgICAgcG9saWN5X2lkOiBwb2xpY3kuaWQsCiAgICAgICAgICAgIHBvbGljeV9zdGFydF9kYXRlOiBwb2xpY3kuc3RhcnRfZGF0ZSwKICAgICAgICAgICAgcGF5bWVudF90cmFuc2FjdGlvbl9kYXRlOiBwb2xpY3kuY3JlYXRlZF9hdCwKICAgICAgICAgICAgdG90YWxfZ3Jvc3NfcHJlbWl1bTogcG9saWN5LnNlZ21lbnRfYXRfZXhwaXJ5LnRvdGFsX2dyb3NzX3ByZW1pdW0sCiAgICAgICAgICAgIHRvdGFsX2luc3VyZXJfcHJlbWl1bTogcG9saWN5LnNlZ21lbnRfYXRfZXhwaXJ5LnRvdGFsX2luc3VyZXJfcHJlbWl1bSwKICAgICAgICAgICAgcHJldmlvdXNfcGF5bWVudF90eXBlOiBwb2xpY3kubGFzdF9zZWdtZW50LnBheW1lbnRfdHlwZSwKICAgICAgICAgICAgcHJldmlvdXNfcGF5bWVudF9yZWZlcmVuY2U6IHBvbGljeS5sYXN0X3NlZ21lbnQucGF5bWVudF9yZWYsCiAgICAgICAgICAgIHByZXZpb3VzX3B1cmNoYXNlX3R5cGU6IHBvbGljeS5jb252ZXJ0ZWRfYnlfbWV0aG9kKQogICAgICBlbmQK</text>
       </register>
       <register name="-" type="4">
         <text>purchase_type</text>
@@ -420,8 +418,8 @@
       <register name="/" type="4">
         <text>payment</text>
       </register>
-      <register name="0" type="4">
-        <text>Backoffice::Shared::PolicyInformationViewModel.build(policy: policy)</text>
+      <register name="0" type="2">
+        <text encoding="base64">bW9kdWxlIEJhY2tvZmZpY2UKICBtb2R1bGUgU2hhcmVkCiAgICBjbGFzcyBQb2xpY3lJbmZvcm1hdGlvblZpZXdNb2RlbAogICAgICBpbmNsdWRlIFZpZXc6OkhlbHBlcnM6OlBhcnRpYWxPdmVycmlkZQoKICAgICAgZGVmIHNlbGYuYnVpbGQocG9saWN5OikKICAgICAgICBuZXcocG9saWN5X251bWJlcjogcG9saWN5Lm51bWJlciwKICAgICAgICAgICAgcG9saWN5X2lkOiBwb2xpY3kuaWQsCiAgICAgICAgICAgIHBvbGljeV9zdGFydF9kYXRlOiBwb2xpY3kuc3RhcnRfZGF0ZSwKICAgICAgICAgICAgcGF5bWVudF90cmFuc2FjdGlvbl9kYXRlOiBwb2xpY3kuY3JlYXRlZF9hdCwKICAgICAgICAgICAgdG90YWxfZ3Jvc3NfcHJlbWl1bTogcG9saWN5LnNlZ21lbnRfYXRfZXhwaXJ5LnRvdGFsX2dyb3NzX3ByZW1pdW0sCiAgICAgICAgICAgIHRvdGFsX2luc3VyZXJfcHJlbWl1bTogcG9saWN5LnNlZ21lbnRfYXRfZXhwaXJ5LnRvdGFsX2luc3VyZXJfcHJlbWl1bSwKICAgICAgICAgICAgcHJldmlvdXNfcGF5bWVudF90eXBlOiBwb2xpY3kubGFzdF9zZWdtZW50LnBheW1lbnRfdHlwZSwKICAgICAgICAgICAgcHJldmlvdXNfcGF5bWVudF9yZWZlcmVuY2U6IHBvbGljeS5sYXN0X3NlZ21lbnQucGF5bWVudF9yZWYsCiAgICAgICAgICAgIHByZXZpb3VzX3B1cmNoYXNlX3R5cGU6IHBvbGljeS5jb252ZXJ0ZWRfYnlfbWV0aG9kKQogICAgICBlbmQK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgQHBheW1lbnQgPSBwYXltZW50Cg==</text>
@@ -862,7 +860,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
