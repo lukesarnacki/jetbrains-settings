@@ -153,7 +153,7 @@
         <mark key="[" line="70" column="41" />
         <mark key="]" line="70" column="108" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1593002549765">
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1593002569746">
         <mark key="'" line="2" column="32" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="15" column="9" />
@@ -195,7 +195,7 @@
         <mark key="." line="14" column="31" />
         <mark key="^" line="14" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/shared/_mta_policy_header.html.haml" timestamp="1593002375256">
+      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/shared/_mta_policy_header.html.haml" timestamp="1593002577563">
         <mark key="'" line="8" column="34" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1592999075699">
