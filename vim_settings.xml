@@ -43,12 +43,12 @@
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action Unsplit</entry>
         <entry>action GotoClass</entry>
-        <entry>action RecentFiles</entry>
         <entry>action FindInPath</entry>
+        <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -145,7 +145,8 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_start_date_page_service.rb" timestamp="1593014295229">
+      <file name="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_start_date_page_service.rb" timestamp="1593014589112">
+        <mark key="'" line="24" column="13" />
         <mark key="[" line="22" column="0" />
         <mark key="]" line="22" column="114" />
         <mark key="." line="32" column="11" />
@@ -203,11 +204,6 @@
         <mark key="." line="3" column="24" />
         <mark key="^" line="3" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" timestamp="1592981878531">
-        <mark key="'" line="70" column="82" />
-        <mark key="[" line="70" column="41" />
-        <mark key="]" line="70" column="108" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1593013396626">
         <mark key="'" line="2" column="26" />
         <mark key="[" line="43" column="27" />
@@ -219,6 +215,11 @@
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1593015077908">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_payment_plan_payment_page_service.rb" timestamp="1593014366973">
         <mark key="'" line="31" column="8" />
@@ -241,7 +242,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="129" column="10" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="133" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="134" column="12" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="140" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
@@ -341,6 +341,7 @@
       <jump line="4" column="36" filename="$USER_HOME$/projects/chopin/app/views/journeys/mta_conversion_subjourney/mta_details.html.haml" />
       <jump line="37" column="36" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/installment_refund_payment_page_service.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/installment_refund_payment_page_service.rb" />
+      <jump line="24" column="13" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_start_date_page_service.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -424,7 +425,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBwb2xpY3lfaW5mb3JtYXRpb25fdmlld19tb2RlbDogQmFja29mZmljZTo6U2hhcmVkOjpQb2xpY3lJbmZvcm1hdGlvblZpZXdNb2RlbC5idWlsZChwb2xpY3k6IHBvbGljeSkK</text>
+        <text>introduce payment gateway name on mta details page</text>
       </register>
       <register name="-" type="4">
         <text>.with(</text>
@@ -439,7 +440,7 @@
         <text encoding="base64">ICAgICAgICBwb2xpY3lfaW5mb3JtYXRpb25fdmlld19tb2RlbDogQmFja29mZmljZTo6U2hhcmVkOjpQb2xpY3lJbmZvcm1hdGlvblZpZXdNb2RlbC5idWlsZChwb2xpY3k6IHBvbGljeSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">PSByZW5kZXIgcGFydGlhbDogJ2JhY2tvZmZpY2Uvc2hhcmVkL210YV9wb2xpY3lfaGVhZGVyJwo=</text>
+        <text>introduce payment gateway name on mta details page</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -468,10 +469,10 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
+        <text encoding="base64">PSByZW5kZXIgcGFydGlhbDogJ2JhY2tvZmZpY2Uvc2hhcmVkL210YV9wb2xpY3lfaGVhZGVyJwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">PSByZW5kZXIgcGFydGlhbDogJ2JhY2tvZmZpY2Uvc2hhcmVkL210YV9wb2xpY3lfaGVhZGVyJwo=</text>
+        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -822,7 +823,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBJMThuLmwgQHBvbGljeV9zdGFydF9kYXRlLCBmb3JtYXQ6IDpmdWxsX21vbnRoCg==</text>
+        <text encoding="base64">PSByZW5kZXIgcGFydGlhbDogJ2JhY2tvZmZpY2Uvc2hhcmVkL210YV9wb2xpY3lfaGVhZGVyJwo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -834,7 +835,7 @@
         <text encoding="base64">ICAgICAgICBJMThuLmwgQHBvbGljeV9zdGFydF9kYXRlLCBmb3JtYXQ6IDpmdWxsX21vbnRoCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
+        <text encoding="base64">ICAgICAgICBJMThuLmwgQHBvbGljeV9zdGFydF9kYXRlLCBmb3JtYXQ6IDpmdWxsX21vbnRoCg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -868,16 +869,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAldGFibGUK</text>
+        <text encoding="base64">ICAgICAgICAlaDIgUG9saWN5IGluZm9ybWF0aW9uCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAlaDMgUG9saWN5IGluZm9ybWF0aW9uOgo=</text>
+        <text encoding="base64">ICAldGFibGUK</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
