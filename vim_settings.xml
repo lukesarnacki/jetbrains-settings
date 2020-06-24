@@ -47,8 +47,8 @@
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action GotoFile</entry>
         <entry>action RecentFiles</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,10 +133,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/chopin/app/presenters/backoffice/policy_details_presenter.rb" timestamp="1592978760403">
+      <file name="$USER_HOME$/projects/chopin/app/presenters/backoffice/policy_details_presenter.rb" timestamp="1592998953114">
         <mark key="'" line="32" column="0" />
-        <mark key="[" line="23" column="97" />
-        <mark key="]" line="23" column="96" />
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="27" column="7" />
         <mark key="." line="23" column="95" />
         <mark key="^" line="23" column="96" />
       </file>
@@ -159,8 +159,8 @@
         <mark key="[" line="70" column="41" />
         <mark key="]" line="70" column="108" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1592997706085">
-        <mark key="'" line="2" column="12" />
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1592999118492">
+        <mark key="'" line="2" column="16" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="15" column="9" />
       </file>
@@ -208,8 +208,10 @@
         <mark key="." line="32" column="58" />
         <mark key="^" line="32" column="59" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1592980194199">
-        <mark key="'" line="12" column="32" />
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1592999075699">
+        <mark key="'" line="1" column="18" />
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="37" />
         <mark key="^" line="8" column="40" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model.rb" timestamp="1592980329459">
@@ -224,8 +226,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="86" column="15" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
-      <jump line="90" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="91" column="10" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="94" column="68" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
       <jump line="97" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
@@ -322,8 +322,10 @@
       <jump line="70" column="82" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" />
       <jump line="47" column="28" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
       <jump line="55" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
-      <jump line="2" column="12" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
       <jump line="29" column="59" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
+      <jump line="37" column="6" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
+      <jump line="1" column="18" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
+      <jump line="2" column="16" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -407,7 +409,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">bW9kdWxlIEJhY2tvZmZpY2UKICBtb2R1bGUgU2hhcmVkCiAgICBjbGFzcyBQb2xpY3lJbmZvcm1hdGlvblZpZXdNb2RlbAogICAgICBpbmNsdWRlIFZpZXc6OkhlbHBlcnM6OlBhcnRpYWxPdmVycmlkZQoKICAgICAgZGVmIHNlbGYuYnVpbGQocG9saWN5OikKICAgICAgICBuZXcocG9saWN5X251bWJlcjogcG9saWN5Lm51bWJlciwKICAgICAgICAgICAgcG9saWN5X2lkOiBwb2xpY3kuaWQsCiAgICAgICAgICAgIHBvbGljeV9zdGFydF9kYXRlOiBwb2xpY3kuc3RhcnRfZGF0ZSwKICAgICAgICAgICAgcGF5bWVudF90cmFuc2FjdGlvbl9kYXRlOiBwb2xpY3kuY3JlYXRlZF9hdCwKICAgICAgICAgICAgdG90YWxfZ3Jvc3NfcHJlbWl1bTogcG9saWN5LnNlZ21lbnRfYXRfZXhwaXJ5LnRvdGFsX2dyb3NzX3ByZW1pdW0sCiAgICAgICAgICAgIHRvdGFsX2luc3VyZXJfcHJlbWl1bTogcG9saWN5LnNlZ21lbnRfYXRfZXhwaXJ5LnRvdGFsX2luc3VyZXJfcHJlbWl1bSwKICAgICAgICAgICAgcHJldmlvdXNfcGF5bWVudF90eXBlOiBwb2xpY3kubGFzdF9zZWdtZW50LnBheW1lbnRfdHlwZSwKICAgICAgICAgICAgcHJldmlvdXNfcGF5bWVudF9yZWZlcmVuY2U6IHBvbGljeS5sYXN0X3NlZ21lbnQucGF5bWVudF9yZWYsCiAgICAgICAgICAgIHByZXZpb3VzX3B1cmNoYXNlX3R5cGU6IHBvbGljeS5jb252ZXJ0ZWRfYnlfbWV0aG9kKQogICAgICBlbmQK</text>
+        <text encoding="base64">ICBjbGFzcyBQb2xpY3lTZWdtZW50Vmlld01vZGVsRmFjdG9yeQo=</text>
       </register>
       <register name="-" type="4">
         <text>purchase_type</text>
@@ -419,7 +421,7 @@
         <text>payment</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">bW9kdWxlIEJhY2tvZmZpY2UKICBtb2R1bGUgU2hhcmVkCiAgICBjbGFzcyBQb2xpY3lJbmZvcm1hdGlvblZpZXdNb2RlbAogICAgICBpbmNsdWRlIFZpZXc6OkhlbHBlcnM6OlBhcnRpYWxPdmVycmlkZQoKICAgICAgZGVmIHNlbGYuYnVpbGQocG9saWN5OikKICAgICAgICBuZXcocG9saWN5X251bWJlcjogcG9saWN5Lm51bWJlciwKICAgICAgICAgICAgcG9saWN5X2lkOiBwb2xpY3kuaWQsCiAgICAgICAgICAgIHBvbGljeV9zdGFydF9kYXRlOiBwb2xpY3kuc3RhcnRfZGF0ZSwKICAgICAgICAgICAgcGF5bWVudF90cmFuc2FjdGlvbl9kYXRlOiBwb2xpY3kuY3JlYXRlZF9hdCwKICAgICAgICAgICAgdG90YWxfZ3Jvc3NfcHJlbWl1bTogcG9saWN5LnNlZ21lbnRfYXRfZXhwaXJ5LnRvdGFsX2dyb3NzX3ByZW1pdW0sCiAgICAgICAgICAgIHRvdGFsX2luc3VyZXJfcHJlbWl1bTogcG9saWN5LnNlZ21lbnRfYXRfZXhwaXJ5LnRvdGFsX2luc3VyZXJfcHJlbWl1bSwKICAgICAgICAgICAgcHJldmlvdXNfcGF5bWVudF90eXBlOiBwb2xpY3kubGFzdF9zZWdtZW50LnBheW1lbnRfdHlwZSwKICAgICAgICAgICAgcHJldmlvdXNfcGF5bWVudF9yZWZlcmVuY2U6IHBvbGljeS5sYXN0X3NlZ21lbnQucGF5bWVudF9yZWYsCiAgICAgICAgICAgIHByZXZpb3VzX3B1cmNoYXNlX3R5cGU6IHBvbGljeS5jb252ZXJ0ZWRfYnlfbWV0aG9kKQogICAgICBlbmQK</text>
+        <text encoding="base64">ICBjbGFzcyBQb2xpY3lTZWdtZW50Vmlld01vZGVsRmFjdG9yeQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgQHBheW1lbnQgPSBwYXltZW50Cg==</text>
@@ -860,7 +862,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
