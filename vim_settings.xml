@@ -38,7 +38,6 @@
         <entry>42</entry>
         <entry>action GotoTest</entry>
         <entry>action GotoClass</entry>
-        <entry>action Unsplit</entry>
         <entry>action DebugClass</entry>
         <entry>wa</entry>
         <entry>q</entry>
@@ -46,9 +45,10 @@
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
+        <entry>action Unsplit</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -145,12 +145,6 @@
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/policy_segments/_payment_information.html.haml" timestamp="1592980447743">
-        <mark key="[" line="15" column="40" />
-        <mark key="]" line="15" column="59" />
-        <mark key="^" line="15" column="59" />
-        <mark key="." line="15" column="58" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/integrated_card_payment.html.haml" timestamp="1592929080656">
         <mark key="'" line="4" column="37" />
       </file>
@@ -159,8 +153,8 @@
         <mark key="[" line="70" column="41" />
         <mark key="]" line="70" column="108" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1592999118492">
-        <mark key="'" line="2" column="16" />
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1593002549765">
+        <mark key="'" line="2" column="32" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="15" column="9" />
       </file>
@@ -201,12 +195,8 @@
         <mark key="." line="14" column="31" />
         <mark key="^" line="14" column="32" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/shared/_mta_policy_header.html.haml" timestamp="1592979418954">
+      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/shared/_mta_policy_header.html.haml" timestamp="1593002375256">
         <mark key="'" line="8" column="34" />
-        <mark key="[" line="32" column="45" />
-        <mark key="]" line="32" column="59" />
-        <mark key="." line="32" column="58" />
-        <mark key="^" line="32" column="59" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1592999075699">
         <mark key="'" line="1" column="18" />
@@ -325,7 +315,7 @@
       <jump line="29" column="59" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
       <jump line="37" column="6" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="1" column="18" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="2" column="16" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
+      <jump line="2" column="32" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -408,11 +398,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICBjbGFzcyBQb2xpY3lTZWdtZW50Vmlld01vZGVsRmFjdG9yeQo=</text>
+      <register name="*" type="4">
+        <text>policy_details</text>
       </register>
       <register name="-" type="4">
-        <text>purchase_type</text>
+        <text>policy_details</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -862,7 +852,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
