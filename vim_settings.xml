@@ -46,9 +46,9 @@
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action GotoFile</entry>
         <entry>action RecentFiles</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -154,8 +154,10 @@
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/integrated_card_payment.html.haml" timestamp="1592929080656">
         <mark key="'" line="4" column="37" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" timestamp="1592924445578">
-        <mark key="'" line="70" column="74" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" timestamp="1592981878531">
+        <mark key="'" line="70" column="82" />
+        <mark key="[" line="70" column="41" />
+        <mark key="]" line="70" column="108" />
       </file>
       <file name="/JavaScript Console" timestamp="1592924473534">
         <mark key="[" line="0" column="0" />
@@ -286,8 +288,6 @@
       <jump line="74" column="11" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="80" column="28" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="16" column="50" filename="$USER_HOME$/projects/chopin/app/models/view/backoffice/mtas/view_model_factory.rb" />
-      <jump line="70" column="74" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" />
-      <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
       <jump line="4" column="37" filename="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/integrated_card_payment.html.haml" />
       <jump line="106" column="34" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="110" column="56" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
@@ -324,6 +324,8 @@
       <jump line="85" column="0" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="12" column="32" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="14" column="31" filename="$USER_HOME$/projects/chopin/app/views/backoffice/policy_segments/show.html.haml" />
+      <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
+      <jump line="70" column="82" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -407,7 +409,7 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>purchase_type</text>
+        <text>Backoffice::Shared::PolicyInformationViewModel.build(policy: policy)</text>
       </register>
       <register name="-" type="4">
         <text>purchase_type</text>
@@ -418,8 +420,8 @@
       <register name="/" type="4">
         <text>payment</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIDpwb2xpY3ksIDpwb2xpYwo=</text>
+      <register name="0" type="4">
+        <text>Backoffice::Shared::PolicyInformationViewModel.build(policy: policy)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgQHBheW1lbnQgPSBwYXltZW50Cg==</text>
@@ -860,7 +862,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
