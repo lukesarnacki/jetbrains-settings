@@ -232,10 +232,10 @@
         <mark key="." line="14" column="0" />
         <mark key="^" line="14" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/journeys/_policy_information.html.haml" timestamp="1593064614008">
-        <mark key="[" line="32" column="64" />
-        <mark key="]" line="32" column="12" />
-        <mark key="." line="32" column="11" />
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/_policy_information.html.haml" timestamp="1593150392100">
+        <mark key="[" line="32" column="21" />
+        <mark key="]" line="32" column="21" />
+        <mark key="." line="32" column="21" />
         <mark key="^" line="32" column="12" />
       </file>
     </filemarks>
@@ -423,10 +423,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>previous_purchase_type</text>
+        <text>previous-purchase-type</text>
       </register>
       <register name="-" type="4">
-        <text>previous_purchase_type</text>
+        <text>previous-purchase-type</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
