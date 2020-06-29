@@ -47,8 +47,8 @@
         <entry>108</entry>
         <entry>action Unsplit</entry>
         <entry>action FindInPath</entry>
-        <entry>action RecentFiles</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -868,7 +868,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
