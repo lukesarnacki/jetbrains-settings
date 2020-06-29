@@ -7,9 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>pre</entry>
-        <entry>policy:</entry>
-        <entry>view_model_arg</entry>
         <entry encoding="base64">XDxwYXltZW50XD4=</entry>
         <entry>payment</entry>
         <entry>policydet</entry>
@@ -27,6 +24,9 @@
         <entry>create</entry>
         <entry>confirmcard</entry>
         <entry>stripe</entry>
+        <entry>stripeelements</entry>
+        <entry>addeven</entry>
+        <entry>stripeelement</entry>
       </history-search>
       <history-cmd>
         <entry>action ToggleLineBreakpoint</entry>
@@ -44,11 +44,11 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action DebugClass</entry>
         <entry>108</entry>
-        <entry>action Unsplit</entry>
         <entry>action FindInPath</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action Unsplit</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -220,12 +220,12 @@
         <mark key="." line="5" column="56" />
         <mark key="^" line="5" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593433272016">
-        <mark key="'" line="102" column="18" />
-        <mark key="[" line="35" column="35" />
-        <mark key="]" line="36" column="0" />
-        <mark key="^" line="34" column="15" />
-        <mark key="." line="36" column="0" />
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593438775781">
+        <mark key="'" line="51" column="30" />
+        <mark key="[" line="72" column="0" />
+        <mark key="]" line="72" column="0" />
+        <mark key="." line="72" column="0" />
+        <mark key="^" line="32" column="4" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1593145056584">
         <mark key="'" line="37" column="50" />
@@ -236,10 +236,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="104" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="3" column="42" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="6" column="36" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="24" column="17" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="36" column="0" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="40" column="25" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model.rb" />
       <jump line="14" column="39" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model.rb" />
@@ -330,12 +326,16 @@
       <jump line="22" column="19" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
       <jump line="117" column="6" filename="$USER_HOME$/projects/payments/test/contract_tests/provider_states_for_chopin_consumer.rb" />
       <jump line="3" column="0" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
-      <jump line="51" column="45" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="97" column="23" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="100" column="25" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="101" column="23" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="103" column="18" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="34" column="4" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="99" column="24" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="56" column="22" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="64" column="15" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="36" column="12" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="51" column="30" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -419,22 +419,22 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy53aWRnZXQuc3RyaXBlLmVsZW1lbnRzLmcK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGVidWdnZXI7Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>var</text>
+        <text>helper</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>stripe</text>
+        <text>stripeelement</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBlbGVtZW50IDpwcmV2aW91c19wdXJjaGFzZV90eXBlLCAnLnFhLXByZXZpb3VzLXB1cmNoYXNlLXR5cGUnCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy53aWRnZXQuc3RyaXBlLmVsZW1lbnRzLmcK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGVidWdnZXI7Cgo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -457,16 +457,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBlbGVtZW50LnN0cmlwZVBheW1lbnRJbnRlbnQK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgY29uc3QgZWxlbWVudHMgPSBzdHJpcGUuZWxlbWVudHMoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgIGRlYnVnZ2VyOwogICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgY29uc3QgZWxlbWVudHMgPSBzdHJpcGUuZWxlbWVudHMoKTsK</text>
+        <text encoding="base64">ICAgICAgc2V0dXBTdHJpcGUodHJ1ZSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -817,7 +817,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICAgIGNvbnN0IGVsZW1lbnRzLmdldEVsZW1lbnQoJ2NhcmQnKTsK</text>
+        <text encoding="base64">ICAgICAgZGVidWdnZXI7Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -826,10 +826,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgY29uc3QgZWxlbWVudHMgPSBzdHJpcGUuZWxlbWVudHMoKTsK</text>
+        <text encoding="base64">ICAgICAgdGhpcy53aWRnZXQuc3RyaXBlLmMK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHJhaXNlZGQK</text>
+        <text encoding="base64">ICAgICAgdGhpcy53aWRnZXQuc3RyaXBlLmVsZW1lbnRzLmcK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -863,24 +863,24 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGJ5ZWJ1Zwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBlbGVtZW50IDpwcmV2aW91c19wdXJjaGFzZV90eXBlLCAnLnFhLXByZXZpb3VzLXB1cmNoYXNlLXR5cGUnCg==</text>
+        <text encoding="base64">ICAgICAgY29uc3QgZWxlbWVudHMgPSBzdHJpcGUuZWxlbWVudHMoKTsK</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action Unsplit</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>stripe</last-search>
+      <last-search>stripeelement</last-search>
       <last-offset />
-      <last-pattern>stripe</last-pattern>
+      <last-pattern>stripeelement</last-pattern>
       <last-replace>{</last-replace>
       <last-substitute encoding="base64">IA==</last-substitute>
       <last-dir>1</last-dir>
