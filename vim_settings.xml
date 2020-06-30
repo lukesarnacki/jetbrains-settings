@@ -220,12 +220,12 @@
         <mark key="." line="5" column="56" />
         <mark key="^" line="5" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593492663151">
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593496546351">
         <mark key="'" line="65" column="40" />
-        <mark key="[" line="76" column="6" />
-        <mark key="]" line="89" column="43" />
-        <mark key="." line="76" column="6" />
-        <mark key="^" line="75" column="6" />
+        <mark key="[" line="35" column="11" />
+        <mark key="]" line="35" column="10" />
+        <mark key="." line="35" column="9" />
+        <mark key="^" line="35" column="10" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1593145056584">
         <mark key="'" line="37" column="50" />
@@ -419,10 +419,10 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoZGlzYWJsZUFtZXggJiYgdHlwZSA9PT0gImNhcmROdW1iZXIiKSB7CiAgICAgICAgICBzdHJpcGVFbGVtZW50LmFkZEV2ZW50TGlzdGVuZXIoImNoYW5nZSIsIChldmVudCkgPT4gewogICAgICAgICAgICBpZiAoZXZlbnQuYnJhbmQgPT09ICJhbWV4IikgewogICAgICAgICAgICAgIHRoaXMuZGlzYWJsZUJ1dHRvbih7IHRleHQ6IHN1Ym1pdFRleHQgfSk7CiAgICAgICAgICAgICAgJChmaWVsZHNbdHlwZV0pCiAgICAgICAgICAgICAgICAubmV4dCgiLmVycm9yIikKICAgICAgICAgICAgICAgIC50ZXh0KCJTb3JyeSB3ZSBjdXJyZW50bHkgYWNjZXB0IFZpc2EgYW5kIE1hc3RlckNhcmQiKTsKICAgICAgICAgICAgfQogICAgICAgICAgfSk7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">fSBlbHNlIA==</text>
+        <text>disableButton</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -431,10 +431,10 @@
         <text>make payme</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5kaXNhYmxlQnV0dG9uKHsgdGV4dDogc3VibWl0VGV4dCB9KTsKICAgICAgICAgICAgJChmaWVsZHNbdHlwZV0pCiAgICAgICAgICAgICAgLm5leHQoIi5lcnJvciIpCiAgICAgICAgICAgICAgLnRleHQoIlNvcnJ5IHdlIGN1cnJlbnRseSBhY2NlcHQgVmlzYSBhbmQgTWFzdGVyQ2FyZCIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVCdXR0b24oc3VibWl0VGV4dCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAoZGlzYWJsZUFtZXggJiYgdHlwZSA9PT0gImNhcmROdW1iZXIiKSB7CiAgICAgICAgICBzdHJpcGVFbGVtZW50LmFkZEV2ZW50TGlzdGVuZXIoImNoYW5nZSIsIChldmVudCkgPT4gewogICAgICAgICAgICBpZiAoZXZlbnQuYnJhbmQgPT09ICJhbWV4IikgewogICAgICAgICAgICAgIHRoaXMuZGlzYWJsZUJ1dHRvbih7IHRleHQ6IHN1Ym1pdFRleHQgfSk7CiAgICAgICAgICAgICAgJChmaWVsZHNbdHlwZV0pCiAgICAgICAgICAgICAgICAubmV4dCgiLmVycm9yIikKICAgICAgICAgICAgICAgIC50ZXh0KCJTb3JyeSB3ZSBjdXJyZW50bHkgYWNjZXB0IFZpc2EgYW5kIE1hc3RlckNhcmQiKTsKICAgICAgICAgICAgfQogICAgICAgICAgfSk7CiAgICAgICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -457,16 +457,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBidXR0b24ucHJvcCgiZGlzYWJsZWQiLCBmYWxzZSkKICAgICAgICAudGV4dCh0ZXh0KTsK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmIChkaXNhYmxlQW1leCAmJiBldmVudC5icmFuZCA9PT0gImFtZXgiICYmIGV2ZW50LmVsZW1lbnRUeXBlID09PSAiY2FyZE51bWJlciIpIHsKICAgICAgICAgICAgdGhpcy5kaXNhYmxlQnV0dG9uKHsgdGV4dDogc3VibWl0VGV4dCB9KTsKICAgICAgICAgICAgJChmaWVsZHNbdHlwZV0pCiAgICAgICAgICAgICAgLm5leHQoIi5lcnJvciIpCiAgICAgICAgICAgICAgLnRleHQoIlNvcnJ5IHdlIGN1cnJlbnRseSBhY2NlcHQgVmlzYSBhbmQgTWFzdGVyQ2FyZCIpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVCdXR0b24oeyB0ZXh0OiBzdWJtaXRUZXh0IH0pOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIGRlYnVnZ2VyOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmVuYWJsZUJ1dHRvbih7IHRleHQ6IHN1Ym1pdFRleHQgfSk7Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -829,7 +829,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBzdHJpcGVFbGVtZW50LmFkZEV2ZW50TGlzdGVuZXIoImNoYW5nZSIsIChldmVudCkgPT4gewogICAgICAgICAgaWYgKGV2ZW50LmVycm9yKSB7CiAgICAgICAgICAgICQoZmllbGRzW3R5cGVdKS5uZXh0KCIuZXJyb3IiKS50ZXh0KGV2ZW50LmVycm9yLm1lc3NhZ2UpOwogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgJChmaWVsZHNbdHlwZV0pLm5leHQoIi5lcnJvciIpLnRleHQoIiIpOwogICAgICAgICAgfQogICAgICAgIH0pOw==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -863,10 +863,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmIChkaXNhYmxlQW1leCAmJiBldmVudC5icmFuZCA9PT0gImFtZXgiICYmIGV2ZW50LmVsZW1lbnRUeXBlID09PSAiY2FyZE51bWJlciIpIHsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5lbmFibGVCdXR0b24oeyB0ZXh0OiBzdWJtaXRUZXh0IH0pOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIGRlYnVnZ2VyOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text />
