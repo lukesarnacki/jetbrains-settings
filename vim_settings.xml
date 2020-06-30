@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>payment</entry>
-        <entry>policydet</entry>
         <entry>paymentsapi</entry>
         <entry>build</entry>
         <entry>gateway_name</entry>
@@ -27,10 +25,10 @@
         <entry>addeven</entry>
         <entry>stripeelement</entry>
         <entry>make payme</entry>
+        <entry>disableButton</entry>
+        <entry>enableButton</entry>
       </history-search>
       <history-cmd>
-        <entry>action ToggleLineBreakpoint</entry>
-        <entry>31</entry>
         <entry>42</entry>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
@@ -43,12 +41,14 @@
         <entry>q</entry>
         <entry>action DebugClass</entry>
         <entry>108</entry>
-        <entry>action FindInPath</entry>
-        <entry>action RecentFiles</entry>
-        <entry>action GotoFile</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action Unsplit</entry>
+        <entry>action GotoFile</entry>
+        <entry>%s/disableButton/disableForm</entry>
+        <entry>%s/enableButton/enableForm</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action FindInPath</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -139,8 +139,14 @@
         <mark key="^" line="17" column="11" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1593177005721">
+      <file name="/Ruby Console" timestamp="1593515844687">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1593515909690">
+        <mark key="[" line="21" column="15" />
+        <mark key="]" line="22" column="14" />
+        <mark key="^" line="22" column="14" />
+        <mark key="." line="22" column="13" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1593093012532">
         <mark key="[" line="15" column="26" />
@@ -175,11 +181,6 @@
       <file name="/Dummy.txt" timestamp="1593166870026">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" timestamp="1593080194518">
-        <mark key="'" line="136" column="39" />
-        <mark key="[" line="136" column="0" />
-        <mark key="]" line="136" column="50" />
-      </file>
       <file name="/fragment.rb" timestamp="1593089592814">
         <mark key="[" line="0" column="0" />
       </file>
@@ -196,12 +197,9 @@
         <mark key="]" line="86" column="0" />
         <mark key="." line="62" column="2" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1593518578246" />
       <file name="$USER_HOME$/projects/payments/test/contract_tests/provider_states_for_chopin_consumer.rb" timestamp="1593166472414">
         <mark key="'" line="117" column="6" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/spec/factories/customer_factory.rb" timestamp="1593080093908">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="18" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/backoffice/policies/customer_account/update_contact_details_on_customer_account_spec.rb" timestamp="1593084930282">
         <mark key="[" line="22" column="15" />
@@ -220,12 +218,9 @@
         <mark key="." line="5" column="56" />
         <mark key="^" line="5" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593512207801">
-        <mark key="'" line="65" column="40" />
-        <mark key="[" line="76" column="14" />
-        <mark key="]" line="76" column="0" />
-        <mark key="." line="75" column="45" />
-        <mark key="^" line="35" column="10" />
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593519433397">
+        <mark key="'" line="149" column="14" />
+        <mark key="^" line="46" column="29" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1593145056584">
         <mark key="'" line="37" column="50" />
@@ -236,9 +231,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="21" column="19" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model.rb" />
-      <jump line="31" column="7" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model.rb" />
-      <jump line="23" column="17" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="85" column="0" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="14" column="31" filename="$USER_HOME$/projects/chopin/app/views/backoffice/policy_segments/show.html.haml" />
       <jump line="70" column="82" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_details_page_service.rb" />
@@ -336,6 +328,9 @@
       <jump line="26" column="59" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="37" column="15" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
       <jump line="65" column="40" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="114" column="27" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="94" column="23" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
+      <jump line="141" column="14" filename="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -419,22 +414,22 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLndpZGdldC5mb3JtRGlzYWJsZWQgPSB0cnVlOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="-" type="4">
-        <text>disableButton</text>
+        <text>text = &quot;Please wait...&quot;</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>make payme</text>
+        <text>enableButton</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVCdXR0b24oc3VibWl0VGV4dCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUZvcm0oKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLndpZGdldC5mb3JtRGlzYWJsZWQgPSB0cnVlOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -463,10 +458,10 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBidXR0b24ucHJvcCgiZGlzYWJsZWQiLCBmYWxzZSkKICAgICAgICAudGV4dCh0ZXh0KTsK</text>
+        <text encoding="base64">CiAgICB0aGlzLmRpc2FibGVGb3JtID0gZnVuY3Rpb24oKSB7CiAgICAgIHRoaXMuZGlzYWJsZUJ1dHRvbih0ZXh0ID0gIlBsZWFzZSB3YWl0Li4uIik7CiAgICAgIHRoaXMuZGlzYWJsZUlucHV0cygpOwogICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVCdXR0b24oeyB0ZXh0OiBzdWJtaXRUZXh0IH0pOwo=</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -817,7 +812,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmVuYWJsZUJ1dHRvbih7IHRleHQ6IHN1Ym1pdFRleHQgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUlucHV0cygpOwo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -826,10 +821,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -863,26 +858,26 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJpcGVFbGVtZW50LmFkZEV2ZW50TGlzdGVuZXIoImNoYW5nZSIsIChldmVudCkgPT4gewogICAgICAgICAgaWYgKGV2ZW50LmVycm9yKSB7CiAgICAgICAgICAgICQoZmllbGRzW3R5cGVdKS5uZXh0KCIuZXJyb3IiKS50ZXh0KGV2ZW50LmVycm9yLm1lc3NhZ2UpOwogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgJChmaWVsZHNbdHlwZV0pLm5leHQoIi5lcnJvciIpLnRleHQoIiIpOwogICAgICAgICAgfQogICAgICAgIH0pOw==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdGhpcy5lbmFibGVCdXR0b24oeyB0ZXh0OiBzdWJtaXRUZXh0IH0pOwo=</text>
+        <text encoding="base64">ICAgIGRpc2FibGVJbnB1dHMoZmFsc2UpCg==</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action Unsplit</text>
+        <text>action FindInPath</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>make payme</last-search>
+      <last-search>enableButton</last-search>
       <last-offset />
-      <last-pattern>make payme</last-pattern>
-      <last-replace>{</last-replace>
-      <last-substitute encoding="base64">IA==</last-substitute>
+      <last-pattern>enableButton</last-pattern>
+      <last-replace>enableForm</last-replace>
+      <last-substitute>enableButton</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
