@@ -220,12 +220,12 @@
         <mark key="." line="5" column="56" />
         <mark key="^" line="5" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593526235439">
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593526272544">
         <mark key="'" line="149" column="14" />
-        <mark key="[" line="32" column="33" />
-        <mark key="]" line="33" column="7" />
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
         <mark key="^" line="33" column="7" />
-        <mark key="." line="33" column="6" />
+        <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1593145056584">
         <mark key="'" line="37" column="50" />
@@ -418,8 +418,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>{ disableAmex: true }</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgZGVidWdnZXI7Cg==</text>
       </register>
       <register name="-" type="4">
         <text>{ disableAmex: true }</text>
@@ -434,7 +434,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUZvcm0oKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIHRoaXMuZGlzYWJsZUFtYXgoc3VibWl0VGV4dCkK</text>
+        <text encoding="base64">ICAgICAgZGVidWdnZXI7Cg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -457,16 +457,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHRoaXMuZGlzYWJsZUFtYXgoc3VibWl0VGV4dCkK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIHN0cmlwZUVsZW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigiY2hhbmdlIiwgKGV2ZW50KSA9PiB7CiAgICAgICAgICAgIGlmIChldmVudC5icmFuZCA9PT0gImFtZXgiKSB7CiAgICAgICAgICAgICAgdGhpcy5kaXNhYmxlQnV0dG9uKHN1Ym1pdFRleHQpOwogICAgICAgICAgICAgICQodGhpcy5maWVsZHNbdHlwZV0pCiAgICAgICAgICAgICAgICAubmV4dCgiLmVycm9yIikKICAgICAgICAgICAgICAgIC50ZXh0KCJTb3JyeSB3ZSBjdXJyZW50bHkgYWNjZXB0IFZpc2EgYW5kIE1hc3RlckNhcmQiKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICB0aGlzLmVuYWJsZUJ1dHRvbihzdWJtaXRUZXh0KTsKICAgICAgICAgICAgICAkKHRoaXMuZmllbGRzW3R5cGVdKS5uZXh0KCIuZXJyb3IiKS50ZXh0KCIiKTsKICAgICAgICAgICAgfQogICAgICAgICAgfSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">IGZyb20gYW1leCB0byAKdmlzYSBvbiBtYXN0ZXJjYXJkLg==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgIHN0cmlwZUVsZW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigiY2hhbmdlIiwgKGV2ZW50KSA9PiB7CiAgICAgICAgICAgIGlmIChldmVudC5icmFuZCA9PT0gImFtZXgiKSB7CiAgICAgICAgICAgICAgdGhpcy5kaXNhYmxlQnV0dG9uKHN1Ym1pdFRleHQpOwogICAgICAgICAgICAgICQodGhpcy5maWVsZHNbdHlwZV0pCiAgICAgICAgICAgICAgICAubmV4dCgiLmVycm9yIikKICAgICAgICAgICAgICAgIC50ZXh0KCJTb3JyeSB3ZSBjdXJyZW50bHkgYWNjZXB0IFZpc2EgYW5kIE1hc3RlckNhcmQiKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICB0aGlzLmVuYWJsZUJ1dHRvbihzdWJtaXRUZXh0KTsKICAgICAgICAgICAgICAkKHRoaXMuZmllbGRzW3R5cGVdKS5uZXh0KCIuZXJyb3IiKS50ZXh0KCIiKTsKICAgICAgICAgICAgfQogICAgICAgICAgfSk7Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -816,8 +816,8 @@
           <key char="32" code="0" mods="0" />
         </keys>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgc2xlZXAoNTAwKQo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">IGZyb20gYW1leCB0byAKdmlzYSBvbiBtYXN0ZXJjYXJkLg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -826,10 +826,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
+        <text encoding="base64">ICAgICAgc2xlZXAoNTAwKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -863,10 +863,10 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICB0aGlzLmRpc2FibGVGb3JtID0gZnVuY3Rpb24oKSB7CiAgICAgIHRoaXMuZGlzYWJsZUJ1dHRvbih0ZXh0ID0gIlBsZWFzZSB3YWl0Li4uIik7CiAgICAgIHRoaXMuZGlzYWJsZUlucHV0cygpOwogICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">CiAgICB0aGlzLmRpc2FibGVGb3JtID0gZnVuY3Rpb24oKSB7CiAgICAgIHRoaXMuZGlzYWJsZUJ1dHRvbih0ZXh0ID0gIlBsZWFzZSB3YWl0Li4uIik7CiAgICAgIHRoaXMuZGlzYWJsZUlucHV0cygpOwogICAgfQo=</text>
       </register>
       <register name="y" type="4">
         <text />
