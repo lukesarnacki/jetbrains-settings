@@ -47,8 +47,8 @@
         <entry>action GotoFile</entry>
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
-        <entry>action RecentFiles</entry>
         <entry>action FindInPath</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -139,14 +139,13 @@
         <mark key="^" line="17" column="11" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1593515844687">
+      <file name="/Ruby Console" timestamp="1593520189300">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1593515909690">
-        <mark key="[" line="21" column="15" />
-        <mark key="]" line="22" column="14" />
-        <mark key="^" line="22" column="14" />
-        <mark key="." line="22" column="13" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1593520246580">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1593093012532">
         <mark key="[" line="15" column="26" />
@@ -218,8 +217,9 @@
         <mark key="." line="5" column="56" />
         <mark key="^" line="5" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593519433397">
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593520273300">
         <mark key="'" line="149" column="14" />
+        <mark key="[" line="48" column="5" />
         <mark key="^" line="46" column="29" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1593145056584">
@@ -414,7 +414,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
+        <text encoding="base64">ICAgICAgc2xlZXAoNTAwKQo=</text>
       </register>
       <register name="-" type="4">
         <text>text = &quot;Please wait...&quot;</text>
@@ -429,7 +429,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUZvcm0oKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
+        <text encoding="base64">ICAgICAgc2xlZXAoNTAwKQo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -452,16 +452,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgICB0aGlzLmRpc2FibGVGb3JtID0gZnVuY3Rpb24oKSB7CiAgICAgIHRoaXMuZGlzYWJsZUJ1dHRvbih0ZXh0ID0gIlBsZWFzZSB3YWl0Li4uIik7CiAgICAgIHRoaXMuZGlzYWJsZUlucHV0cygpOwogICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">CiAgICB0aGlzLmRpc2FibGVGb3JtID0gZnVuY3Rpb24oKSB7CiAgICAgIHRoaXMuZGlzYWJsZUJ1dHRvbih0ZXh0ID0gIlBsZWFzZSB3YWl0Li4uIik7CiAgICAgIHRoaXMuZGlzYWJsZUlucHV0cygpOwogICAgfQo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -812,7 +812,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUlucHV0cygpOwo=</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -821,10 +821,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUlucHV0cygpOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVJbnB1dHMoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -861,13 +861,13 @@
         <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRpc2FibGVJbnB1dHMoZmFsc2UpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action FindInPath</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
