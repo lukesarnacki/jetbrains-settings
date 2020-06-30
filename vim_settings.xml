@@ -42,13 +42,13 @@
         <entry>action DebugClass</entry>
         <entry>108</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action Unsplit</entry>
         <entry>action GotoFile</entry>
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
         <entry>action FindInPath</entry>
         <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -177,8 +177,11 @@
         <mark key="." line="32" column="21" />
         <mark key="^" line="32" column="12" />
       </file>
-      <file name="/Dummy.txt" timestamp="1593166870026">
-        <mark key="[" line="0" column="0" />
+      <file name="/Dummy.txt" timestamp="1593522238768">
+        <mark key="[" line="5" column="59" />
+        <mark key="]" line="5" column="59" />
+        <mark key="^" line="4" column="10" />
+        <mark key="." line="5" column="59" />
       </file>
       <file name="/fragment.rb" timestamp="1593089592814">
         <mark key="[" line="0" column="0" />
@@ -217,10 +220,12 @@
         <mark key="." line="5" column="56" />
         <mark key="^" line="5" column="57" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593520273300">
+      <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593521983357">
         <mark key="'" line="149" column="14" />
         <mark key="[" line="48" column="5" />
-        <mark key="^" line="46" column="29" />
+        <mark key="]" line="45" column="32" />
+        <mark key="^" line="45" column="32" />
+        <mark key="." line="45" column="31" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1593145056584">
         <mark key="'" line="37" column="50" />
@@ -413,8 +418,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgc2xlZXAoNTAwKQo=</text>
+      <register name="*" type="4">
+        <text encoding="base64">IGZyb20gYW1leCB0byAKdmlzYSBvbiBtYXN0ZXJjYXJkLg==</text>
       </register>
       <register name="-" type="4">
         <text>text = &quot;Please wait...&quot;</text>
@@ -428,8 +433,8 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUZvcm0oKTsK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgc2xlZXAoNTAwKQo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">IGZyb20gYW1leCB0byAKdmlzYSBvbiBtYXN0ZXJjYXJkLg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -452,16 +457,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
+        <text encoding="base64">ICAgICAgc2xlZXAoNTAwKQo=</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICB0aGlzLmRpc2FibGVGb3JtID0gZnVuY3Rpb24oKSB7CiAgICAgIHRoaXMuZGlzYWJsZUJ1dHRvbih0ZXh0ID0gIlBsZWFzZSB3YWl0Li4uIik7CiAgICAgIHRoaXMuZGlzYWJsZUlucHV0cygpOwogICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -812,7 +817,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">CiAgICB0aGlzLmRpc2FibGVGb3JtID0gZnVuY3Rpb24oKSB7CiAgICAgIHRoaXMuZGlzYWJsZUJ1dHRvbih0ZXh0ID0gIlBsZWFzZSB3YWl0Li4uIik7CiAgICAgIHRoaXMuZGlzYWJsZUlucHV0cygpOwogICAgfQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -821,10 +826,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUlucHV0cygpOwo=</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUlucHV0cygpOwo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -858,7 +863,7 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVJbnB1dHMoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaGVscGVyLmRpc2FibGVJbnB1dHMoKTsK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICB0aGlzLmRpc2FibGVJbnB1dHMoKTsK</text>
@@ -867,7 +872,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
