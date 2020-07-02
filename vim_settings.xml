@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>build</entry>
         <entry>gateway_name</entry>
         <entry encoding="base64">XDxzd2dtZW50X2lkXD4=</entry>
         <entry encoding="base64">XDxwb2xpY3lfdHJhbnNhY3Rpb25fYWNjb3VudFw+</entry>
@@ -27,6 +26,7 @@
         <entry>disableButton</entry>
         <entry>enableButton</entry>
         <entry>payment_plan_event</entry>
+        <entry>budnled</entry>
       </history-search>
       <history-cmd>
         <entry>42</entry>
@@ -46,9 +46,9 @@
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
         <entry>action FindInPath</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,11 +133,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1593167424823">
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="0" />
+      <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1593671472317">
+        <mark key="'" line="13" column="15" />
+        <mark key="[" line="113" column="0" />
+        <mark key="]" line="113" column="0" />
         <mark key="^" line="17" column="11" />
-        <mark key="." line="17" column="0" />
+        <mark key="." line="113" column="0" />
       </file>
       <file name="/Ruby Console" timestamp="1593520189300">
         <mark key="[" line="0" column="0" />
@@ -165,12 +166,6 @@
         <mark key="." line="13" column="60" />
         <mark key="^" line="13" column="61" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/queries/segment_payment_transaction_query.rb" timestamp="1593089751912">
-        <mark key="[" line="7" column="18" />
-        <mark key="]" line="7" column="100" />
-        <mark key="." line="14" column="0" />
-        <mark key="^" line="14" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/_policy_information.html.haml" timestamp="1593150392100">
         <mark key="[" line="32" column="21" />
         <mark key="]" line="32" column="21" />
@@ -183,12 +178,11 @@
         <mark key="^" line="4" column="10" />
         <mark key="." line="5" column="59" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" timestamp="1593670764380">
-        <mark key="'" line="141" column="5" />
-        <mark key="[" line="179" column="0" />
-        <mark key="]" line="179" column="0" />
-        <mark key="." line="179" column="0" />
-        <mark key="^" line="178" column="2" />
+      <file name="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" timestamp="1593672761076">
+        <mark key="[" line="95" column="0" />
+        <mark key="]" line="95" column="0" />
+        <mark key="^" line="135" column="23" />
+        <mark key="." line="95" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" timestamp="1593147321840">
         <mark key="'" line="74" column="33" />
@@ -217,9 +211,9 @@
         <mark key="." line="108" column="7" />
         <mark key="^" line="108" column="8" />
       </file>
+      <file name="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" timestamp="1593672437841" />
     </filemarks>
     <jumps>
-      <jump line="55" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
       <jump line="29" column="59" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
       <jump line="1" column="18" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="18" column="43" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model_factory.rb" />
@@ -319,6 +313,7 @@
       <jump line="14" column="34" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
       <jump line="144" column="5" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
       <jump line="172" column="2" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="13" column="15" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -402,7 +397,7 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICArCg==</text>
+        <text encoding="base64">ICBkZWYgYWxsX3BsYW5zX2hhc19nYXRld2F5X3JlZmVyZW5jZT8KICAgIHJldHVybiBmYWxzZSBpZiBAc3RhZ2VfcmVzdWx0cy5ibGFuaz8KCiAgICBAc3RhZ2VfcmVzdWx0cy5hbGw/IGRvIHxyfAogICAgICByLnN1Y2Nlc3M/ICYmIHIudmFsdWUucGF5bWVudF9wbGFuLmdhdGV3YXlfcmVmZXJlbmNlLnByZXNlbnQ/CiAgICBlbmQKICBlbmQK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ICArICA=</text>
@@ -411,13 +406,13 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>payment_plan_event</text>
+        <text>budnled</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICBlbnN1cmUKICAgIEBzdGFnZV9pdGVyYXRvci5zdGFnZV9maW5pc2hlZAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICArCg==</text>
+        <text encoding="base64">ICBkZWYgYWxsX3BsYW5zX2hhc19nYXRld2F5X3JlZmVyZW5jZT8KICAgIHJldHVybiBmYWxzZSBpZiBAc3RhZ2VfcmVzdWx0cy5ibGFuaz8KCiAgICBAc3RhZ2VfcmVzdWx0cy5hbGw/IGRvIHxyfAogICAgICByLnN1Y2Nlc3M/ICYmIHIudmFsdWUucGF5bWVudF9wbGFuLmdhdGV3YXlfcmVmZXJlbmNlLnByZXNlbnQ/CiAgICBlbmQKICBlbmQK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -440,16 +435,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHNlbGYK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBlcnJvcl9yZXN1bHQgPSBzdGFnZV9pdGVyYXRvci5mYWlsZWRfcmVzdWx0IGlmIHN0YWdlX2l0ZXJhdG9yLmZhaWxlZD8K</text>
+        <text encoding="base64">ICBkZWYgYWN0aXZlPwogICAgQGFjdGl2ZQogIGVuZAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHN0YWdlX2l0ZXJhdG9yID0gQnVuZGxlZFBheW1lbnRQbGFuc1N0YWdlSXRlcmF0b3IubmV3KEBzdGFnZV9yZXN1bHRzKQogICAgc3RhZ2VfaXRlcmF0b3IubmV4dCB7IHxyfCBhY3RpdmF0ZV9vbmUoci52YWx1ZSkgfSB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgQHN0YWdlX3Jlc3VsdHMgPSBzdGFnZV9pdGVyYXRvci5yZXN1bHRzCg==</text>
+        <text encoding="base64">ICBkZWYgc2V0dXBfaW5zdGFsbG1lbnRzX3NjaGVkdWxlCiAgICByZXR1cm4gc2VsZiBpZiBAZXJyb3JfcmVzdWx0LnByZXNlbnQ/CgogICAgc3RhZ2VfaXRlcmF0b3IgPSBCdW5kbGVkUGF5bWVudFBsYW5zU3RhZ2VJdGVyYXRvci5uZXcoQHN0YWdlX3Jlc3VsdHMpCiAgICB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgICBzdGFnZV9pdGVyYXRvci5uZXh0IGRvIHxyZXN1bHR8CiAgICAgICAgQHBheW1lbnRfcGxhbl9saXN0LmNyZWF0ZV9pbnN0YWxsbWVudHNfc2NoZWR1bGVzKHJlc3VsdC52YWx1ZS5wYXltZW50X3BsYW4pCiAgICAgICAgUmVzdWx0YW50LnN1Y2Nlc3MocmVzdWx0LnZhbHVlKQoKICAgICAgICBAc3RhZ2VfcmVzdWx0cyA9IHN0YWdlX2l0ZXJhdG9yLnJlc3VsdHMKICAgICAgICBzZWxmCiAgICAgIGVuZAogICAgZW5k</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -800,7 +795,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBzZWxmIGlmIEBlcnJvcl9yZXN1bHQucHJlc2VudD8K</text>
+        <text encoding="base64">CiAgICBkZWYgYWxsX3BsYW5zX2hhc19nYXRld2F5X3JlZmVyZW5jZT8KICAgICAgcmV0dXJuIGZhbHNlIGlmIEBzdGFnZV9yZXN1bHRzLmJsYW5rPwoKICAgICAgQHN0YWdlX3Jlc3VsdHMuYWxsPyBkbyB8cnwKICAgICAgICByLnN1Y2Nlc3M/ICYmIHIudmFsdWUucGF5bWVudF9wbGFuLmdhdGV3YXlfcmVmZXJlbmNlLnByZXNlbnQ/CiAgICAgIGVuZAogICAgZW5k</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -809,10 +804,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBkZWYgc2V0dXBfaW5zdGFsbG1lbnRzX3NjaGVkdWxlCiAgICByZXR1cm4gc2VsZiBpZiBAZXJyb3JfcmVzdWx0LnByZXNlbnQ/CgogICAgc3RhZ2VfaXRlcmF0b3IgPSBCdW5kbGVkUGF5bWVudFBsYW5zU3RhZ2VJdGVyYXRvci5uZXcoQHN0YWdlX3Jlc3VsdHMpCiAgICB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgICBzdGFnZV9pdGVyYXRvci5uZXh0IGRvIHxyZXN1bHR8CiAgICAgICAgQHBheW1lbnRfcGxhbl9saXN0LmNyZWF0ZV9pbnN0YWxsbWVudHNfc2NoZWR1bGVzKHJlc3VsdC52YWx1ZS5wYXltZW50X3BsYW4pCiAgICAgICAgUmVzdWx0YW50LnN1Y2Nlc3MocmVzdWx0LnZhbHVlKQoKICAgICAgICBAc3RhZ2VfcmVzdWx0cyA9IHN0YWdlX2l0ZXJhdG9yLnJlc3VsdHMKICAgICAgICBzZWxmCiAgICAgIGVuZAogICAgZW5kCgogICAgZGVmIGFsbF9wbGFuc19oYXNfZ2F0ZXdheV9yZWZlcmVuY2U/CiAgICAgIHJldHVybiBmYWxzZSBpZiBAc3RhZ2VfcmVzdWx0cy5ibGFuaz8KCiAgICAgIEBzdGFnZV9yZXN1bHRzLmFsbD8gZG8gfHJ8CiAgICAgICAgci5zdWNjZXNzPyAmJiByLnZhbHVlLnBheW1lbnRfcGxhbi5nYXRld2F5X3JlZmVyZW5jZS5wcmVzZW50PwogICAgICBlbmQKICAgIGVuZA==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgQGVycm9yX3Jlc3VsdCA9IHN0YWdlX2l0ZXJhdG9yLmZhaWxlZF9yZXN1bHQK</text>
+        <text encoding="base64">ICAgIGVuZAoK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -846,24 +841,24 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICMgVGhpcyBpcyB0byBtYWtlIEJ1bmRsZWRTdGFnZVJlc3VsdHMgY29tcGF0aWJsZSB3aXRoIHRoZSBzdGVwcyB0aGF0IGRvbid0IHVzZSBpdCB5ZXQKCg==</text>
+        <text encoding="base64">ICBkZWYgc2V0dXBfaW5zdGFsbG1lbnRzX3NjaGVkdWxlCiAgICByZXR1cm4gc2VsZiBpZiBAZXJyb3JfcmVzdWx0LnByZXNlbnQ/CgogICAgc3RhZ2VfaXRlcmF0b3IgPSBCdW5kbGVkUGF5bWVudFBsYW5zU3RhZ2VJdGVyYXRvci5uZXcoQHN0YWdlX3Jlc3VsdHMpCiAgICB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgICBzdGFnZV9pdGVyYXRvci5uZXh0IGRvIHxyZXN1bHR8CiAgICAgICAgQHBheW1lbnRfcGxhbl9saXN0LmNyZWF0ZV9pbnN0YWxsbWVudHNfc2NoZWR1bGVzKHJlc3VsdC52YWx1ZS5wYXltZW50X3BsYW4pCiAgICAgICAgUmVzdWx0YW50LnN1Y2Nlc3MocmVzdWx0LnZhbHVlKQoKICAgICAgICBAc3RhZ2VfcmVzdWx0cyA9IHN0YWdlX2l0ZXJhdG9yLnJlc3VsdHMKICAgICAgICBzZWxmCiAgICAgIGVuZAoKICAgICAgZGVmIGFsbF9wbGFuc19oYXNfZ2F0ZXdheV9yZWZlcmVuY2U/CiAgICAgICAgcmV0dXJuIGZhbHNlIGlmIEBzdGFnZV9yZXN1bHRzLmJsYW5rPwoKICAgICAgICBAc3RhZ2VfcmVzdWx0cy5hbGw/IGRvIHxyfAogICAgICAgICAgci5zdWNjZXNzPyAmJiByLnZhbHVlLnBheW1lbnRfcGxhbi5nYXRld2F5X3JlZmVyZW5jZS5wcmVzZW50PwogICAgICAgIGVuZAogICAgICBlbmQKICAgIGVuZA==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEBzdGFnZV9yZXN1bHRzID0gc3RhZ2VfaXRlcmF0b3IucmVzdWx0cwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>payment_plan_event</last-search>
+      <last-search>budnled</last-search>
       <last-offset />
-      <last-pattern>payment_plan_event</last-pattern>
+      <last-pattern>budnled</last-pattern>
       <last-replace>enableForm</last-replace>
       <last-substitute>enableButton</last-substitute>
       <last-dir>1</last-dir>
