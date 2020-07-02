@@ -42,13 +42,13 @@
         <entry>action DebugClass</entry>
         <entry>108</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action Unsplit</entry>
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
         <entry>action FindInPath</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
+        <entry>action Unsplit</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,7 +140,7 @@
         <mark key="^" line="17" column="11" />
         <mark key="." line="113" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1593520189300">
+      <file name="/Ruby Console" timestamp="1593683973213">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1593520246580">
@@ -184,6 +184,9 @@
         <mark key="^" line="135" column="23" />
         <mark key="." line="95" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/payments/app/services/workflow/setup_installment_plan.rb" timestamp="1593683130909">
+        <mark key="'" line="52" column="6" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" timestamp="1593147321840">
         <mark key="'" line="74" column="33" />
         <mark key="[" line="62" column="2" />
@@ -191,12 +194,6 @@
         <mark key="." line="62" column="2" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1593669014702" />
-      <file name="$USER_HOME$/projects/chopin/spec/queries/segment_payment_transaction_query_spec.rb" timestamp="1593091062152">
-        <mark key="[" line="8" column="16" />
-        <mark key="]" line="8" column="35" />
-        <mark key="." line="8" column="34" />
-        <mark key="^" line="8" column="35" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593526272544">
         <mark key="'" line="149" column="14" />
         <mark key="[" line="33" column="0" />
@@ -214,7 +211,6 @@
       <file name="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" timestamp="1593672437841" />
     </filemarks>
     <jumps>
-      <jump line="29" column="59" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
       <jump line="1" column="18" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="18" column="43" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model_factory.rb" />
       <jump line="53" column="30" filename="$USER_HOME$/projects/chopin/app/journey/journey_helpers/service_extenders/active_policies_data_extender.rb" />
@@ -314,6 +310,7 @@
       <jump line="144" column="5" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
       <jump line="172" column="2" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
       <jump line="13" column="15" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
+      <jump line="52" column="6" filename="$USER_HOME$/projects/payments/app/services/workflow/setup_installment_plan.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -850,7 +847,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action Unsplit</text>
       </register>
     </registers>
   </component>
