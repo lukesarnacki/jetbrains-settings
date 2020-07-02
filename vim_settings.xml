@@ -183,12 +183,12 @@
         <mark key="^" line="4" column="10" />
         <mark key="." line="5" column="59" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" timestamp="1593670030295">
-        <mark key="'" line="144" column="5" />
-        <mark key="[" line="54" column="0" />
-        <mark key="]" line="54" column="8" />
-        <mark key="^" line="53" column="5" />
-        <mark key="." line="54" column="0" />
+      <file name="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" timestamp="1593670764380">
+        <mark key="'" line="141" column="5" />
+        <mark key="[" line="179" column="0" />
+        <mark key="]" line="179" column="0" />
+        <mark key="." line="179" column="0" />
+        <mark key="^" line="178" column="2" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" timestamp="1593147321840">
         <mark key="'" line="74" column="33" />
@@ -219,7 +219,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="47" column="28" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
       <jump line="55" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
       <jump line="29" column="59" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
       <jump line="1" column="18" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
@@ -319,6 +318,7 @@
       <jump line="10" column="35" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
       <jump line="14" column="34" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
       <jump line="144" column="5" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
+      <jump line="172" column="2" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -402,10 +402,10 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgIHNlbGYK</text>
+        <text encoding="base64">ICArCg==</text>
       </register>
       <register name="-" type="4">
-        <text>{ disableAmex: true }</text>
+        <text encoding="base64">ICArICA=</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -414,10 +414,10 @@
         <text>payment_plan_event</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBoZWxwZXIuZGlzYWJsZUZvcm0oKTsK</text>
+        <text encoding="base64">ICBlbnN1cmUKICAgIEBzdGFnZV9pdGVyYXRvci5zdGFnZV9maW5pc2hlZAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHNlbGYK</text>
+        <text encoding="base64">ICArCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -440,16 +440,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHN0YWdlX2l0ZXJhdG9yID0gQnVuZGxlZFBheW1lbnRQbGFuc1N0YWdlSXRlcmF0b3IubmV3KEBzdGFnZV9yZXN1bHRzKQogICAgc3RhZ2VfaXRlcmF0b3IubmV4dCB7IHxyfCBhdXRob3Jpc2Vfb25lKHIudmFsdWUpIH0gd2hpbGUgc3RhZ2VfaXRlcmF0b3IubmV4dD8KICAgIEBzdGFnZV9yZXN1bHRzID0gc3RhZ2VfaXRlcmF0b3IucmVzdWx0cwoKICAgIGlmIHN0YWdlX2l0ZXJhdG9yLmZhaWxlZD8KICAgICAgQGVycm9yX3Jlc3VsdCA9IHN0YWdlX2l0ZXJhdG9yLmZhaWxlZF9yZXN1bHQKICAgICAgc3RhZ2VfaXRlcmF0b3IuZWFjaF9wcm9jZXNzZWQgeyB8cnwgY2FuY2VsX2F1dGhvcmlzYXRpb24ocikgfQogICAgZW5kCg==</text>
+        <text encoding="base64">ICAgIHNlbGYK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEBzdGFnZV9pdGVyYXRvci5zdGFnZV9maW5pc2hlZAogICAgc3RhZ2VfaXRlcmF0b3IgPSBCdW5kbGVkUGF5bWVudFBsYW5zU3RhZ2VJdGVyYXRvci5uZXcoQHN0YWdlX3Jlc3VsdHMpCiAgICBzdGFnZV9pdGVyYXRvci5uZXh0IHsgfHJ8IGF1dGhvcmlzZV9vbmUoci52YWx1ZSkgfSB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgQHN0YWdlX3Jlc3VsdHMgPSBzdGFnZV9pdGVyYXRvci5yZXN1bHRzCgogICAgaWYgc3RhZ2VfaXRlcmF0b3IuZmFpbGVkPwogICAgICBAZXJyb3JfcmVzdWx0ID0gc3RhZ2VfaXRlcmF0b3IuZmFpbGVkX3Jlc3VsdAogICAgICBzdGFnZV9pdGVyYXRvci5lYWNoX3Byb2Nlc3NlZCB7IHxyfCBjYW5jZWxfYXV0aG9yaXNhdGlvbihyKSB9CiAgICBlbmQKICAgIHNlbGYK</text>
+        <text encoding="base64">ICAgIEBlcnJvcl9yZXN1bHQgPSBzdGFnZV9pdGVyYXRvci5mYWlsZWRfcmVzdWx0IGlmIHN0YWdlX2l0ZXJhdG9yLmZhaWxlZD8K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgIHN0YWdlX2l0ZXJhdG9yID0gQnVuZGxlZFBheW1lbnRQbGFuc1N0YWdlSXRlcmF0b3IubmV3KEBzdGFnZV9yZXN1bHRzKQogICAgc3RhZ2VfaXRlcmF0b3IubmV4dCB7IHxyfCBhY3RpdmF0ZV9vbmUoci52YWx1ZSkgfSB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgQHN0YWdlX3Jlc3VsdHMgPSBzdGFnZV9pdGVyYXRvci5yZXN1bHRzCg==</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -800,7 +800,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBhdHRyX3JlYWRlciA6ZXJyb3JfcmVzdWx0LCA6c3RhZ2VfcmVzdWwK</text>
+        <text encoding="base64">ICAgIHJldHVybiBzZWxmIGlmIEBlcnJvcl9yZXN1bHQucHJlc2VudD8K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -808,11 +808,11 @@
           <key char="32" code="0" mods="0" />
         </keys>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">dHMK</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIEBlcnJvcl9yZXN1bHQgPSBuaWwKICAgIEBzdGFnZV9yZXN1bHRzID0gc3RhZ2VfcmVzdWx0cwo=</text>
+        <text encoding="base64">ICAgICAgQGVycm9yX3Jlc3VsdCA9IHN0YWdlX2l0ZXJhdG9yLmZhaWxlZF9yZXN1bHQK</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -845,11 +845,11 @@
           <key char="65535" code="91" mods="130" />
         </keys>
       </register>
-      <register name="8" type="8">
-        <text encoding="base64">KyAgICAKKyAgICA=</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICMgVGhpcyBpcyB0byBtYWtlIEJ1bmRsZWRTdGFnZVJlc3VsdHMgY29tcGF0aWJsZSB3aXRoIHRoZSBzdGVwcyB0aGF0IGRvbid0IHVzZSBpdCB5ZXQKCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEBzdGFnZV9yZXN1bHRzID0gc3RhZ2VfaXRlcmF0b3IucmVzdWx0cwo=</text>
       </register>
       <register name="y" type="4">
         <text />
