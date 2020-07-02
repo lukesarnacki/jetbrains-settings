@@ -45,10 +45,10 @@
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
         <entry>action FindInPath</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
         <entry>action Unsplit</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -211,7 +211,6 @@
       <file name="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" timestamp="1593672437841" />
     </filemarks>
     <jumps>
-      <jump line="1" column="18" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="18" column="43" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model_factory.rb" />
       <jump line="53" column="30" filename="$USER_HOME$/projects/chopin/app/journey/journey_helpers/service_extenders/active_policies_data_extender.rb" />
       <jump line="8" column="21" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
@@ -311,6 +310,7 @@
       <jump line="172" column="2" filename="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" />
       <jump line="13" column="15" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
       <jump line="52" column="6" filename="$USER_HOME$/projects/payments/app/services/workflow/setup_installment_plan.rb" />
+      <jump line="35" column="0" filename="$USER_HOME$/projects/chopin/config/puma.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -847,7 +847,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action Unsplit</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
