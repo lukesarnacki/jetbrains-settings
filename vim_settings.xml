@@ -148,12 +148,6 @@
         <mark key="]" line="22" column="0" />
         <mark key="." line="22" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" timestamp="1593093012532">
-        <mark key="[" line="15" column="26" />
-        <mark key="]" line="15" column="104" />
-        <mark key="." line="33" column="37" />
-        <mark key="^" line="33" column="38" />
-      </file>
       <file name="$USER_HOME$/projects/payments/app/workers/payment_scheduler_worker.rb" timestamp="1593167274262">
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="0" />
@@ -194,6 +188,9 @@
         <mark key="." line="62" column="2" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1593669014702" />
+      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1593775789776">
+        <mark key="'" line="0" column="17" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593526272544">
         <mark key="'" line="149" column="14" />
         <mark key="[" line="33" column="0" />
@@ -201,18 +198,12 @@
         <mark key="^" line="33" column="7" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" timestamp="1593145056584">
-        <mark key="'" line="37" column="50" />
-        <mark key="[" line="107" column="36" />
-        <mark key="]" line="108" column="8" />
-        <mark key="." line="108" column="7" />
-        <mark key="^" line="108" column="8" />
-      </file>
       <file name="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" timestamp="1593672437841" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" timestamp="1593775843534">
+        <mark key="'" line="46" column="31" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="18" column="43" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model_factory.rb" />
-      <jump line="53" column="30" filename="$USER_HOME$/projects/chopin/app/journey/journey_helpers/service_extenders/active_policies_data_extender.rb" />
       <jump line="8" column="21" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="12" column="24" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="26" column="18" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
@@ -311,6 +302,8 @@
       <jump line="13" column="15" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
       <jump line="52" column="6" filename="$USER_HOME$/projects/payments/app/services/workflow/setup_installment_plan.rb" />
       <jump line="35" column="0" filename="$USER_HOME$/projects/chopin/config/puma.rb" />
+      <jump line="0" column="17" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
+      <jump line="46" column="31" filename="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
