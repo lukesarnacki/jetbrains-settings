@@ -29,7 +29,6 @@
         <entry>budnled</entry>
       </history-search>
       <history-cmd>
-        <entry>42</entry>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>action GotoClass</entry>
@@ -37,18 +36,19 @@
         <entry encoding="base64">JzwsJz5zLywgL1xy</entry>
         <entry encoding="base64">JzwsJz5zLywgL1xyL2c=</entry>
         <entry encoding="base64">JzwsJz5zLyAvey8=</entry>
-        <entry>wa</entry>
         <entry>q</entry>
         <entry>action DebugClass</entry>
         <entry>108</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
-        <entry>action RecentFiles</entry>
         <entry>action Unsplit</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action FindInPath</entry>
         <entry>action GotoFile</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action KJumpAction.Word0</entry>
+        <entry>wa</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,7 +140,7 @@
         <mark key="^" line="17" column="11" />
         <mark key="." line="113" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1593685274747">
+      <file name="/Ruby Console" timestamp="1593782386050">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1593520246580">
@@ -181,15 +181,9 @@
       <file name="$USER_HOME$/projects/payments/app/services/workflow/setup_installment_plan.rb" timestamp="1593683130909">
         <mark key="'" line="52" column="6" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" timestamp="1593147321840">
-        <mark key="'" line="74" column="33" />
-        <mark key="[" line="62" column="2" />
-        <mark key="]" line="86" column="0" />
-        <mark key="." line="62" column="2" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1593669014702" />
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1593775789776">
-        <mark key="'" line="0" column="17" />
+      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1593775943312">
+        <mark key="'" line="52" column="78" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593526272544">
         <mark key="'" line="149" column="14" />
@@ -204,7 +198,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="21" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="12" column="24" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="26" column="18" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="27" column="8" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
@@ -304,6 +297,7 @@
       <jump line="35" column="0" filename="$USER_HOME$/projects/chopin/config/puma.rb" />
       <jump line="0" column="17" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
       <jump line="46" column="31" filename="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" />
+      <jump line="52" column="78" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -840,7 +834,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
