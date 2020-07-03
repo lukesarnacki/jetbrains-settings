@@ -45,10 +45,10 @@
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
         <entry>action RecentFiles</entry>
-        <entry>action GotoFile</entry>
         <entry>action Unsplit</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action FindInPath</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -847,7 +847,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action FindInPath</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
