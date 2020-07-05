@@ -31,24 +31,24 @@
       <history-cmd>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
-        <entry>action GotoClass</entry>
-        <entry>action GotoTest</entry>
         <entry encoding="base64">JzwsJz5zLywgL1xy</entry>
         <entry encoding="base64">JzwsJz5zLywgL1xyL2c=</entry>
         <entry encoding="base64">JzwsJz5zLyAvey8=</entry>
         <entry>q</entry>
-        <entry>action DebugClass</entry>
         <entry>108</entry>
-        <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
-        <entry>action Unsplit</entry>
-        <entry>action FindInPath</entry>
-        <entry>action GotoFile</entry>
-        <entry>action RecentFiles</entry>
         <entry>action KJumpAction.Word0</entry>
-        <entry>wa</entry>
+        <entry>action GotoTest</entry>
+        <entry>action DebugClass</entry>
+        <entry>action FindInPath</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action GotoClass</entry>
+        <entry encoding="base64">JzwsJz53YQ==</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action Unsplit</entry>
+        <entry>action GotoFile</entry>
+        <entry>wa</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -140,37 +140,27 @@
         <mark key="^" line="17" column="11" />
         <mark key="." line="113" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1593782386050">
+      <file name="/Ruby Console" timestamp="1593786711925">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/purchase/card_details_page_service.rb" timestamp="1593520246580">
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="22" column="0" />
-        <mark key="." line="22" column="0" />
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" timestamp="1593788147545">
+        <mark key="'" line="7" column="46" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/workers/payment_scheduler_worker.rb" timestamp="1593167274262">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="0" />
-        <mark key="^" line="10" column="10" />
-        <mark key="." line="10" column="0" />
+      <file name="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" timestamp="1593784174872">
+        <mark key="'" line="21" column="46" />
+        <mark key="[" line="12" column="17" />
+        <mark key="]" line="12" column="33" />
+        <mark key="." line="12" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/support/page_objects/backoffice/mta/mta_details_page.rb" timestamp="1593176975038">
-        <mark key="'" line="28" column="36" />
-        <mark key="]" line="13" column="61" />
-        <mark key="." line="13" column="60" />
-        <mark key="^" line="13" column="61" />
+      <file name="$USER_HOME$/projects/chopin/spec/app/factories/payment_gateway_provider_spec.rb" timestamp="1593787534182">
+        <mark key="'" line="52" column="47" />
+        <mark key="[" line="48" column="29" />
+        <mark key="]" line="48" column="29" />
+        <mark key="." line="48" column="28" />
+        <mark key="^" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/journeys/_policy_information.html.haml" timestamp="1593150392100">
-        <mark key="[" line="32" column="21" />
-        <mark key="]" line="32" column="21" />
-        <mark key="." line="32" column="21" />
-        <mark key="^" line="32" column="12" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1593522238768">
-        <mark key="[" line="5" column="59" />
-        <mark key="]" line="5" column="59" />
-        <mark key="^" line="4" column="10" />
-        <mark key="." line="5" column="59" />
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/_manual_payment_form.html.haml" timestamp="1593787639396">
+        <mark key="'" line="15" column="40" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" timestamp="1593672761076">
         <mark key="[" line="95" column="0" />
@@ -182,8 +172,12 @@
         <mark key="'" line="52" column="6" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1593669014702" />
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1593775943312">
-        <mark key="'" line="52" column="78" />
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model.rb" timestamp="1593787950576">
+        <mark key="a" line="15" column="57" />
+        <mark key="'" line="2" column="10" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1593786829250">
+        <mark key="'" line="20" column="15" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593526272544">
         <mark key="'" line="149" column="14" />
@@ -193,26 +187,19 @@
         <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" timestamp="1593672437841" />
-      <file name="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" timestamp="1593775843534">
-        <mark key="'" line="46" column="31" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" timestamp="1593784489907">
+        <mark key="'" line="56" column="46" />
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="56" column="98" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/config/journeys/mta.rb" timestamp="1593783784864">
+        <mark key="'" line="20" column="62" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" timestamp="1593788128334">
+        <mark key="'" line="23" column="70" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="12" column="24" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="26" column="18" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="27" column="8" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="17" column="26" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
-      <jump line="26" column="46" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/views/journeys/mta/quote_details.html.haml" />
-      <jump line="4" column="29" filename="$USER_HOME$/projects/chopin/app/views/backoffice/shared/_mta_policy_header.html.haml" />
-      <jump line="43" column="44" filename="$USER_HOME$/projects/chopin/app/journey/mta_conversion_subjourney/mta_details_page_service.rb" />
-      <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/mtas/mta_details_view_model_factory.rb" />
-      <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
-      <jump line="46" column="63" filename="$USER_HOME$/projects/chopin/app/journey/mta_conversion_subjourney/mta_details_page_service.rb" />
-      <jump line="2" column="36" filename="$USER_HOME$/projects/chopin/app/views/journeys/mta_conversion_subjourney/mta_details.html.haml" />
-      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/views/journeys/_policy_header.html.haml" />
-      <jump line="4" column="36" filename="$USER_HOME$/projects/chopin/app/views/journeys/mta_conversion_subjourney/mta_details.html.haml" />
-      <jump line="37" column="36" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/installment_refund_payment_page_service.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/installment_refund_payment_page_service.rb" />
       <jump line="24" column="13" filename="$USER_HOME$/projects/chopin/app/journey/cancellation/cancellation_start_date_page_service.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" />
@@ -295,9 +282,24 @@
       <jump line="13" column="15" filename="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" />
       <jump line="52" column="6" filename="$USER_HOME$/projects/payments/app/services/workflow/setup_installment_plan.rb" />
       <jump line="35" column="0" filename="$USER_HOME$/projects/chopin/config/puma.rb" />
-      <jump line="0" column="17" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
       <jump line="46" column="31" filename="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" />
       <jump line="52" column="78" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
+      <jump line="20" column="62" filename="$USER_HOME$/projects/chopin/config/journeys/mta.rb" />
+      <jump line="56" column="46" filename="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" />
+      <jump line="63" column="81" filename="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" />
+      <jump line="20" column="46" filename="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" />
+      <jump line="52" column="47" filename="$USER_HOME$/projects/chopin/spec/app/factories/payment_gateway_provider_spec.rb" />
+      <jump line="0" column="18" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
+      <jump line="20" column="15" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
+      <jump line="15" column="56" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model.rb" />
+      <jump line="15" column="40" filename="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/_manual_payment_form.html.haml" />
+      <jump line="28" column="42" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" />
+      <jump line="25" column="26" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" />
+      <jump line="4" column="8" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" />
+      <jump line="2" column="10" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model.rb" />
+      <jump line="2" column="24" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" />
+      <jump line="23" column="70" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
+      <jump line="7" column="46" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -381,10 +383,10 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICBkZWYgYWxsX3BsYW5zX2hhc19nYXRld2F5X3JlZmVyZW5jZT8KICAgIHJldHVybiBmYWxzZSBpZiBAc3RhZ2VfcmVzdWx0cy5ibGFuaz8KCiAgICBAc3RhZ2VfcmVzdWx0cy5hbGw/IGRvIHxyfAogICAgICByLnN1Y2Nlc3M/ICYmIHIudmFsdWUucGF5bWVudF9wbGFuLmdhdGV3YXlfcmVmZXJlbmNlLnByZXNlbnQ/CiAgICBlbmQKICBlbmQK</text>
+        <text encoding="base64">ICAgIGNvbnRleHQgInVzaW5nIFN0cmlwZSIgZG8K</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICArICA=</text>
+        <text>for_credit_card</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -393,10 +395,10 @@
         <text>budnled</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBlbnN1cmUKICAgIEBzdGFnZV9pdGVyYXRvci5zdGFnZV9maW5pc2hlZAo=</text>
+        <text encoding="base64">ICAgIGNvbnRleHQgInVzaW5nIFN0cmlwZSIgZG8K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBkZWYgYWxsX3BsYW5zX2hhc19nYXRld2F5X3JlZmVyZW5jZT8KICAgIHJldHVybiBmYWxzZSBpZiBAc3RhZ2VfcmVzdWx0cy5ibGFuaz8KCiAgICBAc3RhZ2VfcmVzdWx0cy5hbGw/IGRvIHxyfAogICAgICByLnN1Y2Nlc3M/ICYmIHIudmFsdWUucGF5bWVudF9wbGFuLmdhdGV3YXlfcmVmZXJlbmNlLnByZXNlbnQ/CiAgICBlbmQKICBlbmQK</text>
+        <text encoding="base64">ICAgIGNvbnRleHQgInVzaW5nIFN0cmlwZSIgZG8K</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -419,16 +421,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBkZWYgYWN0aXZlPwogICAgQGFjdGl2ZQogIGVuZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBkZWYgc2V0dXBfaW5zdGFsbG1lbnRzX3NjaGVkdWxlCiAgICByZXR1cm4gc2VsZiBpZiBAZXJyb3JfcmVzdWx0LnByZXNlbnQ/CgogICAgc3RhZ2VfaXRlcmF0b3IgPSBCdW5kbGVkUGF5bWVudFBsYW5zU3RhZ2VJdGVyYXRvci5uZXcoQHN0YWdlX3Jlc3VsdHMpCiAgICB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgICBzdGFnZV9pdGVyYXRvci5uZXh0IGRvIHxyZXN1bHR8CiAgICAgICAgQHBheW1lbnRfcGxhbl9saXN0LmNyZWF0ZV9pbnN0YWxsbWVudHNfc2NoZWR1bGVzKHJlc3VsdC52YWx1ZS5wYXltZW50X3BsYW4pCiAgICAgICAgUmVzdWx0YW50LnN1Y2Nlc3MocmVzdWx0LnZhbHVlKQoKICAgICAgICBAc3RhZ2VfcmVzdWx0cyA9IHN0YWdlX2l0ZXJhdG9yLnJlc3VsdHMKICAgICAgICBzZWxmCiAgICAgIGVuZAogICAgZW5k</text>
+        <text encoding="base64">ICBkZWYgYWxsX3BsYW5zX2hhc19nYXRld2F5X3JlZmVyZW5jZT8KICAgIHJldHVybiBmYWxzZSBpZiBAc3RhZ2VfcmVzdWx0cy5ibGFuaz8KCiAgICBAc3RhZ2VfcmVzdWx0cy5hbGw/IGRvIHxyfAogICAgICByLnN1Y2Nlc3M/ICYmIHIudmFsdWUucGF5bWVudF9wbGFuLmdhdGV3YXlfcmVmZXJlbmNlLnByZXNlbnQ/CiAgICBlbmQKICBlbmQK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -779,7 +781,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICBkZWYgYWxsX3BsYW5zX2hhc19nYXRld2F5X3JlZmVyZW5jZT8KICAgICAgcmV0dXJuIGZhbHNlIGlmIEBzdGFnZV9yZXN1bHRzLmJsYW5rPwoKICAgICAgQHN0YWdlX3Jlc3VsdHMuYWxsPyBkbyB8cnwKICAgICAgICByLnN1Y2Nlc3M/ICYmIHIudmFsdWUucGF5bWVudF9wbGFuLmdhdGV3YXlfcmVmZXJlbmNlLnByZXNlbnQ/CiAgICAgIGVuZAogICAgZW5k</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -788,10 +790,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBkZWYgc2V0dXBfaW5zdGFsbG1lbnRzX3NjaGVkdWxlCiAgICByZXR1cm4gc2VsZiBpZiBAZXJyb3JfcmVzdWx0LnByZXNlbnQ/CgogICAgc3RhZ2VfaXRlcmF0b3IgPSBCdW5kbGVkUGF5bWVudFBsYW5zU3RhZ2VJdGVyYXRvci5uZXcoQHN0YWdlX3Jlc3VsdHMpCiAgICB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgICBzdGFnZV9pdGVyYXRvci5uZXh0IGRvIHxyZXN1bHR8CiAgICAgICAgQHBheW1lbnRfcGxhbl9saXN0LmNyZWF0ZV9pbnN0YWxsbWVudHNfc2NoZWR1bGVzKHJlc3VsdC52YWx1ZS5wYXltZW50X3BsYW4pCiAgICAgICAgUmVzdWx0YW50LnN1Y2Nlc3MocmVzdWx0LnZhbHVlKQoKICAgICAgICBAc3RhZ2VfcmVzdWx0cyA9IHN0YWdlX2l0ZXJhdG9yLnJlc3VsdHMKICAgICAgICBzZWxmCiAgICAgIGVuZAogICAgZW5kCgogICAgZGVmIGFsbF9wbGFuc19oYXNfZ2F0ZXdheV9yZWZlcmVuY2U/CiAgICAgIHJldHVybiBmYWxzZSBpZiBAc3RhZ2VfcmVzdWx0cy5ibGFuaz8KCiAgICAgIEBzdGFnZV9yZXN1bHRzLmFsbD8gZG8gfHJ8CiAgICAgICAgci5zdWNjZXNzPyAmJiByLnZhbHVlLnBheW1lbnRfcGxhbi5nYXRld2F5X3JlZmVyZW5jZS5wcmVzZW50PwogICAgICBlbmQKICAgIGVuZA==</text>
+        <text encoding="base64">ICBkZWYgYWN0aXZlPwogICAgQGFjdGl2ZQogIGVuZAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGVuZAoK</text>
+        <text encoding="base64">ICBkZWYgc2V0dXBfaW5zdGFsbG1lbnRzX3NjaGVkdWxlCiAgICByZXR1cm4gc2VsZiBpZiBAZXJyb3JfcmVzdWx0LnByZXNlbnQ/CgogICAgc3RhZ2VfaXRlcmF0b3IgPSBCdW5kbGVkUGF5bWVudFBsYW5zU3RhZ2VJdGVyYXRvci5uZXcoQHN0YWdlX3Jlc3VsdHMpCiAgICB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgICBzdGFnZV9pdGVyYXRvci5uZXh0IGRvIHxyZXN1bHR8CiAgICAgICAgQHBheW1lbnRfcGxhbl9saXN0LmNyZWF0ZV9pbnN0YWxsbWVudHNfc2NoZWR1bGVzKHJlc3VsdC52YWx1ZS5wYXltZW50X3BsYW4pCiAgICAgICAgUmVzdWx0YW50LnN1Y2Nlc3MocmVzdWx0LnZhbHVlKQoKICAgICAgICBAc3RhZ2VfcmVzdWx0cyA9IHN0YWdlX2l0ZXJhdG9yLnJlc3VsdHMKICAgICAgICBzZWxmCiAgICAgIGVuZAogICAgZW5k</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -825,16 +827,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBkZWYgc2V0dXBfaW5zdGFsbG1lbnRzX3NjaGVkdWxlCiAgICByZXR1cm4gc2VsZiBpZiBAZXJyb3JfcmVzdWx0LnByZXNlbnQ/CgogICAgc3RhZ2VfaXRlcmF0b3IgPSBCdW5kbGVkUGF5bWVudFBsYW5zU3RhZ2VJdGVyYXRvci5uZXcoQHN0YWdlX3Jlc3VsdHMpCiAgICB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgICBzdGFnZV9pdGVyYXRvci5uZXh0IGRvIHxyZXN1bHR8CiAgICAgICAgQHBheW1lbnRfcGxhbl9saXN0LmNyZWF0ZV9pbnN0YWxsbWVudHNfc2NoZWR1bGVzKHJlc3VsdC52YWx1ZS5wYXltZW50X3BsYW4pCiAgICAgICAgUmVzdWx0YW50LnN1Y2Nlc3MocmVzdWx0LnZhbHVlKQoKICAgICAgICBAc3RhZ2VfcmVzdWx0cyA9IHN0YWdlX2l0ZXJhdG9yLnJlc3VsdHMKICAgICAgICBzZWxmCiAgICAgIGVuZAoKICAgICAgZGVmIGFsbF9wbGFuc19oYXNfZ2F0ZXdheV9yZWZlcmVuY2U/CiAgICAgICAgcmV0dXJuIGZhbHNlIGlmIEBzdGFnZV9yZXN1bHRzLmJsYW5rPwoKICAgICAgICBAc3RhZ2VfcmVzdWx0cy5hbGw/IGRvIHxyfAogICAgICAgICAgci5zdWNjZXNzPyAmJiByLnZhbHVlLnBheW1lbnRfcGxhbi5nYXRld2F5X3JlZmVyZW5jZS5wcmVzZW50PwogICAgICAgIGVuZAogICAgICBlbmQKICAgIGVuZA==</text>
+        <text encoding="base64">CiAgICBkZWYgYWxsX3BsYW5zX2hhc19nYXRld2F5X3JlZmVyZW5jZT8KICAgICAgcmV0dXJuIGZhbHNlIGlmIEBzdGFnZV9yZXN1bHRzLmJsYW5rPwoKICAgICAgQHN0YWdlX3Jlc3VsdHMuYWxsPyBkbyB8cnwKICAgICAgICByLnN1Y2Nlc3M/ICYmIHIudmFsdWUucGF5bWVudF9wbGFuLmdhdGV3YXlfcmVmZXJlbmNlLnByZXNlbnQ/CiAgICAgIGVuZAogICAgZW5k</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBkZWYgc2V0dXBfaW5zdGFsbG1lbnRzX3NjaGVkdWxlCiAgICByZXR1cm4gc2VsZiBpZiBAZXJyb3JfcmVzdWx0LnByZXNlbnQ/CgogICAgc3RhZ2VfaXRlcmF0b3IgPSBCdW5kbGVkUGF5bWVudFBsYW5zU3RhZ2VJdGVyYXRvci5uZXcoQHN0YWdlX3Jlc3VsdHMpCiAgICB3aGlsZSBzdGFnZV9pdGVyYXRvci5uZXh0PwogICAgICBzdGFnZV9pdGVyYXRvci5uZXh0IGRvIHxyZXN1bHR8CiAgICAgICAgQHBheW1lbnRfcGxhbl9saXN0LmNyZWF0ZV9pbnN0YWxsbWVudHNfc2NoZWR1bGVzKHJlc3VsdC52YWx1ZS5wYXltZW50X3BsYW4pCiAgICAgICAgUmVzdWx0YW50LnN1Y2Nlc3MocmVzdWx0LnZhbHVlKQoKICAgICAgICBAc3RhZ2VfcmVzdWx0cyA9IHN0YWdlX2l0ZXJhdG9yLnJlc3VsdHMKICAgICAgICBzZWxmCiAgICAgIGVuZAogICAgZW5kCgogICAgZGVmIGFsbF9wbGFuc19oYXNfZ2F0ZXdheV9yZWZlcmVuY2U/CiAgICAgIHJldHVybiBmYWxzZSBpZiBAc3RhZ2VfcmVzdWx0cy5ibGFuaz8KCiAgICAgIEBzdGFnZV9yZXN1bHRzLmFsbD8gZG8gfHJ8CiAgICAgICAgci5zdWNjZXNzPyAmJiByLnZhbHVlLnBheW1lbnRfcGxhbi5nYXRld2F5X3JlZmVyZW5jZS5wcmVzZW50PwogICAgICBlbmQKICAgIGVuZA==</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>wa</text>
       </register>
     </registers>
   </component>
