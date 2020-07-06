@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>gateway_name</entry>
         <entry encoding="base64">XDxzd2dtZW50X2lkXD4=</entry>
         <entry encoding="base64">XDxwb2xpY3lfdHJhbnNhY3Rpb25fYWNjb3VudFw+</entry>
         <entry>transactions</entry>
@@ -27,6 +26,7 @@
         <entry>enableButton</entry>
         <entry>payment_plan_event</entry>
         <entry>budnled</entry>
+        <entry>next_step_from_parent</entry>
       </history-search>
       <history-cmd>
         <entry>action GotoRelated</entry>
@@ -41,12 +41,12 @@
         <entry>action KJumpAction.Word0</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
-        <entry>action FindInPath</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoClass</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action Unsplit</entry>
         <entry>wa</entry>
+        <entry>action FindInPath</entry>
         <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
       </history-cmd>
@@ -133,6 +133,9 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/projects/chopin/config/journeys/sub_journeys/additional_transaction.rb" timestamp="1594018999931">
+        <mark key="'" line="31" column="31" />
+      </file>
       <file name="$USER_HOME$/projects/payments/app/controllers/installment_plans_controller.rb" timestamp="1593671472317">
         <mark key="'" line="13" column="15" />
         <mark key="[" line="113" column="0" />
@@ -146,14 +149,21 @@
         <mark key="." line="0" column="24" />
         <mark key="^" line="0" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" timestamp="1593788147545">
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" timestamp="1594018703747">
         <mark key="'" line="7" column="46" />
+        <mark key="[" line="7" column="91" />
+        <mark key="]" line="8" column="18" />
+        <mark key="." line="8" column="17" />
+        <mark key="^" line="8" column="18" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/presenters/backoffice/transaction_presenter.rb" timestamp="1594014060863">
         <mark key="[" line="126" column="58" />
         <mark key="]" line="127" column="26" />
         <mark key="^" line="127" column="26" />
         <mark key="." line="127" column="25" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/models/payment_type_config.rb" timestamp="1594018126796">
+        <mark key="'" line="0" column="20" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" timestamp="1594012625272">
         <mark key="'" line="20" column="46" />
@@ -175,7 +185,7 @@
         <mark key="." line="48" column="28" />
         <mark key="^" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/_manual_payment_form.html.haml" timestamp="1593787639396">
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/additional_transaction/_manual_payment_form.html.haml" timestamp="1594018072387">
         <mark key="'" line="15" column="40" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" timestamp="1593672761076">
@@ -217,11 +227,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" />
-      <jump line="14" column="0" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="91" column="30" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
-      <jump line="6" column="23" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
-      <jump line="2" column="38" filename="$USER_HOME$/projects/chopin/spec/queries/segment_payment_transaction_query_spec.rb" />
       <jump line="26" column="22" filename="$USER_HOME$/projects/chopin/spec/queries/segment_payment_transaction_query_spec.rb" />
       <jump line="13" column="41" filename="$USER_HOME$/projects/chopin/spec/queries/segment_payment_transaction_query_spec.rb" />
       <jump line="19" column="14" filename="$USER_HOME$/projects/chopin/app/models/transaction/policy_transaction_account.rb" />
@@ -317,6 +322,11 @@
       <jump line="7" column="46" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" />
       <jump line="0" column="5" filename="$USER_HOME$/projects/chopin/app/views/backoffice/transactions/_transaction.html.haml" />
       <jump line="33" column="39" filename="$USER_HOME$/projects/chopin/app/views/backoffice/transactions/index.html.haml" />
+      <jump line="0" column="20" filename="$USER_HOME$/projects/chopin/app/models/payment_type_config.rb" />
+      <jump line="55" column="31" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/integrated_card_payment_page_service.rb" />
+      <jump line="34" column="36" filename="$USER_HOME$/projects/chopin/config/journeys/sub_journeys/additional_transaction.rb" />
+      <jump line="19" column="20" filename="$USER_HOME$/projects/chopin/config/journeys/sub_journeys/additional_transaction.rb" />
+      <jump line="31" column="31" filename="$USER_HOME$/projects/chopin/config/journeys/sub_journeys/additional_transaction.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -400,16 +410,16 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>#{transaction.source}</text>
+        <text>, journey_name</text>
       </register>
       <register name="-" type="4">
-        <text>#{transaction.source}</text>
+        <text>, journey_name</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>budnled</text>
+        <text>next_step_from_parent</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGNvbnRleHQgInVzaW5nIFN0cmlwZSIgZG8K</text>
@@ -859,9 +869,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>budnled</last-search>
+      <last-search>next_step_from_parent</last-search>
       <last-offset />
-      <last-pattern>budnled</last-pattern>
+      <last-pattern>next_step_from_parent</last-pattern>
       <last-replace>enableForm</last-replace>
       <last-substitute>enableButton</last-substitute>
       <last-dir>1</last-dir>
