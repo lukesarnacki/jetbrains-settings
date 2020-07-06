@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">LCA=</entry>
         <entry>segment</entry>
         <entry encoding="base64">IA==</entry>
         <entry>policy</entry>
@@ -27,9 +26,9 @@
         <entry>transaction</entry>
         <entry>transaction_details</entry>
         <entry>payment_record</entry>
+        <entry>manual_pay</entry>
       </history-search>
       <history-cmd>
-        <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry encoding="base64">JzwsJz5zLywgL1xy</entry>
         <entry encoding="base64">JzwsJz5zLywgL1xyL2c=</entry>
@@ -41,7 +40,6 @@
         <entry>action KJumpAction.Word0</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoClass</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action Unsplit</entry>
@@ -49,6 +47,8 @@
         <entry>action FindInPath</entry>
         <entry>action GotoFile</entry>
         <entry>action RecentFiles</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
+        <entry>62</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -143,16 +143,16 @@
         <mark key="^" line="17" column="11" />
         <mark key="." line="113" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1594022790549">
+      <file name="/Ruby Console" timestamp="1594026491871">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="11" />
-        <mark key="." line="0" column="10" />
-        <mark key="^" line="0" column="11" />
+        <mark key="]" line="0" column="25" />
+        <mark key="." line="0" column="24" />
+        <mark key="^" line="0" column="25" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" timestamp="1594018703747">
+      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" timestamp="1594026423671">
         <mark key="'" line="7" column="46" />
-        <mark key="[" line="7" column="91" />
-        <mark key="]" line="8" column="18" />
+        <mark key="[" line="28" column="36" />
+        <mark key="]" line="28" column="37" />
         <mark key="." line="8" column="17" />
         <mark key="^" line="8" column="18" />
       </file>
@@ -214,9 +214,9 @@
         <mark key="." line="52" column="0" />
       </file>
       <file name="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" timestamp="1593672437841" />
-      <file name="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" timestamp="1594022896247">
-        <mark key="'" line="46" column="8" />
-        <mark key="[" line="47" column="58" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" timestamp="1594027831698">
+        <mark key="'" line="4" column="24" />
+        <mark key="[" line="6" column="27" />
         <mark key="]" line="47" column="59" />
         <mark key="^" line="47" column="59" />
         <mark key="." line="47" column="58" />
@@ -224,9 +224,9 @@
       <file name="$USER_HOME$/projects/chopin/config/journeys/mta.rb" timestamp="1593783784864">
         <mark key="'" line="20" column="62" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" timestamp="1594021370485">
-        <mark key="'" line="46" column="34" />
-        <mark key="[" line="35" column="0" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" timestamp="1594027181531">
+        <mark key="'" line="36" column="39" />
+        <mark key="[" line="47" column="77" />
         <mark key="k" line="42" column="6" />
         <mark key="]" line="42" column="7" />
         <mark key="^" line="41" column="12" />
@@ -234,10 +234,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="9" column="4" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
-      <jump line="7" column="35" filename="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" />
-      <jump line="8" column="32" filename="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" />
-      <jump line="9" column="33" filename="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" />
       <jump line="10" column="21" filename="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" />
       <jump line="39" column="41" filename="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" />
       <jump line="51" column="33" filename="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" />
@@ -334,6 +330,10 @@
       <jump line="0" column="6" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
       <jump line="33" column="40" filename="$USER_HOME$/projects/chopin/app/views/backoffice/transactions/index.html.haml" />
       <jump line="46" column="8" filename="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" />
+      <jump line="29" column="29" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
+      <jump line="35" column="8" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
+      <jump line="36" column="39" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
+      <jump line="4" column="24" filename="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -416,8 +416,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgIGRlZiBtYW51YWxfcGF5bWVudF9wYXJhbXMKICAgICAgcGFyYW1zID0gY29udGV4dC5wYXJhbXMucmVxdWlyZSg6bWFudWFsX3BheW1lbnQpCiAgICAgIGlmIHBhcmFtc1s6dHJhbnNhY3Rpb25fdHlwZV0gPT0gJ2NyZWRpdF9kZWJpdF9jYXJkX3N0cmlwZScKICAgICAgICBwYXJhbXNbOnRyYW5zYWN0aW9uX3R5cGVdID0gJ2NyZWRpdF9kZWJpdF9jYXJkJwogICAgICAgIHBhcmFtc1s6cGF5bWVudF9nYXRld2F5XSA9ICdTdHJpcGUnCiAgICAgIGVuZAogICAgICBwYXJhbXMKICAgIGVuZAo=</text>
+      <register name="*" type="4">
+        <text encoding="base64">LyA=</text>
       </register>
       <register name="-" type="4">
         <text>, journey_name</text>
@@ -426,10 +426,10 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>payment_record</text>
+        <text>manual_pay</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGRlZiBtYW51YWxfcGF5bWVudF9wYXJhbXMKICAgICAgcGFyYW1zID0gY29udGV4dC5wYXJhbXMucmVxdWlyZSg6bWFudWFsX3BheW1lbnQpCiAgICAgIGlmIHBhcmFtc1s6dHJhbnNhY3Rpb25fdHlwZV0gPT0gJ2NyZWRpdF9kZWJpdF9jYXJkX3N0cmlwZScKICAgICAgICBwYXJhbXNbOnRyYW5zYWN0aW9uX3R5cGVdID0gJ2NyZWRpdF9kZWJpdF9jYXJkJwogICAgICAgIHBhcmFtc1s6cGF5bWVudF9nYXRld2F5XSA9ICdTdHJpcGUnCiAgICAgIGVuZAogICAgICBwYXJhbXMKICAgIGVuZAo=</text>
+      <register name="0" type="4">
+        <text encoding="base64">LyA=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgY3JlZGl0X2NhcmRfc3RyaXBlOiAnQ3JlZGl0IGNhcmQgKHN0cmlwZSknLAo=</text>
@@ -870,15 +870,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>62</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>payment_record</last-search>
+      <last-search>manual_pay</last-search>
       <last-offset />
-      <last-pattern>payment_record</last-pattern>
+      <last-pattern>manual_pay</last-pattern>
       <last-replace>enableForm</last-replace>
       <last-substitute>enableButton</last-substitute>
       <last-dir>1</last-dir>
