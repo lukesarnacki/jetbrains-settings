@@ -45,10 +45,10 @@
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>18</entry>
         <entry>action GotoTest</entry>
-        <entry>action DebugClass</entry>
         <entry>action RecentFiles</entry>
         <entry>action FindInPath</entry>
         <entry>action GotoFile</entry>
+        <entry>action DebugClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -166,7 +166,7 @@
         <mark key="^" line="23" column="65" />
         <mark key="." line="23" column="64" />
       </file>
-      <file name="/Ruby Console" timestamp="1594040725088">
+      <file name="/Ruby Console" timestamp="1594043147192">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -876,7 +876,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action DebugClass</text>
       </register>
     </registers>
   </component>
