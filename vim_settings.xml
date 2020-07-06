@@ -7,8 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>segment</entry>
-        <entry encoding="base64">IA==</entry>
         <entry>policy</entry>
         <entry>the payment is</entry>
         <entry>create</entry>
@@ -27,6 +25,8 @@
         <entry>transaction_details</entry>
         <entry>payment_record</entry>
         <entry>manual_pay</entry>
+        <entry>list_summ</entry>
+        <entry>payment meth</entry>
       </history-search>
       <history-cmd>
         <entry>q</entry>
@@ -34,7 +34,6 @@
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
         <entry>action KJumpAction.Word0</entry>
-        <entry>action GotoTest</entry>
         <entry>action GotoClass</entry>
         <entry>62</entry>
         <entry>action ActivateTerminalToolWindow</entry>
@@ -47,8 +46,9 @@
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>action GotoFile</entry>
         <entry>18</entry>
-        <entry>action RecentFiles</entry>
+        <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -160,7 +160,7 @@
         <mark key="]" line="52" column="0" />
         <mark key="." line="52" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1594038313655">
+      <file name="/Ruby Console" timestamp="1594040725088">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -192,6 +192,9 @@
         <mark key="]" line="63" column="0" />
         <mark key="." line="63" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" timestamp="1594041306001">
+        <mark key="'" line="55" column="41" />
+      </file>
       <file name="/Dummy.txt" timestamp="1594033127678">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -201,12 +204,6 @@
         <mark key="'" line="15" column="40" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/api/v6/customer_accounts.rb" timestamp="1594032804272" />
-      <file name="$USER_HOME$/projects/payments/app/models/bundled_payment_plans.rb" timestamp="1593672761076">
-        <mark key="[" line="95" column="0" />
-        <mark key="]" line="95" column="0" />
-        <mark key="^" line="135" column="23" />
-        <mark key="." line="95" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/payments/app/services/workflow/setup_installment_plan.rb" timestamp="1593683130909">
         <mark key="'" line="52" column="6" />
       </file>
@@ -240,11 +237,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="104" column="19" filename="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" />
-      <jump line="136" column="39" filename="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" />
-      <jump line="142" column="0" filename="$USER_HOME$/projects/chopin/spec/factories/policy_factory.rb" />
-      <jump line="17" column="0" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
-      <jump line="22" column="0" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
       <jump line="3" column="22" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
       <jump line="4" column="20" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
       <jump line="6" column="24" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
@@ -340,6 +332,11 @@
       <jump line="14" column="7" filename="$USER_HOME$/projects/chopin/app/models/payment_type_config.rb" />
       <jump line="34" column="76" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/additional_transaction/manual_payment_view_model_factory_spec.rb" />
+      <jump line="22" column="36" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
+      <jump line="14" column="71" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
+      <jump line="13" column="13" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
+      <jump line="53" column="8" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
+      <jump line="55" column="41" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -432,7 +429,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>manual_pay</text>
+        <text>payment meth</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBqb3VybmV5X25hbWU6ICduZXdfYnVzaW5lc3MnCg==</text>
@@ -876,15 +873,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action DebugClass</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>manual_pay</last-search>
+      <last-search>payment meth</last-search>
       <last-offset />
-      <last-pattern>manual_pay</last-pattern>
+      <last-pattern>payment meth</last-pattern>
       <last-replace>enableForm</last-replace>
       <last-substitute>enableButton</last-substitute>
       <last-dir>1</last-dir>
