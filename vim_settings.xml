@@ -40,15 +40,15 @@
         <entry>action Unsplit</entry>
         <entry>w</entry>
         <entry>wa</entry>
-        <entry>action FindInPath</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
-        <entry>action GotoFile</entry>
         <entry>18</entry>
         <entry>action GotoTest</entry>
         <entry>action DebugClass</entry>
         <entry>action RecentFiles</entry>
+        <entry>action FindInPath</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -160,6 +160,12 @@
         <mark key="]" line="52" column="0" />
         <mark key="." line="52" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/spec/journey/create_mta_transition_service_spec.rb" timestamp="1594043145055">
+        <mark key="[" line="22" column="103" />
+        <mark key="]" line="23" column="65" />
+        <mark key="^" line="23" column="65" />
+        <mark key="." line="23" column="64" />
+      </file>
       <file name="/Ruby Console" timestamp="1594040725088">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
@@ -186,8 +192,8 @@
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="86" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" timestamp="1594031127885">
-        <mark key="'" line="20" column="46" />
+      <file name="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" timestamp="1594042794419">
+        <mark key="'" line="20" column="33" />
         <mark key="[" line="63" column="0" />
         <mark key="]" line="63" column="0" />
         <mark key="." line="63" column="0" />
@@ -204,9 +210,6 @@
         <mark key="'" line="15" column="40" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/api/v6/customer_accounts.rb" timestamp="1594032804272" />
-      <file name="$USER_HOME$/projects/payments/app/services/workflow/setup_installment_plan.rb" timestamp="1593683130909">
-        <mark key="'" line="52" column="6" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model.rb" timestamp="1593787950576">
         <mark key="a" line="15" column="57" />
         <mark key="'" line="2" column="10" />
@@ -237,7 +240,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="3" column="22" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
       <jump line="4" column="20" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
       <jump line="6" column="24" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
       <jump line="7" column="24" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
@@ -293,7 +295,6 @@
       <jump line="20" column="62" filename="$USER_HOME$/projects/chopin/config/journeys/mta.rb" />
       <jump line="56" column="46" filename="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" />
       <jump line="63" column="81" filename="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" />
-      <jump line="20" column="46" filename="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" />
       <jump line="52" column="47" filename="$USER_HOME$/projects/chopin/spec/app/factories/payment_gateway_provider_spec.rb" />
       <jump line="20" column="15" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
       <jump line="15" column="56" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model.rb" />
@@ -337,6 +338,8 @@
       <jump line="13" column="13" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
       <jump line="53" column="8" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
       <jump line="55" column="41" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
+      <jump line="58" column="79" filename="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" />
+      <jump line="20" column="33" filename="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -873,7 +876,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
