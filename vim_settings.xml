@@ -29,26 +29,26 @@
         <entry>manual_pay</entry>
       </history-search>
       <history-cmd>
-        <entry encoding="base64">JzwsJz5zLyAvey8=</entry>
         <entry>q</entry>
         <entry>108</entry>
         <entry>%s/disableButton/disableForm</entry>
         <entry>%s/enableButton/enableForm</entry>
         <entry>action KJumpAction.Word0</entry>
         <entry>action GotoTest</entry>
-        <entry>action DebugClass</entry>
         <entry>action GotoClass</entry>
-        <entry>action GotoFile</entry>
         <entry>62</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action Unsplit</entry>
         <entry>w</entry>
         <entry>wa</entry>
-        <entry>action RecentFiles</entry>
         <entry>action FindInPath</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
+        <entry>action GotoFile</entry>
+        <entry>18</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action DebugClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -136,6 +136,12 @@
       <file name="$USER_HOME$/projects/chopin/config/journeys/sub_journeys/additional_transaction.rb" timestamp="1594018999931">
         <mark key="'" line="31" column="31" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/additional_transaction/manual_payment_view_model_factory_spec.rb" timestamp="1594038728017">
+        <mark key="[" line="63" column="60" />
+        <mark key="]" line="63" column="59" />
+        <mark key="^" line="63" column="59" />
+        <mark key="." line="63" column="58" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/config/payment_type_config.yml" timestamp="1594031131752">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="2" column="0" />
@@ -154,8 +160,7 @@
         <mark key="]" line="52" column="0" />
         <mark key="." line="52" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/payments/test/models/bundled_payment_plans_test.rb" timestamp="1593672437841" />
-      <file name="/Ruby Console" timestamp="1594031964535">
+      <file name="/Ruby Console" timestamp="1594038313655">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -418,10 +423,10 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text>Decouple stripe from manual payment method</text>
+        <text encoding="base64">ICAgICAgICBqb3VybmV5X25hbWU6ICduZXdfYnVzaW5lc3MnCg==</text>
       </register>
       <register name="-" type="4">
-        <text>business_unit == BusinessRules::BusinessUnit.from_code(:simplybusiness_uk)</text>
+        <text encoding="base64">J0NyZWRpdC8gZGViaXQgY2FyZCB1c2luZyBTdHJpcGUnID0+ICdjcmVkaXRfZGViaXRfY2FyZF9zdHJpcGUn</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -429,11 +434,11 @@
       <register name="/" type="4">
         <text>manual_pay</text>
       </register>
-      <register name="0" type="4">
-        <text>[:mta, :cancellation].include?(journey_name)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBqb3VybmV5X25hbWU6ICduZXdfYnVzaW5lc3MnCg==</text>
       </register>
       <register name="1" type="2">
-        <text>Decouple stripe from manual payment method</text>
+        <text encoding="base64">ICAgIHZpZXdfbW9kZWwgPSBmYWN0b3J5X2J1aWxkKHtqb3VybmV5X25hbWU6ICdtdGEnfSkK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -456,16 +461,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlcgo=</text>
+        <text encoding="base64">ICAgIHZpZXdfbW9kZWwgPSBmYWN0b3J5X2J1aWxkKHtqb3VybmV5X25hbWU6ICdjYW5jZWxsYXRpb24nfSkK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwYXltZW50X3R5cGVzID0gYWRkX3N0cmlwZV9wYXltZW50X21ldGhvZChwYXltZW50X3R5cGVzKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBsZXQoOmpvdXJuZXlfbmFtZSkgeyA6bmV3X2J1c2luZXNzIH0K</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -816,7 +821,7 @@
         </keys>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyB0bXAgPSB7fQogICAgICAjIHBheW1lbnRfdHlwZXMuZWFjaCBkbyB8aywgdnwKICAgICAgIyAgIHRtcFtrXSA9IHYKICAgICAgIyAgIGlmIGsgPT0gIkNyZWRpdC8gZGViaXQgY2FyZCIgJiYgWzptdGEsIDpjYW5jZWxsYXRpb25dLmluY2x1ZGU/KGpvdXJuZXlfbmFtZSkKICAgICAgIyAgICAgdG1wWydDcmVkaXQvIGRlYml0IGNhcmQgd2l0aCBTdHJpcGUnXSA9ICdjcmVkaXRfZGViaXRfY2FyZF9zdHJpcGUnCiAgICAgICMgICBlbmQKICAgICAgIyBlbmQK</text>
+        <text>Decouple stripe from manual payment method</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -825,10 +830,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwYXltZW50X3R5cGVzCg==</text>
+        <text encoding="base64">ICAgICAgICBzdXBlcgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwYXltZW50X3R5cGVzID0gYWRkX3N0cmlwZV9wYXltZW50X21ldGhvZChwYXltZW50X3R5cGVzKQo=</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -862,16 +867,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwYXltZW50X3R5cGVzX2FycmF5ID0gcGF5bWVudF90eXBlcy50b19hCiAgICAgICAgaWYgWzptdGEsIDpjYW5jZWxsYXRpb25dLmluY2x1ZGU/KGpvdXJuZXlfbmFtZSkKICAgICAgICAgIHBheW1lbnRfdHlwZXNfYXJyYXlbMV0gPSBbIkNyZWRpdC8gZGViaXQgY2FyZCB1c2luZyBTdHJpcGUiLCAiY3JlZGl0X2RlYml0X2NhcmRfc3RyaXBlIl0KICAgICAgICBlbmQKICAgICAgICBwYXltZW50X3R5cGVzID0gcGF5bWVudF90eXBlc19hcnJheS50b19oCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0bXAgPSB7fQogICAgICAgIHBheW1lbnRfdHlwZXMuZWFjaCBkbyB8aywgdnwKICAgICAgICAgIHRtcFtrXSA9IHYKICAgICAgICAgIGlmIGsgPT0gIkNyZWRpdC8gZGViaXQgY2FyZCIgJiYgWzptdGEsIDpjYW5jZWxsYXRpb25dLmluY2x1ZGU/KGpvdXJuZXlfbmFtZSkKICAgICAgICAgICAgdG1wWydDcmVkaXQvIGRlYml0IGNhcmQgd2l0aCBTdHJpcGUnXSA9ICdjcmVkaXRfZGViaXRfY2FyZF9zdHJpcGUnCiAgICAgICAgICBlbmQKICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgIyB0bXAgPSB7fQogICAgICAjIHBheW1lbnRfdHlwZXMuZWFjaCBkbyB8aywgdnwKICAgICAgIyAgIHRtcFtrXSA9IHYKICAgICAgIyAgIGlmIGsgPT0gIkNyZWRpdC8gZGViaXQgY2FyZCIgJiYgWzptdGEsIDpjYW5jZWxsYXRpb25dLmluY2x1ZGU/KGpvdXJuZXlfbmFtZSkKICAgICAgIyAgICAgdG1wWydDcmVkaXQvIGRlYml0IGNhcmQgd2l0aCBTdHJpcGUnXSA9ICdjcmVkaXRfZGViaXRfY2FyZF9zdHJpcGUnCiAgICAgICMgICBlbmQKICAgICAgIyBlbmQK</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action Refactorings.QuickListPopupAction</text>
+        <text>action DebugClass</text>
       </register>
     </registers>
   </component>
