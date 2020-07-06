@@ -47,8 +47,8 @@
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action RecentFiles</entry>
         <entry>action Unsplit</entry>
-        <entry>action GotoFile</entry>
         <entry>wa</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -176,7 +176,7 @@
         <mark key="a" line="15" column="57" />
         <mark key="'" line="2" column="10" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1593786829250">
+      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1593788344138">
         <mark key="'" line="20" column="15" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/assets/javascripts/ci5/modules/stripe_payment.js" timestamp="1593526272544">
@@ -836,7 +836,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>wa</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
