@@ -140,13 +140,21 @@
         <mark key="^" line="17" column="11" />
         <mark key="." line="113" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1593786711925">
+      <file name="/Ruby Console" timestamp="1594013845121">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="25" />
+        <mark key="." line="0" column="24" />
+        <mark key="^" line="0" column="25" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model_factory.rb" timestamp="1593788147545">
         <mark key="'" line="7" column="46" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/presenters/backoffice/transaction_presenter.rb" timestamp="1594011858677" />
+      <file name="$USER_HOME$/projects/chopin/app/presenters/backoffice/transaction_presenter.rb" timestamp="1594014060863">
+        <mark key="[" line="126" column="58" />
+        <mark key="]" line="127" column="26" />
+        <mark key="^" line="127" column="26" />
+        <mark key="." line="127" column="25" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" timestamp="1594012625272">
         <mark key="'" line="20" column="46" />
         <mark key="[" line="12" column="0" />
@@ -391,11 +399,11 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text encoding="base64">ICAgICAgY3JlZGl0X2NhcmRfc3RyaXBlOiAnQ3JlZGl0IGNhcmQgKHN0cmlwZSknLAo=</text>
+      <register name="*" type="4">
+        <text>#{transaction.source}</text>
       </register>
       <register name="-" type="4">
-        <text>_stripe</text>
+        <text>#{transaction.source}</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
