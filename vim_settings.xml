@@ -44,11 +44,11 @@
         <entry>action GotoTest</entry>
         <entry>action RecentFiles</entry>
         <entry>action DebugClass</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action Unsplit</entry>
-        <entry>action GotoFile</entry>
-        <entry>wa</entry>
         <entry>action FindInPath</entry>
+        <entry>wa</entry>
+        <entry>action GotoFile</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -142,15 +142,14 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/spec/journey/mta/mta_journey_spec.rb" timestamp="1594211644336">
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="0" />
+        <mark key="." line="55" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/spec/support/capybara/config.rb" timestamp="1594204919556" />
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594203260232">
         <mark key="'" line="34" column="22" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1594012308611">
-        <mark key="'" line="20" column="15" />
-        <mark key="[" line="52" column="0" />
-        <mark key="]" line="52" column="0" />
-        <mark key="." line="52" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/create_mta_transition_service_spec.rb" timestamp="1594043145055">
         <mark key="[" line="22" column="103" />
@@ -202,10 +201,6 @@
         <mark key="'" line="15" column="40" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/api/v6/customer_accounts.rb" timestamp="1594032804272" />
-      <file name="$USER_HOME$/projects/chopin/app/view_models/backoffice/additional_transaction/manual_payment_view_model.rb" timestamp="1593787950576">
-        <mark key="a" line="15" column="57" />
-        <mark key="'" line="2" column="10" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/views/backoffice/transactions/index.html.haml" timestamp="1594022755884">
         <mark key="'" line="33" column="40" />
         <mark key="[" line="31" column="0" />
@@ -218,6 +213,11 @@
         <mark key="]" line="65" column="32" />
         <mark key="^" line="65" column="32" />
         <mark key="." line="65" column="31" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/spec/journey/mta/mta_journey.feature" timestamp="1594211650855">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" timestamp="1594027181531">
         <mark key="'" line="36" column="39" />
@@ -412,16 +412,10 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text>export STRIPE_PUBLISHABLE_KEY=pk_test_x0800f5jPhSgdYVv39Upu9ZE
-export STRIPE_SECRET_KEY=sk_test_u4A7QzJ3diuyOnGgXjHsJOwq
-export US_STRIPE_PUBLISHABLE_KEY=pk_test_x0800f5jPhSgdYVv39Upu9ZE
-export US_STRIPE_SECRET_KEY=sk_test_u4A7QzJ3diuyOnGgXjHsJOwq
-# Stripe UK Payment Gateway
-export UK_STRIPE_PUBLISHABLE_KEY=pk_test_Huva0M2CIc02ajcHKKWbfQID00pgNV0vku
-export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
+        <text encoding="base64">ICAgIEFuZCBzdHJpcGVfdWsgZmVhdHVyZSBmbGFnIGlzIGVuYWJsZWQK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">J0NyZWRpdC8gZGViaXQgY2FyZCB1c2luZyBTdHJpcGUnID0+ICdjcmVkaXRfZGViaXRfY2FyZF9zdHJpcGUn</text>
+        <text encoding="base64">IEZhY3RvcnlCb3QuYXR0cmlidXRlc19mb3IoOm10YV90cmFuc2FjdGlvbl9hdHRyaWJ1dGVzKSA=</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
@@ -439,7 +433,7 @@ export UK_STRIPE_PUBLISHABLE_KEY=pk_test_Huva0M2CIc02ajcHKKWbfQID00pgNV0vku
 export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHZpZXdfbW9kZWwgPSBmYWN0b3J5X2J1aWxkKHtqb3VybmV5X25hbWU6ICdtdGEnfSkK</text>
+        <text encoding="base64">ICAgIEFuZCBzdHJpcGVfdWsgZmVhdHVyZSBmbGFnIGlzIGVuYWJsZWQK</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -462,16 +456,16 @@ export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHZpZXdfbW9kZWwgPSBmYWN0b3J5X2J1aWxkKHtqb3VybmV5X25hbWU6ICdjYW5jZWxsYXRpb24nfSkK</text>
+        <text encoding="base64">ICAgICAgJGhvb2tzX2NhbGxlZCB8fD0gW10KICAgICAgJGhvb2tzX2NhbGxlZCA8PCAnQScK</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIEFyb3VuZCBkbyB8c2NlbmFyaW8sIGJsb2NrfAogICAgICAkaG9va3NfY2FsbGVkIHx8PSBbXQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICBsZXQoOmpvdXJuZXlfbmFtZSkgeyA6bmV3X2J1c2luZXNzIH0K</text>
+        <text encoding="base64">ICAgIHZpZXdfbW9kZWwgPSBmYWN0b3J5X2J1aWxkKHtqb3VybmV5X25hbWU6ICdtdGEnfSkK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -822,7 +816,7 @@ export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
         </keys>
       </register>
       <register name="5" type="2">
-        <text>Decouple stripe from manual payment method</text>
+        <text encoding="base64">ICAgIHZpZXdfbW9kZWwgPSBmYWN0b3J5X2J1aWxkKHtqb3VybmV5X25hbWU6ICdjYW5jZWxsYXRpb24nfSkK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -831,10 +825,10 @@ export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlcgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBwYXltZW50X3R5cGVzID0gYWRkX3N0cmlwZV9wYXltZW50X21ldGhvZChwYXltZW50X3R5cGVzKQo=</text>
+        <text encoding="base64">ICBsZXQoOmpvdXJuZXlfbmFtZSkgeyA6bmV3X2J1c2luZXNzIH0K</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -868,16 +862,16 @@ export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text>Decouple stripe from manual payment method</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgIyB0bXAgPSB7fQogICAgICAjIHBheW1lbnRfdHlwZXMuZWFjaCBkbyB8aywgdnwKICAgICAgIyAgIHRtcFtrXSA9IHYKICAgICAgIyAgIGlmIGsgPT0gIkNyZWRpdC8gZGViaXQgY2FyZCIgJiYgWzptdGEsIDpjYW5jZWxsYXRpb25dLmluY2x1ZGU/KGpvdXJuZXlfbmFtZSkKICAgICAgIyAgICAgdG1wWydDcmVkaXQvIGRlYml0IGNhcmQgd2l0aCBTdHJpcGUnXSA9ICdjcmVkaXRfZGViaXRfY2FyZF9zdHJpcGUnCiAgICAgICMgICBlbmQKICAgICAgIyBlbmQK</text>
+        <text encoding="base64">ICAgICAgICBzdXBlcgo=</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action FindInPath</text>
+        <text>action ActivateTerminalToolWindow</text>
       </register>
     </registers>
   </component>
