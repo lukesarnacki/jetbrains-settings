@@ -37,7 +37,6 @@
         <entry>action GotoClass</entry>
         <entry>62</entry>
         <entry>w</entry>
-        <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>18</entry>
@@ -49,6 +48,7 @@
         <entry>wa</entry>
         <entry>action GotoFile</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry encoding="base64">JzwsJz53YQ==</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -142,10 +142,10 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/mta/mta_journey_spec.rb" timestamp="1594211644336">
-        <mark key="[" line="55" column="0" />
-        <mark key="]" line="55" column="0" />
-        <mark key="." line="55" column="0" />
+      <file name="$USER_HOME$/projects/chopin/spec/journey/mta/mta_journey_spec.rb" timestamp="1594213841046">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/support/capybara/config.rb" timestamp="1594204919556" />
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594203260232">
@@ -157,7 +157,7 @@
         <mark key="^" line="23" column="65" />
         <mark key="." line="23" column="64" />
       </file>
-      <file name="/Ruby Console" timestamp="1594203313559">
+      <file name="/Ruby Console" timestamp="1594214455264">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -871,7 +871,7 @@ export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text encoding="base64">JzwsJz53YQ==</text>
       </register>
     </registers>
   </component>
