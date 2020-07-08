@@ -37,18 +37,18 @@
         <entry>action GotoClass</entry>
         <entry>62</entry>
         <entry>w</entry>
-        <entry>wa</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
         <entry>action GotoRelated</entry>
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>18</entry>
         <entry>action GotoTest</entry>
         <entry>action RecentFiles</entry>
-        <entry>action FindInPath</entry>
         <entry>action DebugClass</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action Unsplit</entry>
         <entry>action GotoFile</entry>
+        <entry>wa</entry>
+        <entry>action FindInPath</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -142,17 +142,9 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/app/factories/payment_gateway_provider_spec.rb" timestamp="1593787534182">
-        <mark key="'" line="52" column="47" />
-        <mark key="[" line="48" column="29" />
-        <mark key="]" line="48" column="29" />
-        <mark key="." line="48" column="28" />
-        <mark key="^" line="48" column="29" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594203169315">
+      <file name="$USER_HOME$/projects/chopin/spec/support/capybara/config.rb" timestamp="1594204919556" />
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594203260232">
         <mark key="'" line="34" column="22" />
-        <mark key="[" line="86" column="0" />
-        <mark key="]" line="92" column="69" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1594012308611">
         <mark key="'" line="20" column="15" />
@@ -166,7 +158,7 @@
         <mark key="^" line="23" column="65" />
         <mark key="." line="23" column="64" />
       </file>
-      <file name="/Ruby Console" timestamp="1594043147192">
+      <file name="/Ruby Console" timestamp="1594203313559">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -885,7 +877,7 @@ export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action FindInPath</text>
       </register>
     </registers>
   </component>
