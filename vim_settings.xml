@@ -149,9 +149,10 @@
         <mark key="." line="48" column="28" />
         <mark key="^" line="48" column="29" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594194826756">
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594203169315">
         <mark key="'" line="34" column="22" />
-        <mark key="[" line="41" column="110" />
+        <mark key="[" line="86" column="0" />
+        <mark key="]" line="92" column="69" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1594012308611">
         <mark key="'" line="20" column="15" />
@@ -419,7 +420,13 @@
         </keys>
       </register>
       <register name="*" type="2">
-        <text encoding="base64">ICAgICAgICBqb3VybmV5X25hbWU6ICduZXdfYnVzaW5lc3MnCg==</text>
+        <text>export STRIPE_PUBLISHABLE_KEY=pk_test_x0800f5jPhSgdYVv39Upu9ZE
+export STRIPE_SECRET_KEY=sk_test_u4A7QzJ3diuyOnGgXjHsJOwq
+export US_STRIPE_PUBLISHABLE_KEY=pk_test_x0800f5jPhSgdYVv39Upu9ZE
+export US_STRIPE_SECRET_KEY=sk_test_u4A7QzJ3diuyOnGgXjHsJOwq
+# Stripe UK Payment Gateway
+export UK_STRIPE_PUBLISHABLE_KEY=pk_test_Huva0M2CIc02ajcHKKWbfQID00pgNV0vku
+export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">J0NyZWRpdC8gZGViaXQgY2FyZCB1c2luZyBTdHJpcGUnID0+ICdjcmVkaXRfZGViaXRfY2FyZF9zdHJpcGUn</text>
@@ -431,7 +438,13 @@
         <text>payment meth</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBqb3VybmV5X25hbWU6ICduZXdfYnVzaW5lc3MnCg==</text>
+        <text>export STRIPE_PUBLISHABLE_KEY=pk_test_x0800f5jPhSgdYVv39Upu9ZE
+export STRIPE_SECRET_KEY=sk_test_u4A7QzJ3diuyOnGgXjHsJOwq
+export US_STRIPE_PUBLISHABLE_KEY=pk_test_x0800f5jPhSgdYVv39Upu9ZE
+export US_STRIPE_SECRET_KEY=sk_test_u4A7QzJ3diuyOnGgXjHsJOwq
+# Stripe UK Payment Gateway
+export UK_STRIPE_PUBLISHABLE_KEY=pk_test_Huva0M2CIc02ajcHKKWbfQID00pgNV0vku
+export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHZpZXdfbW9kZWwgPSBmYWN0b3J5X2J1aWxkKHtqb3VybmV5X25hbWU6ICdtdGEnfSkK</text>
