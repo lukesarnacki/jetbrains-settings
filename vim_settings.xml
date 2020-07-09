@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>policy</entry>
         <entry>the payment is</entry>
         <entry>create</entry>
         <entry>confirmcard</entry>
@@ -27,6 +26,7 @@
         <entry>manual_pay</entry>
         <entry>list_summ</entry>
         <entry>payment meth</entry>
+        <entry>cc_ga</entry>
       </history-search>
       <history-cmd>
         <entry>q</entry>
@@ -47,8 +47,8 @@
         <entry>wa</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action GotoFile</entry>
         <entry>action RecentFiles</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -142,6 +142,13 @@
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/utils/page_index.rb" timestamp="1594286776061">
+        <mark key="'" line="17" column="8" />
+        <mark key="[" line="17" column="8" />
+        <mark key="]" line="17" column="9" />
+        <mark key="^" line="17" column="9" />
+        <mark key="." line="17" column="8" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/mta/mta_journey_spec.rb" timestamp="1594213841046">
         <mark key="[" line="20" column="0" />
         <mark key="]" line="20" column="0" />
@@ -150,6 +157,13 @@
       <file name="$USER_HOME$/projects/chopin/spec/support/capybara/config.rb" timestamp="1594204919556" />
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594203260232">
         <mark key="'" line="34" column="22" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1594286916418">
+        <mark key="'" line="51" column="73" />
+        <mark key="[" line="63" column="7" />
+        <mark key="]" line="64" column="4" />
+        <mark key="." line="64" column="3" />
+        <mark key="^" line="64" column="4" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/semafone_payment.rb" timestamp="1594285925478">
         <mark key="'" line="2" column="22" />
@@ -201,12 +215,6 @@
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/api/v6/customer_accounts.rb" timestamp="1594032804272" />
-      <file name="$USER_HOME$/projects/chopin/app/views/backoffice/transactions/index.html.haml" timestamp="1594022755884">
-        <mark key="'" line="33" column="40" />
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" timestamp="1594032718179">
         <mark key="'" line="4" column="24" />
         <mark key="[" line="6" column="27" />
@@ -219,19 +227,8 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" timestamp="1594027181531">
-        <mark key="'" line="36" column="39" />
-        <mark key="[" line="47" column="77" />
-        <mark key="k" line="42" column="6" />
-        <mark key="]" line="42" column="7" />
-        <mark key="^" line="41" column="12" />
-        <mark key="." line="41" column="11" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="8" column="17" filename="$USER_HOME$/projects/chopin/spec/factories/transaction/payment_transaction_factory.rb" />
-      <jump line="37" column="21" filename="$USER_HOME$/projects/chopin/spec/queries/segment_payment_transaction_query_spec.rb" />
-      <jump line="100" column="7" filename="$USER_HOME$/projects/chopin/spec/support/tobi.rb" />
       <jump line="7" column="18" filename="$USER_HOME$/projects/chopin/app/queries/segment_payment_transaction_query.rb" />
       <jump line="44" column="0" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" />
       <jump line="46" column="97" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" />
@@ -329,6 +326,9 @@
       <jump line="32" column="37" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/semafone_payment.rb" />
       <jump line="2" column="22" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/semafone_payment.rb" />
       <jump line="1" column="15" filename="$USER_HOME$/projects/chopin/app/services/payment_service/semafone.rb" />
+      <jump line="17" column="8" filename="$USER_HOME$/projects/chopin/app/journey/utils/page_index.rb" />
+      <jump line="8" column="6" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
+      <jump line="51" column="73" filename="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -421,7 +421,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>payment meth</text>
+        <text>cc_ga</text>
       </register>
       <register name="0" type="2">
         <text>export STRIPE_PUBLISHABLE_KEY=pk_test_x0800f5jPhSgdYVv39Upu9ZE
@@ -871,15 +871,15 @@ export UK_STRIPE_SECRET_KEY=sk_test_as51Du2jT75gNNHm8EhslGy700b3Vy76Wm</text>
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>payment meth</last-search>
+      <last-search>cc_ga</last-search>
       <last-offset />
-      <last-pattern>payment meth</last-pattern>
+      <last-pattern>cc_ga</last-pattern>
       <last-replace>enableForm</last-replace>
       <last-substitute>enableButton</last-substitute>
       <last-dir>1</last-dir>
