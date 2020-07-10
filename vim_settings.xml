@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>confirmcard</entry>
         <entry>stripe</entry>
         <entry>stripeelements</entry>
         <entry>addeven</entry>
@@ -27,6 +26,7 @@
         <entry>cc_ga</entry>
         <entry>:</entry>
         <entry encoding="base64">XDxwbGFuX2RldGFpbHNcPg==</entry>
+        <entry>featu</entry>
       </history-search>
       <history-cmd>
         <entry>108</entry>
@@ -43,12 +43,12 @@
         <entry>action DebugClass</entry>
         <entry>action Unsplit</entry>
         <entry>action FindInPath</entry>
-        <entry>action GotoFile</entry>
         <entry>wa</entry>
         <entry encoding="base64">JzwsJz5zLzovID0v</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -133,7 +133,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/projects/chopin/spec/view_models/backoffice/additional_transaction/manual_payment_view_model_factory_spec.rb" timestamp="1594038728017" />
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/semafone.rb" timestamp="1594285934613">
         <mark key="'" line="1" column="15" />
       </file>
@@ -167,6 +166,9 @@
         <mark key="[" line="20" column="0" />
         <mark key="]" line="20" column="0" />
         <mark key="." line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/app/journey/amend/card_details_page_service.rb" timestamp="1594384628492">
+        <mark key="'" line="1" column="59" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/support/capybara/config.rb" timestamp="1594204919556" />
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594203260232">
@@ -231,7 +233,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="48" column="0" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" />
       <jump line="49" column="6" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" />
       <jump line="53" column="0" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" />
       <jump line="60" column="0" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" />
@@ -331,6 +332,7 @@
       <jump line="26" column="9" filename="$USER_HOME$/projects/payments/app/installments/domain/installment_plan.rb" />
       <jump line="24" column="22" filename="$USER_HOME$/projects/payments/app/installments/domain/installment_plan.rb" />
       <jump line="18" column="28" filename="$USER_HOME$/projects/payments/app/installments/domain/installment_plan.rb" />
+      <jump line="1" column="59" filename="$USER_HOME$/projects/chopin/app/journey/amend/card_details_page_service.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -423,7 +425,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwbGFuX2RldGFpbHNcPg==</text>
+        <text>featu</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHN0cmlwZV91azogdHJ1ZQo=</text>
@@ -867,15 +869,15 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text encoding="base64">JzwsJz53YQ==</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxwbGFuX2RldGFpbHNcPg==</last-search>
+      <last-search>featu</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwbGFuX2RldGFpbHNcPg==</last-pattern>
+      <last-pattern>featu</last-pattern>
       <last-replace encoding="base64">ID0=</last-replace>
       <last-substitute>:</last-substitute>
       <last-dir>1</last-dir>
