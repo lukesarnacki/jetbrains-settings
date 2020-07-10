@@ -201,12 +201,6 @@
         <mark key="]" line="34" column="19" />
         <mark key="." line="34" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/create_mta_transition_service_spec.rb" timestamp="1594043145055">
-        <mark key="[" line="22" column="103" />
-        <mark key="]" line="23" column="65" />
-        <mark key="^" line="23" column="65" />
-        <mark key="." line="23" column="64" />
-      </file>
       <file name="/Ruby Console" timestamp="1594388241146">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
@@ -218,6 +212,9 @@
         <mark key="]" line="0" column="9" />
         <mark key="." line="0" column="8" />
         <mark key="^" line="0" column="9" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/sage_pay_payment_spec.rb" timestamp="1594388995411">
+        <mark key="'" line="4" column="24" />
       </file>
       <file name="/Dummy.txt" timestamp="1594305009609">
         <mark key="[" line="0" column="0" />
@@ -231,7 +228,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="50" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/policy_segment_view_model_factory.rb" />
       <jump line="74" column="33" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/shared/policy_information_view_model_spec.rb" />
       <jump line="28" column="36" filename="$USER_HOME$/projects/chopin/spec/support/page_objects/backoffice/mta/mta_details_page.rb" />
       <jump line="22" column="19" filename="$USER_HOME$/projects/chopin/app/view_models/backoffice/shared/policy_information_view_model.rb" />
@@ -331,6 +327,7 @@
       <jump line="17" column="15" filename="$USER_HOME$/projects/chopin/app/journey/start_payment_session_transition_service.rb" />
       <jump line="0" column="6" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="29" column="112" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
+      <jump line="4" column="24" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/sage_pay_payment_spec.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
