@@ -45,9 +45,9 @@
         <entry>62</entry>
         <entry>129</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action DebugClass</entry>
         <entry>action FindInPath</entry>
         <entry>action GotoFile</entry>
+        <entry>action DebugClass</entry>
         <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
@@ -136,9 +136,12 @@
       <file name="$USER_HOME$/projects/chopin/app/journey/start_payment_session_transition_service.rb" timestamp="1594629656188">
         <mark key="'" line="11" column="29" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/factories/stripe_config_factory.rb" timestamp="1594645046410">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="19" column="5" />
+      <file name="$USER_HOME$/projects/chopin/app/factories/stripe_config_factory.rb" timestamp="1594645963192">
+        <mark key="'" line="11" column="23" />
+        <mark key="[" line="11" column="68" />
+        <mark key="]" line="11" column="75" />
+        <mark key="^" line="11" column="75" />
+        <mark key="." line="11" column="74" />
       </file>
       <file name="$USER_HOME$/projects/payments/app/installments/app/setup_payment_plan.rb" timestamp="1594374295978">
         <mark key="[" line="11" column="24" />
@@ -146,13 +149,7 @@
         <mark key="^" line="11" column="31" />
         <mark key="." line="11" column="30" />
       </file>
-      <file name="$USER_HOME$/projects/payments/app/installments/application/process_downpayment.rb" timestamp="1594356424226">
-        <mark key="[" line="0" column="6" />
-        <mark key="]" line="0" column="9" />
-        <mark key="." line="0" column="8" />
-        <mark key="^" line="0" column="9" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" timestamp="1594644937630">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" timestamp="1594646088939">
         <mark key="'" line="110" column="28" />
         <mark key="[" line="121" column="53" />
         <mark key="]" line="121" column="65" />
@@ -190,7 +187,10 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1594630082945">
+      <file name="$USER_HOME$/projects/chopin/config/greenwash.rb" timestamp="1594645175071">
+        <mark key="'" line="1" column="15" />
+      </file>
+      <file name="/Ruby Console" timestamp="1594646092479">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -222,9 +222,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="19" column="20" filename="$USER_HOME$/projects/chopin/config/journeys/sub_journeys/additional_transaction.rb" />
-      <jump line="31" column="31" filename="$USER_HOME$/projects/chopin/config/journeys/sub_journeys/additional_transaction.rb" />
-      <jump line="14" column="0" filename="$USER_HOME$/projects/chopin/app/journey/create_mta_transition_service.rb" />
       <jump line="42" column="8" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
       <jump line="39" column="8" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
       <jump line="10" column="58" filename="$USER_HOME$/projects/chopin/app/journey/additional_transaction/manual_payment_page_service.rb" />
@@ -322,6 +319,9 @@
       <jump line="19" column="35" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
       <jump line="10" column="76" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
       <jump line="0" column="6" filename="$USER_HOME$/projects/chopin/app/factories/stripe_config_factory.rb" />
+      <jump line="11" column="23" filename="$USER_HOME$/projects/chopin/app/factories/stripe_config_factory.rb" />
+      <jump line="1" column="15" filename="$USER_HOME$/projects/chopin/config/greenwash.rb" />
+      <jump line="124" column="30" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
