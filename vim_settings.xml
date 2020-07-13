@@ -7,7 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>:</entry>
         <entry encoding="base64">XDxwbGFuX2RldGFpbHNcPg==</entry>
         <entry>features</entry>
         <entry>featu</entry>
@@ -27,6 +26,7 @@
         <entry>card_de</entry>
         <entry>card_det</entry>
         <entry>sage_pay</entry>
+        <entry>find</entry>
       </history-search>
       <history-cmd>
         <entry>action KJumpAction.Word0</entry>
@@ -136,9 +136,9 @@
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" timestamp="1594650060747">
         <mark key="'" line="17" column="30" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" timestamp="1594651572141">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="93" column="35" />
+      <file name="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" timestamp="1594655110137">
+        <mark key="'" line="31" column="42" />
+        <mark key="[" line="31" column="47" />
         <mark key="]" line="93" column="41" />
         <mark key="^" line="93" column="41" />
         <mark key="." line="93" column="40" />
@@ -213,8 +213,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/spec/view_models/backoffice/additional_transaction/manual_payment_view_model_factory_spec.rb" />
-      <jump line="22" column="36" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
       <jump line="14" column="71" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
       <jump line="13" column="13" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
       <jump line="53" column="8" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
@@ -313,6 +311,8 @@
       <jump line="23" column="18" filename="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" />
       <jump line="93" column="40" filename="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" />
+      <jump line="8" column="41" filename="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" />
+      <jump line="31" column="42" filename="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -405,7 +405,7 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>sage_pay</text>
+        <text>find</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICBkZWYgc3RyaXBlX2tleXMoYnVzaW5lc3NfdW5pdCkKICAgIHsKICAgICAgc2ltcGx5YnVzaW5lc3NfdWs6IHsKICAgICAgICBzZWNyZXRfa2V5OiBFTlZJUk9OWydVS19TVFJJUEVfU0VDUkVUX0tFWSddLAogICAgICAgIHB1Ymxpc2hhYmxlX2tleTogRU5WSVJPTlsnVUtfU1RSSVBFX1BVQkxJU0hBQkxFX0tFWSddCiAgICAgIH0sCiAgICAgIHNpbXBseWJ1c2luZXNzX3VzOiB7CiAgICAgICAgc2VjcmV0X2tleTogRU5WSVJPTlsnVVNfU1RSSVBFX1NFQ1JFVF9LRVknXSwKICAgICAgICBwdWJsaXNoYWJsZV9rZXk6IEVOVklST05bJ1VTX1NUUklQRV9QVUJMSVNIQUJMRV9LRVknXQogICAgICB9CiAgICB9LmZldGNoKGJ1c2luZXNzX3VuaXQuY29kZSkKICBlbmQK</text>
@@ -855,9 +855,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>sage_pay</last-search>
+      <last-search>find</last-search>
       <last-offset />
-      <last-pattern>sage_pay</last-pattern>
+      <last-pattern>find</last-pattern>
       <last-replace>stripe</last-replace>
       <last-substitute>sage_pay</last-substitute>
       <last-dir>1</last-dir>
