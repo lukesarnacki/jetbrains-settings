@@ -45,10 +45,10 @@
         <entry encoding="base64">JzwsJz5zLzovID0v</entry>
         <entry>action RecentFiles</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action GotoFile</entry>
         <entry>62</entry>
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action DebugClass</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -864,7 +864,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action DebugClass</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
