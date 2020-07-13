@@ -36,7 +36,6 @@
         <entry>action Refactorings.QuickListPopupAction</entry>
         <entry>18</entry>
         <entry>action GotoTest</entry>
-        <entry>action Unsplit</entry>
         <entry>wa</entry>
         <entry encoding="base64">JzwsJz5zLzovID0v</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
@@ -44,11 +43,12 @@
         <entry>129</entry>
         <entry>.action FindInPath</entry>
         <entry>action FindInPath</entry>
-        <entry>action RecentFiles</entry>
         <entry>action ActivateTerminalToolWindow</entry>
-        <entry>action GotoFile</entry>
-        <entry>action DebugClass</entry>
         <entry>%s/sage_pay/stripe/cg</entry>
+        <entry>action DebugClass</entry>
+        <entry>action GotoFile</entry>
+        <entry>action Unsplit</entry>
+        <entry>action RecentFiles</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -136,12 +136,12 @@
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" timestamp="1594650060747">
         <mark key="'" line="17" column="30" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" timestamp="1594655110137">
-        <mark key="'" line="31" column="42" />
-        <mark key="[" line="31" column="47" />
-        <mark key="]" line="93" column="41" />
-        <mark key="^" line="93" column="41" />
-        <mark key="." line="93" column="40" />
+      <file name="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" timestamp="1594656478238">
+        <mark key="'" line="2" column="33" />
+        <mark key="[" line="47" column="19" />
+        <mark key="]" line="47" column="19" />
+        <mark key="^" line="47" column="19" />
+        <mark key="." line="47" column="18" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/start_payment_session_transition_service.rb" timestamp="1594629656188">
         <mark key="'" line="11" column="29" />
@@ -156,7 +156,7 @@
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/purchase/payment_confirmation.html.haml" timestamp="1594648305225">
         <mark key="'" line="19" column="0" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" timestamp="1594650694851">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" timestamp="1594656564209">
         <mark key="'" line="105" column="28" />
         <mark key="[" line="97" column="33" />
         <mark key="]" line="97" column="33" />
@@ -184,7 +184,7 @@
       <file name="$USER_HOME$/projects/chopin/config/greenwash.rb" timestamp="1594645175071">
         <mark key="'" line="1" column="15" />
       </file>
-      <file name="/Ruby Console" timestamp="1594651617674">
+      <file name="/Ruby Console" timestamp="1594655124639">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -213,9 +213,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="14" column="71" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
-      <jump line="13" column="13" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
-      <jump line="53" column="8" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
       <jump line="55" column="41" filename="$USER_HOME$/projects/chopin/spec/presenters/backoffice/transaction_presenter_spec.rb" />
       <jump line="58" column="79" filename="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" />
       <jump line="20" column="33" filename="$USER_HOME$/projects/chopin/app/models/transaction/payment_transaction.rb" />
@@ -313,6 +310,9 @@
       <jump line="0" column="0" filename="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" />
       <jump line="8" column="41" filename="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" />
       <jump line="31" column="42" filename="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" />
+      <jump line="46" column="0" filename="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" />
+      <jump line="2" column="33" filename="$USER_HOME$/projects/chopin/spec/services/additional_transaction_service_spec.rb" />
+      <jump line="28" column="10" filename="$USER_HOME$/projects/chopin/app/services/additional_transaction_service.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -849,7 +849,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>%s/sage_pay/stripe/cg</text>
+        <text>action RecentFiles</text>
       </register>
     </registers>
   </component>
