@@ -207,12 +207,12 @@
       <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/policy_manager.rb" timestamp="1594718418813">
         <mark key="'" line="29" column="68" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" timestamp="1594721711777">
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" timestamp="1594729220378">
         <mark key="'" line="66" column="133" />
-        <mark key="[" line="137" column="0" />
-        <mark key="]" line="139" column="0" />
-        <mark key="^" line="139" column="0" />
-        <mark key="." line="137" column="0" />
+        <mark key="[" line="143" column="69" />
+        <mark key="]" line="143" column="69" />
+        <mark key="^" line="143" column="69" />
+        <mark key="." line="143" column="69" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/app/factories/payment_strategy_spec.rb" timestamp="1594711929105">
         <mark key="[" line="49" column="14" />
@@ -382,10 +382,9 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="2">
-        <text>6. rspec ./spec/controllers/backoffice/transactions_controller_spec.rb[1:4:2:1] # Backoffice::TransactionsController#post_payments with right permissions user creates a transaction
-
-source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346d306b734</text>
+      <register name="*" type="4">
+        <text>we would have to change payment_steps as this is
+related to stripe</text>
       </register>
       <register name="-" type="4">
         <text>in</text>
@@ -399,10 +398,9 @@ source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346
       <register name="0" type="2">
         <text encoding="base64">ICBjb250ZXh0ICJ3aGVuIDpzdHJpcGVfdWsgaXMgZGVhY3RpdmF0ZWQiCiAgYXJvdW5kIHsgfGV4YW1wbGV8IEZlYXR1cmUucnVuX3dpdGhfZGVhY3RpdmF0ZWQoOnN0cmlwZV91aykgeyBleGFtcGxlLnJ1biB9fQo=</text>
       </register>
-      <register name="1" type="2">
-        <text>6. rspec ./spec/controllers/backoffice/transactions_controller_spec.rb[1:4:2:1] # Backoffice::TransactionsController#post_payments with right permissions user creates a transaction
-
-source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346d306b734</text>
+      <register name="1" type="4">
+        <text>we would have to change payment_steps as this is
+related to stripe</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -425,16 +423,18 @@ source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346
         </keys>
       </register>
       <register name="2" type="2">
-        <text>:stripe_uk feature flag specific PaymentStrategy spec</text>
+        <text>6. rspec ./spec/controllers/backoffice/transactions_controller_spec.rb[1:4:2:1] # Backoffice::TransactionsController#post_payments with right permissions user creates a transaction
+
+source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346d306b734</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">V1RGPwo=</text>
+        <text>:stripe_uk feature flag specific PaymentStrategy spec</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGJ5ZWJ1Zwo=</text>
+        <text encoding="base64">V1RGPwo=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -794,10 +794,10 @@ source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGJ5ZWJ1Zwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">UGF5bWVudFN0cmF0ZWd5OjpTdHJpcGVQYXltZW50SW50ZXQgLT4gY2FsbHMgc3RyaXBlIEFQSSA9IFZDUgpPdGhlciBjbGFzc2VzIC0+IHVzZSBQYXltZW50U3RyYXRlZ3k6OlN0cmlwZVBheW1lbnRJbnRldApkb3VibGUoU3RyaXBlUGF5bWVudEludGVudCk=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -831,10 +831,10 @@ source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">UGF5bWVudFN0cmF0ZWd5OjpTdHJpcGVQYXltZW50SW50ZXQgLT4gY2FsbHMgc3RyaXBlIEFQSSA9IFZDUgpPdGhlciBjbGFzc2VzIC0+IHVzZSBQYXltZW50U3RyYXRlZ3k6OlN0cmlwZVBheW1lbnRJbnRldApkb3VibGUoU3RyaXBlUGF5bWVudEludGVudCk=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAyLjIpIEZhaWx1cmUvRXJyb3I6CiAgICAgICAgICAgIHJlc3VsdCA9IEBwYXltZW50X2dhdGV3YXkuY3JlYXRlKAogICAgICAgICAgICAgIHsgYW1vdW50OiBhbW91bnQuZnJhY3Rpb25hbC50b19pLAogICAgICAgICAgICAgICAgY3VycmVuY3k6IGFtb3VudC5jdXJyZW5jeS5pc29fY29kZSwKICAgICAgICAgICAgICAgIHNldHVwX2Z1dHVyZV91c2FnZTogOm9mZl9zZXNzaW9uLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb246IHJmcV9yZWZlcmVuY2UsCiAgICAgICAgICAgICAgICBtZXRhZGF0YTogeyByZnFfcmVmZXJlbmNlOiByZnFfcmVmZXJlbmNlLCByZnFfaWQ6IHJmcV9pZCwgcXVvdGVfaWQ6IHF1b3RlX2lkLCBqb3VybmV5X2lkOiBqb3VybmV5X2lkIH0KICAgICAgICAgICAgICB9LCBAYXBpX2NyZWRlbnRpYWxzKQoKICAgICAgICAgIFR5cGVFcnJvcjoKICAgICAgICAgICAgYXBpX2tleSBtdXN0IGJlIGEgc3RyaW5nCiAgICAgICAgICAjIC4vdmVuZG9yL2J1bmRsZS9ydWJ5LzIuNi4wL2dlbXMvc3RyaXBlLTUuNy4xL2xpYi9zdHJpcGUvdXRpbC5yYjoyMTg6aW4gYGNoZWNrX2FwaV9rZXkhJwogICAgICAgICAgIyAuL3ZlbmRvci9idW5kbGUvcnVieS8yLjYuMC9nZW1zL3N0cmlwZS01LjcuMS9saWIvc3RyaXBlL3V0aWwucmI6MjA0OmluIGBub3JtYWxpemVfb3B0cycKICAgICAgICAgICMgLi92ZW5kb3IvYnVuZGxlL3J1YnkvMi42LjAvZ2Vtcy9zdHJpcGUtNS43LjEvbGliL3N0cmlwZS9hcGlfb3BlcmF0aW9ucy9yZXF1ZXN0LnJiOjEwOmluIGByZXF1ZXN0JwogICAgICAgICAgIyAuL3ZlbmRvci9idW5kbGUvcnVieS8yLjYuMC9nZW1zL3N0cmlwZS01LjcuMS9saWIvc3RyaXBlL2FwaV9vcGVyYXRpb25zL2NyZWF0ZS5yYjo3OmluIGBjcmVhdGUnCiAgICAgICAgICAjIC4vYXBwL3NlcnZpY2VzL3BheW1lbnRfc2VydmljZS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6Mzc6aW4gYGJsb2NrIGluIHNldHVwX3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvc2VydmljZXMvcGF5bWVudF9zZXJ2aWNlL3N0cmlwZV9iYXNlLnJiOjEyOmluIGBoYW5kbGVfZXJyb3InCiAgICAgICAgICAjIC4vYXBwL3NlcnZpY2VzL3BheW1lbnRfc2VydmljZS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6MzY6aW4gYHNldHVwX3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvam91cm5leS9wdXJjaGFzZS9zdHJhdGVneS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6NDA6aW4gYHNldHVwX3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvam91cm5leS9wdXJjaGFzZS9zdHJhdGVneS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6MzM6aW4gYHN0YXJ0X3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvam91cm5leS9zdGFydF9wYXltZW50X3Nlc3Npb25fdHJhbnNpdGlvbl9zZXJ2aWNlLnJiOjEyOmluIGBwcm9jZXNzJw==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="y" type="4">
         <text />
