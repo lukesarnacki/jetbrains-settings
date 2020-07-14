@@ -163,9 +163,6 @@
         <mark key="." line="97" column="32" />
         <mark key="^" line="97" column="33" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/amend/card_details_page_service.rb" timestamp="1594384628492">
-        <mark key="'" line="1" column="59" />
-      </file>
       <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1594644732231">
         <mark key="'" line="9" column="11" />
         <mark key="[" line="0" column="0" />
@@ -192,6 +189,9 @@
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/sage_pay_payment_spec.rb" timestamp="1594388995411">
         <mark key="'" line="4" column="24" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" timestamp="1594699907244">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/card_details.html.haml" timestamp="1594650033251">
         <mark key="'" line="0" column="10" />
