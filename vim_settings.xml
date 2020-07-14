@@ -43,12 +43,12 @@
         <entry>action GotoTest</entry>
         <entry>wa</entry>
         <entry>44</entry>
-        <entry>action DebugClass</entry>
-        <entry>action RecentFiles</entry>
         <entry>action Unsplit</entry>
         <entry>action FindInPath</entry>
+        <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action DebugClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -136,7 +136,7 @@
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" timestamp="1594650060747">
         <mark key="'" line="17" column="30" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/new_business/features/skinning_spec.rb" timestamp="1594711993000">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/new_business/features/skinning_spec.rb" timestamp="1594714069496">
         <mark key="'" line="42" column="25" />
         <mark key="[" line="43" column="10" />
         <mark key="]" line="43" column="47" />
@@ -148,12 +148,12 @@
         <mark key="^" line="4" column="2" />
         <mark key="." line="4" column="2" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/journey/start_payment_session_transition_service.rb" timestamp="1594712426865">
-        <mark key="'" line="18" column="22" />
-        <mark key="[" line="16" column="14" />
-        <mark key="]" line="17" column="10" />
-        <mark key="^" line="17" column="10" />
-        <mark key="." line="17" column="9" />
+      <file name="$USER_HOME$/projects/chopin/app/journey/start_payment_session_transition_service.rb" timestamp="1594713975818">
+        <mark key="'" line="17" column="14" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
+        <mark key="^" line="17" column="15" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/renewal_buy_online/card_details_page_service_spec.rb" timestamp="1594706374186">
         <mark key="'" line="11" column="33" />
@@ -175,11 +175,12 @@
       <file name="$USER_HOME$/projects/chopin/spec/journey/rfq_conversion_shared_steps.rb" timestamp="1594706495995">
         <mark key="'" line="58" column="31" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1594705008106">
+      <file name="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" timestamp="1594713756043">
         <mark key="'" line="29" column="22" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+        <mark key="[" line="5" column="64" />
+        <mark key="]" line="5" column="8" />
+        <mark key="." line="5" column="7" />
+        <mark key="^" line="5" column="8" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594648901746">
         <mark key="'" line="35" column="10" />
@@ -197,7 +198,7 @@
       <file name="$USER_HOME$/projects/chopin/spec/journey/new_business/features/new_business_spec.rb" timestamp="1594700954744">
         <mark key="'" line="4" column="42" />
       </file>
-      <file name="/Ruby Console" timestamp="1594705498591">
+      <file name="/Ruby Console" timestamp="1594714081606">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -232,7 +233,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="106" column="30" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
       <jump line="76" column="8" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
       <jump line="101" column="7" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
       <jump line="130" column="95" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
@@ -267,7 +267,6 @@
       <jump line="41" column="20" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="32" column="20" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="9" column="11" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
-      <jump line="5" column="12" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
       <jump line="7" column="20" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
       <jump line="2" column="38" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
       <jump line="19" column="35" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/payment_base.rb" />
@@ -332,6 +331,8 @@
       <jump line="41" column="40" filename="$USER_HOME$/projects/chopin/spec/features/step_definitions/payment_steps.rb" />
       <jump line="144" column="12" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/mongoid-6.4.5/lib/mongoid/persistable/creatable.rb" />
       <jump line="14" column="8" filename="$USER_HOME$/projects/chopin/spec/features/step_definitions/payment_steps.rb" />
+      <jump line="18" column="14" filename="$USER_HOME$/projects/chopin/app/journey/start_payment_session_transition_service.rb" />
+      <jump line="5" column="6" filename="$USER_HOME$/projects/chopin/app/factories/payment_strategy.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -377,8 +378,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>I purchase the quote using credit card</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgIGJ5ZWJ1Zwo=</text>
       </register>
       <register name="-" type="4">
         <text>sagepay</text>
@@ -393,7 +394,7 @@
         <text>I purchase the quote using credit card</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGJ5ZWJ1Zwo=</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -416,7 +417,7 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">UGF5bWVudFN0cmF0ZWd5OjpTdHJpcGVQYXltZW50SW50ZXQgLT4gY2FsbHMgc3RyaXBlIEFQSSA9IFZDUgpPdGhlciBjbGFzc2VzIC0+IHVzZSBQYXltZW50U3RyYXRlZ3k6OlN0cmlwZVBheW1lbnRJbnRldApkb3VibGUoU3RyaXBlUGF5bWVudEludGVudCk=</text>
+        <text encoding="base64">ICAgIGJ5ZWJ1Zwo=</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
@@ -425,7 +426,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAyLjIpIEZhaWx1cmUvRXJyb3I6CiAgICAgICAgICAgIHJlc3VsdCA9IEBwYXltZW50X2dhdGV3YXkuY3JlYXRlKAogICAgICAgICAgICAgIHsgYW1vdW50OiBhbW91bnQuZnJhY3Rpb25hbC50b19pLAogICAgICAgICAgICAgICAgY3VycmVuY3k6IGFtb3VudC5jdXJyZW5jeS5pc29fY29kZSwKICAgICAgICAgICAgICAgIHNldHVwX2Z1dHVyZV91c2FnZTogOm9mZl9zZXNzaW9uLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb246IHJmcV9yZWZlcmVuY2UsCiAgICAgICAgICAgICAgICBtZXRhZGF0YTogeyByZnFfcmVmZXJlbmNlOiByZnFfcmVmZXJlbmNlLCByZnFfaWQ6IHJmcV9pZCwgcXVvdGVfaWQ6IHF1b3RlX2lkLCBqb3VybmV5X2lkOiBqb3VybmV5X2lkIH0KICAgICAgICAgICAgICB9LCBAYXBpX2NyZWRlbnRpYWxzKQoKICAgICAgICAgIFR5cGVFcnJvcjoKICAgICAgICAgICAgYXBpX2tleSBtdXN0IGJlIGEgc3RyaW5nCiAgICAgICAgICAjIC4vdmVuZG9yL2J1bmRsZS9ydWJ5LzIuNi4wL2dlbXMvc3RyaXBlLTUuNy4xL2xpYi9zdHJpcGUvdXRpbC5yYjoyMTg6aW4gYGNoZWNrX2FwaV9rZXkhJwogICAgICAgICAgIyAuL3ZlbmRvci9idW5kbGUvcnVieS8yLjYuMC9nZW1zL3N0cmlwZS01LjcuMS9saWIvc3RyaXBlL3V0aWwucmI6MjA0OmluIGBub3JtYWxpemVfb3B0cycKICAgICAgICAgICMgLi92ZW5kb3IvYnVuZGxlL3J1YnkvMi42LjAvZ2Vtcy9zdHJpcGUtNS43LjEvbGliL3N0cmlwZS9hcGlfb3BlcmF0aW9ucy9yZXF1ZXN0LnJiOjEwOmluIGByZXF1ZXN0JwogICAgICAgICAgIyAuL3ZlbmRvci9idW5kbGUvcnVieS8yLjYuMC9nZW1zL3N0cmlwZS01LjcuMS9saWIvc3RyaXBlL2FwaV9vcGVyYXRpb25zL2NyZWF0ZS5yYjo3OmluIGBjcmVhdGUnCiAgICAgICAgICAjIC4vYXBwL3NlcnZpY2VzL3BheW1lbnRfc2VydmljZS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6Mzc6aW4gYGJsb2NrIGluIHNldHVwX3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvc2VydmljZXMvcGF5bWVudF9zZXJ2aWNlL3N0cmlwZV9iYXNlLnJiOjEyOmluIGBoYW5kbGVfZXJyb3InCiAgICAgICAgICAjIC4vYXBwL3NlcnZpY2VzL3BheW1lbnRfc2VydmljZS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6MzY6aW4gYHNldHVwX3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvam91cm5leS9wdXJjaGFzZS9zdHJhdGVneS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6NDA6aW4gYHNldHVwX3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvam91cm5leS9wdXJjaGFzZS9zdHJhdGVneS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6MzM6aW4gYHN0YXJ0X3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvam91cm5leS9zdGFydF9wYXltZW50X3Nlc3Npb25fdHJhbnNpdGlvbl9zZXJ2aWNlLnJiOjEyOmluIGBwcm9jZXNzJw==</text>
+        <text encoding="base64">UGF5bWVudFN0cmF0ZWd5OjpTdHJpcGVQYXltZW50SW50ZXQgLT4gY2FsbHMgc3RyaXBlIEFQSSA9IFZDUgpPdGhlciBjbGFzc2VzIC0+IHVzZSBQYXltZW50U3RyYXRlZ3k6OlN0cmlwZVBheW1lbnRJbnRldApkb3VibGUoU3RyaXBlUGF5bWVudEludGVudCk=</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -785,10 +786,10 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICAgIGNvbnRleHQgJ3dpdGggc3RyaXBlJyBkbwogICAgICAgIGFyb3VuZCBkbyB8ZXhhbXBsZXwKICAgICAgICAgIEZlYXR1cmUucnVuX3dpdGhfYWN0aXZhdGVkKDpzdHJpcGVfdWspIHsgZXhhbXBsZS5ydW4gfQogICAgICAgIGVuZAoKICAgICAgICBiZWZvcmUgZG8KICAgICAgICAgICMgYWxsb3coU3RyaXBlQ29uZmlnRmFjdG9yeSkudG8gcmVjZWl2ZSg6bmV3KS5hbmRfcmV0dXJuKCkKICAgICAgICBlbmQKCiAgICAgICAgbGV0KDpqb3VybmV5X2NvbnRleHQpIHsgVGVzdDo6RmFjdG9yaWVzOjpKb3VybmV5OjpDb250ZXh0LmZyb250b2ZmaWNlX2NvbnRleHQgfQogICAgICAgIGxldCg6dmVydGljYWwpIHsgVmVydGljYWxSZXBvc2l0b3J5LmZpbmRfYnlfbmFtZSgnU2hvcCcpIH0KICAgICAgICBsZXQoOnJmcSkgewogICAgICAgICAgRmFjdG9yeUJvdC5jcmVhdGUoOmJ1c2luZXNzX3F1b3RlZF9yZnEpLnRhcCBkbyB8cmZxfAogICAgICAgICAgICBDSTU6OlF1b3RlU2VhcmNoLm5ldyhyZnEsIHJmcS53ZWJfcmZxKS50YXAoJjpwZXJzaXN0KQogICAgICAgICAgZW5kCiAgICAgICAgfQogICAgICAgIGxldCg6Y3VzdG9tZXJfYWNjb3VudCkgeyBGYWN0b3J5Qm90LmNyZWF0ZSg6aHVtYW5zX2N1c3RvbWVyX2FjY291bnRfdWspIH0KCiAgICAgICAgZGVzY3JpYmUgJyNlbnRlcicgZG8KICAgICAgICAgIHN1YmplY3QoOmhhc2hfZm9yX3ZpZXcpIGRvCiAgICAgICAgICAgIGVudGVyKHBhZ2Vfc2VydmljZTogUHVyY2hhc2U6OlBheW1lbnRDb25maXJtYXRpb25QYWdlU2VydmljZSwKICAgICAgICAgICAgICAgICAgY2FyZF9kZXRhaWxzOiB7ICdzdHJpcGUtcGF5bWVudC1pbnRlbnQtaWQnID0+ICdUT0RPOiBob3cgdG8gZ2V0IHByb3BlciBwYXltZW50IGludGVudCBpZD8nIH0sCiAgICAgICAgICAgICAgICAgIGNhc3NldHRlOiAnY2NqX3N0cmlwZScpCiAgICAgICAgICBlbmQKCiAgICAgICAgICBpdCAnaGFzIHBvbGljeSB2aWV3IG1vZGVscyBhbmQgb3BlbmluZyBob3VycyB2aWV3IG1vZGVsJyBkbwogICAgICAgICAgICBleHBlY3QoaGFzaF9mb3Jfdmlld1s6cG9saWNpZXNdKS50byBhbGwgYmVfYSg6OlZpZXc6OlBvbGljeVZpZXdNb2RlbCkKICAgICAgICAgICAgZXhwZWN0KGhhc2hfZm9yX3ZpZXdbOm9wZW5pbmdfaG91cnNdKS50byBiZV9hKDo6Vmlldzo6T3BlbmluZ0hvdXJzVmlld01vZGVsKQogICAgICAgICAgZW5kCiAgICAgICAgZW5kCiAgICAgIGVuZA==</text>
+        <text encoding="base64">ICAgICAyLjIpIEZhaWx1cmUvRXJyb3I6CiAgICAgICAgICAgIHJlc3VsdCA9IEBwYXltZW50X2dhdGV3YXkuY3JlYXRlKAogICAgICAgICAgICAgIHsgYW1vdW50OiBhbW91bnQuZnJhY3Rpb25hbC50b19pLAogICAgICAgICAgICAgICAgY3VycmVuY3k6IGFtb3VudC5jdXJyZW5jeS5pc29fY29kZSwKICAgICAgICAgICAgICAgIHNldHVwX2Z1dHVyZV91c2FnZTogOm9mZl9zZXNzaW9uLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb246IHJmcV9yZWZlcmVuY2UsCiAgICAgICAgICAgICAgICBtZXRhZGF0YTogeyByZnFfcmVmZXJlbmNlOiByZnFfcmVmZXJlbmNlLCByZnFfaWQ6IHJmcV9pZCwgcXVvdGVfaWQ6IHF1b3RlX2lkLCBqb3VybmV5X2lkOiBqb3VybmV5X2lkIH0KICAgICAgICAgICAgICB9LCBAYXBpX2NyZWRlbnRpYWxzKQoKICAgICAgICAgIFR5cGVFcnJvcjoKICAgICAgICAgICAgYXBpX2tleSBtdXN0IGJlIGEgc3RyaW5nCiAgICAgICAgICAjIC4vdmVuZG9yL2J1bmRsZS9ydWJ5LzIuNi4wL2dlbXMvc3RyaXBlLTUuNy4xL2xpYi9zdHJpcGUvdXRpbC5yYjoyMTg6aW4gYGNoZWNrX2FwaV9rZXkhJwogICAgICAgICAgIyAuL3ZlbmRvci9idW5kbGUvcnVieS8yLjYuMC9nZW1zL3N0cmlwZS01LjcuMS9saWIvc3RyaXBlL3V0aWwucmI6MjA0OmluIGBub3JtYWxpemVfb3B0cycKICAgICAgICAgICMgLi92ZW5kb3IvYnVuZGxlL3J1YnkvMi42LjAvZ2Vtcy9zdHJpcGUtNS43LjEvbGliL3N0cmlwZS9hcGlfb3BlcmF0aW9ucy9yZXF1ZXN0LnJiOjEwOmluIGByZXF1ZXN0JwogICAgICAgICAgIyAuL3ZlbmRvci9idW5kbGUvcnVieS8yLjYuMC9nZW1zL3N0cmlwZS01LjcuMS9saWIvc3RyaXBlL2FwaV9vcGVyYXRpb25zL2NyZWF0ZS5yYjo3OmluIGBjcmVhdGUnCiAgICAgICAgICAjIC4vYXBwL3NlcnZpY2VzL3BheW1lbnRfc2VydmljZS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6Mzc6aW4gYGJsb2NrIGluIHNldHVwX3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvc2VydmljZXMvcGF5bWVudF9zZXJ2aWNlL3N0cmlwZV9iYXNlLnJiOjEyOmluIGBoYW5kbGVfZXJyb3InCiAgICAgICAgICAjIC4vYXBwL3NlcnZpY2VzL3BheW1lbnRfc2VydmljZS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6MzY6aW4gYHNldHVwX3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvam91cm5leS9wdXJjaGFzZS9zdHJhdGVneS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6NDA6aW4gYHNldHVwX3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvam91cm5leS9wdXJjaGFzZS9zdHJhdGVneS9zdHJpcGVfcGF5bWVudF9pbnRlbnQucmI6MzM6aW4gYHN0YXJ0X3BheW1lbnRfc2Vzc2lvbicKICAgICAgICAgICMgLi9hcHAvam91cm5leS9zdGFydF9wYXltZW50X3Nlc3Npb25fdHJhbnNpdGlvbl9zZXJ2aWNlLnJiOjEyOmluIGBwcm9jZXNzJw==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -822,16 +823,16 @@
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICBkZWYgaW5pdGlhbGl6ZSgpCg==</text>
+        <text encoding="base64">CiAgICAgIGNvbnRleHQgJ3dpdGggc3RyaXBlJyBkbwogICAgICAgIGFyb3VuZCBkbyB8ZXhhbXBsZXwKICAgICAgICAgIEZlYXR1cmUucnVuX3dpdGhfYWN0aXZhdGVkKDpzdHJpcGVfdWspIHsgZXhhbXBsZS5ydW4gfQogICAgICAgIGVuZAoKICAgICAgICBiZWZvcmUgZG8KICAgICAgICAgICMgYWxsb3coU3RyaXBlQ29uZmlnRmFjdG9yeSkudG8gcmVjZWl2ZSg6bmV3KS5hbmRfcmV0dXJuKCkKICAgICAgICBlbmQKCiAgICAgICAgbGV0KDpqb3VybmV5X2NvbnRleHQpIHsgVGVzdDo6RmFjdG9yaWVzOjpKb3VybmV5OjpDb250ZXh0LmZyb250b2ZmaWNlX2NvbnRleHQgfQogICAgICAgIGxldCg6dmVydGljYWwpIHsgVmVydGljYWxSZXBvc2l0b3J5LmZpbmRfYnlfbmFtZSgnU2hvcCcpIH0KICAgICAgICBsZXQoOnJmcSkgewogICAgICAgICAgRmFjdG9yeUJvdC5jcmVhdGUoOmJ1c2luZXNzX3F1b3RlZF9yZnEpLnRhcCBkbyB8cmZxfAogICAgICAgICAgICBDSTU6OlF1b3RlU2VhcmNoLm5ldyhyZnEsIHJmcS53ZWJfcmZxKS50YXAoJjpwZXJzaXN0KQogICAgICAgICAgZW5kCiAgICAgICAgfQogICAgICAgIGxldCg6Y3VzdG9tZXJfYWNjb3VudCkgeyBGYWN0b3J5Qm90LmNyZWF0ZSg6aHVtYW5zX2N1c3RvbWVyX2FjY291bnRfdWspIH0KCiAgICAgICAgZGVzY3JpYmUgJyNlbnRlcicgZG8KICAgICAgICAgIHN1YmplY3QoOmhhc2hfZm9yX3ZpZXcpIGRvCiAgICAgICAgICAgIGVudGVyKHBhZ2Vfc2VydmljZTogUHVyY2hhc2U6OlBheW1lbnRDb25maXJtYXRpb25QYWdlU2VydmljZSwKICAgICAgICAgICAgICAgICAgY2FyZF9kZXRhaWxzOiB7ICdzdHJpcGUtcGF5bWVudC1pbnRlbnQtaWQnID0+ICdUT0RPOiBob3cgdG8gZ2V0IHByb3BlciBwYXltZW50IGludGVudCBpZD8nIH0sCiAgICAgICAgICAgICAgICAgIGNhc3NldHRlOiAnY2NqX3N0cmlwZScpCiAgICAgICAgICBlbmQKCiAgICAgICAgICBpdCAnaGFzIHBvbGljeSB2aWV3IG1vZGVscyBhbmQgb3BlbmluZyBob3VycyB2aWV3IG1vZGVsJyBkbwogICAgICAgICAgICBleHBlY3QoaGFzaF9mb3Jfdmlld1s6cG9saWNpZXNdKS50byBhbGwgYmVfYSg6OlZpZXc6OlBvbGljeVZpZXdNb2RlbCkKICAgICAgICAgICAgZXhwZWN0KGhhc2hfZm9yX3ZpZXdbOm9wZW5pbmdfaG91cnNdKS50byBiZV9hKDo6Vmlldzo6T3BlbmluZ0hvdXJzVmlld01vZGVsKQogICAgICAgICAgZW5kCiAgICAgICAgZW5kCiAgICAgIGVuZA==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Y2xhc3MgUGF5bWVudFN0cmF0ZWd5CiAgcHJpdmF0ZV9jbGFzc19tZXRob2QgOm5ldwoKICBhdHRyX3JlYWRlciA6cGF5bWVudF9vcHRpb24sIDpidXNpbmVzc191bml0LCA6YmFja29mZmljZQoKICBkZWYgc2VsZi5mb3IocGF5bWVudF9vcHRpb246ICdjYXJkJywgY29udGV4dDosIGpvdXJuZXlfc3RhdGU6KQogICAgbmV3KHBheW1lbnRfb3B0aW9uOiBwYXltZW50X29wdGlvbiwgY29udGV4dDogY29udGV4dCwgam91cm5leV9zdGF0ZTogam91cm5leV9zdGF0ZSkuY2hvb3NlX3N0cmF0ZWd5CiAgZW5kCgogIGRlZiBjaG9vc2Vfc3RyYXRlZ3kK</text>
+        <text encoding="base64">ICAgIHAK</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action DebugClass</text>
       </register>
     </registers>
   </component>
