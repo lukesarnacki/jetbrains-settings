@@ -152,9 +152,9 @@
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594821394833">
         <mark key="'" line="34" column="8" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_shared_examples.rb" timestamp="1594822081720">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_shared_examples.rb" timestamp="1594844645620">
         <mark key="'" line="23" column="26" />
-        <mark key="[" line="26" column="8" />
+        <mark key="[" line="26" column="44" />
         <mark key="]" line="26" column="42" />
         <mark key="." line="17" column="12" />
         <mark key="^" line="17" column="13" />
@@ -183,7 +183,7 @@
         <mark key="'" line="4" column="37" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1594786015592" />
-      <file name="/Ruby Console" timestamp="1594821992470">
+      <file name="/Ruby Console" timestamp="1594845243165">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -202,6 +202,9 @@
         <mark key="]" line="0" column="24" />
         <mark key="." line="0" column="24" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_spec.rb" timestamp="1594845054118">
+        <mark key="[" line="18" column="27" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/spec/services/payment_service/stripe_payment_intent_spec.rb" timestamp="1594821142659">
         <mark key="'" line="75" column="17" />
       </file>
@@ -211,13 +214,6 @@
         <mark key="]" line="31" column="75" />
         <mark key="^" line="21" column="5" />
         <mark key="." line="30" column="0" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/spec/controllers/backoffice/transactions_controller_spec.rb" timestamp="1594718907477">
-        <mark key="'" line="83" column="28" />
-        <mark key="[" line="136" column="111" />
-        <mark key="]" line="136" column="117" />
-        <mark key="." line="136" column="116" />
-        <mark key="^" line="136" column="117" />
       </file>
     </filemarks>
     <jumps>
