@@ -7,10 +7,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>card_det</entry>
-        <entry>sage_pay</entry>
-        <entry>find</entry>
-        <entry>use_casette</entry>
         <entry>use_c</entry>
         <entry>payment_gateway</entry>
         <entry>cc_ga</entry>
@@ -27,6 +23,10 @@
         <entry>i see</entry>
         <entry>rbol</entry>
         <entry>vcr</entry>
+        <entry>setup_payment_sess</entry>
+        <entry>setup_payment_session</entry>
+        <entry encoding="base64">XDxzdHJpcGVcPg==</entry>
+        <entry>stored_</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz53YQ==</entry>
@@ -41,12 +41,12 @@
         <entry>44</entry>
         <entry>action Unsplit</entry>
         <entry>wa</entry>
-        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoTest</entry>
         <entry>33</entry>
         <entry>action GotoFile</entry>
         <entry>action KJumpAction.Word1</entry>
         <entry>action FindInPath</entry>
+        <entry>action ActivateTerminalToolWindow</entry>
         <entry>action RecentFiles</entry>
         <entry>action DebugClass</entry>
       </history-cmd>
@@ -149,16 +149,17 @@
       <file name="$USER_HOME$/projects/chopin/.semaphore/semaphore.yml" timestamp="1594787751648">
         <mark key="'" line="80" column="150" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594812973396">
-        <mark key="'" line="31" column="6" />
+      <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594821394833">
+        <mark key="'" line="34" column="8" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_shared_examples.rb" timestamp="1594819434665">
-        <mark key="[" line="17" column="13" />
-        <mark key="]" line="17" column="13" />
-        <mark key="." line="17" column="13" />
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_shared_examples.rb" timestamp="1594822081720">
+        <mark key="'" line="23" column="26" />
+        <mark key="[" line="26" column="8" />
+        <mark key="]" line="26" column="42" />
+        <mark key="." line="17" column="12" />
+        <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/lib/transaction/manual_transaction_factory.rb" timestamp="1594718510360" />
-      <file name="/fragment.rb" timestamp="1594811543932">
+      <file name="/fragment.rb" timestamp="1594821423925">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/renewal_buy_online/card_payment_problem_page_service.rb" timestamp="1594719804711">
@@ -166,6 +167,9 @@
         <mark key="]" line="14" column="24" />
         <mark key="^" line="14" column="24" />
         <mark key="." line="14" column="23" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" timestamp="1594821006820">
+        <mark key="'" line="40" column="6" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/lib/test/journey/runner_spec.rb" timestamp="1594811728806">
         <mark key="'" line="42" column="82" />
@@ -175,22 +179,15 @@
         <mark key="^" line="40" column="43" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" timestamp="1594810689518" />
-      <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1594786015592" />
-      <file name="$USER_HOME$/projects/chopin/app/factories/payment_gateway_provider.rb" timestamp="1594718752679">
-        <mark key="'" line="1" column="48" />
-        <mark key="[" line="45" column="82" />
-        <mark key="]" line="45" column="4" />
-        <mark key="." line="45" column="3" />
-        <mark key="^" line="45" column="4" />
+      <file name="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.7.1/lib/stripe/resources/payment_intent.rb" timestamp="1594820911243">
+        <mark key="'" line="4" column="37" />
       </file>
-      <file name="/Ruby Console" timestamp="1594814231428">
+      <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1594786015592" />
+      <file name="/Ruby Console" timestamp="1594821992470">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
         <mark key="^" line="0" column="25" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/app/services/transaction/manager/policy_manager.rb" timestamp="1594718418813">
-        <mark key="'" line="29" column="68" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/fixtures/vcr_cassettes/rbol_sagepay.yml" timestamp="1594812150198" />
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" timestamp="1594788789829">
@@ -204,6 +201,9 @@
         <mark key="[" line="0" column="24" />
         <mark key="]" line="0" column="24" />
         <mark key="." line="0" column="24" />
+      </file>
+      <file name="$USER_HOME$/projects/chopin/spec/services/payment_service/stripe_payment_intent_spec.rb" timestamp="1594821142659">
+        <mark key="'" line="75" column="17" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_details_page_service_shared_examples.rb" timestamp="1594814167232">
         <mark key="'" line="116" column="32" />
@@ -221,22 +221,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="124" column="30" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
-      <jump line="4" column="34" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
-      <jump line="3" column="0" filename="$USER_HOME$/projects/chopin/app/views/journeys/purchase/payment_confirmation.html.haml" />
-      <jump line="22" column="42" filename="$USER_HOME$/projects/chopin/app/views/journeys/purchase/payment_confirmation.html.haml" />
-      <jump line="32" column="22" filename="$USER_HOME$/projects/chopin/app/views/journeys/purchase/payment_confirmation.html.haml" />
-      <jump line="37" column="33" filename="$USER_HOME$/projects/chopin/app/journey/purchase/payment_confirmation_page_service.rb" />
-      <jump line="19" column="0" filename="$USER_HOME$/projects/chopin/app/views/journeys/purchase/payment_confirmation.html.haml" />
-      <jump line="136" column="67" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
-      <jump line="39" column="37" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
-      <jump line="10" column="6" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_base.rb" />
-      <jump line="35" column="10" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
-      <jump line="115" column="18" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
-      <jump line="125" column="34" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
-      <jump line="40" column="7" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
-      <jump line="19" column="10" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
-      <jump line="20" column="10" filename="$USER_HOME$/projects/chopin/app/journey/purchase/strategy/stripe_payment_intent.rb" />
       <jump line="0" column="10" filename="$USER_HOME$/projects/chopin/app/views/journeys/card_details.html.haml" />
       <jump line="17" column="30" filename="$USER_HOME$/projects/chopin/app/views/journeys/purchase/_stripe_card_details.html.haml" />
       <jump line="149" column="30" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/payment_confirmation_page_service_spec.rb" />
@@ -318,9 +302,25 @@
       <jump line="116" column="32" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/card_details_page_service_shared_examples.rb" />
       <jump line="36" column="23" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
       <jump line="44" column="18" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
-      <jump line="34" column="20" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
       <jump line="54" column="36" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
       <jump line="31" column="6" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
+      <jump line="17" column="47" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_shared_examples.rb" />
+      <jump line="4" column="37" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.7.1/lib/stripe/resources/payment_intent.rb" />
+      <jump line="4" column="11" filename="$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/stripe-5.7.1/lib/stripe/api_operations/create.rb" />
+      <jump line="137" column="20" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
+      <jump line="43" column="0" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
+      <jump line="67" column="47" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
+      <jump line="80" column="52" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
+      <jump line="94" column="47" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
+      <jump line="40" column="6" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/strategy/stripe_payment_intent_spec.rb" />
+      <jump line="34" column="8" filename="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" />
+      <jump line="56" column="4" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/stripe_payment_intent_spec.rb" />
+      <jump line="50" column="8" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/stripe_payment_intent_spec.rb" />
+      <jump line="51" column="14" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/stripe_payment_intent_spec.rb" />
+      <jump line="59" column="15" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/stripe_payment_intent_spec.rb" />
+      <jump line="73" column="46" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/stripe_payment_intent_spec.rb" />
+      <jump line="75" column="17" filename="$USER_HOME$/projects/chopin/spec/services/payment_service/stripe_payment_intent_spec.rb" />
+      <jump line="23" column="26" filename="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_shared_examples.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -367,19 +367,19 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>double</text>
+        <text>includes phone numbers and tracking</text>
       </register>
       <register name="-" type="4">
-        <text>double</text>
+        <text>payment-intent-fake-id</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>vcr</text>
+        <text>stored_</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJpcGUgPSBkb3VibGUKICAgICAgICBhbGxvdyhTdHJpcGU6OlBheW1lbnRJbnRlbnQpLnRvIHJlY2VpdmUoOmNyZWF0ZSkuYW5kX3JldHVybihzdHJpcGUpCg==</text>
+      <register name="0" type="4">
+        <text>includes phone numbers and tracking</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -829,9 +829,9 @@ source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>vcr</last-search>
+      <last-search>stored_</last-search>
       <last-offset />
-      <last-pattern>vcr</last-pattern>
+      <last-pattern>stored_</last-pattern>
       <last-replace>y A</last-replace>
       <last-substitute>use_casette</last-substitute>
       <last-dir>1</last-dir>
