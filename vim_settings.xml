@@ -183,7 +183,7 @@
         <mark key="'" line="4" column="37" />
       </file>
       <file name="$USER_HOME$/projects/chopin/app/views/journeys/shared/_stripe_payment_form.html.haml" timestamp="1594786015592" />
-      <file name="/Ruby Console" timestamp="1594845243165">
+      <file name="/Ruby Console" timestamp="1594845508229">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -202,8 +202,11 @@
         <mark key="]" line="0" column="24" />
         <mark key="." line="0" column="24" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_spec.rb" timestamp="1594845054118">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_spec.rb" timestamp="1594845476450">
         <mark key="[" line="18" column="27" />
+        <mark key="]" line="22" column="22" />
+        <mark key="^" line="22" column="22" />
+        <mark key="." line="22" column="21" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/services/payment_service/stripe_payment_intent_spec.rb" timestamp="1594821142659">
         <mark key="'" line="75" column="17" />
