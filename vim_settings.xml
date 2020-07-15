@@ -14,7 +14,6 @@
         <entry>use_c</entry>
         <entry>payment_gateway</entry>
         <entry>cc_ga</entry>
-        <entry>vcr</entry>
         <entry>card</entry>
         <entry>payment op</entry>
         <entry>the payment provider</entry>
@@ -27,6 +26,7 @@
         <entry>purchase</entry>
         <entry>i see</entry>
         <entry>rbol</entry>
+        <entry>vcr</entry>
       </history-search>
       <history-cmd>
         <entry encoding="base64">JzwsJz53YQ==</entry>
@@ -44,11 +44,11 @@
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoTest</entry>
         <entry>33</entry>
-        <entry>action FindInPath</entry>
         <entry>action GotoFile</entry>
         <entry>action KJumpAction.Word1</entry>
-        <entry>action DebugClass</entry>
+        <entry>action FindInPath</entry>
         <entry>action RecentFiles</entry>
+        <entry>action DebugClass</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -152,7 +152,11 @@
       <file name="$USER_HOME$/projects/chopin/app/services/payment_service/stripe_payment_intent.rb" timestamp="1594812973396">
         <mark key="'" line="31" column="6" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_shared_examples.rb" timestamp="1594789586816" />
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_payment_problem_page_service_shared_examples.rb" timestamp="1594814224710">
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="." line="21" column="0" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/lib/transaction/manual_transaction_factory.rb" timestamp="1594718510360" />
       <file name="/fragment.rb" timestamp="1594811543932">
         <mark key="[" line="0" column="0" />
@@ -179,7 +183,7 @@
         <mark key="." line="45" column="3" />
         <mark key="^" line="45" column="4" />
       </file>
-      <file name="/Ruby Console" timestamp="1594813329776">
+      <file name="/Ruby Console" timestamp="1594814231428">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="24" />
@@ -201,12 +205,12 @@
         <mark key="]" line="0" column="24" />
         <mark key="." line="0" column="24" />
       </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_details_page_service_shared_examples.rb" timestamp="1594813412172">
+      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_details_page_service_shared_examples.rb" timestamp="1594814167232">
         <mark key="'" line="116" column="32" />
-        <mark key="[" line="20" column="18" />
-        <mark key="]" line="20" column="18" />
-        <mark key="^" line="20" column="37" />
-        <mark key="." line="20" column="18" />
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="31" column="75" />
+        <mark key="^" line="21" column="5" />
+        <mark key="." line="30" column="0" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/controllers/backoffice/transactions_controller_spec.rb" timestamp="1594718907477">
         <mark key="'" line="83" column="28" />
@@ -362,8 +366,8 @@
           <key char="108" code="0" mods="0" />
         </keys>
       </register>
-      <register name="*" type="4">
-        <text>StripePaymentIntent</text>
+      <register name="*" type="2">
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name="-" type="4">
         <text>StripePaymentIntent</text>
@@ -372,13 +376,13 @@
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
       </register>
       <register name="/" type="4">
-        <text>rbol</text>
+        <text>vcr</text>
       </register>
-      <register name="0" type="4">
-        <text>Test::Journey::RenewalBuyOnline</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICBzdHJpcGUgPSBkb3VibGUKICAgICAgICBhbGxvdyhTdHJpcGU6OlBheW1lbnRJbnRlbnQpLnRvIHJlY2VpdmUoOmNyZWF0ZSkuYW5kX3JldHVybihzdHJpcGUpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgYWZ0ZXIgeyBWQ1IuZWplY3RfY2Fzc2V0dGUoJ3Jib2xfc2FnZXBheScpIH0K</text>
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name="q" type="4">
         <keys>
@@ -401,19 +405,16 @@
         </keys>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgYmVmb3JlIHsgVkNSLmluc2VydF9jYXNzZXR0ZSgncmJvbF9zYWdlcGF5JykgfQoK</text>
+        <text encoding="base64">ICAgICAgVkNSLnVzZV9jYXNzZXR0ZSgncmJvbF9zYWdlcGF5JykgZG8KCg==</text>
       </register>
       <register name="r" type="4">
         <text encoding="base64">IA==</text>
       </register>
-      <register name="3" type="4">
-        <text>we would have to change payment_steps as this is
-related to stripe</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgYWZ0ZXIgeyBWQ1IuZWplY3RfY2Fzc2V0dGUoJ3Jib2xfc2FnZXBheScpIH0K</text>
       </register>
       <register name="4" type="2">
-        <text>6. rspec ./spec/controllers/backoffice/transactions_controller_spec.rb[1:4:2:1] # Backoffice::TransactionsController#post_payments with right permissions user creates a transaction
-
-source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346d306b734</text>
+        <text encoding="base64">ICAgICAgYmVmb3JlIHsgVkNSLmluc2VydF9jYXNzZXR0ZSgncmJvbF9zYWdlcGF5JykgfQoK</text>
       </register>
       <register name="t" type="4">
         <keys>
@@ -763,8 +764,9 @@ source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346
           <key char="32" code="0" mods="0" />
         </keys>
       </register>
-      <register name="5" type="2">
-        <text>:stripe_uk feature flag specific PaymentStrategy spec</text>
+      <register name="5" type="4">
+        <text>we would have to change payment_steps as this is
+related to stripe</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -773,10 +775,12 @@ source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">V1RGPwo=</text>
+        <text>6. rspec ./spec/controllers/backoffice/transactions_controller_spec.rb[1:4:2:1] # Backoffice::TransactionsController#post_payments with right permissions user creates a transaction
+
+source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346d306b734</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGJ5ZWJ1Zwo=</text>
+        <text>:stripe_uk feature flag specific PaymentStrategy spec</text>
       </register>
       <register name="w" type="4">
         <keys>
@@ -810,24 +814,24 @@ source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346
         </keys>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGJ5ZWJ1Zwo=</text>
+        <text encoding="base64">V1RGPwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGJ5ZWJ1Zwo=</text>
       </register>
       <register name="y" type="4">
         <text />
       </register>
       <register name=":" type="4">
-        <text>action RecentFiles</text>
+        <text>action DebugClass</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>rbol</last-search>
+      <last-search>vcr</last-search>
       <last-offset />
-      <last-pattern>rbol</last-pattern>
+      <last-pattern>vcr</last-pattern>
       <last-replace>y A</last-replace>
       <last-substitute>use_casette</last-substitute>
       <last-dir>1</last-dir>
