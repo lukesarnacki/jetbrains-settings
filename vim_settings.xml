@@ -46,9 +46,9 @@
         <entry>action ActivateTerminalToolWindow</entry>
         <entry>action GotoTest</entry>
         <entry>33</entry>
-        <entry>action FindInPath</entry>
-        <entry>action RecentFiles</entry>
         <entry>action GotoFile</entry>
+        <entry>action RecentFiles</entry>
+        <entry>action FindInPath</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -827,7 +827,7 @@ source: https://simplybusiness.semaphoreci.com/jobs/1f70656a-30a6-49e3-a744-1346
         <text />
       </register>
       <register name=":" type="4">
-        <text>action GotoFile</text>
+        <text>action FindInPath</text>
       </register>
     </registers>
   </component>
