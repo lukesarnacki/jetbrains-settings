@@ -45,10 +45,10 @@
         <entry>action FileStructurePopup</entry>
         <entry>action Unsplit</entry>
         <entry encoding="base64">JzwsJz53YQ==</entry>
-        <entry>action GotoFile</entry>
         <entry>action RecentFiles</entry>
         <entry>action FindInPath</entry>
         <entry>action ActivateTerminalToolWindow</entry>
+        <entry>action GotoFile</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -827,7 +827,7 @@
         <text />
       </register>
       <register name=":" type="4">
-        <text>action ActivateTerminalToolWindow</text>
+        <text>action GotoFile</text>
       </register>
     </registers>
   </component>
