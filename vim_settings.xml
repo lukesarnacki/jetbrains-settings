@@ -139,6 +139,12 @@
         <mark key="." line="0" column="33" />
         <mark key="^" line="0" column="34" />
       </file>
+      <file name="$USER_HOME$/projects/chopin/app/models/quote.rb" timestamp="1594991900164">
+        <mark key="[" line="460" column="0" />
+        <mark key="]" line="460" column="4" />
+        <mark key="." line="460" column="3" />
+        <mark key="^" line="460" column="4" />
+      </file>
       <file name="$USER_HOME$/projects/chopin/app/journey/purchase/payment_options_page_service.rb" timestamp="1594875470447">
         <mark key="'" line="47" column="146" />
       </file>
@@ -212,13 +218,6 @@
         <mark key="'" line="81" column="8" />
         <mark key="[" line="50" column="61" />
         <mark key="]" line="50" column="71" />
-      </file>
-      <file name="$USER_HOME$/projects/chopin/spec/journey/purchase/card_details_page_service_shared_examples.rb" timestamp="1594873632566">
-        <mark key="'" line="14" column="12" />
-        <mark key="[" line="0" column="50" />
-        <mark key="]" line="30" column="53" />
-        <mark key="^" line="30" column="53" />
-        <mark key="." line="30" column="52" />
       </file>
       <file name="$USER_HOME$/projects/chopin/spec/factories/payment_record_factory.rb" timestamp="1594907489683">
         <mark key="[" line="19" column="60" />
@@ -374,10 +373,10 @@
         </keys>
       </register>
       <register name="*" type="4">
-        <text>Split</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>Split</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="m" type="2">
         <text encoding="base64">ICAtIGlmIEBtaW5pbXVtX3RocmVzaG9sZF9ub3RfbWV0CiAgICBNaW5pbXVtIHRocmVzaG9sZCBmb3IgaW5zdGFsbG1lbnQgcGF5bWVudHMgaXMgbm90IG1ldC4K</text>
