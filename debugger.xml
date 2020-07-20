@@ -13,6 +13,11 @@
           <option name="steppingPauseAtBegin" value="true" />
         </configuration>
       </debugger>
+      <debugger id="ruby">
+        <configuration>
+          <option name="timeout" value="60" />
+        </configuration>
+      </debugger>
     </debuggers>
   </component>
 </application>
