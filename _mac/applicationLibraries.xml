@@ -1562,6 +1562,17 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/aws-partitions-1.346.0/lib" />
       </SOURCES>
     </library>
+    <library name="aws-partitions (v1.347.0, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/aws-partitions-1.347.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/aws-partitions-1.347.0/lib" />
+      </SOURCES>
+    </library>
     <library name="aws-partitions (v1.70.0, asdf: 2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -13551,6 +13562,25 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/opportunity_knocks_client-1.3.1/spec" />
       </excluded>
     </library>
+    <library name="opportunity_knocks_client (v1.5.0, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/opportunity_knocks_client-1.5.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/opportunity_knocks_client-1.5.0/docs" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/opportunity_knocks_client-1.5.0/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/opportunity_knocks_client-1.5.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/opportunity_knocks_client-1.5.0/docs" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/opportunity_knocks_client-1.5.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/opportunity_knocks_client-1.5.0/docs" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/opportunity_knocks_client-1.5.0/spec" />
+      </excluded>
+    </library>
     <library name="opportunity_knocks_core (v10.1.0, asdf: 2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -19265,6 +19295,25 @@
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.91.0/schemas" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.91.0/entity_schemas" />
+      </excluded>
+    </library>
+    <library name="schema_registry (v1.94.2, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.94.2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.94.2/schemas" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.94.2/entity_schemas" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.94.2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.94.2/schemas" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.94.2/entity_schemas" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.94.2/schemas" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/schema_registry-1.94.2/entity_schemas" />
       </excluded>
     </library>
     <library name="sdoc (v1.0.0, asdf: 2.6.2) [gem]" type="rubylib">
@@ -25201,6 +25250,52 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.0/_pipeline" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.0/resources" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.0/.semaphore" />
+      </excluded>
+    </library>
+    <library name="x_rated (v243.0.1, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/doc" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/log" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/config" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/_secrets" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/_pipeline" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/resources" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/.semaphore" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/doc" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/log" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/config" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/_secrets" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/_pipeline" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/resources" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/.semaphore" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/doc" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/log" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/config" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/scripts" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/_secrets" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/_pipeline" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/resources" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/x_rated-243.0.1/.semaphore" />
       </excluded>
     </library>
     <library name="x_rated (v90.6.0, asdf: 2.6.2) [gem]" type="rubylib">
