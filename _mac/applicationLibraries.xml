@@ -10743,6 +10743,25 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/sb_api_client-0.0.3/_pipeline" />
       </excluded>
     </library>
+    <library name="schema_registry (v1.100.0.addcocoasagepayfallbackrelatedevents.10, asdf: 2.6.5) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/schema_registry-1.100.0.addcocoasagepayfallbackrelatedevents.10/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/schema_registry-1.100.0.addcocoasagepayfallbackrelatedevents.10/schemas" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/schema_registry-1.100.0.addcocoasagepayfallbackrelatedevents.10/entity_schemas" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/schema_registry-1.100.0.addcocoasagepayfallbackrelatedevents.10/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/schema_registry-1.100.0.addcocoasagepayfallbackrelatedevents.10/schemas" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/schema_registry-1.100.0.addcocoasagepayfallbackrelatedevents.10/entity_schemas" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/schema_registry-1.100.0.addcocoasagepayfallbackrelatedevents.10/schemas" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/schema_registry-1.100.0.addcocoasagepayfallbackrelatedevents.10/entity_schemas" />
+      </excluded>
+    </library>
     <library name="schema_registry (v1.100.0.addcocoasagepayfallbackrelatedevents.8, asdf: 2.6.5) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
