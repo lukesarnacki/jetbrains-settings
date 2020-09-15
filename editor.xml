@@ -1,9 +1,0 @@
-<application>
-  <component name="CodeInsightSettings">
-    <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
-  </component>
-  <component name="EditorSettings">
-    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
-    <option name="STRIP_TRAILING_SPACES" value="Whole" />
-  </component>
-</application>

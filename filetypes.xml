@@ -1,8 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping ext="wfm" type="Ruby" />
-      <removed_mapping ext="wfm" approved="true" type="PLAIN_TEXT" />
-    </extensionMap>
-  </component>
-</application>
