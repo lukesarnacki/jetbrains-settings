@@ -2,4 +2,5 @@
   <action id="Runner.CloseAllViews">
     <keyboard-shortcut first-keystroke="meta alt h" />
   </action>
+  <action id="TypeHierarchy" />
 </keymap>
