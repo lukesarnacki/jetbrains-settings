@@ -1021,6 +1021,23 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.1.6/lib" />
       </excluded>
     </library>
+    <library name="concurrent-ruby (v1.1.7, asdf: 2.7.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.1.7/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.1.7/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.1.7/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.1.7/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.1.7/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/concurrent-ruby-1.1.7/lib" />
+      </excluded>
+    </library>
     <library name="connection_pool (v2.2.3, asdf: 2.7.1) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -2925,6 +2942,17 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/json-schema-2.8.1/resources" />
       </excluded>
     </library>
+    <library name="jsonapi-serializer (v2.1.0, asdf: 2.7.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/jsonapi-serializer-2.1.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/jsonapi-serializer-2.1.0/lib" />
+      </SOURCES>
+    </library>
     <library name="just-datetime-picker (v0.0.7, asdf: 2.7.1) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -3011,6 +3039,34 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/kaminari-core-1.2.1/config" />
+      </excluded>
+    </library>
+    <library name="knapsack_pro (v2.2.1, asdf: 2.7.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/.circleci" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/spec_fake" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/test_fake" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/.circleci" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/spec_fake" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/test_fake" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/.circleci" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/spec_fake" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/knapsack_pro-2.2.1/test_fake" />
       </excluded>
     </library>
     <library name="launchdarkly-server-sdk (v5.8.0, asdf: 2.7.1) [gem]" type="rubylib">
@@ -3521,6 +3577,22 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/minitest-5.14.1/test" />
+      </excluded>
+    </library>
+    <library name="minitest (v5.14.2, asdf: 2.7.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/minitest-5.14.2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/minitest-5.14.2/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/minitest-5.14.2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/minitest-5.14.2/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/minitest-5.14.2/test" />
       </excluded>
     </library>
     <library name="monetize (v1.9.4, asdf: 2.7.1) [gem]" type="rubylib">
@@ -5319,6 +5391,17 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/rspec-support-3.9.3/lib" />
       </SOURCES>
     </library>
+    <library name="rspec_junit_formatter (v0.4.1, asdf: 2.7.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/rspec_junit_formatter-0.4.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/rspec_junit_formatter-0.4.1/lib" />
+      </SOURCES>
+    </library>
     <library name="rss (v0.2.8, asdf: 2.7.1) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -5928,6 +6011,22 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/shoulda-matchers-4.3.0/docs" />
+      </excluded>
+    </library>
+    <library name="shoulda-matchers (v4.4.1, asdf: 2.7.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/shoulda-matchers-4.4.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/shoulda-matchers-4.4.1/docs" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/shoulda-matchers-4.4.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/shoulda-matchers-4.4.1/docs" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/shoulda-matchers-4.4.1/docs" />
       </excluded>
     </library>
     <library name="sidekiq (v6.0.7, asdf: 2.7.1) [gem]" type="rubylib">
